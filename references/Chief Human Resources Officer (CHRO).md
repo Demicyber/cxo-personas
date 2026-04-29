@@ -156,6 +156,22 @@ CHROs today navigate the most significant workforce transformation since the Ind
 
 ---
 
+
+#### Energy & Utilities
+- **Safety culture as workforce identity.** In oil & gas, utilities, and mining, safety is the defining cultural value. The CHRO owns safety training, incident investigation culture, and behavioral norms that prevent fatalities.
+- **Energy-transition reskilling.** Reskilling thousands from fossil-fuel roles to renewables, CCS, and hydrogen is a decade-long workforce transformation.
+- **Shift-worker and remote-site workforce management.** Engagement, development, and experience delivery must work for non-desk workers on rigs, plants, and remote sites.
+
+#### Telecom & Media
+- **Frontline and call-center workforce transformation.** Large frontline populations facing AI-driven automation. Balancing efficiency with workforce anxiety and union dynamics.
+- **Network-technician shortage.** 5G and fiber deployment constrained by technician availability. Apprenticeship and technical training are priorities.
+- **Creative workforce dynamics (Media).** Managing talent in a creator economy with different engagement models.
+
+#### Transportation & Logistics
+- **Pilot, driver, and operator shortage.** Structural shortages are the #1 workforce constraint. Training pipelines and retention programs are critical.
+- **Labor contract and union dynamics.** Major contracts reset economics every 3-5 years, adding billions in cost.
+- **Safety-critical workforce culture.** Workforce errors can be fatal. The CHRO owns safety-reporting culture and fatigue management.
+
 ## 3. KPIs
 
 The CHRO's metrics span the entire employee lifecycle and increasingly link to business outcomes. Read it in two layers: the board-facing KPIs and the private scorecard — the second layer is what separates a CHRO from an HR director.
@@ -245,6 +261,11 @@ Across every industry in the research, CHROs volunteer three headline metrics mo
 
 ---
 
+
+| **Energy & Utilities** | Safety incident rate (TRIR), reskilling completion, shift-worker engagement | Zero recordable incidents, reskilling >80% | Shell safety culture, NextEra workforce transition |
+| **Telecom & Media** | Frontline engagement, technician ramp time, call-center attrition | Frontline engagement >65%, technician ramp <60 days | AT&T technician pipeline, Deutsche Telekom frontline |
+| **Transportation & Logistics** | Pilot/driver retention, safety-reporting culture, labor-contract cost | Pilot attrition <8%, driver turnover <50% | Delta pilot retention, FedEx driver programs |
+
 ## 4. Pain Points / Challenges
 
 ### Universal CHRO Pain Points
@@ -295,6 +316,31 @@ Across every industry in the research, CHROs volunteer three headline metrics mo
 | **Regulatory compliance complexity** | FDA, HIPAA, clinical trial regulations | Compliance training, culture programs |
 
 ---
+
+
+#### Energy & Utilities
+
+| Pain Point | Example | Implication for Sales |
+|-----------|---------|----------------------|
+| **Safety culture during transformation** | Energy-transition changes risk diluting safety culture | Safety-culture measurement, behavioral analytics |
+| **Reskilling at scale** | Thousands need new skills for renewables, CCS, hydrogen | Skills mapping, learning platforms |
+| **Remote-site engagement** | Traditional tools miss non-desk workers | Mobile-first engagement, shift-aware communication |
+
+#### Telecom & Media
+
+| Pain Point | Example | Implication for Sales |
+|-----------|---------|----------------------|
+| **Call-center AI displacement anxiety** | AI reducing volume; agents need upskilling | Reskilling, career-pathing |
+| **Technician shortage** | 5G/fiber constrained by availability | Apprenticeship programs, training acceleration |
+| **Creator talent retention** | Top creative talent has leverage | Flexible engagement models, talent analytics |
+
+#### Transportation & Logistics
+
+| Pain Point | Example | Implication for Sales |
+|-----------|---------|----------------------|
+| **Pilot and driver shortage** | Decade-long supply constraints | Training-pipeline acceleration, retention analytics |
+| **Labor-contract complexity** | Contracts adding billions in cost | Labor-analytics, contract-modeling tools |
+| **Fatigue management** | Hours-of-service rules | Fatigue-management systems, safety-reporting tools |
 
 ## 5. AI Opportunities
 
@@ -348,6 +394,10 @@ The CHRO AI mindset has shifted from "excited about possibilities" to "show me t
 | **Retail & Consumer** | Frontline engagement AI, seasonal workforce planning, training optimization | Walmart associate development, Costco culture measurement | Higher engagement, faster onboarding |
 
 ---
+
+| **Energy & Utilities** | Safety-culture AI, reskilling platforms, shift-worker engagement | Shell safety analytics, NextEra programs | Reduced incidents, faster reskilling |
+| **Telecom & Media** | Frontline engagement AI, technician training, call-center optimization | AT&T technician pipeline AI | Reduced attrition, faster ramp |
+| **Transportation & Logistics** | Retention prediction, fatigue-management AI, labor-analytics | Delta workforce analytics | Improved retention, reduced incidents |
 
 ## 6. Desired Outcomes
 
@@ -631,6 +681,22 @@ Every CHRO, regardless of industry or archetype, will raise five consistent obje
 #### Retail & Consumer
 - **CHRO ↔ VP Store Operations:** In retail, store operations manages the largest employee population. Frontline engagement, scheduling, and seasonal workforce management are joint responsibilities.
 - **CHRO ↔ VP Supply Chain:** Supply chain workforce (warehouse, logistics, distribution) is often the CHRO's most challenging population — high turnover, physical demands, and automation anxiety.
+
+
+#### Energy & Utilities
+
+- **CHRO - VP HSE:** Safety culture is joint responsibility.
+- **CHRO - VP Operations / Plant Managers:** Shift-worker management is joint.
+
+#### Telecom & Media
+
+- **CHRO - VP Network Operations:** Technicians are the most critical scarce workforce.
+- **CHRO - VP Customer Operations:** Call-center transformation is joint.
+
+#### Transportation & Logistics
+
+- **CHRO - VP Flight/Transportation Ops:** Pilot/driver scheduling and retention are joint.
+- **CHRO - VP Labor Relations:** Contract negotiations and workforce-change initiatives.
 
 ### Tension Points as Opportunities
 
