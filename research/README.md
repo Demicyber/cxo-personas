@@ -4,25 +4,26 @@ This directory documents the research sources used to build and validate the CXO
 
 ## CEO Persona Research — Financial Reports & Earnings Calls
 
-During the CEO persona deep dive (April 2026), we researched 47 companies across 9 industry groups, analyzing annual reports, earnings calls, and shareholder letters to extract real-world CEO priorities, pain points, KPIs, and AI strategies.
+During the CEO persona deep dive (April 2026), we researched 49 companies across the library's 8 industry groups, analyzing annual reports, earnings calls, and shareholder letters to extract real-world CEO priorities, pain points, KPIs, and AI strategies.
 
 These findings were synthesized into industry-specific sections within the CEO persona and informed patterns across all other C-suite personas.
 
 ---
 
-### Group 1 — Manufacturing & Industrial（7 companies）
+### Manufacturing & Industrial（11 companies）
 
 | # | Company | Sub-Industry | CEO |
 |---|---------|-------------|-----|
 | 1 | Siemens AG | Discrete Manufacturing / Digital Industries | Roland Busch |
 | 2 | Caterpillar Inc. | Discrete Manufacturing / Heavy Equipment | Jim Umpleby |
-| 3 | Toyota Motor Corporation | Discrete Manufacturing / Automotive | Koji Sato |
+| 3 | Toyota Motor Corporation | Automotive OEM | Koji Sato |
 | 4 | Dow Inc. | Process Manufacturing / Chemicals | Jim Fitterling |
 | 5 | BASF SE | Process Manufacturing / Chemicals | Markus Kamieth |
 | 6 | Honeywell International | Industrial Automation | Vimal Kapur |
 | 7 | Schneider Electric | Industrial Automation / Energy Management | Peter Herweck |
+| 8 | CATL (宁德时代) | Electrical Equipment Manufacturing | Robin Zeng (曾毓群) |
 
-### Group 2 — Financial Services（6 companies）
+### Financial Services（5 companies）
 
 | # | Company | Sub-Industry | CEO |
 |---|---------|-------------|-----|
@@ -31,92 +32,86 @@ These findings were synthesized into industry-specific sections within the CEO p
 | 3 | Allianz SE | Insurance | Oliver Bäte |
 | 4 | Ping An Insurance (平安保险) | Insurance / Financial Ecosystem | Ma Mingzhe |
 | 5 | BlackRock | Asset Management | Larry Fink |
-| 6 | Shopify / Stripe | FinTech | Tobias Lütke / Patrick Collison |
 
-### Group 3 — Tech / Digital Native Business（6 companies）
+### Technology & Digital Native（15 companies）
 
 | # | Company | Sub-Industry | CEO |
 |---|---------|-------------|-----|
 | 1 | Salesforce | Enterprise SaaS | Marc Benioff |
 | 2 | ServiceNow | Enterprise SaaS | Bill McDermott |
-| 3 | Snowflake | Data Platform | Sridhar Ramaswamy |
-| 4 | Airbnb | Marketplace / Travel | Brian Chesky |
-| 5 | Uber | Mobility Platform | Dara Khosrowshahi |
-| 6 | Meta Platforms | Social / AI | Mark Zuckerberg |
+| 3 | Snowflake | Enterprise SaaS | Sridhar Ramaswamy |
+| 4 | Airbnb | Consumer Platform / Marketplace | Brian Chesky |
+| 5 | Uber | Consumer Platform / Marketplace | Dara Khosrowshahi |
+| 6 | Meta Platforms | Social / Consumer Internet | Mark Zuckerberg |
+| 7 | Electronic Arts (EA) | Gaming — Traditional Publisher | Andrew Wilson |
+| 8 | Take-Two Interactive | Gaming — Traditional Publisher | Strauss Zelnick |
+| 9 | Nintendo | Gaming — Traditional Publisher | Shuntaro Furukawa |
+| 10 | Microsoft Gaming (Xbox) | Gaming — Platform / Cloud Gaming | Phil Spencer |
+| 11 | Epic Games | Gaming — Platform / Cloud Gaming | Tim Sweeney |
+| 12 | Tencent Games (腾讯游戏) | Gaming — Mobile / Live Service | Ma Huateng (Pony Ma) |
+| 13 | NetEase (网易) | Gaming — Mobile / Live Service | William Ding (丁磊) |
+| 14 | miHoYo / HoYoverse | Gaming — Mobile / Live Service | Cai Haoyu (蔡浩宇) |
+| 15 | Roblox | Gaming — UGC / Metaverse Platform | David Baszucki |
 
-### Group 4 — Retail & Consumer（7 companies）
-
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | Walmart | Mass Retail | Doug McMillon |
-| 2 | Costco | Membership Retail | Ron Vachris |
-| 3 | Amazon | E-commerce / Cloud | Andy Jassy |
-| 4 | JD.com (京东) | E-commerce | Xu Lei (许冉) |
-| 5 | Procter & Gamble | Consumer Goods (FMCG) | Jon Moeller |
-| 6 | Unilever | Consumer Goods (FMCG) | Hein Schumacher |
-| 7 | Nestlé | Consumer Goods (Food & Beverage) | Laurent Freixe |
-
-### Group 5 — Healthcare（6 companies）
+### Retail & Consumer（8 companies）
 
 | # | Company | Sub-Industry | CEO |
 |---|---------|-------------|-----|
-| 1 | Pfizer | Pharma | Albert Bourla |
-| 2 | Roche | Pharma / Diagnostics | Thomas Schinecker |
-| 3 | Johnson & Johnson | Pharma / MedTech | Joaquin Duato |
-| 4 | UnitedHealth Group | Health Insurance / Services | Andrew Witty |
-| 5 | Medtronic | Medical Devices | Geoff Martha |
-| 6 | Philips Healthcare | Health Technology | Roy Jakobs |
+| 1 | Walmart | Mass Retail / Grocery | Doug McMillon |
+| 2 | Costco | Mass Retail / Grocery | Ron Vachris |
+| 3 | Amazon | E-commerce / Marketplace | Andy Jassy |
+| 4 | JD.com (京东) | E-commerce / Marketplace | Xu Lei (许冉) |
+| 5 | Shopify | E-commerce / Marketplace | Tobias Lütke |
+| 6 | Procter & Gamble | Consumer Packaged Goods (CPG) | Jon Moeller |
+| 7 | Unilever | Consumer Packaged Goods (CPG) | Hein Schumacher |
+| 8 | Nestlé | Consumer Packaged Goods (CPG) | Laurent Freixe |
 
-### Group 6 — Energy（4 companies）
+### Healthcare（6 companies）
 
 | # | Company | Sub-Industry | CEO |
 |---|---------|-------------|-----|
-| 1 | ExxonMobil | Oil & Gas | Darren Woods |
-| 2 | Shell | Oil & Gas / Energy Transition | Wael Sawan |
+| 1 | Pfizer | Pharma / Biopharma | Albert Bourla |
+| 2 | Roche | Pharma / Biopharma | Thomas Schinecker |
+| 3 | Johnson & Johnson | Pharma / Biopharma | Joaquin Duato |
+| 4 | UnitedHealth Group | Payer / Managed Care | Andrew Witty |
+| 5 | Medtronic | MedTech / Medical Devices | Geoff Martha |
+| 6 | Philips Healthcare | MedTech / Medical Devices | Roy Jakobs |
+
+### Energy & Utilities（3 companies）
+
+| # | Company | Sub-Industry | CEO |
+|---|---------|-------------|-----|
+| 1 | ExxonMobil | Oil & Gas (Integrated) | Darren Woods |
+| 2 | Shell | Oil & Gas (Integrated) | Wael Sawan |
 | 3 | NextEra Energy | Renewables / Utilities | John Ketchum |
-| 4 | CATL (宁德时代) | Battery / New Energy | Robin Zeng (曾毓群) |
 
-### Group 7 — Telecom & Media（4 companies）
-
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | AT&T | Telecom | John Stankey |
-| 2 | Deutsche Telekom | Telecom | Tim Höttges |
-| 3 | The Walt Disney Company | Media & Entertainment | Bob Iger |
-| 4 | Spotify | Digital Media / Streaming | Daniel Ek |
-
-### Group 8 — Transport & Logistics
-
-> Research file existed but content was merged into other industry groups during synthesis.
-
-### Group 9 — Gaming（9 companies）
+### Telecom & Media（4 companies）
 
 | # | Company | Sub-Industry | CEO |
 |---|---------|-------------|-----|
-| 1 | Electronic Arts (EA) | AAA Publisher | Andrew Wilson |
-| 2 | Take-Two Interactive | AAA Publisher | Strauss Zelnick |
-| 3 | Microsoft Gaming (Xbox) | Platform / Publisher | Phil Spencer |
-| 4 | Tencent Games (腾讯游戏) | Platform / Publisher | Ma Huateng (Pony Ma) |
-| 5 | NetEase (网易) | Publisher / Developer | William Ding (丁磊) |
-| 6 | Nintendo | Platform / Publisher | Shuntaro Furukawa |
-| 7 | Roblox | UGC Platform | David Baszucki |
-| 8 | miHoYo / HoYoverse | Developer (Private) | Cai Haoyu (蔡浩宇) |
-| 9 | Epic Games | Engine / Platform (Private) | Tim Sweeney |
+| 1 | AT&T | Telecom / Connectivity | John Stankey |
+| 2 | Deutsche Telekom | Telecom / Connectivity | Tim Höttges |
+| 3 | The Walt Disney Company | Media / Entertainment | Bob Iger |
+| 4 | Spotify | Streaming / Digital Media | Daniel Ek |
+
+### Transportation & Logistics（0 companies directly researched）
+
+> No companies from this group were included in the original CEO research batch. Industry coverage for Transportation & Logistics was informed by cross-references from Manufacturing and Retail research (supply chain themes from Walmart, Amazon, Caterpillar).
 
 ---
 
 ## Summary
 
-| Industry Group | Companies | Key Themes Extracted |
-|---------------|-----------|---------------------|
-| Manufacturing & Industrial | 7 | Digital twins, supply chain resilience, sustainability, industrial AI |
-| Financial Services | 6 | Regulatory compliance, risk management, platform ecosystems, AI fraud detection |
-| Tech / DNB | 6 | AI-first strategy, platform economics, developer ecosystems, efficiency |
-| Retail & Consumer | 7 | Omnichannel, supply chain, personalization, margin pressure |
-| Healthcare | 6 | Drug discovery AI, patient outcomes, regulatory speed, data interoperability |
-| Energy | 4 | Energy transition, operational efficiency, battery/storage, carbon reduction |
-| Telecom & Media | 4 | Network monetization, content economics, 5G/fiber ROI, streaming competition |
-| Gaming | 9 | Live service models, AI in development, platform shifts, player engagement |
-| **Total** | **49** | |
+| Industry Group | Companies Researched |
+|---------------|---------------------|
+| Manufacturing & Industrial | 8 |
+| Financial Services | 5 |
+| Technology & Digital Native | 15 |
+| Retail & Consumer | 8 |
+| Healthcare | 6 |
+| Energy & Utilities | 3 |
+| Telecom & Media | 4 |
+| Transportation & Logistics | 0 (cross-referenced) |
+| **Total** | **49** |
 
 > **Note:** The detailed research notes (2,534 lines) were removed from the repo after synthesis into the CEO persona. This README preserves the source list for reference and traceability.
