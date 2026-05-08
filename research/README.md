@@ -10,93 +10,93 @@ These findings were synthesized into industry-specific sections across all 19 pe
 
 ---
 
-### Manufacturing & Industrial（11 companies）
+### Manufacturing & Industrial（8 companies）
 
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | Siemens AG | Discrete Manufacturing / Digital Industries | Roland Busch |
-| 2 | Caterpillar Inc. | Discrete Manufacturing / Heavy Equipment | Jim Umpleby |
-| 3 | Toyota Motor Corporation | Automotive OEM | Koji Sato |
-| 4 | Dow Inc. | Process Manufacturing / Chemicals | Jim Fitterling |
-| 5 | BASF SE | Process Manufacturing / Chemicals | Markus Kamieth |
-| 6 | Honeywell International | Industrial Automation | Vimal Kapur |
-| 7 | Schneider Electric | Industrial Automation / Energy Management | Peter Herweck |
-| 8 | CATL (宁德时代) | Electrical Equipment Manufacturing | Robin Zeng (曾毓群) |
+| # | Company | Sub-Industry |
+|---|---------|-------------|
+| 1 | Siemens AG | Discrete Manufacturing / Digital Industries |
+| 2 | Caterpillar Inc. | Discrete Manufacturing / Heavy Equipment |
+| 3 | Toyota Motor Corporation | Automotive OEM |
+| 4 | Dow Inc. | Process Manufacturing / Chemicals |
+| 5 | BASF SE | Process Manufacturing / Chemicals |
+| 6 | Honeywell International | Industrial Automation |
+| 7 | Schneider Electric | Industrial Automation / Energy Management |
+| 8 | CATL (宁德时代) | Electrical Equipment Manufacturing |
 
 ### Financial Services（5 companies）
 
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | JPMorgan Chase | Banking | Jamie Dimon |
-| 2 | HSBC Holdings | Banking | Noel Quinn |
-| 3 | Allianz SE | Insurance | Oliver Bäte |
-| 4 | Ping An Insurance (平安保险) | Insurance / Financial Ecosystem | Ma Mingzhe |
-| 5 | BlackRock | Asset Management | Larry Fink |
+| # | Company | Sub-Industry |
+|---|---------|-------------|
+| 1 | JPMorgan Chase | Banking |
+| 2 | HSBC Holdings | Banking |
+| 3 | Allianz SE | Insurance |
+| 4 | Ping An Insurance (平安保险) | Insurance / Financial Ecosystem |
+| 5 | BlackRock | Asset Management |
 
 ### Technology & Digital Native（15 companies）
 
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | Salesforce | Enterprise SaaS | Marc Benioff |
-| 2 | ServiceNow | Enterprise SaaS | Bill McDermott |
-| 3 | Snowflake | Enterprise SaaS | Sridhar Ramaswamy |
-| 4 | Airbnb | Consumer Platform / Marketplace | Brian Chesky |
-| 5 | Uber | Consumer Platform / Marketplace | Dara Khosrowshahi |
-| 6 | Meta Platforms | Social / Consumer Internet | Mark Zuckerberg |
-| 7 | Electronic Arts (EA) | Gaming — Traditional Publisher | Andrew Wilson |
-| 8 | Take-Two Interactive | Gaming — Traditional Publisher | Strauss Zelnick |
-| 9 | Nintendo | Gaming — Traditional Publisher | Shuntaro Furukawa |
-| 10 | Microsoft Gaming (Xbox) | Gaming — Platform / Cloud Gaming | Phil Spencer |
-| 11 | Epic Games | Gaming — Platform / Cloud Gaming | Tim Sweeney |
-| 12 | Tencent Games (腾讯游戏) | Gaming — Mobile / Live Service | Ma Huateng (Pony Ma) |
-| 13 | NetEase (网易) | Gaming — Mobile / Live Service | William Ding (丁磊) |
-| 14 | miHoYo / HoYoverse | Gaming — Mobile / Live Service | Cai Haoyu (蔡浩宇) |
-| 15 | Roblox | Gaming — UGC / Metaverse Platform | David Baszucki |
+| # | Company | Sub-Industry |
+|---|---------|-------------|
+| 1 | Salesforce | Enterprise SaaS |
+| 2 | ServiceNow | Enterprise SaaS |
+| 3 | Snowflake | Enterprise SaaS |
+| 4 | Airbnb | Consumer Platform / Marketplace |
+| 5 | Uber | Consumer Platform / Marketplace |
+| 6 | Meta Platforms | Social / Consumer Internet |
+| 7 | Electronic Arts (EA) | Gaming — Traditional Publisher |
+| 8 | Take-Two Interactive | Gaming — Traditional Publisher |
+| 9 | Nintendo | Gaming — Traditional Publisher |
+| 10 | Microsoft Gaming (Xbox) | Gaming — Platform / Cloud Gaming |
+| 11 | Epic Games | Gaming — Platform / Cloud Gaming |
+| 12 | Tencent Games (腾讯游戏) | Gaming — Mobile / Live Service |
+| 13 | NetEase (网易) | Gaming — Mobile / Live Service |
+| 14 | miHoYo / HoYoverse | Gaming — Mobile / Live Service |
+| 15 | Roblox | Gaming — UGC / Metaverse Platform |
 
 ### Retail & Consumer（8 companies）
 
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | Walmart | Mass Retail / Grocery | Doug McMillon |
-| 2 | Costco | Mass Retail / Grocery | Ron Vachris |
-| 3 | Amazon | E-commerce / Marketplace | Andy Jassy |
-| 4 | JD.com (京东) | E-commerce / Marketplace | Xu Lei (许冉) |
-| 5 | Shopify | E-commerce / Marketplace | Tobias Lütke |
-| 6 | Procter & Gamble | Consumer Packaged Goods (CPG) | Jon Moeller |
-| 7 | Unilever | Consumer Packaged Goods (CPG) | Hein Schumacher |
-| 8 | Nestlé | Consumer Packaged Goods (CPG) | Laurent Freixe |
+| # | Company | Sub-Industry |
+|---|---------|-------------|
+| 1 | Walmart | Mass Retail / Grocery |
+| 2 | Costco | Mass Retail / Grocery |
+| 3 | Amazon | E-commerce / Marketplace |
+| 4 | JD.com (京东) | E-commerce / Marketplace |
+| 5 | Shopify | E-commerce / Marketplace |
+| 6 | Procter & Gamble | Consumer Packaged Goods (CPG) |
+| 7 | Unilever | Consumer Packaged Goods (CPG) |
+| 8 | Nestlé | Consumer Packaged Goods (CPG) |
 
 ### Healthcare（6 companies）
 
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | Pfizer | Pharma / Biopharma | Albert Bourla |
-| 2 | Roche | Pharma / Biopharma | Thomas Schinecker |
-| 3 | Johnson & Johnson | Pharma / Biopharma | Joaquin Duato |
-| 4 | UnitedHealth Group | Payer / Managed Care | Andrew Witty |
-| 5 | Medtronic | MedTech / Medical Devices | Geoff Martha |
-| 6 | Philips Healthcare | MedTech / Medical Devices | Roy Jakobs |
+| # | Company | Sub-Industry |
+|---|---------|-------------|
+| 1 | Pfizer | Pharma / Biopharma |
+| 2 | Roche | Pharma / Biopharma |
+| 3 | Johnson & Johnson | Pharma / Biopharma |
+| 4 | UnitedHealth Group | Payer / Managed Care |
+| 5 | Medtronic | MedTech / Medical Devices |
+| 6 | Philips Healthcare | MedTech / Medical Devices |
 
 ### Energy & Utilities（3 companies）
 
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | ExxonMobil | Oil & Gas (Integrated) | Darren Woods |
-| 2 | Shell | Oil & Gas (Integrated) | Wael Sawan |
-| 3 | NextEra Energy | Renewables / Utilities | John Ketchum |
+| # | Company | Sub-Industry |
+|---|---------|-------------|
+| 1 | ExxonMobil | Oil & Gas (Integrated) |
+| 2 | Shell | Oil & Gas (Integrated) |
+| 3 | NextEra Energy | Renewables / Utilities |
 
 ### Telecom & Media（4 companies）
 
-| # | Company | Sub-Industry | CEO |
-|---|---------|-------------|-----|
-| 1 | AT&T | Telecom / Connectivity | John Stankey |
-| 2 | Deutsche Telekom | Telecom / Connectivity | Tim Höttges |
-| 3 | The Walt Disney Company | Media / Entertainment | Bob Iger |
-| 4 | Spotify | Streaming / Digital Media | Daniel Ek |
+| # | Company | Sub-Industry |
+|---|---------|-------------|
+| 1 | AT&T | Telecom / Connectivity |
+| 2 | Deutsche Telekom | Telecom / Connectivity |
+| 3 | The Walt Disney Company | Media / Entertainment |
+| 4 | Spotify | Streaming / Digital Media |
 
 ### Transportation & Logistics（0 companies directly researched）
 
-> No companies from this group were included in the original CEO research batch. Industry coverage for Transportation & Logistics was informed by cross-references from Manufacturing and Retail research (supply chain themes from Walmart, Amazon, Caterpillar).
+> No companies from this group were included in the original research batch. Industry coverage for Transportation & Logistics was informed by cross-references from Manufacturing and Retail research (supply chain themes from Walmart, Amazon, Caterpillar).
 
 ---
 
