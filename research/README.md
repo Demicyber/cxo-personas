@@ -2,11 +2,11 @@
 
 This directory documents the research sources used to build and validate the CXO persona library.
 
-## CEO Persona Research — Financial Reports & Earnings Calls
+## CXO Persona Research — Financial Reports & Earnings Calls
 
-During the CEO persona deep dive (April 2026), we researched 49 companies across the library's 8 industry groups, analyzing annual reports, earnings calls, and shareholder letters to extract real-world CEO priorities, pain points, KPIs, and AI strategies.
+During the persona library deep dive (April 2026), we researched 49 companies across the library's 8 industry groups, analyzing annual reports, earnings calls, and shareholder letters to extract real-world C-suite priorities, pain points, KPIs, and AI strategies from multiple executive perspectives.
 
-These findings were synthesized into industry-specific sections within the CEO persona and informed patterns across all other C-suite personas.
+These findings were synthesized into industry-specific sections across all 19 personas in the library — each persona's deep dive drew from the same research base but extracted insights relevant to that specific role (e.g., CFO sections focus on financial metrics and cost themes, CTO sections focus on technology strategy and architecture decisions, CISO sections focus on security posture and compliance).
 
 ---
 
@@ -114,4 +114,4 @@ These findings were synthesized into industry-specific sections within the CEO p
 | Transportation & Logistics | 0 (cross-referenced) |
 | **Total** | **49** |
 
-> **Note:** The detailed research notes (2,534 lines) were removed from the repo after synthesis into the CEO persona. This README preserves the source list for reference and traceability.
+> **Note:** The detailed research notes (2,534 lines) were removed from the repo after synthesis into the personas. This README preserves the source list for reference and traceability.
