@@ -176,4 +176,85 @@ For models with <32K context: consider extracting the three frameworks into a sh
 
 ---
 
+---
+
+## Extended Testing (Round 2 & 3)
+
+To validate the initial findings, additional tests were conducted across:
+- **3 more roles** (CISO, CMO, COO) — different executive contexts
+- **2 additional task types** — Discovery Questions and Objection Prediction (not just Call Plans)
+- **Total tests run:** 15 (A through O)
+
+### Round 2: Different Roles — Call Plan Generation
+
+| Test | Role | Scenario | Condition | Score |
+|------|------|----------|-----------|-------|
+| F | CISO | ZTNA sale to healthcare CISO post-ransomware (200+ hospitals, HIPAA) | Full | 9/10 |
+| G | CISO | Same scenario | Stripped | 7.5/10 |
+| H | CMO | AI content personalization for luxury fashion brand ($10B) | Full | 9/10 |
+| I | CMO | Same scenario | Stripped | 7.5/10 |
+| J | COO | Supply chain AI for consumer electronics ($30B, 12 factories, tariffs) | Full | 9/10 |
+| K | COO | Same scenario | Stripped | 7/10 |
+
+**Consistent finding:** Full persona produces 9/10; stripped produces 7-7.5/10. The 1.5-2 point delta holds across all roles.
+
+### Round 3: Different Task Types
+
+| Test | Role | Task Type | Condition | Score | Delta |
+|------|------|-----------|-----------|-------|-------|
+| L | CISO | Discovery Questions (CSPM sale to fintech) | Full | 9.5/10 | |
+| M | CISO | Discovery Questions (same) | Stripped | 8/10 | **1.5** |
+| N | COO | Objection Prediction (predictive maintenance, automotive, unionized) | Full | 9.5/10 | |
+| O | COO | Objection Prediction (same) | Stripped | 8.5/10 | **1.0** |
+
+### Key Finding: Task-Type Dependency
+
+The value of the three sections **varies by task type**:
+
+| Task Type | Delta (Full vs Stripped) | Explanation |
+|-----------|:------------------------:|-------------|
+| **Call Plan Generation** | 2.0 points | Generative task — needs archetype to "tune" the opening and multi-horizon to structure the narrative |
+| **Discovery Questions** | 1.5 points | Semi-generative — benefits from archetype awareness to design diagnostic questions, but Priorities/Pain Points alone provide strong signal |
+| **Objection Prediction** | 1.0 points | Analytical task — the objections themselves are derivable from Pain Points and KPIs; the 3 sections mainly add "which objection this archetype will lead with" |
+
+**Implication:** The three sections are most valuable for **pitch/narrative generation** tasks and less critical (but still beneficial) for **analytical/diagnostic** tasks.
+
+### Self-Reported Agent Observations
+
+Agents using stripped versions consistently noted their limitations:
+
+> "Without the Archetypes framework, I could not precisely diagnose this CFO's decision style to tailor the opening and objection sequence." — Test B agent
+
+> "Without Three Time Horizons, I couldn't frame value across immediate/medium/strategic timeframes as distinctly." — Test B agent
+
+> "I inferred a blend of Efficiency Engine and Scale Architect based on context clues" — Test O agent (had to reverse-engineer the archetype from other sections)
+
+> "Even without Archetypes... the persona provides rich signal on priorities, KPIs, pain points, desired outcomes" — Test M agent
+
+This confirms: the stripped personas work reasonably well because the *other* sections (Priorities, KPIs, Pain Points, Desired Outcomes) provide substantial raw material. The three framework sections provide the **interpretive lens** that elevates raw material into calibrated output.
+
+---
+
+## Revised Conclusions
+
+### Value Ranking (confirmed across 15 tests)
+
+| Section | Value | Primary Contribution | Most Valuable For |
+|---------|-------|---------------------|-------------------|
+| **Archetypes** | ⭐⭐⭐ | Diagnosis → calibration of all downstream language | Call Plans, strategic positioning, opening framing |
+| **Three Time Horizons** | ⭐⭐ | Structural narrative — forces dual-horizon framing | Opening statements, closing asks, CEO/board-level pitches |
+| **Four-Way Pull** | ⭐ | Multi-stakeholder positioning — prevents single-axis pitches | Enterprise-scale deals, complex political environments |
+
+### Final Recommendation
+
+**Keep all three sections.** The quality uplift is:
+- **Consistent** — holds across 5 different roles (CEO, CFO, CTO, CISO, CMO, COO)
+- **Consistent** — holds across 3 different task types
+- **Meaningful** — 1-2 point delta on a 10-point scale, concentrated in the most critical moments (opening 90 seconds, strategic positioning)
+- **Cumulative** — agents using the full persona produce output that is not just incrementally better but qualitatively different (strategic advisor tone vs. competent vendor tone)
+
+The ~16K characters per persona (~18% of file size) delivers disproportionate quality impact because the framework sections teach the AI agent *how to think about* the executive, not just *what to say to* them.
+
+---
+
 *End of test report.*
