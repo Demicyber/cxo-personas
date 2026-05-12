@@ -1,7 +1,7 @@
 # Ablation Test: Archetypes / Three Time Horizons / Four-Way Pull
 
 **Date:** 2026-05-12  
-**Tester:** Hermes Agent (Claude Opus 4)  
+**Tester:** Hermes Agent (Claude Opus 4.6)  
 **Purpose:** Determine whether the three framework sections present in every persona's Role Definition are necessary for AI agents to generate high-quality outputs across sales use cases (Call Plans, Engagement Plans, Discovery Questions, Objection Prediction, and Simulator role-play).
 
 ---
@@ -21,7 +21,7 @@ Combined, these sections account for ~96 lines / ~16K characters per persona fil
 ## Test Design
 
 ### Method
-Three-way comparison using the same AI model (Claude Opus 4, 1M context) with identical sales scenarios:
+Three-way comparison using the same AI model (Claude Opus 4.6, 1M context) with identical sales scenarios:
 
 | Condition | Description |
 |-----------|-------------|
