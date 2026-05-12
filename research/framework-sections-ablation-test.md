@@ -257,4 +257,38 @@ The ~16K characters per persona (~18% of file size) delivers disproportionate qu
 
 ---
 
+---
+
+## Final Decision: Keep All Three Sections — No Changes
+
+### Context
+
+These personas are consumed by three primary use cases, **all generative tasks**:
+1. **Engagement Plan generation** — strategic account planning
+2. **Call Plan generation** — meeting preparation
+3. **Simulator** — AI role-playing as the CXO for sales practice
+
+### Why This Matters for Simulator Specifically
+
+The Simulator use case is the **strongest argument** for keeping all three sections — especially the Four-Way Pull:
+
+- **Archetypes** → enables the AI to adopt the correct *posture* when role-playing (a "War-Time Operator" CISO responds differently than a "Builder-Architect" CISO)
+- **Three Time Horizons** → enables the AI to push back realistically ("You've only told me what this does next quarter — what about my 3-year plan?")
+- **Four-Way Pull** → enables multi-dimensional pushback ("Your solution helps my investors, but what does my board/union/regulator think?"). Without this, simulated CXOs are **too easy to handle** — single-dimensional objections that don't prepare salespeople for real meetings.
+
+A Simulator that produces softball responses trains bad habits. The Four-Way Pull is what makes simulated executives feel like real executives — because real executives think in multiple stakeholder dimensions simultaneously.
+
+### Final Verdict
+
+| Decision | Rationale |
+|----------|-----------|
+| **Keep Archetypes** ✅ | Core diagnostic engine — without it, all output is generic |
+| **Keep Three Time Horizons** ✅ | Structural narrative framework — critical for openings and realistic pushback |
+| **Keep Four-Way Pull** ✅ | Multi-stakeholder depth — essential for Simulator realism and enterprise-deal positioning |
+
+**No changes to the persona files.** The ~16K characters per persona (~18% of file size) are justified by:
+- 2-point quality uplift on generative tasks (the primary use case)
+- Qualitative difference in Simulator realism (single biggest training value)
+- Negligible cost at 1M token context window
+
 *End of test report.*
