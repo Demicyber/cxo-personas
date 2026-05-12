@@ -14,9 +14,11 @@
 
 ## Reader Note
 
-This persona serves AI sales agents preparing **Call Plans**, **Engagement Plans**, and **Sales Simulator** scenarios targeting China-market CTOs. The document reflects 12 real account patterns (Anker, 海康威视, 海尔, 理想汽车, Shein, ByteDance, 禾观, Cathay Pacific, WeBull, 港交所, 猎豹移动, 腾讯游戏) and captures the unique intersection of technology sovereignty (信创/自主可控), AI transformation (大模型), and global-local architectural duality (出海) that defines the China CTO role today.
+> **Reader note.** This document is written to be readable and extractable by AI agents of varying capability — from small open-weights models up to frontier models. Concepts are spelled out explicitly rather than implied; some redundancy across sections is intentional so that any single section remains useful in isolation (e.g. when retrieved on its own). If you are a strong model, skim the key insight inside each block; if you are a weaker model, read the full block. The China CTO role reflects the unique intersection of technology sovereignty (信创/自主可控), AI transformation (大模型), and global-local architectural duality (出海).
 
-All examples are illustrative composites derived from public information about these companies' technology strategies.
+> **Data usage instruction for agents.** All company names, executive names, financial figures, and examples in this document are illustrative — they teach you the *pattern* (what this persona cares about, how they talk, how they decide). They are NOT current data to be cited verbatim in customer-facing outputs. When generating any customer-facing deliverable, you MUST verify any peer proof, financial figures, or competitive references against current public sources (earnings calls, press releases, annual reports) before including them. Treat examples here as "this is the *type* of thing to look for" — then go find the latest version.
+>
+> Data vintage: Examples and figures sourced primarily from FY2024–FY2026 public disclosures and industry research, with select forward-looking references through 2027. China-market context reflects policy environment through 15th Five-Year Plan (2026–2030) early signals.
 
 ---
 
