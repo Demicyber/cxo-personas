@@ -13,18 +13,11 @@
 
 ---
 
-## Reader Note
+> **Reader note.** This document is written to be readable and extractable by AI agents of varying capability — from small open-weights models up to frontier models. Concepts are spelled out explicitly rather than implied; some redundancy across sections is intentional so that any single section remains useful in isolation (e.g. when retrieved on its own). If you are a strong model, skim the key insight inside each block; if you are a weaker model, read the full block. The China CFO role varies dramatically by ownership structure (国企/民企/外企), listing status, and company lifecycle stage — do NOT treat "CFO" as a monolithic persona.
 
-> This persona is designed for AI sales agents preparing **Call Plans**, **Engagement Plans**, and **Sales Simulator** scenarios targeting CFOs in Greater China and Chinese companies operating globally. The China CFO role varies dramatically by ownership structure (国企/民企/外企), listing status, and company lifecycle stage. Do NOT treat "CFO" as a monolithic persona.
-
-### Data Usage Instruction
-
-Use this file to:
-1. **Identify archetype** — Match the target account to one of six archetypes below before engaging
-2. **Calibrate messaging** — Adjust value propositions to archetype-specific pain points
-3. **Anticipate objections** — Pre-load responses to the most likely pushback patterns
-4. **Simulate conversations** — Feed archetype + priority context into Sales Simulator for realistic roleplay
-5. **Plan discovery** — Select questions that surface latent needs without triggering defensiveness
+> **Data usage instruction for agents.** All company names, executive names, financial figures, and examples in this document are illustrative — they teach you the *pattern* (what this persona cares about, how they talk, how they decide). They are NOT current data to be cited verbatim in customer-facing outputs. When generating any customer-facing deliverable, you MUST verify any peer proof, financial figures, or competitive references against current public sources (earnings calls, press releases, annual reports) before including them. Treat examples here as "this is the *type* of thing to look for" — then go find the latest version.
+>
+> Data vintage: Examples and figures sourced primarily from FY2024–FY2026 public disclosures and industry research, with select forward-looking references through 2027. China-market context reflects policy environment through 15th Five-Year Plan (2026–2030) early signals.
 
 ---
 
