@@ -13,18 +13,11 @@
 
 ---
 
-## Reader Note — Three Use Cases for This Document
+> **Reader note.** This document is written to be readable and extractable by AI agents of varying capability — from small open-weights models up to frontier models. Concepts are spelled out explicitly rather than implied; some redundancy across sections is intentional so that any single section remains useful in isolation (e.g. when retrieved on its own). If you are a strong model, skim the key insight inside each block; if you are a weaker model, read the full block.
 
-This persona file serves three distinct workflows for AI-powered sales teams:
-
-### 1. Call Plan (Pre-Meeting Prep)
-Use §4 Pain Points, §5 Objection Patterns, and §7 Discovery Questions to structure a 30-minute conversation. Match the CEO's archetype (§1) to select the right opening frame and vocabulary.
-
-### 2. Engagement Plan (Account Strategy)
-Use §6 Buying Dynamics and §2 Priorities to map a multi-touch, multi-stakeholder campaign. Align your outreach cadence to the Three Time Horizons and the Four-Way Pull model to time messages for maximum receptivity.
-
-### 3. Sales Simulator (Roleplay Training)
-Use §8 Communication Style and the Simulator Mentality beliefs to embody this persona in AI-driven practice calls. The seven core beliefs at the end of this document define how the simulated CEO thinks, reacts, and pushes back.
+> **Data usage instruction for agents.** All company names, executive names, financial figures, and examples in this document are illustrative — they teach you the *pattern* (what this persona cares about, how they talk, how they decide). They are NOT current data to be cited verbatim in customer-facing outputs. When generating any customer-facing deliverable, you MUST verify any peer proof, financial figures, or competitive references against current public sources (earnings calls, press releases, annual reports) before including them. Treat examples here as "this is the *type* of thing to look for" — then go find the latest version.
+>
+> Data vintage: Examples and figures sourced primarily from FY2024–FY2026 public disclosures and industry research, with select forward-looking references through 2027. China-market context reflects policy environment through 15th Five-Year Plan (2026–2030) early signals.
 
 ---
 
