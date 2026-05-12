@@ -465,7 +465,105 @@ Across every industry in the research, CEOs volunteer **free cash flow** as the 
 
 Specific ways AI can address CEO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CEO meeting.
 
-### Universal AI Value Levers for CEOs
+### 5.1 The AI Production Gap — Where Enterprises Actually Are
+
+> *Agent instruction: Use this subsection to calibrate your tone. CEOs are no longer excited about AI possibilities — they are frustrated by the gap between AI spending and AI results. Frame your pitch around closing this gap, not opening new experiments.*
+
+**The state of enterprise AI in 2025:**
+
+| Milestone | % of Enterprises | Source |
+|-----------|-----------------|--------|
+| Adopted AI in ≥1 function | 72% | McKinsey State of AI 2024 |
+| Regularly using GenAI (doubled in 10 months) | 65% | McKinsey State of AI 2024 |
+| Running 5+ AI pilots simultaneously | ~50% | Forrester AI Maturity 2024 |
+| Successfully moved any pilot to production | 20–30% | BCG/Deloitte/iResearch 2024 |
+| Scaled AI for significant financial ROI | ~10% | BCG "From Potential to Profit" 2024 |
+| Achieved enterprise-wide AI transformation | <5% | Accenture AI Maturity 2024 |
+
+**Gartner prediction (Oct 2024):** At least 30% of GenAI projects will be abandoned after proof-of-concept by end of 2025 — due to poor data quality, escalating costs, or unclear business value.
+
+**China-specific data point:** Chinese enterprises show 40% higher AI pilot initiation rates than global average, but production-scale deployment rates are 8–12% lower than US counterparts (Bain/Accenture 2024). The "高热度低转化" (high heat, low conversion) pattern is pronounced — over 100,000 AI trial projects with <25% reaching production (钛媒体 2024).
+
+**What CEOs are actually saying:**
+- "We have 50 experiments and zero transformations."
+- "I can't get a straight answer on what AI will actually do for us."
+- "My competitors are moving faster — or at least their press releases say they are."
+- 63% of CEOs feel board pressure to show AI ROI within 12–18 months (Gartner CEO Survey 2025).
+- 78% feel competitive pressure around AI, creating urgency without clarity (PwC CEO Survey 2024).
+
+**Field rule:** When preparing a Call Plan for a CEO, do NOT frame AI as a new opportunity to explore. Frame it as: "Here is how to get your existing AI investments from pilot to production" or "Here is how to avoid the failure patterns your peers are experiencing." The CEO's pain is not lack of AI — it is lack of AI *results*.
+
+---
+
+### 5.2 The Four Blockers — Why Enterprise AI Stalls
+
+> *Agent instruction: Use this as a diagnostic framework. Before proposing solutions in a Call Plan, identify which blocker(s) the target account is most likely stuck on — then match your pitch to unblocking that specific constraint. The CEO does not own any single blocker; the CEO owns the accumulated failure to unblock all of them. Your job is to help the CEO diagnose, assign ownership, and accelerate.*
+
+#### A. Organizational — "No one owns this end-to-end"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| No unified AI strategy tied to business outcomes | 52% of enterprises lack one | McKinsey 2024 |
+| Governance & responsible AI frameworks missing | 44% cite governance gaps as top barrier | Deloitte State of AI 2024 |
+| IT and business unit misalignment | 60% of failed AI projects trace to cross-functional misalignment | BCG 2024 |
+| Risk-averse culture / fear of failure | 41% cite organizational inertia | Gartner 2024 |
+| Fragmented ownership (CTO? CDO? CAIO? BU heads?) | No single accountable executive in most orgs | McKinsey 2024 |
+
+**CEO lens:** "I have a CTO, a CDO, a CAIO, and four business unit heads all 'doing AI' — and no one can tell me the integrated picture. Everyone has a pilot; no one owns the outcome."
+
+**Who should own unblocking:** CAIO (strategy + governance), CEO (mandate + accountability structure).
+
+#### B. People — "The frozen middle"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI/ML talent shortage | 64% cite as top-3 barrier; China gap: 5M+ | McKinsey 2024; 人社部 2024 |
+| Middle management resistance | #1 cited source of AI adoption friction | Forrester 2024 |
+| Leadership AI literacy gap | Only 20% of C-suite feel "very confident" in AI decisions | BCG 2024 |
+| Change management / employee resistance | 46% report workforce resistance | Deloitte 2024 |
+| Cross-functional AI fluency deficit | 58% say non-technical teams can't collaborate on AI | Gartner 2024 |
+| China-specific: AI product managers scarce | 53% of enterprises cite this gap | 百度智能云 2024 |
+
+**CEO lens:** "My board wants AI transformation. My top team says the right things. But nothing moves because the 200 directors and VPs between us and the work haven't changed how they operate."
+
+**Who should own unblocking:** CHRO (reskilling + change), COO (middle mgmt accountability), CEO (cultural mandate).
+
+#### C. Technical — "The data isn't ready"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Data quality & accessibility — #1 technical barrier | 57–67% across all surveys | McKinsey/Gartner/Deloitte/iResearch 2024 |
+| Data silos across business units | 53–71% report fragmented data | Deloitte 2024; 德勤中国 2024 |
+| Legacy system integration complexity | 48–61% cite integration as top challenge | Forrester 2024; 百度智能云 2024 |
+| Infrastructure readiness / compute maturity | 40% lack production AI infrastructure | Gartner 2024 |
+| Security & privacy as deployment blocker | 49–72% cite this | McKinsey 2024; 百度智能云 2024 |
+| Model reliability / hallucination risk | 38% of GenAI projects stalled on accuracy | Gartner 2024 |
+| China-specific: private deployment demand | 70%+ enterprises require on-prem/private cloud | 腾讯云 2024 |
+
+**CEO lens:** "Every AI project starts with 'first we need to clean the data' and then stalls for 18 months. I keep hearing the foundation isn't ready. When will it be?"
+
+**Who should own unblocking:** CDO (data quality + governance), CTO/CIO (infrastructure + integration), CISO (security framework).
+
+#### D. Process — "We can't measure it or scale it"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| No clear ROI measurement framework | 55% cannot quantify AI business impact | BCG 2024 |
+| Lack of MLOps / AI operations maturity | 60% lack production-grade ML pipelines | Gartner 2024 |
+| No standardized scaling playbook | Companies reinvent the wheel per initiative | McKinsey 2024 |
+| Vendor evaluation complexity | Average enterprise evaluating 8+ AI vendors | Forrester 2024 |
+| Regulatory uncertainty extending timelines | 42% cite evolving regulation as deployment delay | Deloitte 2024 |
+| China-specific: 生成式AI管理办法 compliance | Adds 3–6 months + 15–30% cost to regulated industries | Brookings/网信办 analysis 2024 |
+
+**CEO lens:** "We spent $20M on AI last year. Can anyone tell me the return? ... No? That's the problem."
+
+**Who should own unblocking:** CFO (ROI framework + investment governance), CIO/CAIO (MLOps + platform), COO (scaling playbook), GC (regulatory strategy).
+
+**Field rule for the agent:** In the Call Plan Discovery section, include 1–2 questions designed to identify which blocker(s) the target account is stuck on. Example: "What's preventing your most promising AI pilot from becoming enterprise-wide?" The answer reveals the blocker; your proposal should address that blocker specifically — not the other three.
+
+---
+
+### 5.3 Universal AI Value Levers for CEOs
 
 These are the seven ways AI creates value that CEOs care about — mapped directly to the Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
 
@@ -483,7 +581,9 @@ These are the seven ways AI creates value that CEOs care about — mapped direct
 
 7. **Future-proofing the organization.** Ensuring the company has the AI capabilities, talent, and infrastructure to compete as AI becomes table stakes. *Agentic dimension:* Companies that master autonomous workflows first build compounding advantages — more data, better agents, faster iteration — that late movers cannot easily close.
 
-### Quality Bar: How CEOs Filter AI Pitches
+---
+
+### 5.4 Quality Bar: How CEOs Filter AI Pitches
 
 CEOs have been burned by demos that never reached production. The pattern across every industry is identical — CEOs only take AI seriously when it passes four tests simultaneously:
 
@@ -494,39 +594,145 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 **Field rule:** If a CEO-level AI pitch cannot check all four — deployed, measured, infrastructural, peer-proven — it reads as another demo. Lead with the peer already in production. When generating Call Plan Section 4 (Information to Deliver), ensure every AI story you include passes this four-part test.
 
-### The 2025-2026 Reality Check
+---
 
-The CEO AI mindset has shifted from "excited about possibilities" to "frustrated by pilot failures." Research shows the vast majority of enterprise AI pilots have not produced measurable financial returns. Gartner projects a significant share of agentic AI projects will be cancelled by 2027. CEOs are no longer asking "should we use AI?" — they are asking "why have we spent this much and not seen results?"
+### 5.5 Industry AI Priority Map
 
-**Implication for the agent:** When preparing a Call Plan for a CEO, do NOT frame AI as a new opportunity to explore. Frame it as: "Here is how to get your existing AI investments from pilot to production" or "Here is how to avoid the failure patterns your peers are experiencing." The CEO's pain is not lack of AI — it is lack of AI *results*.
+> *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a CEO in a specific industry. Tier 1 = safe to lead with (proven, peer-deployed, immediate ROI). Tier 2 = lead with only if the CEO is a Builder/Visionary archetype or has already deployed Tier 1. Tier 3 = mention only if the CEO explicitly asks about long-term bets or business model innovation.*
+>
+> *Analyst consensus source: McKinsey "State of AI" / "Capturing Value from GenAI"; Gartner AI Use Case Prism 2025; BCG "From Potential to Profit"; IDC FutureScape AI 2025; Bain industry reports. Tier classification reflects cross-analyst agreement on deployment readiness × business impact.*
+>
+> *Real examples are from FY2024–FY2025 public disclosures (earnings calls, SEC filings, CEO statements, government databases). Agent must verify latest numbers before including in a Call Plan — these illustrate credible magnitude, not current figures to cite verbatim.*
 
-### Industry-Specific AI Use Cases with Real ROI *(supporting evidence)*
+#### Manufacturing & Industrial
 
-> *Examples below are from FY2024–FY2025 public disclosures. They illustrate the type of deployed AI use case and the magnitude of impact a CEO finds credible — not current figures to cite verbatim. Agent must verify latest numbers and find comparable peer examples before including in a Call Plan.*
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | Heavy Equipment / Mining | Autonomous haulage & predictive maintenance | 20–35% maintenance cost reduction proven at scale; zero safety incidents; competitors deploying | Caterpillar: 700+ autonomous trucks, 5.6B tonnes moved, zero lost-time injuries, 30% fuel efficiency gain (2024 Annual Report + Investor Day) | Direct capex + safety ROI |
+| **Tier 1 — Table Stakes** | Electrical Equipment / Batteries | AI quality inspection (computer vision) | Defect rates at parts-per-billion; labor shortage driver; WEF Lighthouse validated | CATL: AI monitors 6,800 data points/cell, PPB-level defect detection (WEF Lighthouse Factory recognition) | Quality at 400+ GWh/year scale |
+| **Tier 1 — Table Stakes** | All Manufacturing | Demand forecasting & production scheduling | Proven 15–30% forecast accuracy improvement; reduces inventory cost | Siemens Xcelerator platform: 1M+ users; Industrial Copilot for natural-language automation (FY2024 Annual Report) | Operational leverage |
+| **Tier 2 — Differentiator** | Digital Industries / Automotive | Digital twins with AI optimization | Simulate before build; 10–20% yield improvement in pilots; requires significant data foundation | BMW: iFactory digital twin (NVIDIA Omniverse) reducing production planning time 30%; 100+ AI factory use cases | Competitive edge in design-to-production speed |
+| **Tier 2 — Differentiator** | Process Manufacturing / Chemicals | AI process optimization & energy reduction | Requires clean process data; high impact once deployed | BASF: 300+ AI use cases across manufacturing sites; targeting batch failure and energy reduction | Margin improvement in high-energy processes |
+| **Tier 3 — Transformational** | Automotive / All | Lights-out manufacturing / fully autonomous production | Partial implementations only; 5–10 year horizon; fundamental labor model change | BYD: 90%+ automation on some lines, 3M+ vehicles/year (limited public ROI data); industry directional | Reshapes manufacturing economics |
 
-| Industry Group (Industry) | Use Cases | Real Examples | Impact |
-|----------|----------|---------------|--------|
-| **Manufacturing & Industrial (Discrete Manufacturing / Digital Industries, Discrete Manufacturing / Heavy Equipment, Industrial Automation)** | Digital twins, Autonomous ops, Predictive maintenance | Siemens Industrial Copilot; Caterpillar 600+ autonomous haul trucks (6B+ tonnes hauled); Honeywell Forge | 24/7 ops; AI layers on every product by 2027 |
-| **Manufacturing & Industrial (Process Manufacturing / Chemicals)** | Process optimization | BASF: 300+ AI use cases across manufacturing | Reducing batch failures and energy consumption |
-| **Manufacturing & Industrial (Automotive OEM)** | Autonomous manufacturing, Intelligent driving | BMW 100+ AI factory use cases + iFactory digital twin; BYD God's Eye ADAS | Quality + predictive maintenance; accessible advanced tech |
-| **Manufacturing & Industrial (Electrical Equipment Manufacturing)** | Manufacturing quality | CATL Lighthouse Factory: AI vision 99.99%+ defect detection | Quality at 400+ GWh/year scale |
-| **Financial Services (Banking)** | Fraud/AML, Enterprise AI | HSBC: AML false positives reduced 50%+; JPMorgan: 2,000+ use cases, 60K+ employees | Massive compliance cost reduction |
-| **Financial Services (Insurance / Financial Ecosystem)** | Claims automation, Dynamic pricing | Ping An: 70%+ auto claims <30 min; Allianz real-time ML pricing | 3x retention; improved loss ratios |
-| **Financial Services (Asset Management)** | Investment analytics | BlackRock Aladdin Copilot | Faster decisions across $11.6T AUM |
-| **Technology & Digital Native (Enterprise SaaS)** | Agentic AI for CX | Salesforce Agentforce: $2/conversation | 5,000+ deals in first quarter of launch |
-| **Retail & Consumer (Mass Retail / Grocery)** | Supply chain AI, GenAI for associates | Walmart: AI demand forecasting + route optimization; "My Assistant" for 50K+ employees | Saves billions in logistics |
-| **Retail & Consumer (Consumer Packaged Goods (CPG))** | Marketing content at scale, R&D acceleration | Unilever GenAI: 30% faster creative production with doubled engagement metrics; Dow AI formulation: months→weeks | Faster speed-to-market |
-| **Healthcare (Pharma / Biopharma)** | Drug discovery & trials | J&J: 30% faster enrollment; Roche: Foundation Medicine + Flatiron ML | Pipeline velocity; data moat |
-| **Healthcare (MedTech / Medical Devices)** | AI-assisted surgery, Clinical imaging | Medtronic Affera; Philips 200+ AI clinical apps | Deployed in clinical workflow today |
-| **Healthcare (Payer / Managed Care)** | Prior-auth automation, Clinical decision support, Fraud/waste/abuse | Optum/UnitedHealthcare deploying AI across prior-auth and utilization management; major US payers automating claims adjudication at scale | Prior-auth cycle-time reduction; MCR-management via better utilization insight |
-| **Energy & Utilities (Oil & Gas (Integrated))** | Trading, Drilling | Shell ML for commodity trading (300+ data scientists); AI reducing well construction 15–20% | Direct capex reduction |
-| **Energy & Utilities (Renewables / Utilities)** | Grid management | NextEra: AI load balancing, storm prediction, crew pre-positioning | Lowest bills + highest reliability in Florida |
-| **Telecom & Media (Telecom / Connectivity)** | Network optimization | AT&T blocking ~1B robocalls/month; Deutsche Telekom AI-driven SON for 5G | Future-proof network ops |
-| **Telecom & Media (Media / Entertainment, Streaming / Digital Media)** | Content personalization | Disney+ ML recommendations; Spotify AI DJ at 675M user scale | Key engagement driver |
-| **Transportation & Logistics (Airlines / Aviation)** | Revenue management, IROPS | Delta: ML on 500M+ fare decisions daily; AI rebooking in seconds | Industry-leading pre-tax margin; resilience after CrowdStrike |
-| **Transportation & Logistics (Logistics / Express Delivery)** | Route optimization | FedEx Dataworks: ML on 15M+ packages/day | Building toward 10%+ operating margin |
-| **Transportation & Logistics (Shipping / Supply Chain)** | Predictive ETA | Maersk: 95%+ ETA accuracy (up from ~70%) | Information-driven logistics transformation |
-| **Technology & Digital Native (Gaming — Traditional Publisher, Gaming — UGC / Metaverse Platform)** | Creator tools, Sports data AI | Roblox AI Assistant; EA TRACAB optical tracking | Democratized creation; authentic sports gameplay |
+> **Agent field rule:** For Manufacturing CEOs, always lead with Tier 1 (predictive maintenance, quality inspection, demand forecasting). If the CEO is a Builder archetype actively investing in Industry 4.0, bridge to Tier 2 digital twins. Only reference Tier 3 if the CEO brings up autonomous factories unprompted.
+
+#### Financial Services
+
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | Banking / All FSI | Fraud detection & AML automation | Regulatory requirement; 50–70% false-positive reduction proven; competitors all deploying | JPMorgan: 2,000+ AI/ML use cases in production (CNBC May 2024, Daniel Pinto at Investor Day); HSBC: AML false positives reduced ~60% (Google Cloud partnership) | Compliance cost + detection quality |
+| **Tier 1 — Table Stakes** | All FSI | Customer service AI (chatbots → agents) | 30–50% contact center cost reduction proven; immediate ROI | Klarna: AI handles 67% of service interactions, resolution 11min→2min, $40M annual savings, workforce 5,000→3,800 (SEC S-1 filing 2024) | Direct headcount + CX metric improvement |
+| **Tier 1 — Table Stakes** | All FSI | Document intelligence (KYC, claims, contracts) | High-volume, rules-based, human-verifiable; lowest-risk GenAI deployment | JPMorgan COiN: 360,000+ hours of lawyer time saved annually on commercial loan agreements (Investor Day 2024) | Labor cost + speed |
+| **Tier 2 — Differentiator** | Insurance / Financial Ecosystem | AI-powered claims automation & dynamic pricing | Requires proprietary data + actuarial integration; creates moat | Ping An: 70%+ auto claims processed <30 min; AI serving 240M retail customers (2024 Annual Report — self-reported) | 3x retention; improved loss ratios |
+| **Tier 2 — Differentiator** | Asset Management / Banking | AI advisor copilots & portfolio intelligence | Requires RAG over proprietary research; high adoption when deployed | Morgan Stanley: GPT-4 assistant for 16,000 advisors, 98% adoption, 10–15 hrs/week saved (Q3 2024 earnings) | Advisor productivity at scale |
+| **Tier 3 — Transformational** | All FSI | Autonomous underwriting / AI-native financial products | Regulatory evolution needed; early movers only | Frontier exploration; no verified at-scale deployment yet | Reshapes product economics |
+
+> **Agent field rule:** Financial Services CEOs respond strongest to Tier 1 — especially fraud/AML (regulatory mandate) and employee copilots (immediate productivity). Lead with JPMorgan's 2,000-use-case scale story or Klarna's headcount efficiency. Ping An data is strong but self-reported — use carefully with Western banks.
+
+#### Technology & Digital Native
+
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | All Tech | Developer productivity (code generation, review, testing) | 20–45% efficiency gain proven; GitHub data at scale; every competitor deploying | GitHub Copilot: $2B+ ARR, 1.8M paid subscribers, 55% faster task completion (Microsoft FY2025 Q2 earnings); 40% of new code at adopting companies | Engineering leverage |
+| **Tier 1 — Table Stakes** | Enterprise SaaS | AI-embedded product features | Table stakes for SaaS retention; customers expect AI in every product | Salesforce Agentforce: $2/conversation, 5,000+ deals in first launch quarter; ServiceNow Now Assist: $165M net new ACV from GenAI (Q4 2024 earnings) | Product differentiation + new revenue |
+| **Tier 1 — Table Stakes** | All Tech | AIOps & IT automation | 60% enterprise adoption by 2025 (IDC); proven cost reduction | Industry-wide deployment; ServiceNow, Datadog, PagerDuty all embedding AI ops | Reduce incident response time 40–60% |
+| **Tier 2 — Differentiator** | Consumer Platform / Marketplace | Hyper-personalization & recommendation engines | Requires proprietary behavioral data; 2–3x engagement lift proven | Amazon: 35% of revenue from AI recommendations; Spotify AI DJ at 675M user scale (public metrics) | Revenue per user + retention |
+| **Tier 2 — Differentiator** | Gaming | AI content generation & creator tools | Reduces content creation cost; enables UGC scale | Roblox AI Assistant for creation; EA TRACAB optical tracking for sports realism | Democratize creation + realism |
+| **Tier 3 — Transformational** | All Tech | Autonomous software development / self-evolving platforms | Frontier; task agents ready, full autonomy 2028+ | Early-stage; Devin/Cursor-class tools in pilot, not production at enterprise scale | 10x feature velocity |
+
+> **Agent field rule:** Tech CEOs are AI-native — don't explain basics. Lead with competitive pressure: "Your peers are monetizing AI features at $X ACV; here's how to match or exceed." For platform companies, lead with Tier 2 personalization (they've already done Tier 1).
+
+#### Retail & Consumer
+
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | Mass Retail / Grocery | AI demand forecasting & supply chain optimization | 15–30% forecast accuracy improvement proven; direct inventory and logistics savings | Walmart: "hundreds of millions" saved; AI generated/improved 850M product data points (CEO Doug McMillon, CES 2025) | Billions in logistics savings |
+| **Tier 1 — Table Stakes** | All Retail / CPG | Customer service automation | Proven economics; direct labor cost offset | Walmart "My Assistant" for 50K+ employees; industry-wide chatbot deployment | Cost reduction + speed |
+| **Tier 1 — Table Stakes** | CPG | Marketing content generation at scale | 25–40% content cost reduction; speed-to-market | Unilever GenAI: 30% faster creative production, doubled engagement metrics (public disclosure) | Speed + ROI on marketing spend |
+| **Tier 2 — Differentiator** | E-commerce / Marketplace | Hyper-personalization & dynamic pricing | 10–15% revenue uplift proven; requires first-party data depth | Amazon: 35% of revenue from recommendation engine; JD.com AI pricing (public statements) | Revenue per session |
+| **Tier 2 — Differentiator** | CPG | AI R&D acceleration (formulation, packaging) | Months→weeks for reformulation; competitive speed | Dow AI formulation: development time compressed; P&G AI-driven consumer insight | Product innovation speed |
+| **Tier 3 — Transformational** | All Retail | Conversational commerce / AI-designed products | Replaces traditional UX; early-stage only | Amazon Rufus shopping assistant (launched 2024); industry experimental | New shopping paradigm |
+
+> **Agent field rule:** Retail CEOs are margin-focused and skeptical. Lead with Walmart's "hundreds of millions" (CEO said it at CES — it's peer-proven). For CPG, lead with speed-to-market. Avoid futuristic autonomous store narratives unless the CEO raises it.
+
+#### Healthcare
+
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | All Healthcare | Clinical documentation (ambient AI scribes) | #1 funded use case; clinician burnout relief; immediate ROI | Industry-wide adoption (Nuance DAX, Abridge, Nabla); 3+ hrs/day saved per clinician (McKinsey) | Direct clinician productivity |
+| **Tier 1 — Table Stakes** | Payer / Managed Care | Revenue cycle & claims processing | Direct P&L impact; rules-based + AI hybrid proven | Major US payers automating claims adjudication at scale; prior-auth cycle time reduction | Margin improvement |
+| **Tier 1 — Table Stakes** | All Healthcare | Medical imaging AI (radiology, pathology) | FDA has cleared 1,000+ AI/ML medical devices as of 2024 (FDA database — government source); regulatory path clear | HCA Healthcare SPOT: sepsis prediction across 182 hospitals, validated in peer-reviewed study (Nature Medicine 2024) | Earlier detection + clinician support |
+| **Tier 2 — Differentiator** | Pharma / Biopharma | AI-accelerated drug discovery & trial optimization | High value; longer cycle; regulatory complexity | J&J: 30% faster trial enrollment; Roche Foundation Medicine + Flatiron ML; industry-wide investment >$5B | Pipeline velocity |
+| **Tier 2 — Differentiator** | MedTech / Medical Devices | AI-assisted surgery & clinical decision support | Requires FDA clearance per device; competitive differentiation | Medtronic Affera mapping system; Philips: 200+ AI clinical applications deployed | Premium product positioning |
+| **Tier 3 — Transformational** | All Healthcare | Autonomous diagnostics / precision medicine at scale | Regulatory framework evolving; EU AI Act high-risk classification | Frontier exploration; no autonomous clinical AI in production without physician oversight | $50B+ potential in drug discovery alone (McKinsey) |
+
+> **Agent field rule:** Healthcare CEOs respond to "burden relief" over "innovation." Lead with clinical documentation (immediate, proven, no regulatory risk) and revenue cycle. Drug discovery is Tier 2 — exciting but longer-cycle. Never promise autonomous clinical diagnosis.
+
+#### Energy & Utilities
+
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | All Energy | Predictive maintenance for infrastructure | 25–35% maintenance cost reduction proven; aging infrastructure crisis | Shell: AI + 300 data scientists reducing well construction costs 15–20% (Annual Report 2024); industry-wide deployment | Direct capex + safety |
+| **Tier 1 — Table Stakes** | Renewables / Utilities | Grid load forecasting & outage prediction | Proven accuracy improvement; regulatory expectation for reliability | NextEra Energy: AI load balancing, storm prediction, crew pre-positioning; wind forecasting at 97% accuracy | Lowest bills + highest reliability |
+| **Tier 1 — Table Stakes** | All Energy | Safety & emissions monitoring | License-to-operate; regulatory mandate tightening (methane rules, NIS2) | Industry-wide deployment of continuous monitoring; drone + AI inspection | Compliance + safety |
+| **Tier 2 — Differentiator** | Oil & Gas / Renewables | AI energy trading & portfolio optimization | Requires proprietary data + market integration; high-margin application | Shell ML commodity trading (data science team at scale); significant but confidential P&L impact | Trading alpha |
+| **Tier 2 — Differentiator** | Renewables / Utilities | Renewable integration & DER coordination | Growing urgency with data-center load growth; hyperscaler PPAs driving demand | NextEra, Duke, Southern Company investing in grid AI | Grid modernization |
+| **Tier 3 — Transformational** | All Energy | Self-healing grids / autonomous drilling | 5–10 year horizon; fundamental infrastructure transformation | Directional; no verified autonomous grid operations at scale | Grid economics transformation |
+
+> **Agent field rule:** Energy CEOs speak "license-to-operate" and "asset reliability." Lead with predictive maintenance and safety monitoring (regulatory + operational necessity). Trading AI is Tier 2 and sensitive — only lead with it for O&G CEOs who run trading desks.
+
+#### Telecom & Media
+
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | Telecom / Connectivity | Network anomaly detection & optimization | 20–30% churn reduction proven; direct ARPU protection | AT&T: blocking ~1B robocalls/month; Deutsche Telekom AI-driven SON for 5G; T-Mobile IntentCX | Network quality + churn |
+| **Tier 1 — Table Stakes** | All Telecom & Media | Customer service AI & churn prediction | 40% call deflection proven; immediate cost savings | T-Mobile: 75% interactions AI-assisted, churn reduced 20%, $800M annualized savings (Q4 2024 earnings) | Direct margin improvement |
+| **Tier 1 — Table Stakes** | Media / Streaming | Content recommendation & personalization | Proven engagement driver; all competitors deploying | Disney+ ML recommendations; Spotify AI DJ at 675M user scale; Netflix personalization valued at $1B+/year | Retention + engagement |
+| **Tier 2 — Differentiator** | Telecom | AI-driven network planning (5G/fiber CAPEX optimization) | 15–20% CAPEX optimization in planning; requires network data depth | Deutsche Telekom: 40% reduction in network faults through predictive AI (Capital Markets Day 2024) | CAPEX efficiency |
+| **Tier 2 — Differentiator** | Media / Entertainment | Generative AI for content production | Reduces content cost; accelerates production cycle | Early adoption across studios; audience analytics for content investment decisions | Content ROI |
+| **Tier 3 — Transformational** | Telecom | Self-optimizing networks (zero-touch NOC) | 5G + AI enabling new service models; fundamental architecture change | Directional; no fully autonomous NOC verified at scale | Operating model transformation |
+
+> **Agent field rule:** Telecom CEOs are ARPU-obsessed and capex-constrained. Lead with churn reduction and network efficiency (Tier 1). T-Mobile's $800M story is the strongest single-company proof point. For Media CEOs, lead with content personalization and ROI on content spend.
+
+#### Transportation & Logistics
+
+| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+|----------|-------------|-------------|---------------|-------------------------------|--------|
+| **Tier 1 — Table Stakes** | Logistics / Express Delivery | Route optimization & fleet management | 10–15% fuel savings + labor efficiency; proven at massive scale | FedEx Dataworks: ML on 15M+ packages/day; UPS ORION: 100M+ miles saved annually, $400M+ savings (Investor Day 2024) | Direct cost reduction |
+| **Tier 1 — Table Stakes** | All Transport | Demand forecasting & capacity planning | 20–30% productivity gain in warehouses; proven economics | Walmart/Amazon warehouse AI (cross-reference Retail); industry-wide WMS AI adoption | Match capacity to demand |
+| **Tier 1 — Table Stakes** | Shipping / Supply Chain | Predictive ETA & shipment visibility | Customer table stakes; all major carriers deploying | Maersk: 95%+ ETA accuracy (up from ~70% industry average); schedule reliability >90% (Annual Report 2024) | Customer trust + operational planning |
+| **Tier 2 — Differentiator** | Airlines / Aviation | Revenue management & IROPS recovery | ML on millions of fare decisions; competitive edge | Delta: ML on 500M+ fare decisions daily; AI rebooking in seconds; industry-leading pre-tax margin | Revenue optimization + resilience |
+| **Tier 2 — Differentiator** | All Transport | Predictive maintenance for fleet | Reduces downtime; extends asset life; requires sensor data infrastructure | Delta: maintenance-related delays reduced 28% (CES 2025 keynote); Caterpillar fleet analytics | Asset utilization |
+| **Tier 3 — Transformational** | All Transport | Autonomous vehicles / drones at scale | Regulatory + safety bar; L4/L5 not production-ready for public roads | John Deere: See & Spray reduces herbicide use by 2/3 (Q4 2024 earnings) — agriculture first; on-road 5+ years | $1T+ market transformation (McKinsey) |
+
+> **Agent field rule:** Transport/Logistics CEOs think in cost-per-unit (cost/mile, cost/package, cost/seat-mile). Lead with Tier 1 route optimization (proven, measurable, immediate). Airlines: lead with revenue management (Delta's margin story). Never lead with full autonomy — it's too far out and triggers regulatory/safety concerns.
+
+---
+
+### 5.6 Agentic AI — The 2025-2026 Frontier
+
+> *Agent instruction: Use this subsection when a CEO asks "what's next after copilots?" or when the target account has already deployed Tier 1 use cases and is looking for the next wave. Agentic AI bridges Tier 2 and Tier 3 — some use cases are ready now, others are 2–3 years out.*
+
+**What it is:** AI systems that autonomously plan, execute multi-step tasks, use tools, and adapt based on feedback — moving beyond copilots (human-in-the-loop) to autonomous action (human-on-the-loop or human-out-of-the-loop for defined workflows).
+
+**Analyst positioning:**
+- Gartner: #1 Strategic Technology Trend 2025. Predicts 33% of enterprise software will include agentic AI by 2028 (up from <1% in 2024). 15% of day-to-day work decisions made autonomously by 2028.
+- McKinsey: Agentic AI is the "next S-curve" after copilots — expected to deliver 3–5x the value of current AI assistants by handling full workflows.
+- IDC: 40% of enterprise AI projects will use agentic frameworks by 2028.
+
+**Sequencing (what's ready when):**
+
+| Phase | Timeframe | What It Looks Like | Risk Level | Example Use Cases |
+|-------|-----------|-------------------|------------|-------------------|
+| **Agent Copilots** | Deployed now | AI suggests actions, human approves; single-system tool use | Low | Code review suggestions, meeting summarization, email drafting |
+| **Task Agents** | 2025–2026 | Autonomous execution of defined workflows; human oversight on exceptions | Medium | IT helpdesk resolution, claims processing, inventory replenishment, customer service resolution |
+| **Orchestrator Agents** | 2026–2027 | Multi-agent coordination across systems; human sets goals, agents determine path | Medium-High | Supply chain disruption response, KYC investigation, security incident response |
+| **Autonomous Agents** | 2028+ | Self-directed agents managing complex business processes end-to-end | High | Autonomous trading, self-healing infrastructure, dynamic business model adaptation |
+
+**CEO pitch framing:** "You've deployed copilots. The next wave — task agents that handle entire workflows autonomously — is production-ready now for specific use cases. Companies that master this first build compounding advantages: more data, better agents, faster iteration. The gap between AI leaders and laggards is widening."
+
+**Field rule:** Position agentic AI as the path from "AI assists my people" to "AI does the work, my people manage the exceptions." This resonates with CEOs who care about operational leverage and headcount efficiency.
 
 ---
 
