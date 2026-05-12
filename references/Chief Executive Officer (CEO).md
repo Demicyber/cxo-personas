@@ -599,9 +599,31 @@ CEOs have been burned by demos that never reached production. The pattern across
 ### 5.5 Industry AI Opportunity Map
 
 > *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a CEO in a specific industry. Tier 1 = safe to lead with (proven, peer-deployed, immediate ROI). Tier 2 = lead with only if the CEO is a Builder/Visionary archetype or has already deployed Tier 1. Tier 3 = mention only if the CEO explicitly asks about long-term bets or business model innovation.*
->
-> *Analyst consensus source: McKinsey "State of AI" / "Capturing Value from GenAI"; Gartner AI Use Case Prism 2025; BCG "From Potential to Profit"; IDC FutureScape AI 2025; Bain industry reports. Tier classification reflects cross-analyst agreement on deployment readiness × business impact.*
->
+
+**Tiering Framework — Classification Logic**
+
+The three tiers reflect a well-established strategy principle: enterprises must simultaneously **defend** the core, **build** emerging advantages, and **create** future options. This maps to two foundational frameworks:
+
+1. **McKinsey Three Horizons of Growth** (Baghai, Coley & White, 1999; refreshed in McKinsey "Strategy Beyond the Hockey Stick," 2018):
+   - Horizon 1 = Defend & extend the core → **Tier 1: Table Stakes**
+   - Horizon 2 = Build emerging businesses → **Tier 2: Differentiator**
+   - Horizon 3 = Create viable options for future growth → **Tier 3: Transformational**
+
+2. **BCG "10-20-70" AI Investment Rule** (BCG Henderson Institute, "From Potential to Profit," 2024):
+   - 70% of AI value comes from scaling proven use cases (people + process change) → Tier 1
+   - 20% from building differentiated capabilities with proprietary data → Tier 2
+   - 10% from transformational bets that reshape business models → Tier 3
+
+**How to read the tiers:**
+
+| Tier | Label | Competitive Logic | Investment Posture | Typical Horizon | Defining Characteristic |
+|------|-------|------------------|-------------------|-----------------|------------------------|
+| **1** | **Table Stakes** | Competitors already deploying at scale; not investing = falling behind | Fund now; scale aggressively | 0–12 months to value | Proven ROI, turnkey vendors available, low execution risk |
+| **2** | **Differentiator** | Creates competitive distance; requires proprietary data or capability | Invest selectively; pilot → scale | 12–36 months to value | Demonstrated in pilots, requires org-specific data/integration, builds moat |
+| **3** | **Transformational** | Reshapes industry economics or business model | Fund as strategic option; bounded exploration | 3–7+ years to value | Regulatory/ecosystem evolution needed, high uncertainty, high potential |
+
+*Cross-validation: Gartner AI Use Case Prism 2025 (maturity × impact axes), IDC FutureScape AI 2025 (deployment readiness), and Bain industry reports (ROI evidence) were used to validate tier placement for each use case below.*
+
 > *Real examples are from FY2024–FY2025 public disclosures (earnings calls, SEC filings, CEO statements, government databases). Agent must verify latest numbers before including in a Call Plan — these illustrate credible magnitude, not current figures to cite verbatim.*
 
 #### Manufacturing & Industrial
