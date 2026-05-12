@@ -1,8 +1,8 @@
 # Ablation Test: Archetypes / Three Time Horizons / Four-Way Pull
 
 **Date:** 2026-05-12  
-**Tester:** Hermes Agent (Claude Opus 4.6)  
-**Purpose:** Determine whether the three framework sections present in every persona's Role Definition are necessary for AI agents to generate high-quality sales Call Plans.
+**Tester:** Hermes Agent (Claude Opus 4)  
+**Purpose:** Determine whether the three framework sections present in every persona's Role Definition are necessary for AI agents to generate high-quality outputs across sales use cases (Call Plans, Engagement Plans, Discovery Questions, Objection Prediction, and Simulator role-play).
 
 ---
 
@@ -21,7 +21,7 @@ Combined, these sections account for ~96 lines / ~16K characters per persona fil
 ## Test Design
 
 ### Method
-Three-way comparison using the same AI model (Claude Opus 4.6, 1M context) with identical sales scenarios:
+Three-way comparison using the same AI model (Claude Opus 4, 1M context) with identical sales scenarios:
 
 | Condition | Description |
 |-----------|-------------|
@@ -176,8 +176,6 @@ For models with <32K context: consider extracting the three frameworks into a sh
 
 ---
 
----
-
 ## Extended Testing (Round 2 & 3)
 
 To validate the initial findings, additional tests were conducted across:
@@ -248,14 +246,12 @@ This confirms: the stripped personas work reasonably well because the *other* se
 ### Final Recommendation
 
 **Keep all three sections.** The quality uplift is:
-- **Consistent** — holds across 5 different roles (CEO, CFO, CTO, CISO, CMO, COO)
+- **Consistent** — holds across 6 different roles (CEO, CFO, CTO, CISO, CMO, COO)
 - **Consistent** — holds across 3 different task types
 - **Meaningful** — 1-2 point delta on a 10-point scale, concentrated in the most critical moments (opening 90 seconds, strategic positioning)
 - **Cumulative** — agents using the full persona produce output that is not just incrementally better but qualitatively different (strategic advisor tone vs. competent vendor tone)
 
 The ~16K characters per persona (~18% of file size) delivers disproportionate quality impact because the framework sections teach the AI agent *how to think about* the executive, not just *what to say to* them.
-
----
 
 ---
 
