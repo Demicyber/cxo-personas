@@ -606,7 +606,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Manufacturing & Industrial
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | Heavy Equipment / Mining | Autonomous haulage & predictive maintenance | 20–35% maintenance cost reduction proven at scale; zero safety incidents; competitors deploying | Caterpillar: 700+ autonomous trucks, 5.6B tonnes moved, zero lost-time injuries, 30% fuel efficiency gain (2024 Annual Report + Investor Day) | Direct capex + safety ROI |
 | **Tier 1 — Table Stakes** | Electrical Equipment / Batteries | AI quality inspection (computer vision) | Defect rates at parts-per-billion; labor shortage driver; WEF Lighthouse validated | CATL: AI monitors 6,800 data points/cell, PPB-level defect detection (WEF Lighthouse Factory recognition) | Quality at 400+ GWh/year scale |
@@ -619,7 +619,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Financial Services
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | Banking / All FSI | Fraud detection & AML automation | Regulatory requirement; 50–70% false-positive reduction proven; competitors all deploying | JPMorgan: 2,000+ AI/ML use cases in production (CNBC May 2024, Daniel Pinto at Investor Day); HSBC: AML false positives reduced ~60% (Google Cloud partnership) | Compliance cost + detection quality |
 | **Tier 1 — Table Stakes** | All FSI | Customer service AI (chatbots → agents) | 30–50% contact center cost reduction proven; immediate ROI | Klarna: AI handles 67% of service interactions, resolution 11min→2min, $40M annual savings, workforce 5,000→3,800 (SEC S-1 filing 2024) | Direct headcount + CX metric improvement |
@@ -632,7 +632,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Technology & Digital Native
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | All Tech | Developer productivity (code generation, review, testing) | 20–45% efficiency gain proven; GitHub data at scale; every competitor deploying | GitHub Copilot: $2B+ ARR, 1.8M paid subscribers, 55% faster task completion (Microsoft FY2025 Q2 earnings); 40% of new code at adopting companies | Engineering leverage |
 | **Tier 1 — Table Stakes** | Enterprise SaaS | AI-embedded product features | Table stakes for SaaS retention; customers expect AI in every product | Salesforce Agentforce: $2/conversation, 5,000+ deals in first launch quarter; ServiceNow Now Assist: $165M net new ACV from GenAI (Q4 2024 earnings) | Product differentiation + new revenue |
@@ -645,7 +645,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Retail & Consumer
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | Mass Retail / Grocery | AI demand forecasting & supply chain optimization | 15–30% forecast accuracy improvement proven; direct inventory and logistics savings | Walmart: "hundreds of millions" saved; AI generated/improved 850M product data points (CEO Doug McMillon, CES 2025) | Billions in logistics savings |
 | **Tier 1 — Table Stakes** | All Retail / CPG | Customer service automation | Proven economics; direct labor cost offset | Walmart "My Assistant" for 50K+ employees; industry-wide chatbot deployment | Cost reduction + speed |
@@ -658,7 +658,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Healthcare
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | All Healthcare | Clinical documentation (ambient AI scribes) | #1 funded use case; clinician burnout relief; immediate ROI | Industry-wide adoption (Nuance DAX, Abridge, Nabla); 3+ hrs/day saved per clinician (McKinsey) | Direct clinician productivity |
 | **Tier 1 — Table Stakes** | Payer / Managed Care | Revenue cycle & claims processing | Direct P&L impact; rules-based + AI hybrid proven | Major US payers automating claims adjudication at scale; prior-auth cycle time reduction | Margin improvement |
@@ -671,7 +671,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Energy & Utilities
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | All Energy | Predictive maintenance for infrastructure | 25–35% maintenance cost reduction proven; aging infrastructure crisis | Shell: AI + 300 data scientists reducing well construction costs 15–20% (Annual Report 2024); industry-wide deployment | Direct capex + safety |
 | **Tier 1 — Table Stakes** | Renewables / Utilities | Grid load forecasting & outage prediction | Proven accuracy improvement; regulatory expectation for reliability | NextEra Energy: AI load balancing, storm prediction, crew pre-positioning; wind forecasting at 97% accuracy | Lowest bills + highest reliability |
@@ -684,7 +684,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Telecom & Media
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | Telecom / Connectivity | Network anomaly detection & optimization | 20–30% churn reduction proven; direct ARPU protection | AT&T: blocking ~1B robocalls/month; Deutsche Telekom AI-driven SON for 5G; T-Mobile IntentCX | Network quality + churn |
 | **Tier 1 — Table Stakes** | All Telecom & Media | Customer service AI & churn prediction | 40% call deflection proven; immediate cost savings | T-Mobile: 75% interactions AI-assisted, churn reduced 20%, $800M annualized savings (Q4 2024 earnings) | Direct margin improvement |
@@ -697,7 +697,7 @@ CEOs have been burned by demos that never reached production. The pattern across
 
 #### Transportation & Logistics
 
-| Priority | Sub-Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
+| Priority | Industry | AI Use Case | Why This Tier | Peer Proof (deployed, verified) | Impact |
 |----------|-------------|-------------|---------------|-------------------------------|--------|
 | **Tier 1 — Table Stakes** | Logistics / Express Delivery | Route optimization & fleet management | 10–15% fuel savings + labor efficiency; proven at massive scale | FedEx Dataworks: ML on 15M+ packages/day; UPS ORION: 100M+ miles saved annually, $400M+ savings (Investor Day 2024) | Direct cost reduction |
 | **Tier 1 — Table Stakes** | All Transport | Demand forecasting & capacity planning | 20–30% productivity gain in warehouses; proven economics | Walmart/Amazon warehouse AI (cross-reference Retail); industry-wide WMS AI adoption | Match capacity to demand |
