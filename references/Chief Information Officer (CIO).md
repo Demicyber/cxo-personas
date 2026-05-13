@@ -39,6 +39,35 @@ The modern CIO role has transformed dramatically since 2020. Four forces have co
 
 The CIO is simultaneously an operations leader (keeping the lights on), an architect (designing the 5-year stack), a capital allocator (where do the next IT dollars go), a vendor manager (hundreds of contracts), an organizational-change leader (business-unit partnership), and — increasingly — an AI-platform provider. That simultaneity is the defining cognitive load of the seat, and it is why a generic "enterprise IT" pitch is almost always under-scoped.
 
+
+### 🇨🇳 中国CIO原型补充（China CIO Archetypes）
+
+> **Agent instruction:** 中国企业中CIO与CTO的边界模糊。央企/传统企业的"信息化负责人"≈CIO+CTO合一；互联网公司几乎没有CIO岗位（被CTO覆盖）。识别时注意：头衔叫"CIO"但实际职能可能包含技术选型。
+
+#### 中国CIO六类画像
+
+| 企业类型 | CIO角色定位 | 核心职能 | vs CTO关系 | 典型头衔 |
+|---------|-----------|---------|-----------|---------|
+| **央企** | "数字化转型办公室主任" — 管战略+管预算+管vendor | IT规划、项目群管理、供应商管理 | CIO>CTO（CTO可能不存在） | 首席信息官/信息化部部长 |
+| **大型民企** | "IT掌门人" — 管系统+管数据+管协同 | ERP/OA/数据平台/IT治理 | 与CTO平级（CIO管应用，CTO管基础设施） | CIO/VP IT |
+| **外企中国区** | "China IT Director" — 执行global IT战略 | 本地IT运营+合规+vendor管理 | follow global IT architecture | IT Director/China IT Head |
+| **传统制造/零售** | "信息中心主任" — 运维+项目制 | ERP运维、OA管理、基建 | 往往一人兼CIO+CTO | 信息中心主任/IT总监 |
+| **地方国企** | "信息化科科长" — 级别低，执行为主 | 按上级要求做信息化项目 | — | 科长/副处长 |
+| **互联网** | ❌ 几乎不设CIO | — | CTO全覆盖 | — |
+
+#### 中国CIO的"实权诊断"
+
+| 维度 | 强势CIO（决策者） | 弱势CIO（执行者） |
+|------|----------------|----------------|
+| IT预算 | 自主分配数亿IT预算 | 预算由财务/业务部门控制 |
+| Vendor选择 | 最终决定用谁 | 只能推荐，分管领导拍板 |
+| 数字化战略 | 牵头制定+推动执行 | 领导定方向，CIO执行 |
+| 向谁汇报 | 直接向CEO/总裁 | 向分管副总（非一把手） |
+| 在组织中地位 | 进入核心管理层/总裁办 | 中层管理者 |
+
+
+### 全球CIO角色参考（Global Reference）
+
 ### CIO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CIO *leans*, not what industry they are in. Most real CIOs are blends, weighted differently by moment and situation. A CIO two years into an ERP modernization is typically Transformer + Operator. A CIO at a highly regulated bank is typically Operator + Governance Guardian. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -139,6 +168,46 @@ The agent must diagnose the CIO's dominant posture *before* generating the Call 
 
 CIOs today are navigating simultaneous pressure on cost, velocity, AI readiness, and resilience — with a portfolio built over decades and a budget that grows slower than the demand on it. The *themes* are universal; the specifics vary by industry.
 
+
+### 🇨🇳 中国CIO优先级（按企业类型）
+
+> **Agent instruction:** 中国CIO的agenda比全球CIO多了"信创"和"数据合规"两个硬性维度，且央企CIO的核心工作是"项目群管理"而非技术。
+
+#### 央企CIO优先级
+
+| 排序 | 优先级 | 驱动力 | 紧迫度 |
+|------|-------|--------|-------|
+| #1 | **数字化转型规划** — 制定集团级数字化蓝图 | 国资委数字化转型考核 | 🔴 极高 |
+| #2 | **信创迁移统筹** — 协调几十个子公司统一替换 | 2027年deadline | 🔴 极高 |
+| #3 | **IT治理/架构统一** — 集团统一平台vs子公司各自为政 | 集团管控需求 | 🟡 高 |
+| #4 | **数据资产管理** — 数据目录/数据中台/数据资产入表 | "数据要素"政策+财务入表 | 🟡 高 |
+| #5 | **供应商管理** — 战略供应商分级/合同管理/风险管控 | 降本+防止锁定 | 🟡 中 |
+| #6 | **AI场景落地** — 选几个业务场景做AI试点 | "新质生产力"考核 | 🟡 中 |
+
+#### 大型民企CIO优先级
+
+| 排序 | 优先级 | 驱动力 | 紧迫度 |
+|------|-------|--------|-------|
+| #1 | **业务系统升级** — ERP/CRM/SCM现代化(SAP→国产/云化) | 业务需求驱动 | 🔴 极高 |
+| #2 | **数据驱动决策** — 数据分析/BI/数据中台 | CEO要"数据说话" | 🔴 极高 |
+| #3 | **IT成本优化** — 减少IT运营支出/云迁移 | CFO压力 | 🟡 高 |
+| #4 | **AI赋能业务** — 在业务流程中嵌入AI能力 | 竞争压力 | 🟡 高 |
+| #5 | **安全合规** — 数据安全法+等保 | 底线需求 | 🟡 高 |
+| #6 | **IT组织转型** — 从"服务部门"到"业务伙伴" | 提升IT话语权 | 🟡 中 |
+
+#### 外企中国区CIO优先级
+
+| 排序 | 优先级 | 驱动力 | 紧迫度 |
+|------|-------|--------|-------|
+| #1 | **合规运营** — 等保/密评/数据本地化 | 法规硬性要求 | 🔴 极高 |
+| #2 | **Global系统本地化** — 全球ERP/CRM在中国的部署适配 | 总部要求+本地业务 | 🟡 高 |
+| #3 | **Local应用管理** — 飞书/企业微信/钉钉等本地工具 | 业务效率 | 🟡 高 |
+| #4 | **Vendor本地化** — 寻找满足合规的本地替代方案 | Global SaaS不可用 | 🟡 中 |
+| #5 | **IT预算争取** — 向总部justify中国IT额外投入 | 合规=额外成本 | 🟡 中 |
+
+
+### 全球CIO优先级参考（Global Reference）
+
 ### Universal CIO Priorities
 
 1. **AI operationalization — the dominant 2025–26 priority.** Moving from departmental AI experimentation to governed, cost-controlled, enterprise-wide AI platforms. Every business unit wants AI; the CIO must provide infrastructure (GPU compute, model hosting, inference), data pipelines (RAG, vector stores, data-governance integration), guardrails (identity, acceptable use, data classification), and cost management (showback, rate limits, policy enforcement). Without this, "shadow AI" becomes the defining governance problem of the decade.
@@ -217,6 +286,18 @@ CIOs today are navigating simultaneous pressure on cost, velocity, AI readiness,
 ## 3. KPIs
 
 A CIO's scorecard is measured in what doesn't break, what runs within budget, and what gets delivered on time. Read it in two layers: the board/CEO-facing KPIs (below) and the private scorecard (further down) — the second layer is what actually separates a CIO from a VP IT.
+
+
+### 🇨🇳 中国CIO KPI体系
+
+| 企业类型 | 核心KPI | 中国特色指标 |
+|---------|--------|-----------|
+| **央企** | 数字化转型评估得分、信创完成率、系统可用率 | 国资委评分排名、集团IT统一率、数据资产入表进度 |
+| **大型民企** | IT成本占收入比(降)、项目按时交付率、用户满意度 | AI场景覆盖率、数据分析采纳率 |
+| **外企中国区** | 合规审计通过率、Global SLA达标率 | 等保评测结果、数据出境合规率、ICP续期 |
+
+
+### 全球CIO KPI参考（Global Reference）
 
 ### The Universal Scoreboard: Uptime + IT-as-%-of-Revenue + Project Delivery
 
@@ -327,6 +408,21 @@ Across every industry, CIOs volunteer three headline metrics more often than any
 
 ## 4. Pain Points / Challenges
 
+
+### 🇨🇳 中国CIO特有痛点
+
+| 痛点 | 具体表现 | 影响 | Sales切入 |
+|------|---------|------|----------|
+| **"IT服务部门"定位** | 业务部门视IT为"修电脑的"，CIO在管理层话语权弱 | CIO推不动数字化 | 帮CIO建立业务价值叙事/ROI量化 |
+| **集团vs子公司博弈** | 子公司不愿用集团统一系统；"各自为政"无法管控 | 数据孤岛+重复建设 | 提供集团级平台+子公司灵活性 |
+| **信创选型迷茫** | 国产ERP/DB选择多但成熟度不一；替换风险大 | 选错=要重来=背锅 | 提供选型咨询/POC对比/迁移保障 |
+| **预算不够** | 信创+安全+AI三重投入，但预算没增加 | 到处砍需求 | 按价值排序/分阶段方案/混合方案 |
+| **人才短缺** | 既懂业务又懂技术的"数字化人才"招不到 | 项目推不动 | 低代码/AI辅助降低人才门槛 |
+| **供应商管理复杂** | 几十上百个IT供应商，水平参差，扯皮常态 | 项目延期/质量差 | 提供端到端方案减少集成复杂度 |
+
+
+### 全球CIO痛点参考（Global Reference）
+
 ### Universal CIO Pain Points
 
 - **Technical debt as a permanent gravity well.** Systems built decades ago consuming the majority of IT budget. Expensive to maintain, risky to operate, resistant to change, incompatible with modern capabilities. Every CIO inherits it; every CIO is expected to reduce it while also adding new capabilities on the same budget.
@@ -419,6 +515,31 @@ Across every industry, CIOs volunteer three headline metrics more often than any
 ## 5. AI Opportunities
 
 Specific ways AI can address CIO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CIO meeting.
+
+
+### 🇨🇳 中国CIO视角的AI落地
+
+> **Agent instruction:** CIO关注AI的角度跟CTO不同——CIO看"AI在业务流程中的嵌入"，CTO看"AI基础设施"。
+
+| 维度 | CIO关注点 | 中国特殊考量 |
+|------|----------|-----------|
+| **AI+ERP** | 智能采购/智能排产/预测式供应链 | 国产ERP(用友/金蝶)的AI能力vs SAP AI |
+| **AI+客服** | 智能客服/工单自动分类/情感分析 | 中文NLP/多方言/合规审核(金融行业) |
+| **AI+办公** | 智能文档/会议纪要/知识管理 | 飞书AI/企微AI/钉钉AI生态 |
+| **AI+数据分析** | 自然语言查数/自动报表/异常检测 | 数据不出域要求→本地化BI |
+| **AI+流程自动化** | RPA+AI/智能审批/自动化运维 | 国产RPA(来也/影刀)+大模型Agent |
+
+#### CIO的AI采购偏好
+
+| 偏好 | 原因 | 对应产品形态 |
+|------|------|-----------|
+| **SaaS/订阅优先** (民企/外企) | 轻资产、快速上线、风险低 | 钉钉/飞书/企微生态内AI功能 |
+| **私有化/买断** (央企) | 数据安全+长期可控+预算一次性 | 私有化部署的AI平台 |
+| **跟ERP/核心系统捆绑** | 减少集成工作量 | SAP AI/用友AI/金蝶AI |
+| **行业解决方案** | 不要通用方案，要行业knowhow | 行业+AI的垂直方案 |
+
+
+### 全球CIO AI机会参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -678,6 +799,20 @@ The three tiers reflect a well-established strategy principle: enterprises must 
 
 ## 6. Desired Outcomes
 
+
+### 🇨🇳 中国CIO的"过关标准"
+
+| 央企CIO | 大型民企CIO | 外企中国区CIO |
+|--------|-----------|-------------|
+| ✅ 在信创目录内/有国产化方案 | ✅ 快速见效(3个月内上线) | ✅ Global IT approved |
+| ✅ 有同级别央企成功案例 | ✅ ROI可量化(能跟CFO交代) | ✅ 合规(等保/数据安全) |
+| ✅ 可以集团统一部署 | ✅ 不增加IT运维负担 | ✅ 与global系统可集成 |
+| ✅ 供应商有长期服务能力 | ✅ 用户体验好(业务部门愿意用) | ✅ 有local support |
+| ❌ 不能是startup(怕倒闭) | ❌ 不要大而全的"重方案" | ❌ 不能跟总部选型冲突 |
+
+
+### 全球CIO Desired Outcomes参考（Global Reference）
+
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose should map to one or more of these CIO-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a VP Infrastructure or VP Applications meeting, not a CIO meeting.*
 
 CIOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CIO uses to judge whether a specific proposal deserves their time, their budget, and a place on the architectural roadmap.** Specificity against these earns CIO attention.
@@ -717,6 +852,30 @@ Key questions:
 
 They rely on their VP Infrastructure, VP Enterprise Applications, VP Data, Chief Enterprise Architect, and CISO for deep technical evaluation. **Don't pitch technology features to a CIO — demonstrate architectural fit, transparent TCO, and evidence-based outcomes.** And don't pitch a point solution — CIOs increasingly describe their IT estates in platform terms (cloud, data, integration, identity, AI), not as collections of point tools. A solution that fits the platform spine compounds; a standalone tool becomes the next consolidation target.
 
+
+### 🇨🇳 中国CIO评估风格
+
+| 特征 | 表现 | Sales应对 |
+|------|------|----------|
+| **重流程** | CIO会走正式的选型流程(需求→RFP→POC→评审→采购) | 尊重他的流程，不要试图跳步 |
+| **重参考** | "谁在用？用得怎么样？能不能让我去看看？" | 准备客户参观/同行交流 |
+| **重集成** | "跟我现有系统能不能打通？" | 提前做集成方案/API对接demo |
+| **风险厌恶** | CIO的职业风险比CTO高(系统挂了=业务停) | 提供SLA保障/灾备方案/渐进式迁移 |
+| **预算敏感** | CIO管IT预算但预算有限 | 提供多档方案/分期/按需付费 |
+
+#### CIO的Vendor评估维度
+
+| 维度 | 权重(央企) | 权重(民企) | 权重(外企) |
+|------|-----------|-----------|-----------|
+| 产品功能 | 25% | 35% | 30% |
+| 合规资质 | 30% | 10% | 25% |
+| 价格 | 15% | 25% | 15% |
+| 服务能力 | 20% | 15% | 15% |
+| 行业案例 | 10% | 15% | 15% |
+
+
+### 全球CIO评估风格参考（Global Reference）
+
 ### CIO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -744,6 +903,30 @@ They rely on their VP Infrastructure, VP Enterprise Applications, VP Data, Chief
 ## 8. Buying Dynamics
 
 The CIO is the primary decision maker for enterprise IT technology (infrastructure, core business applications, integration platforms, data platforms, IT operations tools, AI platforms) — typically in the $500K–$50M+ range per initiative. The CIO is also an architectural gatekeeper on any technology purchase across the company: any tool that handles sensitive data, integrates with enterprise systems, or affects operations requires CIO architectural review. Remember: a CIO meeting is 45–60 minutes pulled from operations, portfolio management, vendor management, or governance — "no one else can make this architectural decision" is the only honest reason to be in the room.
+
+
+### 🇨🇳 中国CIO采购动态
+
+#### CIO的采购权限
+
+| 企业类型 | CIO独立审批额度 | 大项目决策方式 |
+|---------|-------------|-------------|
+| 央企 | 100-500万（看级别） | 招标委员会+分管领导审批 |
+| 大型民企 | 200-1000万 | CIO+CFO+CEO三方 |
+| 外企 | 50-200万（China budget） | Global IT审批 |
+
+#### 影响CIO的关键人
+
+| 角色 | 影响方式 | 如何leverage |
+|------|---------|-------------|
+| **业务VP/BU Head** | "业务需要这个系统" | 有业务需求=CIO有预算理由 |
+| **CFO** | 预算审批/ROI审核 | 帮CIO准备财务分析 |
+| **IT团队(项目经理)** | 日常评估/写报告/推荐 | 先搞定IT项目经理 |
+| **外部顾问(德勤/埃森哲)** | 规划建议/选型推荐 | 进入咨询公司推荐名单 |
+| **同行CIO** | 圈子交流/案例分享 | CIO联盟/行业协会活动 |
+
+
+### 全球CIO采购参考（Global Reference）
 
 ### When the CIO Engages Directly
 
@@ -869,6 +1052,21 @@ Getting CIO sponsorship accelerates enterprise technology deal velocity dramatic
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on archetype, sales stage, and what you already know. Do NOT use all questions in one meeting.*
 
+
+### 🇨🇳 中国CIO Discovery Questions
+
+| 问题 | 目的 | 注意 |
+|------|------|------|
+| "集团目前的数字化规划是什么阶段？" | 了解整体成熟度 | 暗示你了解集团级视角 |
+| "目前最让您头疼的系统是哪个？" | 找到替换机会 | CIO往往有"积怨已久"的vendor |
+| "信创方面进展如何？最大挑战是什么？" | 了解信创节奏 | 央企必问 |
+| "IT预算今年的重点投向是什么？" | 了解预算方向 | 间接了解有没有你的budget |
+| "业务部门对IT最大的期望是什么？" | 了解业务压力 | 帮CIO解决业务方的诉求=帮他建功 |
+| "有没有正在做的选型/RFP我们可以参与？" | 直接找机会 | 关系到位后可以直接问 |
+
+
+### 全球CIO Discovery Questions参考（Global Reference）
+
 ### Universal Questions
 
 1. "Walk me through your technology strategy for the next 2–3 years — what are the major initiatives, and where are you spending the most time and budget?"
@@ -916,6 +1114,38 @@ Getting CIO sponsorship accelerates enterprise technology deal velocity dramatic
 ---
 
 ## 10. Relationship Map
+
+
+### 🇨🇳 中国CIO关系地图
+
+```
+央企CIO权力结构：
+┌─────────────────────────────────────┐
+│ 党委/董事会/总裁办公会               │
+├─────────────────────────────────────┤
+│ 分管副总(CIO的上级)                  │
+├─────────────────────────────────────┤
+│ CIO/数字化转型办主任                 │ ← 你的target
+├──────────┬──────────┬───────────────┤
+│ IT规划    │ 项目管理  │ IT运维        │
+├──────────┴──────────┴───────────────┤
+│ 各BU/子公司IT (虚线汇报)             │ ← 实际用户
+│ 采购部门 (流程关)                    │
+│ 安全/审计 (合规关)                   │
+└─────────────────────────────────────┘
+```
+
+#### CIO的社交圈
+
+| 场合 | 谁在 | 如何触达 |
+|------|------|---------|
+| CIO年会/峰会 | 同级CIO | 赞助/演讲/展位 |
+| 行业协会 | 同行业CIO | 加入协会成为供应商会员 |
+| 咨询公司活动 | CIO+顾问 | 跟咨询公司合作 |
+| 厂商用户大会 | CIO+vendor | SAP/用友等大会上见面 |
+
+
+### 全球CIO关系参考（Global Reference）
 
 ### Core C-Suite Dynamics
 
@@ -980,6 +1210,32 @@ Getting CIO sponsorship accelerates enterprise technology deal velocity dramatic
 ---
 
 ## 11. Do's & Don'ts
+
+
+### 🇨🇳 中国CIO Do's & Don'ts
+
+#### Do's ✅
+
+| 规则 | 原因 |
+|------|------|
+| 帮CIO建立"数字化价值故事" | CIO需要向上证明IT投入的价值 |
+| 提供同行业/同规模案例 | CIO决策最看案例 |
+| 先搞定IT团队(项目经理/架构师) | 他们是CIO的手和眼 |
+| 尊重CIO的选型流程 | CIO靠流程控制风险 |
+| 帮CIO算ROI/做business case | 这是他跟CFO/CEO要预算的武器 |
+
+#### Don'ts ❌
+
+| 禁忌 | 原因 |
+|------|------|
+| 越过CIO直接找业务部门采购 | CIO=IT gatekeeper，被bypass会报复 |
+| 只讲技术不讲业务价值 | CIO不是CTO，他关心业务影响 |
+| 催促CIO跳过流程 | 流程=他的保护伞 |
+| 小看CIO的权力(尤其央企) | 央企CIO≈CIO+CTO，权力很大 |
+| 忽略合规/信创话题 | 这是CIO的"政治正确" |
+
+
+### 全球CIO Do's & Don'ts参考（Global Reference）
 
 ### ✅ DO
 
