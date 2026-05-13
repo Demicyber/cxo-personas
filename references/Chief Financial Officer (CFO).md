@@ -39,6 +39,24 @@ Four forces have reshaped the seat since 2020: (1) **the post-ZIRP capital-disci
 
 In practice, the modern CFO operates across four dimensions: **performance management** (driving profitable growth and operational efficiency), **capital strategy** (optimizing the balance sheet, funding, and investment allocation), **risk and compliance** (protecting the enterprise from financial, regulatory, and operational exposure), and **digital transformation of the finance function itself**. That simultaneity is the defining cognitive load of the seat — and it is why a generic "finance" pitch is almost always under-scoped.
 
+### 🇨🇳 中国CFO原型补充
+
+| 企业类型 | CFO角色 | 核心权力 | 汇报 | 中国特色 |
+|---------|--------|---------|------|---------|
+| **央企** | "总会计师" — 财务合规+国有资产保值增值 | 预算分配+审计 | 总经理+审计署/财政部 | 党管干部=财务人员受纪委监督 |
+| **大型民企** | "战略CFO" — 融资+投资+业财融合 | 资金调配+投资决策 | CEO/董事长 | IPO/上市合规是core能力 |
+| **互联网** | "增长型CFO" — 融资+资本运作+FP&A | 估值管理+融资节奏 | CEO | 美元基金→人民币基金→港股/A股 |
+| **外企中国区** | "China Finance Director" | 本地税务+transfer pricing+合规 | Global CFO + China GM | 金税四期+发票合规+外汇管理 |
+| **上市公司** | "合规CFO" — 信息披露+投资者关系 | 财报+资本市场沟通 | CEO+董事会审计委员会 | A股/港股/美股各有不同合规要求 |
+
+#### 中国CFO的特殊技能树
+- **税务筹划**: 增值税/企业所得税/个税+各地税收优惠政策
+- **政府补贴**: 高新企业认定/专精特新/研发加计扣除
+- **外汇管理**: 跨境资金池/QFLP/QDLP
+- **国资监管**: 资产评估/产权交易/审计对接(央企)
+
+### 全球CFO参考（Global Reference）
+
 ### CFO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CFO *leans*, not what industry they're in. Most real CFOs are blends, weighted differently by moment and by the problem on their desk. JPMorgan's CFO is Strategic Co-Pilot + Controller simultaneously. A post-restructuring industrial CFO is Transformation CFO + Risk Sentinel. A SaaS CFO preparing for IPO is Growth CFO + Transformation CFO. The archetype is a posture, not a permanent label — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -139,6 +157,37 @@ The agent must diagnose the CFO's dominant posture *before* generating the Call 
 
 CFOs today are under intense pressure to simultaneously protect margins and fuel growth, while managing an unprecedented regulatory and technology transition. The *themes* are universal; the specifics vary by industry.
 
+### 🇨🇳 中国CFO优先级
+
+#### 央企CFO(总会计师)
+| 排序 | 优先级 | 驱动力 |
+|------|-------|--------|
+| #1 | **国有资产保值增值** | 国资委考核(EVA/ROE) |
+| #2 | **合规审计** | 审计署年度审计+巡视 |
+| #3 | **降本增效** | 利润考核+两金压降 |
+| #4 | **财务数字化** | 财务共享/智能财务 |
+| #5 | **资金安全** | 大额资金管控/司库管理 |
+
+#### 大型民企CFO
+| 排序 | 优先级 | 驱动力 |
+|------|-------|--------|
+| #1 | **现金流管理** | 融资环境收紧/回款难 |
+| #2 | **税务合规+筹划** | 金税四期严监管 |
+| #3 | **业财融合** | CEO要求"数据说话" |
+| #4 | **成本控制** | 利润率压力 |
+| #5 | **AI降本** | 财务团队效率提升 |
+
+#### 外企中国区CFO
+| 排序 | 优先级 | 驱动力 |
+|------|-------|--------|
+| #1 | **税务合规** | 金税四期+转让定价审查 |
+| #2 | **外汇合规** | 跨境支付/利润汇回 |
+| #3 | **财务报告** | IFRS→中国准则转换 |
+| #4 | **成本分摊** | 总部服务费/royalty合理性 |
+| #5 | **本地化系统** | 金蝶/用友适配+电子发票 |
+
+### 全球CFO参考（Global Reference）
+
 ### Universal CFO Priorities
 
 1. **AI-powered finance transformation.** Automating forecasting, close processes, accounts payable/receivable, reconciliation, and anomaly detection. Deloitte's Q4 2025 CFO Signals survey found digital transformation of finance topped priorities for 2026, cited by roughly half of North American CFOs. Automating processes to free employees for higher-value work is the leading finance talent priority. CFOs see AI as the biggest lever to scale the finance function without scaling headcount — and under CFO-level scrutiny on ROI.
@@ -208,6 +257,16 @@ CFOs today are under intense pressure to simultaneously protect margins and fuel
 ## 3. KPIs
 
 A CFO's scorecard is both external (investor/board-facing) and internal (operational). Read it in two layers: the board-facing KPIs (below) and the private scorecard (further down) — the second layer is what actually separates a great CFO from a competent one.
+
+### 🇨🇳 中国CFO KPI体系
+
+| 企业类型 | 核心KPI | 中国特色指标 |
+|---------|--------|-----------|
+| **央企** | EVA(经济增加值)、ROE、资产负债率、两金周转 | 国资委ABC分类考核、审计问题整改率 |
+| **大型民企** | 净利率、现金流、融资成本、DSO | 税务健康度、政府补贴获取额 |
+| **外企** | EBIT%、Working Capital、Tax Rate | Transfer Pricing合规率、外汇损益 |
+
+### 全球CFO参考（Global Reference）
 
 ### The Universal Scoreboard: Free Cash Flow
 
@@ -315,6 +374,19 @@ Across every industry, CFOs volunteer **free cash flow** as the headline metric 
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CFO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **金税四期** | 税务局通过大数据比对发票/银行流水/社保——任何异常都会预警 | 税务风险监控/智能税务管理 |
+| **发票管理复杂** | 增值税专用发票/电子发票/数电发票——合规要求极细 | 智能发票管理/进销项匹配 |
+| **资金监管趋严** | 大额交易报告/反洗钱/外汇管制——跨境业务尤其复杂 | 司库管理/资金池/合规报告 |
+| **财务人才转型难** | 传统会计→业财融合/数据分析——技能gap大 | AI辅助分析/低代码报表/RPA |
+| **信息孤岛** | ERP/税务/资金/预算各是各的系统——数据拉不通 | 财务中台/数据集成/API打通 |
+| **审计压力(央企)** | 审计署/内审/外审/巡视——常年处于被审状态 | 审计管理平台/自动化对账 |
+
+### 全球CFO参考（Global Reference）
+
 ### Core CFO Pain Points
 
 - **Forecast volatility in an unpredictable world.** Macro uncertainty (tariffs, geopolitics, interest rates, supply chains) makes financial planning feel like guesswork. CFOs crave better predictive tools and scenario-planning capabilities — not just better spreadsheets, but fundamentally different approaches to planning under uncertainty.
@@ -352,6 +424,19 @@ Across every industry, CFOs volunteer **free cash flow** as the headline metric 
 ## 5. AI Opportunities
 
 Specific ways AI can address CFO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CFO meeting.
+
+### 🇨🇳 中国CFO的AI落地场景
+
+| 场景 | 中国CFO需求 | 特殊考量 |
+|------|-----------|---------|
+| **智能税务** | 自动纳税申报/风险预警/税收筹划 | 需适配金税四期接口 |
+| **智能审计** | 自动化审计抽样/异常检测/合规检查 | 央企审计频率高=高ROI |
+| **财务RPA** | 发票识别/对账/报表生成自动化 | 中国发票格式多样(数电发票新格式) |
+| **现金流预测** | AI预测回款/付款/资金缺口 | 中国企业回款周期长+不确定性高 |
+| **费用报销AI** | 智能审单/合规检查/自动入账 | 中国费用报销规则复杂(差旅标准/招待费限制) |
+| **业财一体** | 业务数据自动生成财务分析 | 需要打通业务系统(通常是国产ERP) |
+
+### 全球CFO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -614,6 +699,17 @@ The three tiers reflect a well-established strategy principle: enterprises must 
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose should map to one or more of these CFO-grade dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a functional meeting, not a CFO meeting.*
 
+### 🇨🇳 中国CFO的"过关标准"
+
+| 央企CFO | 大型民企CFO | 外企中国区CFO |
+|--------|-----------|-------------|
+| ✅ 满足审计合规要求 | ✅ 快速见效降本 | ✅ 与global系统集成 |
+| ✅ 数据安全可控 | ✅ CFO能直接看到ROI | ✅ 满足中国税务要求 |
+| ✅ 有央企成功案例 | ✅ 不增加财务团队负担 | ✅ 数据不出境 |
+| ❌ 数据不能上云/出境 | ❌ 实施周期>6个月 | ❌ 需要额外HC |
+
+### 全球CFO参考（Global Reference）
+
 CFOs evaluate every initiative through a short list of outcome dimensions. These are the **criteria a CFO uses to judge whether a specific proposal deserves their time and capital.**
 
 1. **Measurable financial impact with a clear payback.** "How much, over what period, with what assumptions?" The CFO needs a one-slide business case their board can stress-test. Every technology initiative must carry the same financial rigor as any other capital deployment.
@@ -652,6 +748,17 @@ Beyond those three, they ask:
 
 **Bottom line:** The CFO doesn't care about technology elegance. They care about financial outcomes, implementation certainty, total cost of ownership, and auditability. **Don't pitch technology features to a CFO — pitch quantified financial outcomes with CFO-grade rigor.**
 
+### 🇨🇳 中国CFO评估风格
+
+| 特征 | 表现 | 应对 |
+|------|------|------|
+| **ROI导向** | "投入多少？多久回本？"是第一个问题 | 准备详细ROI模型(中国人工成本做基准) |
+| **风险厌恶** | 财务数据=最敏感数据之一 | 强调数据安全/本地部署/加密 |
+| **看案例** | "同行业谁在用？效果如何？" | 准备中国客户案例(最好同行业) |
+| **成本敏感** | 会砍价/会比较/会拖 | 提供分阶段方案/按效果付费 |
+
+### 全球CFO参考（Global Reference）
+
 ### CFO Decision Psychology by Archetype
 
 | Archetype | Evaluation Emphasis | What Closes the Deal |
@@ -677,6 +784,22 @@ Beyond those three, they ask:
 ## 8. Buying Dynamics
 
 The CFO is the economic buyer on enterprise deals — the person who controls or approves the budget. Even when another executive is the champion or technical evaluator, the CFO often holds the final financial sign-off. The CFO can accelerate a deal by validating the financial logic — or kill it by questioning ROI assumptions. Getting the CFO aligned early, even if they aren't the primary buyer, de-risks the deal significantly. Remember: a CFO meeting is 30–45 minutes pulled from performance management, capital strategy, risk management, or organizational leadership. "No one else can make this financial decision" is the only honest reason to be in the room.
+
+### 🇨🇳 中国CFO采购动态
+
+| 预算节奏 | 时间 | CFO行为 |
+|---------|------|--------|
+| 年度预算 | Q4(10-12月) | 确定明年IT/数字化预算 |
+| 年中调整 | Q2(5-6月) | 追加/削减预算 |
+| 突发需求 | 随时 | 政策变化(如金税四期升级)→紧急采购 |
+
+#### CFO的vendor筛选逻辑
+1. 财务系统厂商推荐(用友/金蝶/SAP合作伙伴)
+2. 同行CFO圈子推荐(CFO联盟/财资协会)
+3. 四大/咨询公司推荐
+4. CFO自己搜索/展会了解
+
+### 全球CFO参考（Global Reference）
 
 ### When the CFO Engages Directly
 
@@ -800,6 +923,18 @@ The CFO is rarely the person who initiates a technology conversation, but they a
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on archetype, sales stage, and what you already know. Do NOT use all questions in one meeting — a CFO meeting is 30–45 minutes.*
 
+### 🇨🇳 中国CFO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "目前用的财务系统是什么？有没有升级计划？" | ERP替换机会 |
+| "金税四期对贵司影响大吗？税务管理怎么做的？" | 税务场景切入 |
+| "财务团队多少人？最花时间的工作是什么？" | 找到自动化机会 |
+| "跨境业务的资金管理怎么处理的？" | 司库/外汇场景 |
+| "审计方面有什么痛点？"(央企) | 审计合规场景 |
+
+### 全球CFO参考（Global Reference）
+
 ### Universal Questions
 
 1. "How confident are you in your current forecasting accuracy, and where do you see the biggest gaps between projections and actuals?"
@@ -847,6 +982,25 @@ The CFO is rarely the person who initiates a technology conversation, but they a
 
 ## 10. Relationship Map
 
+### 🇨🇳 中国CFO关系地图
+
+```
+央企CFO权力结构：
+┌─────────────────────────────────────┐
+│ 审计署/财政部/国资委 (外部监管)       │
+├─────────────────────────────────────┤
+│ 总经理/党委 (CFO上级)                │
+├─────────────────────────────────────┤
+│ 总会计师/CFO                        │ ← target
+├──────────┬──────────┬───────────────┤
+│ 财务部    │ 审计部    │ 资金中心      │
+├──────────┴──────────┴───────────────┤
+│ 各子公司财务总监 (虚线管理)           │
+└─────────────────────────────────────┘
+```
+
+### 全球CFO参考（Global Reference）
+
 ### Core C-Suite Dynamics
 
 | Relationship | Nature | Sales Implication |
@@ -885,6 +1039,26 @@ The CFO is rarely the person who initiates a technology conversation, but they a
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CFO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 用数字说话(ROI/回本期/降本金额) | CFO只信数字 |
+| 了解中国税务/合规 | CFO的核心焦虑 |
+| 提供分阶段付款方案 | CFO管现金流 |
+| 找到CFO下面的财务总监先切入 | 财务总监是执行者+推荐者 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 讲太多技术不讲财务价值 | CFO不是CTO |
+| 说"全球案例"不说中国案例 | 中国税务/合规完全不同 |
+| 要求一次性大额投入 | CFO对现金流极敏感 |
+| 忽视数据安全话题 | 财务数据=最敏感数据 |
+
+### 全球CFO参考（Global Reference）
 
 ### ✅ DO
 
