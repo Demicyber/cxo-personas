@@ -1089,6 +1089,44 @@ Specific ways AI can address CEO priorities and create value. This section tells
 
 ---
 
+
+### 🇨🇳 中国企业AI落地的特殊障碍与加速器
+
+> **Agent instruction:** 中国企业的AI部署与全球有显著差异——既有独特障碍，也有全球没有的加速因素。准备中国客户的AI相关Call Plan时，必须理解这些差异。
+
+#### 中国AI落地的独特障碍
+
+| 障碍类别 | 具体表现 | vs 全球的差异 |
+|---------|---------|-------------|
+| **数据合规** | 数据安全法+个保法+跨境数据传输安全评估——数据不能随便用、不能出境 | 全球是GDPR；中国是"数据不出境"+行业数据分级 |
+| **算力瓶颈** | 美国芯片禁令→H100/A100买不到→国产GPU(昇腾/寒武纪)生态不成熟 | 全球是"买不起够多GPU"；中国是"买不到GPU" |
+| **大模型选择焦虑** | 百模大战后>200个大模型，客户不知道选谁。换模型成本高。 | 全球主要是OpenAI/Anthropic/Google三选一 |
+| **信创要求** | 央企/政府必须用国产底座(鲲鹏/昇腾/麒麟OS)，限制了AI方案选型 | 全球没有这个约束 |
+| **组织保守(特别是央企)** | "宁可不做，不可做错"文化。AI项目审批链条长、容错率低 | 全球是"frozen middle"；中国是"frozen top"在央企 |
+| **落地人才稀缺** | AI工程师集中在BAT/字节。传统企业招不到、留不住 | 全球也缺，但中国的头部吸虹效应更极端 |
+
+#### 中国AI落地的独特加速器
+
+| 加速因素 | 具体表现 | 为什么全球没有 |
+|---------|---------|--------------|
+| **政策强推** | "新质生产力"写入政府工作报告；国资委将AI纳入考核；各地AI补贴 | 自上而下的政策驱动力全球最强 |
+| **场景丰富** | 14亿人口+全品类制造+超级APP生态=海量数据+海量场景 | 规模和密度优势 |
+| **ToC验证速度快** | 抖音/美团/拼多多的AI推荐已经在亿级用户跑通，ToB可以借鉴 | 中国ToC的AI渗透已全球领先 |
+| **企业微信/钉钉/飞书** | 办公平台集成AI能力门槛低（已有入口），部署路径清晰 | 全球Slack/Teams的AI集成碎片化 |
+| **"卷"文化** | 竞争对手用了AI→你不用就被淘汰→被动加速 | FOMO在中国更极端 |
+| **政府示范项目** | 智慧城市/数字政府/智慧医疗试点→带动上下游企业跟进 | 政府采购的示范效应在中国更强 |
+
+#### 中国CEO的AI认知分层
+
+| CEO类型 | AI认知水平 | 典型态度 | Sales策略 |
+|---------|-----------|---------|----------|
+| 科技公司CEO | 深度理解，自己就是AI builder | "我们不需要外部AI方案" | 找他们**不做**的环节（安全/合规/运维） |
+| 大型民企CEO | 战略理解，积极推动 | "AI是CEO工程，我亲自抓" | 帮他们**加速落地**，解决engineering gap |
+| 央企CEO | 政策理解，谨慎推动 | "上面要求做，但不能出事" | 强调**合规+低风险+有先例**，提供POC |
+| 地方国企CEO | 概念理解，观望为主 | "等集团先试了我们再跟" | 找到集团层面的统一推动力 |
+| 外企中国区 | 受总部AI战略影响 | "总部在推，我们配合落地" | 帮他们做**本地化适配**（数据合规/算力） |
+| 中小企业CEO | 焦虑但不知道怎么做 | "AI很好但太贵了/不会用" | **低门槛SaaS入口**，按效果付费 |
+
 ### 5.3 Universal AI Value Levers for CEOs
 
 These are the seven ways AI creates value that CEOs care about — mapped directly to the Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
@@ -1151,6 +1189,46 @@ The three tiers reflect a well-established strategy principle: enterprises must 
 *Cross-validation: Gartner AI Use Case Prism 2025 (maturity × impact axes), IDC FutureScape AI 2025 (deployment readiness), and Bain industry reports (ROI evidence) were used to validate tier placement for each use case below.*
 
 > *Real examples are from FY2024–FY2025 public disclosures (earnings calls, SEC filings, CEO statements, government databases). Agent must verify latest numbers before including in a Call Plan — these illustrate credible magnitude, not current figures to cite verbatim.*
+
+
+#### 🇨🇳 中国行业AI机会图谱（2024-2025）
+
+> **Agent instruction:** 中国市场的AI机会优先级与全球有差异——集中在"降本增效"和"合规驱动"两个维度。以下按行业列出中国CEO最关心的AI落地场景。
+
+| 行业 | Tier 1 — 已在规模化落地 | Tier 2 — 正在试点/扩展 | Tier 3 — CEO关注但尚未落地 | 中国特色驱动力 |
+|------|----------------------|---------------------|------------------------|-------------|
+| **制造业** | AI质检(视觉)、预测性维护、智能排产 | 数字孪生、自动驾驶物流、AI设计 | 大模型辅助研发、全自主工厂 | 灯塔工厂竞赛+招工难 |
+| **金融** | 智能客服、AI风控/反欺诈、智能营销 | AI投顾、数字人理财、智能合规 | 大模型辅助投研、全自动理赔 | 信创+反诈专项+监管驱动 |
+| **科技** | AI推荐/搜索、代码辅助、AI内容生成 | AI Agent(客服/运维)、AI测试 | AGI/通用智能、自主编程 | 大模型商业化竞赛 |
+| **零售** | AI选品/推荐、智能定价、AI客服 | AI供应链预测、智能补货、虚拟试穿 | AI店长(全自主决策)、无人零售 | 价格战+即时零售+直播 |
+| **医疗** | AI影像辅助诊断、AI药物筛选 | AI辅助临床决策、智能病历 | AI新药设计(de novo)、手术机器人AI | 集采倒逼创新+NMPA政策 |
+| **能源** | AI电网调度、设备巡检(无人机)、智能油田 | 虚拟电厂、碳足迹AI、储能调度 | 全自主电网、AI勘探 | 新型电力系统+碳市场 |
+| **电信** | AI网络优化、智能客服、AI内容审核 | AI算力调度、5G网络切片AI、AIGC | 自智网络(L4/L5)、AI数字人 | 算力网络战略+5G变现 |
+| **交通物流** | AI路径优化、智能调度、自动分拣 | 自动驾驶配送、AI多式联运 | L4自动驾驶干线、无人港口 | 价格战+跨境物流 |
+
+##### 中国AI落地的"甜蜜点"（最容易成交的场景）
+
+| 场景类型 | 为什么容易成交 | 典型ROI周期 | 客户类型 |
+|---------|-------------|-----------|---------|
+| **AI质检/视觉检测** | ROI明确（减少漏检+省人工）、部署简单、风险低 | 6-12个月 | 制造业（所有类型） |
+| **智能客服/数字人** | 7×24不间断、成本可算、不涉及核心系统 | 3-6个月 | 金融/零售/电信 |
+| **AI辅助风控/反欺诈** | 监管要求(刚需)、效果可量化、已有成熟方案 | 即时 | 金融（所有类型） |
+| **AI供应链预测** | 直接省钱（库存降低）、不触碰业务逻辑 | 6-12个月 | 零售/制造 |
+| **AI内容审核** | 法规要求(刚需)、人工审核跟不上量、风险高 | 即时 | 科技/媒体平台 |
+| **设备预测性维护** | 避免停机损失（制造1小时停机=百万级）、IoT数据就绪 | 12-18个月 | 制造/能源 |
+
+##### 中国AI"雷区"（容易失败/难推进的场景）
+
+| 场景 | 为什么难 | CEO的顾虑 |
+|------|---------|----------|
+| 大模型替换核心业务系统 | 幻觉问题+可解释性差+监管不认 | "出了错谁负责？" |
+| AI辅助高管决策 | CEO不信AI比自己判断好；央企更是"人的决策不能AI替代" | "你让AI替我做决策？" |
+| 跨部门AI中台 | 数据孤岛+部门墙+谁出钱谁受益不对等 | "这个谁来牵头？预算从哪出？" |
+| 全自动化替代人(大规模) | 社会责任+工会/员工关系+政府就业指标 | "裁员太多政府会找我" |
+| 涉及跨境数据的AI | 数据出境安全评估耗时6-12个月+不确定性 | "合规风险太大" |
+
+
+#### 全球行业AI机会参考（Global Reference）
 
 #### Manufacturing & Industrial
 
@@ -1307,6 +1385,31 @@ The three tiers reflect a well-established strategy principle: enterprises must 
 
 CEOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CEO uses to judge whether a specific proposal deserves their time and capital.** Specificity against these earns executive attention.
 
+### 🇨🇳 中国CEO的"过关标准"（Desired Outcomes by Enterprise Type）
+
+> **Agent instruction:** 中国CEO评估方案时的outcome维度与全球有差异——特别是央企有独特的"政治正确+合规安全"维度。以下是不同类型CEO的outcome优先排序。
+
+| 排序 | 央企CEO | 大型民企CEO | 外企中国区CEO | 中小企业CEO |
+|------|--------|-----------|-------------|-----------|
+| #1 | **安全合规** — 不出事最重要 | **快速见效** — 3个月必须有数字 | **总部对齐** — 符合global strategy | **立竿见影ROI** — 投入就要产出 |
+| #2 | **政策对齐** — 响应上级要求 | **竞争优势** — 比对手快半步 | **本地合规** — 数据不出境 | **低投入** — 不要大资本开支 |
+| #3 | **可控风险** — 有先例、可回退 | **降本增效** — 直接省钱 | **可量化汇报** — 给总部交差 | **简单易用** — 不要改流程 |
+| #4 | **创新标签** — 年度报告能写 | **规模化** — 能从pilot到全面推广 | **人才效率** — 用更少人做更多 | **按需付费** — SaaS/按量计费 |
+| #5 | **示范效应** — 成为行业标杆 | **护城河** — 竞对不容易抄 | **速度** — 比总部其他region快 | **不依赖专家** — 普通人能用 |
+
+##### 中国CEO的"一票否决"项（提了就死的outcome）
+
+| CEO类型 | 绝对不能提的 | 为什么 |
+|---------|-----------|-------|
+| 央企 | "颠覆现有流程" / "替代人员" | 稳定是第一优先级；裁员有社会责任 |
+| 央企 | "数据上公有云" / "境外处理" | 数据安全红线，一票否决 |
+| 大型民企 | "需要18个月才见效" | "我等不了，对手不等我" |
+| 大型民企 | "需要换整个IT底座" | "动静太大，风险太高" |
+| 外企中国区 | "跟总部方案不兼容" | 他没权力做独立技术选型 |
+| 中小企业 | "前期投入500万+" | 现金流就是生命线 |
+
+### 全球CEO Desired Outcomes参考（Global Reference）
+
 1. **Accelerated time to value.** "How fast can this deliver measurable results?" CEOs have zero patience for 18-month pilots. The standard is now weeks-to-months, not quarters-to-years. If you cannot show a credible path to first measurable impact within 90 days, the CEO will delegate the decision downward.
 
 2. **Competitive differentiation against a named peer.** Not "better performance" — *distance* from a specific competitor the board is watching. The CEO fights named fights. Name the competitor you're putting distance from, and name the specific capability gap your solution closes or widens.
@@ -1335,6 +1438,44 @@ CEOs rarely evaluate technology on its technical merits. They see technology thr
 - "What does it do to margin and cash?"
 
 They rely on their CTO/CIO to vet technical decisions, but they want strategic implications in business terms. **Don't pitch technology features to a CEO — pitch business transformation.** And don't pitch a point solution — CEOs increasingly describe their own businesses as platforms/ecosystems, not products. A solution that gets stickier over time (more data, more integrations, more agents, more downstream leverage) maps onto how they already think. A standalone tool reads as "another vendor."
+
+
+### 🇨🇳 中国CEO技术评估风格
+
+> **Agent instruction:** 中国CEO评估技术的方式与全球CEO有显著差异。核心差异是：关系信任 > 技术论证，同行验证 > 数据分析，风险规避 > 创新追求（央企尤其如此）。
+
+#### 中国CEO技术决策的"真实逻辑"
+
+| 决策步骤 | 表面问题 | 真实关注点 | vs 全球CEO |
+|---------|---------|-----------|-----------|
+| 1. 谁推荐的？ | "你们跟谁合作过？" | **关系背书** — 是不是我信任的人推荐的 | 全球CEO也看peer proof，但中国更极端 |
+| 2. 谁用过了？ | "同行业谁在用？" | **从众安全** — 我不想当第一个吃螃蟹的 | 全球CEO愿意做first mover；中国央企绝不 |
+| 3. 会不会出事？ | "风险可控吗？" | **问责恐惧** — 出了事我个人要担责 | 全球是corporate risk；中国是personal risk |
+| 4. 能不能交差？ | "有没有量化结果？" | **汇报材料** — 能写进年报/考核/述职 | 全球要shareholder value；中国要考核得分 |
+| 5. 多快见效？ | "timeline是什么？" | **任期匹配** — 我3年任期内能不能看到成果 | 全球CEO任期也有限，但中国央企3年一轮换更紧 |
+
+#### 按企业类型的技术评估差异
+
+| 企业类型 | 评估风格 | 决策速度 | 关键决策人 | 最有效的说服方式 |
+|---------|---------|---------|-----------|--------------|
+| **央企** | 集体决策、多轮评审、招标流程 | 慢（6-18个月） | 党委会/董事会→分管副总→部门 | 政策依据+同行案例+试点先行 |
+| **大型民企** | CEO个人判断为主、快速决策 | 快（1-3个月） | CEO本人或其信任的CTO | ROI数据+竞对动态+demo |
+| **外企中国区** | 受总部evaluation framework约束 | 中等（3-6个月） | China IT + Global IT alignment | 全球案例+本地合规适配+快速POC |
+| **中小企业** | 老板一个人说了算 | 极快或极慢（取决于老板） | 老板本人 | 立竿见影效果+低成本+简单 |
+| **地方国企** | 看上级(省国资委/集团)的风向 | 慢（跟随集团） | 分管领导 | "集团已经在做了" |
+
+#### 中国CEO会议行为特征
+
+| 行为 | 中国CEO表现 | Sales应对 |
+|------|-----------|----------|
+| **不会当面说"不"** | 会说"再看看"/"研究研究"/"回去讨论" | 如果连续两次"再看看"=已经死了 |
+| **让下属先见** | CEO不会第一个见vendor。先派CIO/IT部门筛选。 | 搞定下面才有机会见上面 |
+| **看重"关系温度"** | 正式会议前的寒暄/饭局/高尔夫比PPT重要 | 关系到位，方案到位只是"走流程" |
+| **集体决策表演** | 看似集体讨论，实际CEO已有预判 | 私下搞定CEO预判，会上只是"确认" |
+| **对比思维** | "友商/竞对报价多少？能力怎么样？" | 准备好competitive comparison |
+| **面子优先** | 不能让CEO在下属面前"不懂" | 提前给CEO的助理/秘书briefing材料 |
+
+### 全球CEO决策心理参考（Global Reference）
 
 ### CEO Decision Psychology by Archetype
 
