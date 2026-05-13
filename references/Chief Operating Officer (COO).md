@@ -41,6 +41,24 @@ What is consistent across every COO role is the **cross-functional integration m
 
 What distinguishes the COO from every other buyer is that they evaluate **through the lens of operational reality, not technology potential.** A compelling demo that requires a 12-month implementation with no early wins is a non-starter. A brilliant tool the front-line team won't adopt is worthless. A solution that adds another dashboard without replacing existing ones adds complexity instead of reducing it. The COO's evaluation is ruthlessly pragmatic: will this work in the field, in the warehouse, on the plant floor, in the customer-service queue, tomorrow? A vendor pitching a COO with abstract business-transformation language — instead of specific operational mechanisms — gets filtered out in the first 15 minutes.
 
+### 🇨🇳 中国COO原型补充
+
+| 企业类型 | COO角色 | 核心职责 | 特殊性 |
+|---------|--------|---------|-------|
+| **央企** | "常务副总经理/分管运营副总" | 生产运营+安全生产+供应链 | 安全生产=一票否决(矿难/事故=刑事责任) |
+| **大型民企** | "COO/运营VP" | 全面运营管理+人效提升 | "降本增效"的第一责任人 |
+| **互联网** | "COO/运营负责人" | 用户增长+商业化+内容运营 | 互联网COO≈业务负责人(非传统运营) |
+| **制造业** | "运营总监/工厂厂长" | 生产计划+质量+设备+人效 | OT(运营技术)+IT融合是核心 |
+| **外企中国区** | "China Operations Head" | 中国区日常运营+合规 | follow global SOP但需本地化 |
+
+#### 中国COO独有议题
+- **安全生产**: 安全生产法(2021修订)加重了"主要负责人"的法律责任
+- **环保合规**: 碳达峰/碳中和+排污许可+ESG
+- **供应链韧性**: 中美脱钩→供应链本土化/多元化
+- **劳动用工**: 灵活用工/996争议/社保合规
+
+### 全球COO参考（Global Reference）
+
 ### COO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a COO *leans*, not what industry they're in. Most real COOs are blends, weighted differently by the moment and the problem on their desk. The archetype is a posture, not a permanent label — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -150,6 +168,22 @@ The COO is the only executive whose four constituencies are **not stakeholders a
 
 Today's COO is managing a paradox: **do more with less while simultaneously transforming how the business operates.** The *themes* are universal; the specifics vary by industry.
 
+### 🇨🇳 中国COO优先级
+
+| 排序 | 制造业COO | 零售/消费COO | 互联网COO |
+|------|----------|-----------|----------|
+| #1 | **安全生产零事故** | **门店效率/坪效** | **用户增长/留存** |
+| #2 | **降本(材料/人工/能耗)** | **供应链成本优化** | **商业化变现** |
+| #3 | **质量(良品率/客诉)** | **库存周转** | **内容/社区运营** |
+| #4 | **交期(OTD)** | **全渠道运营** | **合规(内容安全)** |
+| #5 | **智能制造升级** | **数字化门店** | **AI提效** |
+| #6 | **ESG/碳达峰** | **ESG/碳足迹** | **出海运营** |
+
+#### 中国COO的"政治性"优先级
+- 安全生产(出事=坐牢)＞环保合规(罚款+停产)＞业务增长
+
+### 全球COO参考（Global Reference）
+
 ### Universal COO Priorities
 
 1. **Operational AI and intelligent automation as the dominant lever.** The COO sees AI as an operational lever, not a technology initiative. The language is different from the CTO's or CPO's — the COO cares about hours saved, error rates reduced, throughput increased, and cost-per-unit lowered. Analyst research projects that by 2031, a majority of supply-chain disruptions will be resolved without human intervention. AI in the back office is scaling fast: JPMorgan has 2,000+ AI use cases across 60,000+ employees; Ping An processes the majority of auto claims in under 30 minutes. The COO is either operationalizing this trajectory or falling behind it.
@@ -222,6 +256,17 @@ Today's COO is managing a paradox: **do more with less while simultaneously tran
 ## 3. KPIs
 
 A COO's scorecard has two distinct layers: the board- and CEO-facing KPIs (the tables below) and the **private scorecard** (further down) — what the COO actually grades themselves on. The second layer is what separates a COO from a VP of Operations — and it's the layer vendors almost never see.
+
+### 🇨🇳 中国COO KPI
+
+| 行业 | 核心KPI | 中国特色指标 |
+|------|--------|-----------|
+| 制造 | OEE/良品率/交货准时率/人均产值 | 安全事故率=0、万元产值能耗、碳排放强度 |
+| 零售 | 坪效/人效/库存周转天数/GMV | 门店合规检查通过率、食品安全事件数 |
+| 物流 | 单票成本/时效达标率/妥投率 | 末端合规(电动车/人员社保) |
+| 互联网 | DAU/MAU/转化率/ARPU | 内容审核合规率、用户投诉率 |
+
+### 全球COO参考（Global Reference）
 
 ### The Universal Scoreboard: Operational Leverage + On-Time Delivery + Incident Absence
 
@@ -326,6 +371,18 @@ Across every industry, COOs volunteer three headline areas more often than anyth
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国COO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **安全生产压力** | 一旦出重大事故=企业停产+负责人刑拘；日常检查频繁 | 安全管理数字化/IoT预警/AI风险识别 |
+| **人工成本上升+招工难** | 制造业"用工荒"——年轻人不愿进工厂；人力成本年增8-10% | 自动化/机器人/AI质检替代人工 |
+| **供应链不确定性** | 疫情后遗症+中美脱钩→供应商突然断供/涨价 | 供应链可视化/多源替代/AI预测 |
+| **能耗/碳指标压力** | 能耗双控+碳排放配额——超标=限产 | 能源管理系统/碳管理平台 |
+| **运营数据割裂** | MES/ERP/WMS/TMS各自为政——COO看不到全局 | 运营中台/数据集成/数字孪生 |
+
+### 全球COO参考（Global Reference）
+
 ### Universal COO Pain Points
 
 - **Scaling without proportional headcount.** The business grows but the COO can't hire proportionally. Handling 30% more volume with 5% more people is the central operational tension of the current era. The answer increasingly involves AI and automation — but the path from pilot to production is treacherous.
@@ -363,6 +420,19 @@ Across every industry, COOs volunteer three headline areas more often than anyth
 ## 5. AI Opportunities
 
 Specific ways AI can address COO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a COO meeting.
+
+### 🇨🇳 中国COO的AI落地场景
+
+| 场景 | 应用 | 中国企业现状 |
+|------|------|-----------|
+| **AI质检** | 视觉检测替代人工(良品率提升) | 成熟度高——已大规模落地(华为/海康方案) |
+| **AI排产/调度** | 智能排产计划优化 | 中等——复杂场景仍需人工 |
+| **预测性维护** | 设备故障预测/减少停机 | 中等——需要传感器基建 |
+| **AI安全管理** | 视频AI识别违规操作/危险区域 | 高需求——法规驱动 |
+| **供应链AI** | 需求预测/库存优化/智能补货 | 高需求——但数据质量是瓶颈 |
+| **碳管理AI** | 碳排放自动计量/碳资产管理 | 早期——政策驱动中 |
+
+### 全球COO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -627,6 +697,18 @@ COOs have been burned by technology that worked in demos but failed on the opera
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these COO-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a functional meeting (VP Operations, Head of Supply Chain, Head of CS), not a COO meeting.*
 
+### 🇨🇳 中国COO的"过关标准"
+
+| 必须 | 一票否决 |
+|------|---------|
+| ✅ 不影响生产连续性(停产=巨额损失) | ❌ 需要停产部署/大规模改造 |
+| ✅ 快速见效(1-3个月) | ❌ 实施周期>1年 |
+| ✅ 一线人员能用(不能太复杂) | ❌ 需要大量培训/改变操作习惯 |
+| ✅ 有同行业落地案例 | ❌ 只有demo没有生产验证 |
+| ✅ 中国本地服务(7x24现场支持) | ❌ 只有远程support |
+
+### 全球COO参考（Global Reference）
+
 COOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a COO uses to judge whether a specific proposal deserves their time, their budget, and operational focus.** Specificity against these earns COO attention.
 
 1. **Operational leverage — grow without proportional cost.** Growing revenue, customers, or throughput without proportionally growing headcount or cost. This is the COO's holy grail — any solution that credibly demonstrates it gets immediate attention. The outcome must be **structural** (permanent change in cost-per-unit), not tactical (one-time savings). "Handled 30% more volume with same team, sustained 12 months" is the language that wins.
@@ -663,6 +745,18 @@ The COO is a pragmatic technology consumer. They don't buy technology for its ow
 
 **Don't pitch technology features to a COO — pitch operational outcomes. Describe where your solution sits in their process flow, what inputs it takes, what outputs it produces, and how it connects to the steps before and after. Walk the physical workflow if you can.**
 
+### 🇨🇳 中国COO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **实用主义** | 只看能不能解决当前问题，不关心技术先进性 |
+| **现场验证** | "去我工厂/门店实际跑一下看看" |
+| **一线反馈** | 会让车间主任/店长试用评价 |
+| **成本第一** | "能省多少钱/人？" |
+| **快速决策** | COO比CTO/CIO决策快——运营等不起 |
+
+### 全球COO参考（Global Reference）
+
 ### COO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -694,6 +788,18 @@ The COO is a pragmatic technology consumer. They don't buy technology for its ow
 The COO's buying authority is broad but varies by organization. In some companies, the COO controls a budget rivaling the CIO's — particularly for operational technology, supply-chain tools, workforce management, customer-operations software. In others, the COO relies on the CIO for procurement and serves as business sponsor.
 
 **The COO is almost always a decision maker or co-decision maker for solutions that touch operational workflows.** If your product affects how the company delivers its product or service, the COO has a seat at the table — and often the deciding vote.
+
+### 🇨🇳 中国COO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算来源** | 运营预算(非IT预算)——COO自己有钱 |
+| **决策速度** | 比IT采购快(1-3个月) |
+| **评估方式** | 现场POC/试点→看效果→扩推 |
+| **关键影响人** | 工厂厂长/车间主任/运营经理(一线反馈) |
+| **采购窗口** | 年初规划+年中看效果追加 |
+
+### 全球COO参考（Global Reference）
 
 ### Mode 1 — Direct Buyer (Operational Technology)
 
@@ -825,6 +931,18 @@ Skipping early gates wastes the COO's time. They will ask "has your operational 
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the COO's archetype, current sales stage, and what you already know. Do NOT use all questions in one meeting — a COO meeting is 30–45 minutes, not an interrogation.*
 
+### 🇨🇳 中国COO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "目前最大的运营瓶颈在哪里？" | 找痛点 |
+| "安全生产方面有什么新要求？" | 合规驱动需求 |
+| "人工成本压力大吗？哪些环节最想自动化？" | 找自动化场景 |
+| "供应链这两年有没有出过断供的情况？" | 供应链韧性需求 |
+| "能耗/碳排放考核对你们影响大吗？" | 绿色运营场景 |
+
+### 全球COO参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "What falls under your operational scope? I want to make sure we're focused on the right areas." *(Ask early — COO scope varies dramatically.)*
@@ -875,6 +993,24 @@ Skipping early gates wastes the COO's time. They will ask "has your operational 
 
 ## 10. Relationship Map
 
+### 🇨🇳 中国COO关系地图
+
+```
+制造业COO权力结构：
+┌─────────────────────────────────────┐
+│ CEO/总经理                           │
+├─────────────────────────────────────┤
+│ COO/运营VP                          │ ← target
+├──────────┬──────────┬───────────────┤
+│ 工厂厂长  │ 供应链总监│ 安全/环保     │ ← 关键影响人
+├──────────┴──────────┴───────────────┤
+│ 车间主任/班组长 (一线使用者)           │
+└─────────────────────────────────────┘
+```
+注意：COO的预算通常独立于CIO/IT——可以绕过IT采购
+
+### 全球COO参考（Global Reference）
+
 ### Core C-Suite Dynamics
 
 | Relationship | Nature | Sales Implication |
@@ -915,6 +1051,26 @@ Skipping early gates wastes the COO's time. They will ask "has your operational 
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国COO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 去现场(工厂/门店)看实际环境 | COO信眼见为实 |
+| 用运营语言(良品率/OEE/人效)不用IT语言 | COO不是技术人 |
+| 提供"快赢"方案(3个月见效) | COO压力大，等不了 |
+| 搞定一线(车间主任/店长)获得正面反馈 | 一线反馈=COO的决策依据 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 讲太多技术/架构 | COO不关心，只关心结果 |
+| 要求停产部署 | 停产一天=几百万损失 |
+| 忽略安全生产维度 | 这是COO的"底线KPI" |
+| 只做总部presentation | COO要看现场效果 |
+
+### 全球COO参考（Global Reference）
 
 ### ✅ DO
 
