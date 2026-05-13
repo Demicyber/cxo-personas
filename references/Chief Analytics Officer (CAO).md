@@ -45,6 +45,22 @@ In the earliest CAO roles (roughly 2010–2017), the focus was analytics capabil
 
 The CAO is simultaneously a technologist (choosing the stack), a capital allocator (prioritizing use cases), an organizational leader (recruiting scarce data science talent), a governance executive (responsible AI, model risk, explainability), a business partner (embedding analytics in decisions), and a change agent (moving the organization from intuition to evidence). That simultaneity is the defining cognitive load of the seat — and it is why a generic "AI platform" pitch almost always lands below the CAO's altitude.
 
+### 🇨🇳 中国CAO原型补充
+
+| 企业类型 | CAO角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **互联网** | "数据分析VP/BI负责人" | 用户增长分析+商业化分析 | 数据驱动文化成熟 |
+| **零售/消费** | "分析总监/会员VP" | 消费者洞察+精准营销 | 私域数据分析=新战场 |
+| **金融** | "风控/数据分析总监" | 风控模型+营销分析+报送 | 监管数据分析要求多 |
+| **外企中国区** | "Analytics Director" | 中国市场分析+global报告 | 本地数据工具vs global标准 |
+
+#### 中国CAO的独特性
+- **数据生态不同**: 没有Google Analytics——用神策/GrowingIO/友盟
+- **私域分析**: 微信生态数据(小程序/企微/公众号)=独有分析领域
+- **合规限制**: 个保法限制用户行为追踪→分析粒度受限
+
+### 全球CAO参考（Global Reference）
+
 ### CAO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CAO *leans*, not what industry they're in. Most real CAOs are blends, weighted differently by moment and by the organization's analytics maturity. A CAO at an insurance company focused on actuarial modernization is typically Industrializer + Governance Guardian. A CAO at a consumer platform is typically Business Embedder + Platform Builder. The archetype is a posture, not a permanent label — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -146,6 +162,18 @@ The agent must diagnose the CAO's dominant posture *before* generating the Call 
 
 CAOs today are navigating simultaneous pressure on AI operationalization, last-mile deployment, generative AI integration, talent retention, and CFO-defensible ROI — with analytics stacks built incrementally over a decade that now need rationalization. The *themes* are universal; the specifics vary by industry.
 
+### 🇨🇳 中国CAO优先级
+
+| 排序 | 互联网CAO | 零售/消费 | 金融 |
+|------|---------|---------|------|
+| #1 | **增长/留存分析** | **消费者洞察** | **风控分析** |
+| #2 | **AI+分析融合** | **私域ROI分析** | **监管报送** |
+| #3 | **A/B测试/实验** | **全渠道归因** | **营销效果** |
+| #4 | **数据民主化** | **库存/供应链分析** | **客户分群** |
+| #5 | **分析平台降本** | **AI推荐分析** | **反欺诈** |
+
+### 全球CAO参考（Global Reference）
+
 ### Universal CAO Priorities
 
 1. **The last-mile problem — the dominant 2025–26 priority.** Moving models from the data science lab into production. Industry surveys consistently show the majority of models developed never reach production — because deployment paths are complex, integration requirements demanding, governance overhead heavy, and business-user workflows unchanged. The CAO who solves this becomes essential; the one who can't becomes the "why don't our models deliver?" target. MLOps maturity is the single most important capability investment.
@@ -232,6 +260,17 @@ CAOs today are navigating simultaneous pressure on AI operationalization, last-m
 ## 3. KPIs
 
 A CAO's scorecard is the most dual-faceted in the C-suite: technical metrics (models, performance, platform health) and business metrics (revenue influenced, cost saved, decisions improved). The challenge is that the two don't translate automatically — a CAO who only reports technical metrics loses CFO/CEO confidence; one who only reports business metrics loses data science team credibility. Read the scorecard in two layers: the board/CEO-facing KPIs (below) and the private scorecard (further down) — the second layer is what actually separates a strategic CAO from a strong head of data science.
+
+### 🇨🇳 中国CAO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 洞察 | 分析报告产出数/决策采纳率 | 要"可执行"洞察 |
+| 效率 | 分析需求响应周期/自助率 | 业务自助分析趋势 |
+| 价值 | 分析驱动的GMV/节省/增长 | 量化分析的业务价值 |
+| 工具 | 平台用户数/DAU/满意度 | 内部"产品化"思维 |
+
+### 全球CAO参考（Global Reference）
 
 ### The Universal Scoreboard: Models in Production + Business Impact + Deployment Velocity
 
@@ -342,6 +381,18 @@ Across every industry, CAOs volunteer three headline metrics more often than any
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CAO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **分析人才贵/难招** | 数据分析师供不应求+流动性高 | AI辅助分析/自动化洞察 |
+| **需求积压** | 业务需求排队→CAO团队超负荷 | 自助BI/AI分析助手 |
+| **数据孤岛** | 线上/线下/私域数据不通→分析不全面 | CDP/数据集成 |
+| **归因困难** | 全渠道(抖音/微信/线下)归因→哪个渠道有效？ | 归因分析/MTA平台 |
+| **合规vs分析** | 个保法限制cookie/设备ID→用户追踪断链 | 隐私计算/聚合分析 |
+
+### 全球CAO参考（Global Reference）
+
 ### Universal CAO Pain Points
 
 - **The last-mile problem.** The dominant CAO pain. Models that perform well in sandboxes but never reach production because deployment paths are complex, integration requirements demanding, and governance overhead heavy.
@@ -383,6 +434,17 @@ Across every industry, CAOs volunteer three headline metrics more often than any
 ## 5. AI Opportunities
 
 Specific ways AI can address CAO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CAO meeting.
+
+### 🇨🇳 中国CAO的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI洞察** | 自动发现异常/趋势/归因 | 中文NL2SQL/中文报告 |
+| **对话式分析** | 自然语言提问→生成分析 | 中文理解能力关键 |
+| **预测分析** | 销量预测/用户流失/LTV预测 | 中国消费行为数据 |
+| **自动化报表** | AI生成周报/月报/看板 | 适配中国BI(帆软/观远) |
+
+### 全球CAO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -633,6 +695,17 @@ CAOs are analytically rigorous — they think in statistical significance, metho
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose should map to one or more of these CAO-grade dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a Head of Data Science meeting, not a CAO meeting.*
 
+### 🇨🇳 中国CAO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 支持中国数据源(微信/抖音/天猫) | ❌ 只支持Google/FB |
+| ✅ 中文NL查询/报告 | ❌ 中文效果差 |
+| ✅ 数据合规(个保法) | ❌ 用户级追踪违规 |
+| ✅ 与帆软/观远/神策等集成 | ❌ 只与Tableau/Looker |
+
+### 全球CAO参考（Global Reference）
+
 CAOs evaluate every initiative through a short list of outcome dimensions. These are the **criteria a CAO uses to judge whether a specific proposal deserves their time, their budget, their data science team's time, and a place on the use-case roadmap.**
 
 1. **Experiment to production in days, not months.** Dramatically reduce the time and engineering effort to operationalize models. If the outcome doesn't compress the last mile, it's not a CAO outcome.
@@ -669,6 +742,17 @@ The CAO is a technically sophisticated buyer who evaluates through hands-on test
 
 They rely on their Head of Data Science, Chief ML Engineer, VP MLOps, and senior data scientists for deep technical evaluation. **Don't pitch features to a CAO — demonstrate deployment depth, open-ecosystem compatibility, unified ML+GenAI capability, and governance maturity.** And don't pitch a point solution — CAOs increasingly describe their analytics estates in platform terms (development + deployment + monitoring + governance), not collections of tools. A solution that consolidates the lifecycle compounds; a standalone tool becomes the next consolidation target.
 
+### 🇨🇳 中国CAO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **数据思维** | 用数据说服——给他看benchmark |
+| **准确性** | 分析结果准确度>速度 |
+| **可视化** | 重视呈现/dashboard体验 |
+| **业务语言** | CAO是数据和业务的桥梁 |
+
+### 全球CAO参考（Global Reference）
+
 ### CAO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -696,6 +780,17 @@ They rely on their Head of Data Science, Chief ML Engineer, VP MLOps, and senior
 ## 8. Buying Dynamics
 
 The CAO is the primary decision maker for analytics platforms (development, deployment, monitoring, governance), AI/ML tooling, BI modernization, and decision intelligence platforms — typically in the $500K–$10M+ range per initiative. The CAO may co-own budget with the CDO (on data-platform decisions) or the CIO (on infrastructure). Budget authority varies significantly by reporting line — CEO-reporting CAOs have more direct budget authority; CIO- or CFO-reporting CAOs must navigate more approval gates. Remember: a CAO meeting is 45–60 minutes pulled from model delivery, business partnership, governance, or platform strategy. "No one else can make this analytics decision" is the only honest reason to be in the room.
+
+### 🇨🇳 中国CAO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 数据/BI预算(IT或独立) |
+| **决策** | CAO+CDO/CIO |
+| **触发** | 业务增长需求/人手不够/AI浪潮 |
+| **生态** | 帆软/观远/神策/GrowingIO/衡石 |
+
+### 全球CAO参考（Global Reference）
 
 ### When the CAO Engages Directly
 
@@ -824,6 +919,17 @@ The CAO's technical team holds effective veto power. Senior data scientists and 
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on archetype, sales stage, and what you already know. Do NOT use all questions in one meeting.*
 
+### 🇨🇳 中国CAO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "分析需求积压严重吗？" | 效率/AI需求 |
+| "业务能自助分析吗？" | 自助BI需求 |
+| "全渠道数据打通了吗？" | 数据集成 |
+| "现在用什么BI工具？满意吗？" | 替换/升级 |
+
+### 全球CAO参考（Global Reference）
+
 ### Universal Questions
 
 1. "How many of your models make it from development into production today, and what's the typical timeline from validated model to deployment?"
@@ -871,6 +977,24 @@ The CAO's technical team holds effective veto power. Senior data scientists and 
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CAO关系地图
+
+```
+CAO权力结构：
+┌─────────────────────────────────────┐
+│ CDO / CMO / CEO                     │
+├─────────────────────────────────────┤
+│ CAO                                 │ ← target
+├──────────┬──────────┬───────────────┤
+│ 数据分析师│ BI工程师  │ 数据科学     │
+├──────────┴──────────┴───────────────┤
+│ 业务部门 (需求方/消费者)              │
+│ 数据平台 (数据供给)                   │
+└─────────────────────────────────────┘
+```
+
+### 全球CAO参考（Global Reference）
 
 ### Core C-Suite Dynamics
 
@@ -936,6 +1060,24 @@ The CAO's technical team holds effective veto power. Senior data scientists and 
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CAO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 展示中国数据源连接能力 | CAO需要接中国生态 |
+| demo漂亮的可视化 | CAO重视呈现 |
+| 量化"节省分析师时间" | CAO人手不够 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 分析结果不准/有偏差 | CAO对准确性极敏感 |
+| 不支持中文交互 | 基本要求 |
+| 忽视个保法合规 | 数据追踪有限制 |
+
+### 全球CAO参考（Global Reference）
 
 ### ✅ DO
 
