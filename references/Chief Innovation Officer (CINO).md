@@ -318,55 +318,252 @@ Across every industry in the research, CINOs volunteer two headline metrics more
 
 ## 5. AI Opportunities
 
-Specific ways AI can address CINO priorities. This section tells the agent *what to propose* when preparing a Call Plan for a CINO meeting.
+Specific ways AI can address CINO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CINO meeting.
 
-### Universal AI Value Levers for CINOs
+### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
-These are seven ways AI creates value that CINOs care about — mapped directly to Priorities (Section 2) and the Private Scorecard (Section 3).
+> *Agent instruction: Use this subsection to calibrate your tone. CINOs are energized by AI — it's the biggest innovation wave of their career. But they're also threatened: if AI becomes everyone's domain, what's the innovation team's unique role? Frame your pitch around innovation methodology applied to AI, not AI as a standalone topic.*
 
-1. **Rapid experimentation platforms (compress the build-measure-learn loop).** GenAI turns weeks of prototype development into days. Platforms that enable fast prototyping of AI use cases without lengthy procurement cycles directly attack the CINO's portfolio-velocity KPI. *Agentic dimension:* Autonomous prototyping agents that spin up experiments, run A/B tests, and surface findings without requiring the innovation team to staff each experiment manually.
+**The state of enterprise AI in 2025:**
 
-2. **Innovation sensing and intelligence at always-on tempo.** AI-powered scanning of patent filings, arXiv, startup funding, VC portfolios, academic research, and competitor actions — surfacing signals weeks or months before they'd be noticed manually. *Agentic dimension:* Continuous-monitoring agents that maintain the technology radar in real time, alerting on specific triggers (competitor CINO announcements, new patent clusters, funding-round patterns) that matter to the CINO's specific portfolio.
+| Milestone | % of Enterprises | Source |
+|-----------|-----------------|--------|
+| Adopted AI in ≥1 function | 72% | McKinsey State of AI 2024 |
+| Regularly using GenAI (doubled in 10 months) | 65% | McKinsey State of AI 2024 |
+| Running 5+ AI pilots simultaneously | ~50% | Forrester AI Maturity 2024 |
+| Successfully moved any pilot to production | 20–30% | BCG/Deloitte/iResearch 2024 |
+| Scaled AI for significant financial ROI | ~10% | BCG "From Potential to Profit" 2024 |
+| Achieved enterprise-wide AI transformation | <5% | Accenture AI Maturity 2024 |
 
-3. **New-business-model creation (AI as category opener).** GenAI and agentic AI enable entirely new value propositions that weren't economically viable before: AI-native customer advisors, autonomous service delivery, hyper-personalized products at scale, agent-to-agent commerce. This is the CINO's uniquely strategic AI question — and the one the CEO personally cares about.
+**Gartner prediction (Oct 2024):** At least 30% of GenAI projects will be abandoned after proof-of-concept by end of 2025 — due to poor data quality, escalating costs, or unclear business value.
 
-4. **Accelerated venture validation.** AI tools for rapid market sizing, competitive analysis, customer sentiment analysis, and demand testing that compress the validation cycle from months to weeks. *Agentic dimension:* Agents that run customer-discovery interviews at scale, synthesize findings, and surface pivot recommendations — relieving the capacity constraint on a small innovation team.
+**China-specific data point:** Chinese enterprises show 40% higher AI pilot initiation rates than global average, but production-scale deployment rates are 8–12% lower than US counterparts (Bain/Accenture 2024). The "高热度低转化" (high heat, low conversion) pattern is pronounced — over 100,000 AI trial projects with <25% reaching production (钛媒体 2024).
 
-5. **Innovation-portfolio optimization.** AI-driven analysis of portfolio performance, resource allocation, and probability-weighted outcomes. *Agentic dimension:* Agents that monitor stage-gate progress, flag portfolio drift (toward H1), and recommend rebalancing — serving the CINO's private anxiety about allocation drift.
+**What CINOs are actually saying:**
+- "AI is the biggest innovation opportunity I've ever seen — and also the biggest threat to my role. If every team is 'doing AI,' what's the innovation team for?"
+- "I used to bring emerging technologies to the enterprise. Now every executive reads about AI on their phone. My value needs to shift from 'technology scouting' to 'innovation methodology.'"
+- "My innovation lab produced 30 AI proofs-of-concept. Three made it to production. The gap between demo and deployment is my credibility gap."
+- 48% of innovation functions are being reorganized due to AI — merged into product, strategy, or CAIO functions (BCG Innovation Survey 2024).
+- 62% of CINOs say their greatest challenge is converting AI experiments into scaled business value (McKinsey 2024).
 
-6. **Bridging pilot to production (the valley-of-death mechanism).** AI platforms designed with enterprise governance, security, data-residency, and scalability built in from day one. *Agentic dimension:* Governance and compliance agents that automate the CIO/CISO/Legal/Compliance pre-approval work that currently stalls AI innovations at the handoff.
+**Field rule:** When preparing a Call Plan for a CINO, frame AI as a medium for innovation methodology — not as innovation itself. The CINO's value isn't "discovering AI" (everyone knows about it now) but applying structured innovation approaches (design thinking, lean startup, venture methods) to AI opportunities. Position your pitch as helping the CINO accelerate from experiment to enterprise value.
 
-7. **Ecosystem-engagement tooling.** AI-powered CVC dealflow analysis, startup-ecosystem mapping, IP and research-partnership intelligence. *Agentic dimension:* Agents that maintain ecosystem relationship maps, surface dealflow matching the CINO's thesis, and prepare ecosystem briefings ahead of partner meetings.
+---
 
-### Quality Bar: How CINOs Filter AI Pitches
+### 5.2 The Four Blockers — Why Enterprise AI Stalls
 
-CINOs are among the most AI-fatigued buyers in the enterprise — they've sat through more AI demos than any other C-suite role. They filter aggressively. The pattern across industries is identical — CINOs take an AI pitch seriously only when it passes five tests simultaneously:
+> *Agent instruction: Use this as a diagnostic framework. The CINO uniquely owns the FRONT END of the AI pipeline — ideation, experimentation, proof-of-concept. Their blocker is the "valley of death" between innovation lab and operational deployment. Frame your discovery around experimentation-to-scale conversion and the CINO's relationship with deployment-responsible executives.*
 
-1. **Speed-of-experimentation-friendly.** Can be sandboxed and tested within 2–4 weeks, not a 6-month POC. CINOs reject anything that imposes their enterprise-procurement timelines on innovation cycles.
-2. **Portfolio-aware, not point-solution.** Addresses multiple experiments or use cases, not a single feature. CINOs are building platforms, not buying tools.
-3. **Scaling-pathway explicit.** Has a documented path from innovation sandbox to enterprise deployment — architecture, compliance, governance pre-thought-through.
-4. **Ecosystem-credible.** Vendor or tool has endorsement from startups, top VCs, or innovator peer CINOs. Pure enterprise-logo lists are less credible at the CINO level than ecosystem validation.
-5. **Trajectory-clear.** Vendor can articulate where the technology and company are headed 12–24 months out. CINOs buy trajectory, not current-state features.
+#### A. Organizational — "Innovation lab ≠ enterprise scale"
 
-**Field rule:** If an AI pitch can't check all five — fast-to-experiment, portfolio-aware, scaling-pathway, ecosystem-credible, trajectory-clear — it reads as a generic enterprise AI pitch aimed at the CIO, not the CINO.
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Innovation function credibility gap | Only 22% of innovation lab outputs reach enterprise scale | BCG Innovation Survey 2024 |
+| CINO role unclear in AI era | 48% of innovation functions reorganized; role overlaps with CAIO, CDxO, CTO | BCG 2024 |
+| No handoff process from innovation to operations | "Throw it over the wall" pattern between innovation and delivery teams | McKinsey 2024 |
+| Innovation metrics not business-aligned | Innovation teams measured on experiments run, not business value created | Forrester 2024 |
+| Corporate venture investing in AI startups but not integrating | CVC arm invests in AI startups; enterprise doesn't adopt their solutions | PitchBook 2024 |
 
-### The 2025–2026 Reality Check
+**CINO lens:** "My team built 30 brilliant proofs-of-concept. The operations team said 'great demo' and went back to their day jobs. I need a path from innovation lab to enterprise deployment that doesn't require me to also become a delivery executive."
 
-The CINO AI mindset has shifted from "excited about possibilities" in 2023 to "tired of pilots that don't scale" in 2025. Boards stopped asking "are we using AI?" and started asking "why have we spent $X on AI and not seen new revenue?" Industry data suggests the majority of enterprise AI pilots have not produced measurable business outcomes.
+**Who should own unblocking:** CINO (innovation methodology + handoff design), COO (operational adoption), CAIO (AI deployment capacity), CEO (innovation-to-scale mandate).
 
-**Implication for the agent:** When preparing a Call Plan for a CINO, do NOT frame AI as a new opportunity to explore. Frame it as: *"Here is how to take your existing AI portfolio from pilot to scaled business outcome"* or *"Here is how to avoid the pilot-purgatory patterns your peer CINOs are publicly struggling with."* The CINO's pain is not AI absence — it is AI *portfolio productivity.*
+#### B. People — "Innovators vs. operators"
 
-### Industry-Specific AI Use Cases
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Innovation team skills misaligned | Innovators great at 0→1 but not at 1→100; different skills needed | BCG 2024 |
+| Business units resist innovation team outputs | "Not invented here" syndrome; BUs prefer to build their own | McKinsey 2024 |
+| Startup ecosystem engagement superficial | Accelerator/incubator programs produce contacts, not deployed solutions | PitchBook 2024 |
+| Innovation fatigue in enterprise | Employees exhausted by transformation; skeptical of "another pilot" | Gartner 2024 |
+| China-specific: innovation theater culture | 创新剧场 phenomenon — innovation for PR, not for deployment (中国科技创新报告 2024) | 钛媒体 2024 |
 
-| Industry | Use Cases | Representative Examples |
-|---|---|---|
-| **FSI** | AI-native wealth advisory; agent-mediated banking; AI-powered fraud and AML; embedded-finance platforms | JPMorgan's LLM Suite; HSBC's AI fraud reduction; bank-CVC AI-startup investments |
-| **Pharma** | AI drug discovery; clinical-trial optimization; digital therapeutics; real-world evidence platforms | Roche-Genentech / Insilico / Recursion partnerships; J&J trial-acceleration |
-| **Manufacturing** | Generative design; autonomous quality; digital twins at scale; predictive services | Siemens Industrial Copilot; BMW iFactory; Caterpillar autonomous fleet |
-| **Automotive** | Software-defined vehicle platforms; ADAS / autonomous; in-cabin AI; V2G AI | BMW Neue Klasse software; BYD God's Eye ADAS; Toyota Woven City |
-| **Energy** | AI for grid, trading, drilling; predictive asset management; fusion / SMR simulation | Shell AI trading; NextEra grid AI; TenneT-partnered grid-AI startups |
-| **Telecom & Media** | Network AI; AI content personalization; GenAI content production; ad-tech AI | Deutsche Telekom network AI; Spotify AI DJ; Disney content AI |
-| **Retail & CPG** | Retail media AI; hyper-personalization; AI-shopping agents; AI reformulation | Walmart AI logistics; Amazon Rufus; Unilever GenAI content |
+**CINO lens:** "My team has brilliant inventors who love building proofs-of-concept but hate maintaining things. The BUs have operational people who maintain things but resist anything new. I need to bridge these cultures — and AI is actually helping because the results are so visible that BUs are coming to US for once."
+
+**Who should own unblocking:** CINO (culture bridging + innovation methodology), CHRO (innovation talent development), BU Leaders (adoption commitment).
+
+#### C. Technical — "Lab environment ≠ production environment"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Innovation sandbox disconnected from enterprise | Lab uses cutting-edge tools; enterprise runs legacy systems | McKinsey 2024 |
+| POC data ≠ production data | Proofs-of-concept use clean datasets; production data is messy and incomplete | Gartner 2024 |
+| Innovation stack doesn't scale | Tools chosen for speed-of-experimentation can't handle production workloads | Forrester 2024 |
+| Integration with enterprise systems not considered | POC built standalone; production requires integration with 10+ systems | BCG 2024 |
+| Security and compliance not included in POC | Innovation labs bypass security; production deployment requires full review | Gartner 2024 |
+
+**CDO lens:** "My lab team builds an AI demo in 2 weeks using perfect data and zero security constraints. Then we learn it takes 6 months to deploy in production because the data is different, the security requirements are real, and it needs to integrate with 12 systems we didn't consider."
+
+**Who should own unblocking:** CINO (innovation process that accounts for production reality), CTO (technical bridge from lab to production), CIO (production environment access for innovation), CISO (security guidance early in innovation cycle).
+
+#### D. Process — "No valley-of-death bridge"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Stage-gate process outdated for AI | Traditional innovation stage-gates don't account for AI's iterative, data-dependent nature | BCG 2024 |
+| Funding model wrong | Innovation gets seed funding; scaling requires different funding mechanism | McKinsey 2024 |
+| Success metrics misaligned | Innovation metrics (speed, quantity) vs. deployment metrics (reliability, ROI) | Forrester 2024 |
+| No "graduation" process | POC "succeeds" but no defined process to move to operational team | Gartner 2024 |
+| Intellectual property unclear | Innovation creates AI models/data assets — ownership and commercialization unclear | Deloitte 2024 |
+
+**CINO lens:** "I have a great innovation funnel: scout → ideate → prototype → pilot. But after pilot, there's a cliff. No team catches what I throw. No budget exists for the 1→100 phase. I need an innovation-to-operations handoff process that actually works."
+
+**Who should own unblocking:** CINO (innovation process redesign with graduation criteria), CFO (scaling funding mechanism), COO (operational adoption capacity), CAIO (AI deployment pipeline).
+
+**Field rule for the agent:** In the Call Plan Discovery section, ask the CINO: "What happens after a successful proof-of-concept in your organization?" and "What's your conversion rate from experiment to enterprise deployment?" These reveal the valley-of-death problem — the CINO's #1 credibility challenge.
+
+---
+
+### 5.3 Universal AI Value Levers for CINOs
+
+These are the seven ways AI creates value that CINOs care about — mapped directly to the CINO's Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+
+1. **AI-powered innovation acceleration.** Using AI itself to accelerate the innovation process — faster research, faster prototyping, faster testing, faster iteration. *Agentic dimension:* Innovation agents that autonomously scan emerging technologies, identify innovation opportunities, generate preliminary analyses, and accelerate the front-end of innovation — giving the CINO's team superhuman scouting capability.
+
+2. **Experiment-to-scale methodology.** Frameworks and tools that bridge the gap from AI proof-of-concept to enterprise deployment — the CINO's biggest credibility challenge. *Agentic dimension:* Deployment bridge agents that continuously assess POC readiness for production, identify scaling risks early, coordinate with operations teams, and manage the graduation process — solving the valley-of-death systematically.
+
+3. **Emerging technology + AI convergence.** Identifying where AI combines with other emerging technologies (quantum, biotech, spatial computing, IoT, robotics) to create breakthrough innovation opportunities. *Agentic dimension:* Technology convergence agents that monitor multiple emerging technology streams, identify intersection opportunities, model potential business impact, and generate innovation briefs — expanding the CINO's peripheral vision.
+
+4. **Innovation portfolio management.** AI that helps manage the innovation portfolio — balancing incremental, adjacent, and transformational bets; predicting which experiments will succeed; and optimizing resource allocation. *Agentic dimension:* Portfolio intelligence agents that track experiment progress, predict success probability based on early signals, recommend resource reallocation, and generate portfolio dashboards — making innovation investment decisions more rigorous.
+
+5. **Startup & ecosystem intelligence.** AI that monitors the startup ecosystem, identifies relevant innovations, evaluates partnership/investment opportunities, and accelerates ecosystem engagement. *Agentic dimension:* Ecosystem scouting agents that continuously monitor startup databases, research publications, patent filings, and investment activity — surfacing relevant opportunities before competitors find them.
+
+6. **Innovation culture & methods.** Using AI to democratize innovation methodology — enabling any team in the enterprise to run structured innovation processes without dedicated innovation facilitators. *Agentic dimension:* Innovation coaching agents that guide business teams through design thinking, lean startup, or other methodologies — scaling innovation methods beyond the CINO's team capacity.
+
+7. **Business model innovation with AI.** Identifying how AI enables fundamentally new business models — subscription services, data monetization, platform plays, and AI-as-a-service opportunities. *Agentic dimension:* Business model agents that analyze enterprise capabilities, market dynamics, and AI possibilities to identify new business model opportunities — generating innovation proposals for adjacent/transformational growth.
+
+---
+
+### 5.4 Quality Bar: How CINOs Filter AI Pitches
+
+CINOs are open-minded and forward-looking — they want to see the art of the possible. But they also need credibility, which means connecting innovation to business outcomes. The pattern across innovation functions is identical — CINOs take AI seriously when it passes four innovation tests simultaneously:
+
+1. **Novel enough to justify the innovation function's involvement.** If it's incremental process automation, it belongs with the CIO. The CINO needs something genuinely new — new business models, new capabilities, new market opportunities that don't fit existing functional boundaries.
+2. **Demonstrable within 90 days.** The CINO lives by proof-of-concept speed. If it takes 12 months to show anything, the CINO's stakeholders will lose patience. Rapid prototyping capability is essential.
+3. **Scalable beyond the lab.** The CINO has been burned by innovations that work in the lab and die in production. Show the path from experiment to enterprise — including data requirements, integration needs, and operational considerations.
+4. **Connects to a business outcome the CEO cares about.** The CINO needs to justify their function's existence. Innovation for its own sake is dead. Connect every AI innovation to revenue growth, cost reduction, customer experience, or strategic positioning.
+
+**Field rule:** If a CINO-level pitch cannot check all four — novel, rapid-demo, scalable, business-connected — it reads as either too incremental (give it to CIO) or too blue-sky (no credibility path). Lead with the novel business opportunity and the rapid demonstration path. When generating Call Plan Section 4, ensure every AI story includes: (a) what's genuinely novel, (b) how fast a POC can be built, (c) the scaling path from lab to enterprise, (d) which CEO-level business outcome it serves.
+
+---
+
+### 5.5 Industry AI Opportunity Map
+
+> *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a CINO in a specific industry. The CINO's map focuses on transformational and adjacent innovation opportunities — the novel, emerging, high-potential AI applications that justify the innovation function.*
+
+**Tiering Framework — Classification Logic**
+
+| Tier | Label | Competitive Logic | Investment Posture | Typical Horizon |
+|------|-------|------------------|-------------------|-----------------|
+| **1** | **Table Stakes** | Competitors already deploying at scale; not investing = falling behind | Fund now; scale aggressively | 0–12 months to value |
+| **2** | **Differentiator** | Creates competitive distance; requires proprietary data or capability | Invest selectively; pilot → scale | 12–36 months to value |
+| **3** | **Transformational** | Reshapes industry economics or business model | Fund as strategic option; bounded exploration | 3–7+ years to value |
+
+#### Manufacturing & Industrial
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Manufacturing | Generative Design & Materials Innovation | **Tier 2 — Differentiator** | AI-generated product designs, materials discovery, topology optimization | Siemens/Autodesk: generative design; accelerated materials science via AI | Next-gen product innovation |
+| All Manufacturing | Autonomous Manufacturing Systems | **Tier 3 — Transformational** | Lights-out manufacturing, self-optimizing production lines, fully autonomous factories | WEF Lighthouse factories; CATL high-automation; industry-wide aspiration | Future of manufacturing |
+| Automotive OEM | Autonomous Mobility Services | **Tier 3 — Transformational** | Robotaxis, autonomous trucking, mobility-as-a-service | Waymo commercial deployment; Tesla FSD; Baidu Apollo (中国) | Industry disruption |
+
+> **Agent field rule:** Manufacturing CINOs look BEYOND incremental operations improvement to transformational possibilities. Lead with generative design and autonomous systems (Tier 2-3 — the CINO's domain). Tier 1 opportunities belong to the COO/CTO; the CINO adds value on adjacent and transformational bets.
+
+#### Financial Services
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Banking | AI-Native Financial Services | **Tier 3 — Transformational** | Fully AI-powered banking, autonomous financial advisory, embedded finance everywhere | Neobanks + AI: industry reimagination; JPMorgan exploring AI-native service models | Banking industry disruption |
+| Banking | Decentralized Finance + AI | **Tier 3 — Transformational** | AI agents managing DeFi portfolios, smart contract AI, tokenized asset management | Emerging: AI x DeFi intersection; early-stage but high-potential | New financial paradigm |
+| Insurance | Usage-Based & Behavioral Insurance AI | **Tier 2 — Differentiator** | Real-time risk pricing, behavioral underwriting, parametric insurance automation | Ping An: behavioral insurance products; Tesla insurance: driving data pricing | New insurance models |
+| FinTech | Embedded AI Finance | **Tier 2 — Differentiator** | AI-powered financial services embedded in non-financial platforms | Stripe: embedded payments + AI; industry-wide embedded finance growth | New distribution models |
+
+> **Agent field rule:** FS CINOs explore where AI disrupts the financial services business model itself. Lead with AI-native financial services concepts (Tier 2-3). The CINO's value: seeing around the corner to business model disruption before it happens.
+
+#### Technology & Digital Native
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Tech | AGI/ASI Preparation & Positioning | **Tier 3 — Transformational** | Long-term AI strategy beyond current models; preparing for capability jumps | OpenAI/Anthropic/DeepMind: frontier research; enterprise implications being studied | Strategic positioning |
+| Enterprise SaaS | AI-Native Product Reimagination | **Tier 2 — Differentiator** | Rebuilding products from scratch for AI-first interaction (not adding AI to existing) | Emerging: companies rebuilding products AI-native rather than AI-augmented | Product reinvention |
+| All Tech | AI + Spatial Computing Convergence | **Tier 3 — Transformational** | AI-powered AR/VR/XR experiences, spatial AI, AI in the physical world | Apple Vision Pro ecosystem; Meta Quest + AI; emerging spatial computing + AI | New computing paradigm |
+
+> **Agent field rule:** Tech CINOs are at the frontier — they think in paradigm shifts, not features. Lead with transformational bets (Tier 3 — the CINO's intellectual home). Be prepared for deeply technical conversations about AI capabilities and limitations.
+
+#### Retail & Consumer
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Retail | Autonomous Commerce | **Tier 3 — Transformational** | AI agents purchasing on behalf of consumers, fully autonomous shopping, voice/agent commerce | Amazon: anticipatory shipping patents; emerging: AI shopping agents | Commerce paradigm shift |
+| Mass Retail | Store of the Future | **Tier 2 — Differentiator** | AI-powered stores (checkout-free, robotic, personalized physical experiences) | Amazon Go/Fresh; industry-wide smart store exploration | Physical retail reinvention |
+| CPG | AI-Powered Product Innovation | **Tier 2 — Differentiator** | AI-designed products, personalized formulations, rapid product development | P&G: AI-accelerated R&D; emerging: custom product formulation via AI | R&D acceleration |
+
+> **Agent field rule:** Retail CINOs explore where AI transforms the shopping experience and product innovation process. Lead with autonomous commerce concepts and store innovation (Tier 2-3). The CINO's challenge: retail innovation is highly visible — failures are public.
+
+#### Healthcare
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Pharma | AI-Driven Drug Discovery & Design | **Tier 2 — Differentiator** | De novo drug design, target identification, clinical trial optimization | Insilico/Recursion: AI drug discovery; 18 months vs. 5 years for lead identification | R&D productivity transformation |
+| All Healthcare | Precision Medicine & Genomics AI | **Tier 2 — Differentiator** | Genomics-driven treatment selection, digital biomarkers, personalized therapy | Illumina/23andMe: genomics + AI; precision oncology programs | Treatment outcome improvement |
+| MedTech | AI-Powered Surgical Systems | **Tier 2 — Differentiator** | Surgical robotics + AI, intraoperative guidance, autonomous surgical tasks | Intuitive Surgical: da Vinci + AI; J&J: Ottava platform | Surgical precision + access |
+
+> **Agent field rule:** Healthcare CINOs explore frontier medical innovation where AI enables fundamentally new capabilities. Lead with drug discovery and precision medicine (Tier 2 — emerging with strong proof points). The constraint: regulatory timelines (FDA) mean innovation must start early to have impact in 3-5 years.
+
+#### Energy & Utilities
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Energy | Nuclear Fusion + AI | **Tier 3 — Transformational** | AI for plasma control, fusion reactor design, materials science for fusion | Commonwealth Fusion: AI for fusion engineering; DeepMind: plasma control | Energy paradigm (10+ years) |
+| All Energy | Carbon Capture & Climate AI | **Tier 2 — Differentiator** | AI-optimized carbon capture, climate modeling, emissions monitoring | Emerging: AI for climate technology optimization; carbon tech startups | Sustainability innovation |
+| Renewables | Autonomous Grid & Virtual Power Plants | **Tier 2 — Differentiator** | AI-managed distributed grid, autonomous energy storage, peer-to-peer energy AI | Tesla Powerwall network; emerging VPP platforms with AI orchestration | Grid decentralization |
+
+> **Agent field rule:** Energy CINOs explore where AI enables the energy transition and creates new business models. Lead with climate tech and autonomous grid (Tier 2-3). The CINO's opportunity: energy transition creates more innovation opportunity than any period since electrification.
+
+#### Telecom & Media
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Telecom | 6G + AI Network Intelligence | **Tier 3 — Transformational** | AI-native network architecture, sensory network, sub-THz communication with AI | Research phase: 6G vision documents from Samsung, Nokia, Ericsson | Next-gen connectivity |
+| Media | AI-Generated Content & Synthetic Media | **Tier 2 — Differentiator** | AI content creation at scale, virtual productions, interactive narrative AI | Industry exploring: AI content creation (guardrails per SAG-AFTRA/WGA); emerging use cases | Content creation evolution |
+| Streaming | Immersive AI-Powered Experiences | **Tier 3 — Transformational** | AI-personalized narratives, interactive storytelling, AI game masters | Emerging: AI x interactive entertainment; Netflix interactive titles | New entertainment paradigm |
+
+> **Agent field rule:** Telecom/Media CINOs explore where content and connectivity converge through AI. Lead with AI-generated content and next-gen experiences (Tier 2-3). For media, navigate carefully around creative workforce implications (SAG-AFTRA/WGA considerations).
+
+#### Transportation & Logistics
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Transport | Autonomous Vehicles & Mobility | **Tier 2 — Differentiator** | Autonomous trucking, drone delivery, autonomous ship/ports | Waymo; TuSimple; Amazon drones; autonomous port operations | Logistics transformation |
+| All Transport | Multimodal Autonomous Logistics | **Tier 3 — Transformational** | End-to-end autonomous supply chain, AI-orchestrated multimodal transport | Emerging: fully autonomous logistics networks; 10+ year horizon for full autonomy | Industry paradigm shift |
+
+> **Agent field rule:** Transport CINOs focus on autonomy — the defining innovation opportunity for transportation. Lead with autonomous systems (Tier 2-3). The CINO's challenge: regulatory uncertainty for autonomous operations varies enormously by jurisdiction and mode.
+
+---
+
+### 5.6 Agentic AI — The 2025-2026 Frontier
+
+> *Agent instruction: Use this subsection when a CINO asks "what's the most transformational AI architecture to explore?" or when the target organization is looking for the next big innovation bet after GenAI.*
+
+**What it is:** AI systems that autonomously plan, execute multi-step tasks, use tools, and adapt based on feedback — moving beyond copilots (human-in-the-loop) to autonomous action (human-on-the-loop or human-out-of-the-loop for defined workflows).
+
+**Analyst positioning:**
+- Gartner: #1 Strategic Technology Trend 2025. Predicts 33% of enterprise software will include agentic AI by 2028 (up from <1% in 2024). 15% of day-to-day work decisions made autonomously by 2028.
+- McKinsey: Agentic AI is the "next S-curve" after copilots — expected to deliver 3–5x the value of current AI assistants by handling full workflows.
+- IDC: 40% of enterprise AI projects will use agentic frameworks by 2028.
+
+**Sequencing (what's ready when):**
+
+| Phase | Timeframe | What It Looks Like | Risk Level | Example Innovation Use Cases |
+|-------|-----------|-------------------|------------|------------------------------|
+| **Agent Copilots** | Deployed now | AI suggests actions, human approves; single-system tool use | Low | Research assistance, idea generation, competitive scanning, patent analysis |
+| **Task Agents** | 2025–2026 | Autonomous execution of defined workflows; human oversight on exceptions | Medium | Automated technology scouting, experiment execution, data collection, startup analysis |
+| **Orchestrator Agents** | 2026–2027 | Multi-agent coordination across systems; human sets goals, agents determine path | Medium-High | Multi-domain innovation exploration, autonomous prototyping, cross-industry pattern matching, innovation portfolio optimization |
+| **Autonomous Agents** | 2028+ | Self-directed agents managing complex innovation processes end-to-end | High | Autonomous R&D, self-directing innovation programs, AI-generated business models, automated invention |
+
+**CINO pitch framing:** "Agentic AI isn't just an innovation TO EXPLORE — it's an innovation methodology accelerator. Agents that autonomously scout technologies, analyze markets, run experiments, and generate innovation briefs give your small team the reach of an organization 10x its size. And when you demonstrate agentic AI working for innovation, you provide the blueprint for the entire enterprise."
+
+**Field rule:** Position agentic AI for CINOs as BOTH an object of innovation (something to explore and prototype) AND a tool for innovation (something that accelerates the CINO's own work). This dual framing gives the CINO two reasons to engage: intellectual curiosity (exploring a frontier) and practical value (accelerating their team's output). The CINO who successfully deploys agentic AI for innovation demonstrates its value for the enterprise.
 
 ---
 
