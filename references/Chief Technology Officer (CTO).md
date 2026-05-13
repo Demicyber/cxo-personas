@@ -149,6 +149,36 @@ Only the CTO is accountable for **holding all four in a single architecture, a s
 
 ---
 
+
+### 🇨🇳 中国CTO原型补充（China CTO Archetypes）
+
+> **Agent instruction:** 中国CTO的角色因企业类型差异极大。央企CTO更像"IT部门总经理"（执行不决策）；大型民企CTO是真正的技术决策者；外企中国区CTO受总部架构约束。
+
+#### 中国CTO六类画像
+
+| 企业类型 | CTO角色定位 | 技术决策权 | 汇报关系 | 典型代表 |
+|---------|-----------|-----------|---------|---------|
+| **央企** | "信息化部/科技部负责人" — 执行>决策，政策导向 | 低（受集团统一规划约束） | 分管副总经理→总经理→党委 | 各大行科技部总经理 |
+| **大型民企** | "技术合伙人/技术一号位" — 战略级决策者 | 高（直接影响业务方向） | CEO | 华为徐直军(轮值)、阿里吴泳铭(兼) |
+| **互联网/科技公司** | "工程VP/技术VP" — 产品+工程双驱动 | 极高（技术即业务） | CEO/联合创始人 | 字节跳动技术VP、美团技术委员会 |
+| **外企中国区** | "China IT Head" — 本地化适配+合规 | 低（follow global architecture） | Global CTO + China GM | 各外企China IT Director |
+| **地方国企** | "信息中心主任" — 基础运维为主 | 极低（听集团安排） | 分管副总 | — |
+| **中小企业** | "技术总监/合伙人" — 从0到1全栈 | 高但资源受限 | CEO/老板 | — |
+
+#### 中国CTO的"真实权力"诊断信号
+
+| 信号 | 有实权的CTO | 没实权的CTO |
+|------|-----------|-----------|
+| 预算审批 | 能独立审批500万+技术投资 | 超过100万需上会 |
+| 技术选型 | 可以决定用什么技术栈/云平台 | 必须走采购流程/集团统一招标 |
+| 组织架构 | 能决定技术团队编制/招聘 | 编制由HR/集团统一控制 |
+| 战略参与 | 参加董事会/总裁办公会 | 只参加IT专题会 |
+| 对外露面 | 代表公司出席技术峰会/发声 | 很少对外 |
+| 跟CEO的关系 | 1:1 weekly/月度深度汇报 | 季度汇报/走流程 |
+
+
+---
+
 ## 2. Priorities
 
 CTOs today navigate the most compressed technology cycle in the role's history: AI is reshaping both what they build and how they build it, simultaneously, against flat or tightening budgets. The *themes* are universal across industry; the specifics vary by company stage and sector.
@@ -170,6 +200,56 @@ CTOs today navigate the most compressed technology cycle in the role's history: 
 7. **Technical-debt discipline as a defensive priority.** Shortcuts, outdated libraries, monoliths that should have been decomposed, test-coverage gaps, deprecated frameworks, version-drift across services. Debt is invisible to non-technical stakeholders but corrosive to velocity. The CTO lives in constant tension between paying down debt (no visible features) and shipping new capabilities (adding to debt). The Transformer archetype usually inherits a debt-dominant codebase.
 
 8. **Talent density in hot specializations.** Not headcount — *density* in AI/ML engineering, distributed-systems engineering, platform engineering, security engineering. These are the roles where losing five people stalls the whole program. Retention is a CTO-level concern because tooling, culture, and technical choices directly affect it.
+
+
+### 🇨🇳 中国CTO优先级（按企业类型）
+
+> **Agent instruction:** 中国CTO的优先级受三股力量驱动：(1)政策/合规要求(信创/数据安全)，(2)业务部门压力(降本增效)，(3)技术趋势(AI/云)。不同企业类型的力量配比完全不同。
+
+#### 央企/国企CTO优先级（政策驱动型）
+
+| 排序 | 优先级 | 驱动力 | 2024-2025紧迫度 |
+|------|-------|--------|--------------|
+| #1 | **信创替代** — 核心系统国产化（OS/DB/中间件/芯片） | 国资委硬性考核 | 🔴 极高 — 2027年deadline |
+| #2 | **数据安全合规** — 分级分类+数据不出域+密评 | 数据安全法+等保2.0 | 🔴 极高 |
+| #3 | **AI/数字化示范** — 落地可展示的AI场景 | 国资委"新质生产力"考核 | 🟡 高 |
+| #4 | **网络安全** — 等保三级+关保+密评 | 网络安全法+行业监管 | 🟡 高 |
+| #5 | **系统稳定性** — 不出大事故 | "问责制" — 出事就下课 | 🔴 底线 |
+| #6 | **降本增效** — 用技术手段降低运营成本 | 国资委利润考核 | 🟡 高 |
+
+#### 大型民企CTO优先级（业务驱动型）
+
+| 排序 | 优先级 | 驱动力 | 2024-2025紧迫度 |
+|------|-------|--------|--------------|
+| #1 | **AI全面落地** — 从POC到Production | CEO亲自推动"AI是CEO工程" | 🔴 极高 |
+| #2 | **降本增效/技术ROI** — 技术投资必须算得清账 | 人效压力+融资收紧 | 🔴 极高 |
+| #3 | **工程效能** — 研发效率提升（AI辅助开发/DevOps） | "降本"延伸到研发团队自身 | 🟡 高 |
+| #4 | **架构现代化** — 微服务/云原生/去单体 | 业务快速迭代要求 | 🟡 中 |
+| #5 | **数据安全/隐私** — 合规底线 | 数据安全法+个保法 | 🟡 高 |
+| #6 | **出海技术架构** — 全球化部署/多Region | 业务出海需求 | 🟡 高（出海企业） |
+
+#### 互联网/科技公司CTO优先级
+
+| 排序 | 优先级 | 驱动力 | 2024-2025紧迫度 |
+|------|-------|--------|--------------|
+| #1 | **大模型/AI Infra** — 训练+推理基础设施 | 百模大战→商业化 | 🔴 极高 |
+| #2 | **算力优化** — GPU算力成本控制(买不到+买不起) | 芯片禁令+成本压力 | 🔴 极高 |
+| #3 | **研发效能/AI Coding** — AI辅助编程全面推广 | 裁员后人效要求 | 🟡 高 |
+| #4 | **鸿蒙适配** — HarmonyOS NEXT全量迁移 | 华为生态要求(大APP必须) | 🟡 高（应用类） |
+| #5 | **全球化架构** — TikTok/Temu等出海合规架构 | 地缘风险+数据合规 | 🟡 高（出海类） |
+| #6 | **安全对抗** — AI安全/内容安全/反爬/反作弊 | 监管+业务需求 | 🟡 中 |
+
+#### 外企中国区CTO优先级
+
+| 排序 | 优先级 | 驱动力 | 2024-2025紧迫度 |
+|------|-------|--------|--------------|
+| #1 | **数据本地化** — 中国数据不出境+本地部署 | 数据安全法硬性要求 | 🔴 极高 |
+| #2 | **合规架构** — 网络安全等级保护+密评 | 继续经营的前提 | 🔴 极高 |
+| #3 | **Global-Local平衡** — 全球统一架构 vs 中国特殊要求 | 总部push统一 vs 中国合规 | 🟡 高 |
+| #4 | **信创压力** — 政府/金融客户要求国产化方案 | 客户采购条件 | 🟡 中 |
+| #5 | **AI本地部署** — 全球AI服务在中国的落地方案 | 总部AI战略本地化 | 🟡 高 |
+| #6 | **成本优化** — 中国region基础设施成本控制 | 全球降本 | 🟡 中 |
+
 
 ### Industry-Specific Priority Deep Dives *(supporting evidence)*
 
@@ -226,6 +306,31 @@ CTOs today navigate the most compressed technology cycle in the role's history: 
 ## 3. KPIs
 
 A CTO's scorecard has two distinct layers: the board- and CEO-facing KPIs (the tables below) and the **private scorecard** (further down) — what the CTO actually grades themselves on. The second layer is what separates a CTO from a VP of Engineering — and it's the layer vendors almost never see.
+
+
+### 🇨🇳 中国CTO KPI体系
+
+> **Agent instruction:** 中国CTO的KPI因企业类型差异极大。央企CTO考核偏"合规/稳定"，民企CTO考核偏"效能/成本"。
+
+| 企业类型 | 核心KPI | 中国特色指标 | 考核周期 |
+|---------|--------|-----------|---------|
+| **央企** | 信创替代完成率、系统可用率、安全事件数 | 等保达标率、密评通过率、国产化率 | 年度（配合国资委考核） |
+| **大型民企** | 研发效能(人均产出)、系统SLA、技术ROI | AI落地场景数、降本金额、专利数 | 季度 |
+| **互联网** | 系统稳定性(SLA)、研发效率(部署频率)、成本/QPS | 大模型推理成本、GPU利用率 | 月度/实时 |
+| **外企中国区** | 合规审计通过率、全球SLA达标、Local项目交付 | 数据合规审计、等保评测、ICP/EDI续期 | 半年度（配合global review） |
+
+#### 🇨🇳 中国CTO行业KPI补充
+
+| 行业 | 中国CTO特有KPI | 驱动力 |
+|------|--------------|--------|
+| 金融 | 信创核心系统替换进度(%)、灾备切换演练成功率 | 银保监/央行要求 |
+| 制造 | 灯塔工厂评定进度、OT/IT融合覆盖率 | 工信部智能制造评估 |
+| 能源 | 电力交易系统可用率、碳数据接入完整度 | 国家能源局/发改委 |
+| 医疗 | 互联互通成熟度评级、电子病历评级 | 卫健委考核 |
+| 电信 | 算力网络节点上线数、5G行业专网交付数 | 集团战略KPI |
+
+
+### 全球CTO KPI参考（Global Reference）
 
 ### The Universal Scoreboard: DORA + Cost per Unit + On-Call Sustainability
 
@@ -331,6 +436,37 @@ Across every industry in the research, CTOs volunteer three headline areas more 
 ---
 
 ## 4. Pain Points / Challenges
+
+
+### 🇨🇳 中国CTO特有痛点
+
+> **Agent instruction:** 中国CTO面临的技术挑战有很多是全球CTO不会遇到的——信创替代、算力封锁、合规碎片化是三座大山。
+
+#### 跨行业通用痛点
+
+| 痛点 | 具体表现 | 影响程度 | Sales切入 |
+|------|---------|---------|----------|
+| **信创替代的巨大工程量** | Oracle/IBM/VMware→达梦/OceanBase/鲲鹏——兼容性、性能、生态都有gap | 🔴 央企最痛 | 迁移工具/兼容性测试/渐进式方案 |
+| **算力获取困难** | H100/A100买不到；国产GPU(昇腾910B/寒武纪)软件生态不成熟(CUDA→CANN) | 🔴 AI公司最痛 | 算力优化/推理加速/混合调度 |
+| **数据安全合规碎片化** | 数据安全法+个保法+行业规定+地方规定——要求互相矛盾、标准不清 | 🟡 外企最痛 | 统一合规平台/自动化评估 |
+| **人才"卷"与流失** | 顶尖工程师被大厂高薪吸走；AI人才2-3年就跳槽；团队不稳定 | 🟡 所有类型 | AI辅助降低人才依赖/低代码 |
+| **技术债务累积** | 系统十几年没重构；文档缺失；"能跑就不动"但新需求叠加 | 🟡 央企/传统企业 | 现代化改造/API化/渐进重构 |
+| **业务部门不配合** | "你IT部门就是服务部门"——业务不愿配合数字化改造 | 🟡 传统企业 | 从业务痛点切入，拉业务owner共建 |
+
+#### 按企业类型特有痛点
+
+| 企业类型 | 独特痛点 | 根因 |
+|---------|---------|------|
+| **央企** | 集团-子公司架构分裂(各做各的) | 历史并购+地域分散+各子公司独立IT |
+| **央企** | 供应商绑定担忧(怕被一家卡脖子) | 曾被Oracle/IBM突然断供的教训 |
+| **大型民企** | CEO要求"3个月见效"的AI项目 | CEO理解过高，数据/基建没ready |
+| **大型民企** | 技术投入ROI难量化(跟CFO打架) | "你花了2亿做架构，业务多赚了多少？" |
+| **互联网** | 大模型烧钱but商业化路径不清 | 训练成本数千万→如何变现？ |
+| **外企中国区** | Global技术选型不适合中国 | AWS/Azure在中国阉割版；SaaS无法使用 |
+| **外企中国区** | 跟总部解释"为什么中国要特殊" | 总部不理解信创/数据出境/等保 |
+
+
+### 全球CTO痛点参考（Global Reference）
 
 ### Universal CTO Pain Points
 
@@ -521,6 +657,32 @@ Specific ways AI can address CTO priorities and create value. This section tells
 
 **Field rule for the agent:** In the Call Plan Discovery section, ask the CTO about their current ML deployment pipeline: "Walk me through what happens between a data scientist finishing a model and it serving production traffic." The answer reveals maturity — if they pause or describe manual steps, the platform engineering gap is your entry point.
 
+
+### 🇨🇳 中国CTO视角的AI落地障碍
+
+> **Agent instruction:** CTO关心的AI障碍比CEO更具体——是架构层面、工程层面、生态层面的具体挑战。
+
+| 障碍层次 | 中国CTO面临的具体问题 | vs 全球CTO |
+|---------|-------------------|-----------|
+| **算力层** | GPU获取困难(禁令)+国产GPU生态不成熟(昇腾CANN vs CUDA) | 全球是"太贵"；中国是"买不到" |
+| **模型层** | 百模大战后选择困难；开源模型(通义/GLM/Baichuan)vs闭源(文心/豆包)；版本迭代快 | 全球就OpenAI/Claude/Gemini三选一 |
+| **数据层** | 训练数据合规(个保法)；行业数据获取难(数据孤岛+政府数据不开放) | 全球也难，但中国加了合规层 |
+| **工程层** | AI工程人才集中在BAT/字节；传统企业招不到MLOps人才 | 全球也缺，但中国头部吸虹更极端 |
+| **部署层** | 私有化部署要求高(央企/金融不允许SaaS)；边缘推理硬件受限 | 全球SaaS优先；中国私有化优先 |
+| **合规层** | 生成式AI备案(算法备案)；大模型审批流程不透明 | 全球EU AI Act是known；中国规则还在变 |
+
+#### 🇨🇳 中国CTO视角的AI机会图谱
+
+| 场景 | CTO关注维度 | 中国特殊考量 | 推荐方案形态 |
+|------|-----------|------------|-----------|
+| **AI辅助编程** | 代码质量+效率提升+安全合规 | 代码不能上传公有云(code私有化部署) | 私有化Copilot(通义灵码/CodeGeeX) |
+| **智能运维(AIOps)** | 告警降噪+根因分析+自动修复 | 信创环境下的监控适配(鲲鹏/麒麟) | 国产AIOps(擎创/云智慧) |
+| **AI安全** | 内容安全审核+AI攻击防御+deepfake检测 | 法规要求严(内容审核是刚需) | AI内容安全(网易易盾/阿里绿网) |
+| **大模型应用平台** | 企业级RAG+Agent框架+知识库 | 模型需私有化；数据不出域 | 百炼/扣子/智谱开放平台(私有化版) |
+| **AI测试** | 自动化测试生成+智能回归+性能预测 | 信创环境兼容性测试需求大 | AI测试平台 |
+| **数据治理AI** | 自动数据分类分级+元数据管理+血缘分析 | 数据安全法要求数据分级=CTO的法定义务 | 数据治理平台(合规驱动) |
+
+
 ### 5.3 Universal AI Value Levers for CTOs
 
 These are the seven ways AI creates value that CTOs care about — mapped directly to the CTO's Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
@@ -699,6 +861,30 @@ The three tiers reflect a well-established strategy principle: enterprises must 
 
 CTOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CTO uses to judge whether a specific proposal deserves their time, their engineering cycles, and a slot on a stretched roadmap.** Specificity against these earns CTO attention.
 
+
+### 🇨🇳 中国CTO的"过关标准"
+
+| 排序 | 央企CTO | 大型民企CTO | 外企中国区CTO |
+|------|--------|-----------|-------------|
+| #1 | **合规先行** — 必须满足信创/等保/密评 | **快速验证** — 2周POC见效果 | **Global兼容** — 不跟全球架构冲突 |
+| #2 | **稳定可控** — 不能影响现有生产系统 | **技术领先** — 用的是最新的技术 | **合规达标** — 数据安全/等保过关 |
+| #3 | **有先例** — 同行业/同级别央企用过 | **易集成** — 跟现有技术栈兼容 | **轻量接入** — 不要大改现有系统 |
+| #4 | **可运维** — 我的团队能接手维护 | **可扩展** — 从小试点到全量 | **有local支持** — 中国本地技术团队 |
+| #5 | **国产化** — 底层不依赖被制裁风险 | **社区/生态** — 不被一家vendor锁定 | **总部认可** — global approved vendor |
+
+##### CTO的"一票否决"
+
+| 类型 | 绝对不能触碰的 | 为什么 |
+|------|-------------|-------|
+| 央企 | "云上部署/SaaS模式" (未经审批的) | 数据出域=违规=个人问责 |
+| 央企 | "替换核心业务系统" (一步到位) | 出了故障=重大事故=下课 |
+| 民企 | "需要重新培训整个团队" | 人效压力下不可能增加学习成本 |
+| 外企 | "跟global选型完全不同的方案" | 没有权限做独立技术选型 |
+| 所有 | "没有成功案例的全新技术" | CTO比CEO更保守——技术风险由他背 |
+
+
+### 全球CTO Desired Outcomes参考（Global Reference）
+
 1. **Engineering toil reduction, quantified.** "Your engineers spend X hours/week on [specific toil]. This reduces it to Y hours, giving back N senior-engineer-weeks per quarter." Quantify the hours and name the teams affected; let the CTO calculate capacity recovered. Generic productivity claims fail.
 
 2. **Faster time to production — without destabilizing the pipeline.** Compress the development lifecycle (builds, tests, deployments, environment provisioning, feedback loops) *without* raising change-failure rate. The combined metric matters; single-axis speed claims get discounted.
@@ -729,6 +915,41 @@ The CTO's evaluation is the most technically rigorous in the C-suite. They look 
 - **"Can I defend this choice to my engineering team?"** A tool the engineers reject fails. The CTO thinks in terms of bottom-up adoption even for top-down decisions.
 
 A product that creates more toil than it removes is a non-starter, no matter how compelling the marketing. **Don't pitch features to a CTO — pitch engineering outcomes.** And don't pitch around the CTO's engineers — the CTO will discover the detour and your credibility is permanently gone.
+
+
+### 🇨🇳 中国CTO技术评估风格
+
+#### CTO评估方案的"真实流程"
+
+| 步骤 | 央企CTO | 大型民企CTO | 外企中国区CTO |
+|------|--------|-----------|-------------|
+| 1.初筛 | 看是否在"集团采购目录"内 | 看GitHub stars/社区活跃度/技术blog | 看是否在global approved list |
+| 2.技术验证 | 派团队做POC(2-3个月) | CTO本人看demo+问技术细节 | 让global architect review |
+| 3.合规检查 | 信创清单/等保/密评——缺一不可 | 数据安全评估(轻量) | 法务+安全+global compliance |
+| 4.决策 | 上技术评审委员会/党委前置 | CTO本人或CTO+CEO | China IT + Global IT alignment |
+| 5.采购 | 走招标流程(3-6个月) | 商务谈判(1-2个月) | Global procurement走流程 |
+
+#### 中国CTO的"信任建立"路径
+
+| 阶段 | 做什么 | 关键动作 |
+|------|-------|---------|
+| **认知** | 让CTO知道你 | 技术社区露面/行业峰会演讲/技术白皮书 |
+| **兴趣** | 让CTO觉得有价值 | 针对他的具体技术痛点出解决方案(不是通用PPT) |
+| **信任** | 让CTO愿意试 | 免费POC/技术workshop/让他的团队"动手摸" |
+| **依赖** | 让CTO离不开 | 深度集成进他的架构/他的团队用习惯了 |
+
+#### CTO会议行为
+
+| 行为 | 中国CTO表现 | 应对 |
+|------|-----------|------|
+| **问技术细节** | 比CEO深得多——会问架构/性能/兼容性 | 必须带SA(解决方案架构师) |
+| **要看代码/文档** | 不信marketing材料，要看真实技术文档 | 准备GitHub/API文档/架构图 |
+| **关心运维** | "部署后谁来维护？出了问题谁兜底？" | 明确SLA+local support+on-call |
+| **对比竞品** | 会自己做技术选型对比(甚至写测试用例) | 主动提供对比数据/benchmark |
+| **时间宝贵** | CTO会议通常30分钟，直奔主题 | 前5分钟抓住他，否则没有下次 |
+
+
+### 全球CTO技术评估参考（Global Reference）
 
 ### CTO Decision Psychology by Archetype
 
@@ -765,6 +986,39 @@ The CTO's buying role depends on what's being purchased and how deeply it touche
 **Mode 2 — Technical Gatekeeper.** For purchases by other functions that have technical components (CRM with APIs, marketing platform needing data access, HR tool requiring SSO integration), the CTO must approve security posture, integration approach, and operational impact. Has veto regardless of business case. *Always ask other buyers: "Does your CTO need to approve the technical aspects?"*
 
 **Mode 3 — Strategic Advisor.** On enterprise-wide decisions (cloud provider, core platform, AI foundation-model partnerships, ecosystem bets), the CTO advises the CEO and board. When the CTO raises architectural concerns at this level, they become decision-critical.
+
+
+### 🇨🇳 中国CTO采购动态
+
+#### 采购决策角色
+
+| 企业类型 | CTO在采购中的角色 | 谁跟CTO一起决策 | CTO的否决权 |
+|---------|----------------|--------------|-----------|
+| **央企** | 技术评审牵头人(不是最终决策者) | 采购部门+使用部门+分管领导 | 有技术否决权(能毙方案) |
+| **大型民企** | 技术选型决策者 | CEO(大项目)/CFO(预算) | 完全的技术决策权 |
+| **互联网** | 架构Owner=决策者 | 业务方+基础架构委员会 | 绝对权力 |
+| **外企** | 本地技术评估者(推荐权) | Global IT/Global架构 | 只有推荐权，无决策权 |
+
+#### 影响CTO决策的关键人
+
+| 角色 | 影响CTO的方式 | 如何leverage |
+|------|-------------|-------------|
+| **CTO的架构师团队** | 做POC/写评估报告/日常使用 | 先搞定架构师=CTO信任的技术判断来源 |
+| **开发者社区** | GitHub/技术blog/StackOverflow中国版 | 在技术社区建立口碑(developer advocacy) |
+| **行业同行CTO** | CTO圈子(InfoQ/QCon/架构师峰会) | 通过行业活动让peer CTO背书 |
+| **业务VP** | "业务需要这个能力" | 业务拉动=CTO有预算理由 |
+| **安全/合规团队** | 一票否决权(安全不过=不能用) | 提前搞定安全评估 |
+
+#### 典型采购周期
+
+| 项目类型 | 央企 | 大型民企 | 外企 |
+|---------|------|---------|------|
+| SaaS/工具类(<100万) | 6-12个月 | 1-3个月 | 3-6个月(global审批) |
+| 平台/中间件(100-500万) | 12-18个月 | 3-6个月 | 6-12个月 |
+| 核心系统(>500万) | 18-36个月 | 6-12个月 | 12-18个月 |
+
+
+### 全球CTO Buying Dynamics参考（Global Reference）
 
 ### The Build-vs-Buy Competitor (Your Toughest Competitor Is Internal)
 
@@ -883,6 +1137,39 @@ Skipping early gates — or going straight to the CTO — usually means being ro
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the CTO's archetype, current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a CTO meeting is 45–60 minutes, not an interrogation.*
 
+
+### 🇨🇳 中国CTO Discovery Questions（技术深度版）
+
+> **Agent instruction:** CTO会议可以问更技术的问题，但仍需注意文化适配——不要显得在"考试"他。
+
+#### 技术现状摸底
+
+| 问题 | 目的 | 注意事项 |
+|------|------|---------|
+| "您团队现在主要用什么技术栈？云还是私有化为主？" | 了解架构现状 | 央企可能说"混合"=大部分私有化 |
+| "信创替代做到什么阶段了？最大的挑战是什么？" | 了解信创进度+痛点 | 央企必问；民企可以跳过 |
+| "AI方面目前有哪些场景在跑？效果怎么样？" | 了解AI成熟度 | 不要假设他们"什么都没做" |
+| "研发团队规模大概多少人？工程效能怎么衡量？" | 了解团队和效能压力 | 间接了解预算/人效压力 |
+
+#### 决策链路摸底
+
+| 问题 | 目的 | 注意事项 |
+|------|------|---------|
+| "这类技术投资一般需要哪些部门配合评估？" | 了解决策链 | 不要直问"谁说了算" |
+| "之前引入新技术平台一般走什么流程？大概多长时间？" | 了解采购节奏 | 提前管理自己的预期 |
+| "有没有什么合规/安全方面的硬性要求我们需要提前了解的？" | 避免踩雷 | 让CTO觉得你"懂行" |
+
+#### 痛点验证
+
+| 问题 | 目的 | 注意事项 |
+|------|------|---------|
+| "如果有一个问题您最想在今年解决，会是什么？" | 找到优先级#1 | 开放式，让他说 |
+| "团队目前最头疼的运维/稳定性问题是什么？" | 找到具体切入点 | CTO往往愿意吐槽运维之苦 |
+| "您觉得现有的vendor/方案有什么不满意的地方？" | 找到替换机会 | 不要贬低对手，让他自己说 |
+
+
+### 全球CTO Discovery Questions参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "Can you walk me through your current architecture at a high level — and where are the parts that keep you up at night?"
@@ -931,6 +1218,52 @@ Skipping early gates — or going straight to the CTO — usually means being ro
 ---
 
 ## 10. Relationship Map
+
+
+### 🇨🇳 中国CTO关系地图
+
+#### 按企业类型的CTO权力结构
+
+```
+央企CTO权力结构：
+┌─────────────────────────────────────┐
+│ 党委/董事会 (最终审批)              │
+├─────────────────────────────────────┤
+│ 分管副总经理 (CTO的直接上级)         │
+├─────────────────────────────────────┤
+│ CTO/科技部总经理 (技术方案把关)      │ ← 你的target
+├──────────┬──────────┬───────────────┤
+│ 架构团队  │ 运维团队  │ 开发团队      │ ← 先搞定他们
+├──────────┴──────────┴───────────────┤
+│ 采购部门 (走流程)                    │ ← 流程关
+│ 业务部门 (需求方)                    │ ← 拉动力
+│ 安全/合规 (一票否决)                 │ ← 不能忽略
+└─────────────────────────────────────┘
+
+大型民企CTO权力结构：
+┌─────────────────────────────────────┐
+│ CEO (大项目最终拍板)                 │
+├─────────────────────────────────────┤
+│ CTO (技术全权决策)                   │ ← 你的target
+├──────────┬──────────┬───────────────┤
+│ 架构师    │ Tech Lead│ SRE/DevOps    │ ← 影响CTO判断
+├──────────┴──────────┴───────────────┤
+│ 业务VP (需求拉动)                    │ ← 有预算=有动力
+│ CFO (大预算审批)                     │ ← >500万需要过
+└─────────────────────────────────────┘
+```
+
+#### CTO的"信任圈"
+
+| 圈层 | 谁在里面 | 如何进入 |
+|------|---------|---------|
+| 核心圈 | CTO的技术合伙人/老部下/多年战友 | 几乎无法进入(需要时间) |
+| 信任圈 | 同行CTO/技术社区KOL/合作过的vendor | 通过高质量交付进入 |
+| 参考圈 | 行业分析师/技术媒体/开源社区 | 通过内容+social proof |
+| 筛选圈 | 架构师团队/下属tech lead | 先搞定他们才能见CTO |
+
+
+### 全球CTO关系参考（Global Reference）
 
 ### Core C-Suite and Engineering-Function Dynamics
 
@@ -1000,6 +1333,44 @@ Skipping early gates — or going straight to the CTO — usually means being ro
 ---
 
 ## 11. Do's & Don'ts
+
+
+### 🇨🇳 中国CTO Do's & Don'ts
+
+#### Do's ✅
+
+| 规则 | 为什么有效 | 示例 |
+|------|-----------|------|
+| **带技术人对技术人** | CTO讨厌跟sales空谈；尊重peer对话 | 带SA/架构师一起，让技术对技术 |
+| **先给技术价值再谈商务** | CTO反感"上来就卖东西" | 先做技术分享/workshop/白皮书 |
+| **准备好benchmark数据** | CTO做决策靠数据不靠故事 | 性能对比/成本对比/兼容性测试结果 |
+| **尊重他的技术判断** | CTO的技术自尊很强 | "您的架构思路很清晰，我们能在X点补充" |
+| **跟他的团队建立关系** | 架构师/TL的推荐=CTO的信任 | developer workshop/hackathon/共建 |
+| **理解信创/合规约束** | 不懂信创=不懂中国IT | 提前说明国产化适配/等保资质 |
+
+#### Don'ts ❌
+
+| 禁忌 | 为什么致命 | 常见踩坑 |
+|------|-----------|---------|
+| **不懂技术硬聊** | CTO会瞬间失去耐心并关门 | sales不带SA就去见CTO |
+| **贬低他现有的技术选择** | 等于说"你之前的决策是错的" | "你们还在用X？应该早换了" |
+| **只讲vision不讲落地** | CTO见过太多"画饼"vendor | "我们的AI能颠覆xxx"但没有demo |
+| **忽略安全合规** | CTO的合规责任是个人的 | 不提等保/密评/数据安全就想卖方案 |
+| **越过CTO找CEO** | CTO会觉得被bypass，成为你的敌人 | 发现CTO卡你就跳过他 |
+| **对央企CTO催促** | "流程"对他是保护不是阻碍 | "能不能加快一下？" |
+| **提供不实benchmark** | CTO会自己验证，骗一次永远拉黑 | 虚报性能数据/隐瞒限制条件 |
+
+#### 按企业类型的特殊规则
+
+| 企业类型 | 特殊Do | 特殊Don't |
+|---------|--------|----------|
+| 央企 | 提供"合规证明包"(等保证书/信创认证/密评报告) | 不要提"开源/自由软件"没有商业支持的 |
+| 民企 | 提供快速POC(2周内出结果) | 不要PPT超过10页 |
+| 互联网 | 直接给GitHub/API文档让他自己试 | 不要约正式会议(slack/飞书先聊) |
+| 外企 | 提供global reference customer | 不要说"只适合中国"(他需要向总部justify) |
+
+
+### 全球CTO Do's & Don'ts参考（Global Reference）
 
 ### ✅ DO
 
