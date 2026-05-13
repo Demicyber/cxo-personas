@@ -1230,6 +1230,8 @@ The three tiers reflect a well-established strategy principle: enterprises must 
 
 #### 全球行业AI机会参考（Global Reference）
 
+> *以下为全球行业AI机会的详细表格，供跨国客户参考。*
+
 #### Manufacturing & Industrial
 
 | Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
@@ -1476,6 +1478,8 @@ They rely on their CTO/CIO to vet technical decisions, but they want strategic i
 | **面子优先** | 不能让CEO在下属面前"不懂" | 提前给CEO的助理/秘书briefing材料 |
 
 ### 全球CEO决策心理参考（Global Reference）
+
+> *以下为全球CEO的决策心理和会议行为模式，供跨国/外企客户参考。*
 
 ### CEO Decision Psychology by Archetype
 
