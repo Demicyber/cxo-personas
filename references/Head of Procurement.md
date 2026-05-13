@@ -56,6 +56,23 @@ The modern Head of Procurement has evolved substantially in the past five years.
 5. **Procurement digitization and agentic AI.** Procure-to-pay (Coupa, SAP Ariba, Workday, Jaggaer), contract lifecycle management (Ironclad, Icertis, Agiloft, SpotDraft), intake management (ZIP, Oro, Levelpath, Tonkean), spend analytics (SpendHQ, Sievo, GEP), and a new generation of AI-assisted negotiation and contract-analysis tools (Ivalua, Pactum, Luminance, LinkSquares) are reshaping how procurement operates. The HoP is now a buyer of their own function's transformation stack.
 6. **Activist CFOs and PE-style cost discipline.** Post-ZIRP, the pressure on cost of goods and cost of services has intensified across every industry. Private-equity operating partners bring procurement playbooks to portfolio companies; public companies under activist pressure see procurement-led cost programs featured in investor-day presentations. The HoP is increasingly visible at the board level.
 
+### 🇨🇳 中国采购负责人原型补充
+
+| 企业类型 | 采购角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **央企** | "采购部部长/招标管理部" | 招投标合规+集采+供应商管理 | 必须走招投标(招标投标法)+审计严格 |
+| **大型民企** | "CPO/采购VP" | 降本+供应链+战略采购 | "卷"供应商→极致压价 |
+| **外企中国区** | "China Procurement Dir" | Global采购本地执行 | 信创/国产化替代要求 |
+| **政府/事业单位** | "政府采购中心" | 政府采购法+公开透明 | 政府采购法/集中采购目录 |
+
+#### 中国采购的法规环境
+- **招标投标法**: 一定金额以上必须公开招标(国企/政府)
+- **政府采购法**: 政府/事业单位采购有严格流程
+- **信创目录**: IT类采购优先信创(国产替代)
+- **反腐审计**: 采购是腐败高发区→审计频繁→采购人战战兢兢
+
+### 全球采购负责人参考（Global Reference）
+
 ### Head of Procurement Archetypes (Postures, Not Industries)
 
 Archetypes describe how a Head of Procurement *leans*, not what industry they sit in. Most real CPOs are blends, weighted differently by the moment and by the specific category on their desk. A HoP leading indirect spend at a hyper-growth SaaS company is usually a Digital Transformer + Category Strategist. A HoP at a post-activist CFO industrial is a Savings Hunter + Risk Steward. A HoP at a DORA-regulated bank is a Risk Steward + Strategic Partner. The archetype is a posture, not a permanent label — but diagnosing the dominant posture calibrates everything about the pitch.
@@ -179,6 +196,18 @@ The HoP's four-way pull is uniquely adversarial because **the business stakehold
 
 CPOs today navigate the most structurally expanded mandate in the role's history. The *themes* are universal; the specifics vary by industry and by the HoP's archetype. Lead with the universal pattern, then adapt the evidence.
 
+### 🇨🇳 中国采购负责人优先级
+
+| 排序 | 央企采购 | 大型民企采购 | 外企中国区采购 |
+|------|--------|-----------|-------------|
+| #1 | **合规(不出事)** | **降本(压价)** | **全球合同本地执行** |
+| #2 | **招投标流程管理** | **供应商整合/优化** | **信创合规** |
+| #3 | **供应商风险管控** | **供应链韧性** | **本地供应商开发** |
+| #4 | **集采/框架协议** | **数字化采购** | **合规/反腐** |
+| #5 | **数字化/阳光采购** | **ESG/绿色采购** | **成本优化** |
+
+### 全球采购负责人参考（Global Reference）
+
 ### Universal HoP Priorities
 
 1. **Delivering the savings number — with auditable, defensible measurement.** Every HoP has a committed savings target against the CFO's cost plan. It is the headline metric. But the bar has risen: CFOs increasingly demand savings that are *auditable* (can Internal Audit validate?), *booked* (flowing through P&L, not "paper savings"), and *sustainable* (not one-time discounts that reverse at renewal). Cost avoidance — preventing increases that would have happened absent procurement intervention — is now formally tracked alongside cost reduction in best-in-class organizations.
@@ -260,6 +289,17 @@ CPOs today navigate the most structurally expanded mandate in the role's history
 A HoP's scorecard is the most explicitly-savings-denominated dashboard in the enterprise. Every KPI eventually ladders back to *how much value did procurement extract from the vendor base this year, and what did it cost to do so*.
 
 Read the scorecard in two layers: the CFO / board-facing KPIs (the table below) and the private scorecard (further down). The second layer is what actually separates a Head of Procurement from a director of sourcing — and is where most vendor pitches go wrong.
+
+### 🇨🇳 中国采购KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 合规 | 招标合规率/审计问题数/廉洁零事故 | 央企核心KPI |
+| 成本 | 采购成本降低率/年度节省 | 年降3-5%是基本要求 |
+| 效率 | 采购周期/到货及时率/合同签署周期 | 业务催货压力 |
+| 供应商 | 供应商评分/淘汰率/集中度 | 供应商管理是核心能力 |
+
+### 全球采购负责人参考（Global Reference）
 
 ### The Universal Scoreboard: Delivered Savings + Managed Spend + Cycle Time
 
@@ -369,6 +409,18 @@ Across every industry, CPOs volunteer three headline metrics more often than any
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国采购特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **招投标流程繁琐** | 央企/国企每单都要走标→周期长/文档多 | 电子招投标/智能评标 |
+| **合规压力(怕出事)** | 审计随时查→采购人不敢"创新" | 阳光采购平台/全流程留痕 |
+| **供应商管理难** | 几千个供应商→评估/准入/淘汰→人力不够 | SRM(供应商管理)平台 |
+| **比价困难** | 市场价格不透明→怎么证明"买贵了没有" | 价格情报/AI比价 |
+| **尾巴支出(Tail Spend)** | 大量小额采购管不过来→浪费/合规风险 | 采购商城/AI自动化 |
+
+### 全球采购负责人参考（Global Reference）
+
 ### Universal HoP Pain Points
 
 - **Shadow purchasing and bypass behavior.** Business stakeholders buying technology, services, or even direct materials outside procurement's visibility — corporate-card SaaS, expense-report tools, sole-sourced vendor additions, CEO-sponsored handshake deals. Every bypass event undermines savings, accepts unfavorable terms, creates security risk, duplicates existing capability, and signals that procurement is seen as an obstacle rather than a partner.
@@ -464,6 +516,18 @@ Across every industry, CPOs volunteer three headline metrics more often than any
 ## 5. AI Opportunities
 
 Specific ways AI can address Head of Procurement priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a Head of Procurement meeting.
+
+### 🇨🇳 中国采购的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI招标** | 自动生成标书/评标/比对 | 中国招标格式/评分标准 |
+| **AI比价** | 市场价格分析/供应商报价对比 | 中国市场价格数据 |
+| **AI供应商评估** | 风险预警/资质审核/舆情监控 | 天眼查/企查查/工商数据 |
+| **AI合同** | 采购合同审核/条款比对 | 中国采购合同模板 |
+| **AI需求分析** | 历史采购分析/需求预测/集采建议 | 中国品类特殊性 |
+
+### 全球采购负责人参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -714,6 +778,17 @@ Procurement executives are trained negotiators — they're skeptical by professi
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these HoP-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a category-manager or sourcing-director meeting, not a HoP meeting.*
 
+### 🇨🇳 中国采购"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 合规/全流程留痕/可审计 | ❌ 有任何合规灰色地带 |
+| ✅ 支持中国招投标流程 | ❌ 只支持简单询价 |
+| ✅ 本地化部署/数据安全 | ❌ 供应商数据存海外 |
+| ✅ 跟ERP(SAP/用友/金蝶)集成 | ❌ 独立系统不集成 |
+
+### 全球采购负责人参考（Global Reference）
+
 CPOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a HoP uses to judge whether a specific proposal deserves their time, their category resource, and a line item in the savings plan.** Specificity against these earns HoP attention.
 
 1. **Documented, auditable savings — not "savings found."** CPOs are judged on savings *booked* through the CFO's ledger, not opportunities identified. The outcome they want is: *"this delivers $X of savings that Internal Audit will validate, in this fiscal year, against this category baseline."* Vague efficiency claims are disqualifying.
@@ -752,6 +827,17 @@ CPOs evaluate technology on a fundamentally different axis than every other C-su
 
 They build TCO models across competitive alternatives, benchmark against market rates using their own data and peer-network intelligence, and evaluate every contract term against organizational playbooks. **Don't pitch technology features to a HoP — pitch commercial substance, TCO, contractual partnership, and risk posture.** And don't pitch a point solution without naming what it replaces — CPOs evaluate every new tool against the consolidation opportunity it could represent, or the consolidation opportunity it forecloses.
 
+### 🇨🇳 中国采购评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **风险厌恶** | 采购人怕出事(腐败/违规=丢工作) |
+| **流程导向** | 必须走完流程才安心 |
+| **价格敏感** | 采购人自己也会压你价 |
+| **同行参考** | "XX央企用了吗？" |
+
+### 全球采购负责人参考（Global Reference）
+
 ### HoP Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -781,6 +867,18 @@ They build TCO models across competitive alternatives, benchmark against market 
 ## 8. Buying Dynamics
 
 The Head of Procurement owns the purchasing process — every significant technology purchase must navigate their process to reach contract execution. Their authority operates across four distinct dimensions, which is why the HoP is simultaneously the most powerful and the most misunderstood stakeholder in an enterprise sale.
+
+### 🇨🇳 中国采购采购动态(meta)
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 采购部预算(系统类走IT) |
+| **决策** | 采购负责人+IT+CFO审批 |
+| **触发** | 审计问题/效率差/领导要求/数字化浪潮 |
+| **流程** | 自己也要走自己的采购流程(招标采购工具也要招标!) |
+| **生态** | 甄云/筑龙/企企通/京东企业购/1688企采 |
+
+### 全球采购负责人参考（Global Reference）
 
 ### The Four Dimensions of HoP Authority
 
@@ -912,6 +1010,17 @@ Successful HoP engagements are almost always *multi-threaded*, involving the HoP
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 based on the HoP's archetype, current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a HoP meeting is commercial and focused, not an interrogation.*
 
+### 🇨🇳 中国采购Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "招投标流程现在怎么管的？效率满意吗？" | 电子招投标 |
+| "审计上有没有被指出过问题？" | 合规痛点 |
+| "供应商数量多吗？管理难度？" | SRM需求 |
+| "比价怎么做的？有没有市场价参考？" | 价格情报 |
+
+### 全球采购负责人参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "Can you walk me through your procurement process for a purchase at this scale — the stages, the stakeholders, and the documentation you need at each gate?"
@@ -958,6 +1067,26 @@ Successful HoP engagements are almost always *multi-threaded*, involving the HoP
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国采购关系地图
+
+```
+采购权力结构：
+┌─────────────────────────────────────┐
+│ CFO / COO                           │
+├─────────────────────────────────────┤
+│ 采购负责人/CPO                       │ ← target
+├──────────┬──────────┬───────────────┤
+│ 战略采购  │ 品类采购  │ 采购运营      │
+├──────────┴──────────┴───────────────┤
+│ 需求部门 (提需求)                    │
+│ 审计/合规 (监督)                     │
+│ IT (系统支持)                        │
+└─────────────────────────────────────┘
+```
+特别注意：审计部是采购的"天敌"——采购人做任何决定都考虑"审计怎么看"
+
+### 全球采购负责人参考（Global Reference）
 
 ### Core Executive Dynamics
 
@@ -1029,6 +1158,26 @@ Successful HoP engagements are almost always *multi-threaded*, involving the HoP
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国采购Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 强调合规/留痕/可审计 | 采购人第一焦虑 |
+| 提供央企/国企案例 | 同行背书=安全感 |
+| 流程走正规(招投标也配合) | 采购人不会"特批" |
+| 帮采购人做ROI材料 | 他要跟领导汇报 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 提任何"走捷径"暗示 | 采购人恐惧任何灰色 |
+| 请采购人吃饭/送礼 | 反腐高压区 |
+| 不配合招投标流程 | 他没办法不走流程 |
+| 定价不透明 | 采购人要向上解释价格合理性 |
+
+### 全球采购负责人参考（Global Reference）
 
 ### ✅ DO
 
