@@ -37,6 +37,23 @@ Unlike a Chief Operating Officer — who owns the full operational value chain i
 
 The modern VPM has evolved significantly in the past five years. Prior to 2020, the role was predominantly a lean-and-Six-Sigma operations role — a continuous-improvement leader measured on OEE, cost per unit, and safety. Post-2020, four forces have compounded onto the seat: (1) the ransomware wave hitting operational technology (Norsk Hydro, Colonial Pipeline, JBS, Clorox, Dole, MKS Instruments) made OT cybersecurity a VPM-level accountability co-owned with the CISO; (2) CBAM, scope-3 disclosure, and customer-OEM decarbonization mandates turned the plant into a carbon P&L line, not just a cost line; (3) the reshoring/China+1 wave put multi-region footprint architecture on the VPM's desk alongside daily production; and (4) the AI/GenAI wave forced the VPM to operationalize machine learning on the shop floor against the same 12–24 month payback hurdle the CFO has always demanded. The VPM is now simultaneously an operations leader, a capital allocator, a technology buyer, a regulatory principal, and an organizational-change executive. That simultaneity is the defining cognitive load of the seat — and it is why a generic "manufacturing" pitch is almost always under-scoped.
 
+### 🇨🇳 中国VPM原型补充
+
+| 企业类型 | VPM角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **央企制造** | "生产副总/制造部部长" | 安全生产+产量+质量 | 安全生产责任制=个人刑事责任 |
+| **大型民企** | "制造VP/工厂总经理" | 交付+成本+质量+智能制造 | 极致降本(人工+材料+能耗) |
+| **外企中国区** | "Plant Director/Mfg VP" | Global质量标准+本地执行 | Global标准vs本地成本优化 |
+| **中小制造** | "厂长/生产总监" | 什么都管=生产+质量+设备+人 | 人手少/预算少/一人多岗 |
+
+#### 中国VPM的环境
+- **安全生产法(2021修订)**: 主要负责人有直接法律责任(最高15-20年)
+- **碳达峰/能耗双控**: 能耗超标=限产/停产
+- **用工荒**: 年轻人不愿进工厂→招工越来越难→人工成本年涨10%+
+- **智能制造2025**: 政策补贴→数字化/自动化升级机遇
+
+### 全球VPM参考（Global Reference）
+
 ### VPM Archetypes (Postures, Not Industries)
 
 Archetypes describe how a VPM *leans*, not what industry they are in. Most real VPMs are blends, weighted differently by moment and by the problem on their desk. A Toyota plant VPM carrying a certification-scandal recovery is a Firefighter + Steward even though automotive. A BASF process-plant VPM under CBAM is an Optimizer + Transformer. A CATL VPM scaling a new gigafactory in Hungary is a Builder + Firefighter. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -146,6 +163,18 @@ Only the VPM is personally accountable to **all four simultaneously in a single 
 
 VPMs today navigate the most compressed transformation cycle in the role's history. The *themes* are universal across Manufacturing & Industrial; the specifics vary by sub-industry. Lead with the universal pattern, then adapt the evidence to the sub-industry on the other side of the table.
 
+### 🇨🇳 中国VPM优先级
+
+| 排序 | 离散制造VPM | 流程制造VPM | 外企工厂 |
+|------|-----------|-----------|---------|
+| #1 | **安全生产零事故** | **安全+环保** | **质量(Global标准)** |
+| #2 | **交期(OTD)** | **产能利用率** | **安全合规** |
+| #3 | **质量(良品率)** | **能耗/成本** | **成本优化** |
+| #4 | **人工成本/自动化** | **设备OEE** | **自动化升级** |
+| #5 | **智能制造升级** | **碳排放** | **精益/持续改善** |
+
+### 全球VPM参考（Global Reference）
+
 ### Universal VPM Priorities
 
 1. **Through-cycle conversion cost over in-year heroics.** The post-2022 margin reset across industrial — Siemens DI operating in the 15–18% industrial-profit band, Caterpillar ME&T targeting 20%+ through-cycle, Dow defending EBITDA through a deep chemicals downcycle — has pushed every VPM toward conversion-cost discipline that *holds up in the downturn*. A plant can hit a quarterly cost-out by running overtime; a VPM is paid on cost structure that survives when volume drops 20%. Assume the first question behind every pitch is *"does this improve the structural conversion cost, or only the in-year number?"*
@@ -215,6 +244,18 @@ VPMs today navigate the most compressed transformation cycle in the role's histo
 ## 3. KPIs
 
 A VPM's scorecard is ultimately the plant-network scorecard. But read it in two layers: the board/CEO-facing KPIs (the table below) and the private scorecard (further down) — the second layer is what actually separates a VPM from a plant manager or a VP Engineering.
+
+### 🇨🇳 中国VPM KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 安全 | 安全事故率=0/隐患整改率 | 一票否决(出事=坐牢) |
+| 产出 | OEE/产量达标率/OTD | 交期是客户核心要求 |
+| 质量 | 良品率/客诉率/PPM | 汽车链要求PPM<50 |
+| 成本 | 人均产值/单位制造成本/能耗 | 年降压力(3-5%/年) |
+| 环保 | 碳排放强度/万元产值能耗 | 政策考核 |
+
+### 全球VPM参考（Global Reference）
 
 ### The Universal Scoreboard: Conversion Cost + Recordables + OTIF
 
@@ -325,6 +366,19 @@ Across every sub-industry in the research, VPMs volunteer three headline metrics
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国VPM特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **安全生产压力** | 天天检查/一出事就坐牢→巨大心理压力 | 安全管理平台/AI视频识别/IoT预警 |
+| **招工难/人贵** | 产线工人平均45岁+/年轻人不来/人工成本年涨10% | 自动化/机器人/AI质检/协作机器人 |
+| **能耗超标** | 能耗双控→限产→交不了货→客户投诉 | 能源管理/AI优化/节能方案 |
+| **设备老化** | 设备用了10年+→故障频发→影响产能 | 预测性维护/设备管理/数字孪生 |
+| **MES/ERP割裂** | 生产数据在MES，管理数据在ERP→看不清全貌 | 制造中台/数据集成/MOM |
+| **质量追溯** | 客户要求全流程追溯→手工记录不可靠 | MES/质量追溯系统/AI质检 |
+
+### 全球VPM参考（Global Reference）
+
 ### Universal VPM Pain Points
 
 - **Speed of transformation required vs. constraints of physical plant.** Software can ship in a sprint; a reconfigured line takes a shutdown window. The CEO's urgency collides with the physical reality that you cannot rewire a running plant — and running plants are the ones making money.
@@ -417,6 +471,19 @@ Across every sub-industry in the research, VPMs volunteer three headline metrics
 ## 5. AI Opportunities
 
 Specific ways AI can address VP Manufacturing priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a VP Manufacturing meeting.
+
+### 🇨🇳 中国VPM的AI场景
+
+| 场景 | 应用 | 中国现状 |
+|------|------|---------|
+| **AI质检** | 视觉检测(缺陷/尺寸) | 成熟→大规模落地(替代人工目检) |
+| **AI安全** | 视频识别违规操作/危险行为 | 政策驱动→需求爆发 |
+| **AI排产** | 智能排产/调度优化 | 中等→复杂场景难 |
+| **预测维护** | 设备故障预测/寿命预测 | 中等→需传感器基建 |
+| **AI能源** | 能耗优化/碳管理 | 早期→政策驱动中 |
+| **数字孪生** | 工厂/产线数字孪生 | 高端→成本门槛高 |
+
+### 全球VPM参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -663,6 +730,18 @@ VPs of Manufacturing are the most operationally-grounded buyers in the enterpris
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these VPM-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a plant-manager or engineering-director meeting, not a VPM meeting.*
 
+### 🇨🇳 中国VPM"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 不影响生产(零停机部署) | ❌ 需要停产安装 |
+| ✅ 一线工人能用(傻瓜式) | ❌ 复杂/需要培训多 |
+| ✅ 快速见效(1-3个月ROI) | ❌ 18个月才看到效果 |
+| ✅ 有同行业落地案例 | ❌ 只有demo |
+| ✅ 本地服务(7x24响应) | ❌ 只有远程support |
+
+### 全球VPM参考（Global Reference）
+
 VPMs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a VPM uses to judge whether a specific proposal deserves their time, their capex, and a commissioning window on a real line.** Specificity against these earns VPM attention.
 
 1. **Production-safe deployment.** "Can this be installed without taking my line down, and with a rollback path my controls team pre-approves?" VPMs cannot accept unplanned downtime from a vendor cutover. Every outcome they want is *net* of production risk during install. If you cannot describe the commissioning window, the fallback path, and the safe-to-production model in the first meeting, you are disqualified.
@@ -695,6 +774,18 @@ VPMs evaluate technology on a blended axis: **does it work on my line, is it saf
 
 They rely on Manufacturing Engineering, Controls/Automation leads, and the CISO to vet technical and cyber decisions — but they want strategic implications in plant and financial terms. **Don't pitch technology features to a VPM — pitch operational transformation with a production-safe path to the first measured KPI.** And don't pitch a point solution — VPMs increasingly describe their plants as platforms (a data backbone plus modular applications), not collections of point tools. A solution that compounds on their data spine (more data, more use cases, more agents, more downstream leverage per dollar) maps onto how they already think. A standalone tool reads as "another logo on the floor."
 
+### 🇨🇳 中国VPM评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **眼见为实** | "去我车间实际跑一下" |
+| **极度务实** | 不关心技术——只看能不能解决问题 |
+| **一线验证** | 让车间主任/班组长试用给反馈 |
+| **成本至上** | "能省多少人/多少钱？" |
+| **风险厌恶** | "万一出问题影响生产谁负责？" |
+
+### 全球VPM参考（Global Reference）
+
 ### VPM Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -724,6 +815,18 @@ They rely on Manufacturing Engineering, Controls/Automation leads, and the CISO 
 ## 8. Buying Dynamics
 
 The VPM is the primary decision maker for plant-and-OT-adjacent technology (MES, IIoT, OT security, automation, vision, predictive maintenance, energy optimization, quality systems) typically in the $500K–$10M+ range per initiative, and a key influencer on enterprise platforms that touch the floor (SAP, ERP modules, sustainability platforms, enterprise AI). Remember: a VPM meeting is the VPM removing 30–60 minutes from operations rhythm, plant-network management, a transformation program, or external/cross-functional work. "No one else in your plant organization can make this decision" is the only honest reason to be in the room.
+
+### 🇨🇳 中国VPM采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 制造/运营预算(非IT) |
+| **决策** | VPM自决(小额)+COO/CEO批(大额) |
+| **节奏** | 年初规划/淡季实施/旺季不动 |
+| **评估** | 必须现场POC→车间验证→看数据→扩推 |
+| **生态** | 海康/华为/西门子/施耐德+国产MES(黑湖/摩尔元数) |
+
+### 全球VPM参考（Global Reference）
 
 ### When the VPM Engages Directly
 
@@ -846,6 +949,18 @@ Getting VPM sponsorship dramatically accelerates deal velocity and removes plant
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the VPM's archetype, current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a VPM meeting is 30–45 minutes, not an interrogation.*
 
+### 🇨🇳 中国VPM Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "安全生产方面有什么新要求/压力？" | 安全场景 |
+| "招工难吗？哪些环节最想自动化？" | 自动化需求 |
+| "能耗/碳排放有考核压力吗？" | 能源场景 |
+| "设备故障影响产能严重吗？" | 预测维护 |
+| "质量追溯做到什么程度了？" | MES/质量 |
+
+### 全球VPM参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "When you look at your plant network over the next 18–24 months, where do you see the biggest gap between the operating plan and the execution reality — and where is the highest-risk dependency?"
@@ -894,6 +1009,27 @@ Getting VPM sponsorship dramatically accelerates deal velocity and removes plant
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国VPM关系地图
+
+```
+VPM权力结构：
+┌─────────────────────────────────────┐
+│ CEO / COO                           │
+├─────────────────────────────────────┤
+│ VPM / 制造VP                        │ ← target
+├──────────┬──────────┬───────────────┤
+│ 工厂厂长  │ 品质      │ 设备/工程     │
+├──────────┼──────────┼───────────────┤
+│ 车间主任  │ IE/精益   │ 安全/环保     │
+├──────────┴──────────┴───────────────┤
+│ 供应链 (来料)                        │
+│ IT (系统支持，但VPM有独立预算)        │
+└─────────────────────────────────────┘
+```
+注意：VPM的预算独立于IT→可以绕过CIO直接采购OT(运营技术)
+
+### 全球VPM参考（Global Reference）
 
 ### Core C-Suite and Plant-Network Dynamics
 
@@ -958,6 +1094,28 @@ Getting VPM sponsorship dramatically accelerates deal velocity and removes plant
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国VPM Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 去现场(穿工装/戴安全帽) | VPM信现场不信PPT |
+| 用制造语言(OEE/良品率/OTD) | VPM不是IT人 |
+| 给"快赢"(3个月见效) | VPM等不起 |
+| 搞定车间主任 | 一线反馈=VPM决策依据 |
+| 强调不停产/渐进式 | VPM最怕影响生产 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 要求停产部署 | 停一天=百万损失 |
+| 只做总部PPT | VPM要看现场效果 |
+| 讲太多IT术语 | VPM是工厂人 |
+| 忽视安全(施工/调试) | 安全出事VPM负责 |
+| 淡季不来旺季来推 | 旺季不可能试新东西 |
+
+### 全球VPM参考（Global Reference）
 
 ### ✅ DO
 
