@@ -41,6 +41,23 @@ The most effective CINOs operate as **portfolio managers of innovation bets** ac
 
 The GenAI revolution has added an urgent dimension. The CIO asks *"how do we deploy AI effectively?"* The CAIO asks *"how do we build and govern AI capabilities?"* The CINO asks: **"What entirely new things become possible because AI exists, and which represent existential threats or transformational opportunities to our core business?"** A pitch that confuses these three questions lands in the wrong executive's inbox — and the CINO disengages within minutes.
 
+### 🇨🇳 中国CINO原型补充
+
+| 企业类型 | CINO角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **央企** | "科技创新部/研究院院长" | 技术攻关+专利+产学研 | "卡脖子"技术突破=政治任务 |
+| **大型民企** | "创新VP/战略VP" | 新业务孵化+前沿探索 | 第二增长曲线焦虑 |
+| **互联网** | "战略创新/新业务" | 新赛道探索+内部创业 | 互联网红利消失→找新增长 |
+| **外企中国区** | "Innovation Lab China" | 本地创新/与global对接 | 中国速度反哺global |
+
+#### 中国CINO独特环境
+- **国家创新战略**: 科技自立自强→企业创新有政策红利(研发加计扣除/高新认定)
+- **专利竞赛**: 专利数量是央企/高新企业的考核指标
+- **产学研合作**: 与高校/研究所合作=常规路径
+- **创新补贴**: 各级政府有创新补贴/科技项目资金
+
+### 全球CINO参考（Global Reference）
+
 ### CINO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CINO *leans*, not what industry they're in. Most CINOs are blends. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -141,6 +158,18 @@ Archetypes describe how a CINO *leans*, not what industry they're in. Most CINOs
 
 CINOs today navigate a compressed innovation cycle where the window between emerging technology and competitive deployment has shrunk from years to quarters. The *themes* are universal across large enterprises; the specifics vary by industry.
 
+### 🇨🇳 中国CINO优先级
+
+| 排序 | 央企CINO | 大型民企 | 互联网 |
+|------|--------|--------|-------|
+| #1 | **"卡脖子"技术攻关** | **第二曲线/新业务** | **AI新场景探索** |
+| #2 | **专利/标准制定** | **产品创新** | **出海创新** |
+| #3 | **产学研合作** | **商业模式创新** | **内部创业** |
+| #4 | **国家科技项目** | **创新文化建设** | **前沿技术跟踪** |
+| #5 | **创新体系建设** | **外部投资/并购** | **创新加速器** |
+
+### 全球CINO参考（Global Reference）
+
 ### Universal CINO Priorities
 
 1. **Building a repeatable innovation operating model — not running isolated projects.** The mature CINO agenda is explicitly a *system* agenda: stage-gate processes, portfolio governance, innovation accounting, BU-handoff mechanisms, kill criteria, resource-reallocation rhythms. Too little structure and efforts dissipate; too much and bureaucracy strangles creativity. The 2024–26 reflex is toward *more* structure — the "let a thousand flowers bloom" era gave way to portfolio discipline because boards are tired of pilot-purgatory war stories. Anything that adds process bloat without improving throughput swims against the tide.
@@ -201,6 +230,17 @@ CINOs today navigate a compressed innovation cycle where the window between emer
 ## 3. KPIs
 
 A CINO's scorecard is the innovation-system scorecard. But read it in two layers: board-facing KPIs (table below) and the private scorecard — the second layer is what actually separates a CINO from an R&D head or a Chief Strategy Officer.
+
+### 🇨🇳 中国CINO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 产出 | 专利数/标准参与数/论文 | 央企有硬指标 |
+| 孵化 | 新业务收入/孵化项目数 | 第二曲线 |
+| 效率 | 创新项目成功率/周期 | 快速验证文化 |
+| 补贴 | 科技项目获批数/资金额 | 政府补贴是KPI |
+
+### 全球CINO参考（Global Reference）
 
 ### The Universal Scoreboard: Innovation-Revenue % and Portfolio Velocity
 
@@ -282,6 +322,18 @@ Across every industry in the research, CINOs volunteer two headline metrics more
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CINO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **创新vs主业冲突** | 创新团队资源被主业抢/边缘化 | 创新管理平台/独立体系 |
+| **技术跟踪难** | 前沿技术变化太快→怎么判断哪个值得投入 | 技术雷达/趋势分析AI |
+| **产学研转化率低** | 跟高校合作→论文有了→产品化gap大 | 技术转化平台/POC加速 |
+| **创新度量难** | 创新ROI不好算→CEO质疑投入 | 创新指标体系/portfolio管理 |
+| **专利质量vs数量** | 为考核刷专利→低质量/无用专利 | AI专利分析/质量评估 |
+
+### 全球CINO参考（Global Reference）
+
 ### Universal CINO Pain Points
 
 - **The organizational immune system.** Governance, budget cycles, compliance frameworks, performance management, and cultural norms designed to protect the core business actively reject anything unfamiliar or unproven. The CINO is perpetually negotiating with the immune system rather than commanding it.
@@ -319,6 +371,17 @@ Across every industry in the research, CINOs volunteer two headline metrics more
 ## 5. AI Opportunities
 
 Specific ways AI can address CINO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CINO meeting.
+
+### 🇨🇳 中国CINO的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI辅助研发** | 文献分析/实验设计/专利检索 | 中文文献+中国专利库 |
+| **技术预测** | AI分析技术趋势/竞争态势 | 中国产业数据/政策分析 |
+| **创新管理** | 项目评估/portfolio优化 | 适配中国创新流程 |
+| **数字孪生/仿真** | 虚拟验证/减少物理实验 | 工业场景(中国制造2025) |
+
+### 全球CINO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -571,6 +634,17 @@ CINOs are open-minded and forward-looking — they want to see the art of the po
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these CINO-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a CIO, CAIO, or BU-leader meeting — not a CINO meeting.*
 
+### 🇨🇳 中国CINO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 有前沿性/差异化 | ❌ 已经很成熟/大家都有 |
+| ✅ 能快速验证(POC) | ❌ 周期太长 |
+| ✅ 有技术深度 | ❌ 包装概念没实质 |
+| ✅ 知识产权清晰 | ❌ IP不清/开源合规风险 |
+
+### 全球CINO参考（Global Reference）
+
 CINOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CINO uses to judge whether a specific proposal deserves their time, their portfolio slot, and their political capital.** Specificity against these earns CINO attention.
 
 1. **Systematic, repeatable innovation — not lucky accidents.** The CINO's highest-order outcome is making innovation a capability, not a series of heroic efforts. Every proposal should connect to *the system* — how it strengthens the operating model, the portfolio discipline, the scaling pathways. A proposal that solves one experiment but doesn't compound into system capability is a tactical win without strategic value.
@@ -603,6 +677,17 @@ CINOs evaluate technology differently from every other C-suite executive. They a
 
 They rely on their innovation team, technology radar, and ecosystem network to vet technical decisions — but the final filter is *portfolio fit* and *trajectory judgment.* **Don't pitch current-state features to a CINO — pitch trajectory, novelty, and what becomes newly possible.** And don't pitch rigid enterprise commitments — CINOs buy options, not contracts.
 
+### 🇨🇳 中国CINO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **前沿导向** | 对新技术最open |
+| **实验思维** | "先试试看" |
+| **生态视角** | 看产学研/投资/合作机会 |
+| **战略思考** | 关心"未来3-5年" |
+
+### 全球CINO参考（Global Reference）
+
 ### CINO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -632,6 +717,17 @@ They rely on their innovation team, technology radar, and ecosystem network to v
 ## 8. Buying Dynamics
 
 The CINO is a **high-velocity, lower-initial-commitment buyer** — fundamentally different from a CIO or CFO who sign large multi-year contracts. Their portfolio model creates frequent small purchases, with a subset scaling into enterprise-sized commitments.
+
+### 🇨🇳 中国CINO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 研发/创新专项预算 |
+| **决策** | CINO独立决策(金额小)/CEO参与(大项目) |
+| **触发** | 新技术出现/竞品动作/政策引导/CEO要求 |
+| **特殊** | 可通过政府科技项目资金采购 |
+
+### 全球CINO参考（Global Reference）
 
 ### When the CINO Engages Directly
 
@@ -751,6 +847,17 @@ Getting CINO sponsorship is the fastest enterprise entry point for emerging vend
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the CINO's archetype, the current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a CINO meeting is 30–45 minutes.*
 
+### 🇨🇳 中国CINO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "现在最关注哪个技术方向？" | 找对口场景 |
+| "有跟高校/研究所合作吗？" | 产学研协同 |
+| "创新项目从idea到落地周期怎样？" | 加速需求 |
+| "专利/标准方面有什么目标？" | 专利相关场景 |
+
+### 全球CINO参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "What's your innovation thesis for the next 3–5 years — where are you placing your biggest bets on how your industry will change?"
@@ -798,6 +905,25 @@ Getting CINO sponsorship is the fastest enterprise entry point for emerging vend
 
 ## 10. Relationship Map
 
+### 🇨🇳 中国CINO关系地图
+
+```
+CINO权力结构：
+┌─────────────────────────────────────┐
+│ CEO / 董事长                         │
+├─────────────────────────────────────┤
+│ CINO / 研究院院长                    │ ← target
+├──────────┬──────────┬───────────────┤
+│ 前沿研究  │ 孵化/新业务│ 知识产权     │
+├──────────┴──────────┴───────────────┤
+│ CTO (技术实现)                       │
+│ 战略部 (方向对齐)                    │
+│ 外部: 高校/VC/研究所                 │
+└─────────────────────────────────────┘
+```
+
+### 全球CINO参考（Global Reference）
+
 ### Core C-Suite Dynamics
 
 | Relationship | Nature | Sales Implication |
@@ -826,6 +952,24 @@ Getting CINO sponsorship is the fastest enterprise entry point for emerging vend
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CINO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 展示前沿性/差异化 | CINO最open |
+| 提供快速POC能力 | "先试"文化 |
+| 讲生态(产学研/合作) | CINO看生态 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 太成熟/太大众 | CINO要前沿 |
+| 不能POC/只能买 | CINO要试 |
+| IP/知识产权不清 | 创新很在意IP |
+
+### 全球CINO参考（Global Reference）
 
 ### ✅ DO
 
