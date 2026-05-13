@@ -414,57 +414,254 @@ Across every industry, CISOs volunteer three headline metrics more often than an
 
 Specific ways AI can address CISO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CISO meeting.
 
-### Universal AI Value Levers for CISOs
+### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
-These are the seven ways AI creates value that CISOs care about — mapped directly to Priorities (Section 2) and the Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+> *Agent instruction: Use this subsection to calibrate your tone. CISOs face a unique paradox: AI is both the biggest new attack surface AND the most promising defense tool. Frame your pitch around the security implications of enterprise AI adoption, not just "AI for security."*
 
-1. **SOC automation and autonomous triage.** AI-powered alert enrichment, triage, investigation, and containment. Handles well-understood threat patterns (phishing, known malware, credential stuffing, commodity ransomware) with human escalation only for novel cases. Directly addresses the talent-retention and alert-fatigue pain points. *Agentic dimension:* Autonomous SOC agents that run end-to-end investigation — enriching alerts, correlating indicators across SIEM/EDR/identity/cloud, executing containment playbooks, documenting the case — without human intervention on routine incidents.
+**The state of enterprise AI in 2025:**
 
-2. **Threat detection and behavioral analytics.** ML models that establish normal-behavior baselines across users, endpoints, workloads, and network traffic, and flag anomalies that rule-based detection misses. Reduces MTTD meaningfully on insider threats, credential compromise, and lateral movement. *Agentic dimension:* Continuous-monitoring agents that correlate weak signals across data sources and trigger containment at machine speed.
+| Milestone | % of Enterprises | Source |
+|-----------|-----------------|--------|
+| Adopted AI in ≥1 function | 72% | McKinsey State of AI 2024 |
+| Regularly using GenAI (doubled in 10 months) | 65% | McKinsey State of AI 2024 |
+| Running 5+ AI pilots simultaneously | ~50% | Forrester AI Maturity 2024 |
+| Successfully moved any pilot to production | 20–30% | BCG/Deloitte/iResearch 2024 |
+| Scaled AI for significant financial ROI | ~10% | BCG "From Potential to Profit" 2024 |
+| Achieved enterprise-wide AI transformation | <5% | Accenture AI Maturity 2024 |
 
-3. **Automated vulnerability prioritization and remediation.** AI-driven prioritization based on exploitability, asset criticality, threat-actor activity, and blast radius — not just CVSS. Reduces patch backlog by focusing remediation on what actually matters. *Agentic dimension:* Agents that orchestrate patching workflows, coordinate with IT change management, and verify remediation without manual triage.
+**Gartner prediction (Oct 2024):** At least 30% of GenAI projects will be abandoned after proof-of-concept by end of 2025 — due to poor data quality, escalating costs, or unclear business value.
 
-4. **Compliance automation and continuous audit readiness.** Continuous control monitoring, automated evidence collection, cross-framework mapping (SOC 2, ISO 27001, HITRUST, FedRAMP, DORA, NIS2, PCI-DSS, HIPAA). Reduces audit preparation from weeks to hours. *Agentic dimension:* Agents that maintain continuous audit readiness, map controls across frameworks in real time, and generate auditor-ready evidence packages on demand.
+**China-specific data point:** Chinese enterprises show 40% higher AI pilot initiation rates than global average, but production-scale deployment rates are 8–12% lower than US counterparts (Bain/Accenture 2024). The "高热度低转化" (high heat, low conversion) pattern is pronounced — over 100,000 AI trial projects with <25% reaching production (钛媒体 2024).
 
-5. **Security copilots for analysts, engineers, and GRC teams.** AI assistants that accelerate investigation, write detection logic, generate audit responses, and draft policy documents. Elevates junior analysts to perform at senior effectiveness and reduces senior burnout. *Agentic dimension:* Copilots that learn from team decisions and progressively handle more complex tasks autonomously with human approval on consequential actions.
+**What CISOs are actually saying:**
+- "My CEO is deploying AI everywhere. My job is to make sure it doesn't become the biggest attack surface we've ever created."
+- "Shadow AI is shadow IT on steroids — employees pasting proprietary data into ChatGPT, and I can't even see it happening."
+- "Attackers are using AI to generate phishing at scale, deepfakes for social engineering, and automated exploit discovery. I need AI to defend at the same speed they're attacking."
+- 68% of CISOs say AI increases their attack surface faster than it improves their defenses (ISC2 Cybersecurity Workforce Study 2024).
+- 73% report shadow AI/GenAI usage as a top-3 data loss risk (Gartner Security & Risk Management Survey 2024).
 
-6. **AI security and governance (securing the organization's own AI).** Shadow AI discovery, model endpoint protection, prompt-injection defense, RAG pipeline security, agent runtime monitoring, AI acceptable-use enforcement. *Agentic dimension:* Security agents that continuously inventory AI tools, detect policy violations, and enforce guardrails on AI agent behavior in real time — a new category with no mature incumbent.
+**Field rule:** When preparing a Call Plan for a CISO, frame AI through the security lens — both offensive (AI-powered threats) and defensive (AI-powered protection). The CISO simultaneously needs to: (1) secure AI deployments across the enterprise, and (2) use AI to defend against increasingly sophisticated threats. If you only pitch "AI for SOC automation," you're missing half the conversation.
 
-7. **Adversary-specific defense (defeating AI-enabled attacks).** Deepfake and voice-clone detection, AI-generated phishing identification, adversarial-ML-attack detection, synthetic-identity fraud defense. *Agentic dimension:* Defensive agents operating at the same machine speed and scale as offensive AI — the only viable response to fully-automated adversary campaigns.
+---
 
-### Quality Bar: How CISOs Filter AI Pitches
+### 5.2 The Four Blockers — Why Enterprise AI Stalls
 
-CISOs are the most skeptical AI buyers in the C-suite — because every AI claim is also an attack-surface claim. The pattern is consistent. CISOs only take AI seriously when it passes **six** tests simultaneously (two more than the CEO's four):
+> *Agent instruction: Use this as a diagnostic framework. The CISO owns a unique version of ALL blockers — from a security perspective. The CISO's primary owned domain is Technical (AI security architecture, data protection) and Process (AI governance, risk frameworks). The CISO is often the "blocker" that other executives complain about — frame your pitch around enabling secure AI deployment, not slowing it down.*
 
-1. **Measurable risk reduction, not capability claims.** A specific threat reduced by a specific amount — not "advanced detection" but "reduced MTTD from X hours to Y minutes on credential-compromise scenarios."
-2. **Tested against real attacks, not canned demos.** POC in the customer's environment, head-to-head with existing tools, mapped to MITRE ATT&CK techniques relevant to the industry.
-3. **Integrated, not another dashboard.** Native API integration with SIEM, SOAR, identity platform, EDR, ticketing, data lake. Standalone creates a blind spot.
-4. **Past-tense peer proof, sub-industry-specific.** "Here is what we deployed at a comparable peer; here is the detection lift it produced." Pilots do not count.
-5. **The tool itself is secure.** SOC 2 Type II, pentest results, vulnerability disclosure history, secure SDLC evidence. CISOs evaluate the vendor's own security posture before the product capability.
-6. **Explainable and auditable decisions.** If the AI takes autonomous action, every action has a decision log the CISO can review, an audit trail a regulator will accept, and an accuracy metric with confidence scoring.
+#### A. Organizational — "Security is seen as the brake, not the enabler"
 
-**Field rule:** If a CISO-level AI pitch cannot check all six — measured, tested, integrated, peer-proven, vendor-secure, explainable — it reads as another security-AI claim. Lead with the peer already in production and with the vendor security artifacts before touching the product pitch.
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| CISO excluded from AI deployment decisions | 58% of AI projects deployed without security review | Gartner 2024 |
+| Business units bypass security for speed | "Move fast and break things" culture conflicts with security requirements | ISC2 2024 |
+| Board pressure to enable AI vs. secure it | 64% of CISOs feel pressure to "not block innovation" | PwC Digital Trust Survey 2024 |
+| No AI-specific security policy | 67% of organizations have no AI security framework | OWASP AI Security 2024 |
+| Shadow AI creating ungovernable risk | 73% report unauthorized AI tool usage | Gartner 2024 |
 
-### The 2025–2026 Reality Check
+**CISO lens:** "The CEO tells me to 'enable AI' while the board holds me accountable for data breaches. Every business unit is deploying AI tools I haven't reviewed. I'm fighting shadow AI with the same understaffed team that's fighting everything else."
 
-The CISO AI mindset has shifted from "excited about SOC automation" to "exhausted by AI vendor claims." Industry surveys show that most AI security pilots have not measurably reduced MTTD or analyst toil, and that CISOs are consolidating AI-security vendors as aggressively as they are any other category. Every security vendor now markets AI; separating real capability from rebranded ML rules is the CISO's first filter.
+**Who should own unblocking:** CISO (AI security framework + governance), CEO (mandate security involvement in AI decisions), CIO (enterprise AI architecture with security built in).
 
-**Implication for the agent:** When preparing a Call Plan for a CISO, do NOT frame AI as a new exploration. Frame it as: *"Here is how to get measurable SOC lift from your existing AI investment"* or *"Here is how to avoid the AI-security failure modes your peers are privately disclosing."* The CISO's pain is not lack of AI — it is lack of AI *results*, and the risk that AI becomes a new attack surface faster than it becomes a defender capability.
+#### B. People — "I can't hire fast enough for this"
 
-### Industry-Specific Security AI Use Cases *(supporting evidence)*
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Cybersecurity talent shortage critical | 4M unfilled cybersecurity positions globally; 3.4M gap (ISC2 2024) | ISC2 Workforce Study 2024 |
+| AI security specialists nearly nonexistent | <5% of security professionals have AI/ML security expertise | SANS Institute 2024 |
+| Alert fatigue burning out SOC analysts | Average SOC analyst reviews 4,000+ alerts/day; 70% are false positives | Ponemon Institute 2024 |
+| Security team stretched across too many tools | Average enterprise runs 60-80 security tools; integration overhead enormous | Gartner 2024 |
+| China-specific: cybersecurity talent gap | 3.7M cybersecurity professionals needed vs. 1.5M available in China | 中国网络空间安全协会 2024 |
 
-> *Examples below are illustrative of the type of deployed use case and the magnitude of impact a CISO finds credible — not current figures to cite verbatim. Agent must verify latest numbers and find comparable peer examples before including in a Call Plan.*
+**CISO lens:** "I have 4 million unfilled positions globally in cyber. Now add 'AI security' to the requirements and the talent pool drops to almost zero. My SOC analysts are drowning in alerts. I need AI to handle the volume because I can't hire enough humans."
 
-| Industry Group | Use Cases | Real Examples (Pattern) | Impact |
-|----------|----------|---------------|--------|
-| **Financial Services** | AI-driven AML / fraud, deepfake defense, SOC automation for scaled banks | Major banks deploying AI to reduce AML false positives; deepfake-voice BEC defense; DORA-compliance automation | False-positive reduction; model-governance compliance |
-| **Healthcare** | PHI-aware AI governance, ransomware-resilience automation, medical-device security | Major health-system SIEM-replacement programs post-Change Healthcare; clinical-AI governance programs | Recovery-time compression; HIPAA audit readiness |
-| **Manufacturing & Industrial** | OT-aware behavioral analytics, passive asset discovery, OT-IT correlation | Industrial CISO deployments for OT segmentation monitoring and anomaly detection | Plant-down-event prevention; NIS2 reporting |
-| **Technology & Digital Native** | AI workload protection, shadow AI discovery, supply-chain SBOM analytics | Emerging AI security platforms (AI-SPM, AI-BOM) at major SaaS companies | AI inventory coverage; prompt-injection detection |
-| **Retail & Consumer** | E-commerce fraud AI, POS anomaly detection, bot defense | Major retailer fraud-AI deployments; account-takeover defense | Fraud bps reduction; PCI-DSS evidence |
-| **Energy & Utilities** | Nation-state adversary detection, OT behavioral analytics, grid anomaly detection | Critical-infrastructure CISOs deploying Volt-Typhoon-specific detection | Adversary-specific coverage; CIP evidence |
-| **Telecom & Media** | SIM-swap fraud AI, robocall blocking, 5G supply-chain monitoring | Major carrier AI-blocking of fraudulent calls at scale | Fraud and abuse reduction |
-| **Transportation & Logistics** | Operational-IT anomaly detection, fleet/IoT security, IROPS-recovery automation | Post–Delta/CrowdStrike resilience-focused AI deployments | Recovery-time compression |
+**Who should own unblocking:** CISO (team structure + AI augmentation strategy), CHRO (security talent pipeline), CFO (security investment).
+
+#### C. Technical — "AI expands our attack surface exponentially"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI model vulnerabilities (prompt injection, poisoning) | OWASP Top 10 for LLMs; no enterprise has comprehensive mitigations | OWASP 2024 |
+| Data leakage through AI tools | 55% of enterprises detected sensitive data uploaded to GenAI tools | Cyberhaven 2024 |
+| Supply chain attacks on AI models | Model supply chain (Hugging Face, open weights) lacks security controls | NIST AI 100-2e2025 |
+| AI-powered attacks accelerating | 60% increase in AI-generated phishing; 300% increase in deepfake attacks | Proofpoint/Sumsub 2024 |
+| Lack of AI observability for security | 80% of enterprises cannot detect adversarial inputs to their AI systems | Gartner 2024 |
+| Third-party AI risk unmanaged | Average enterprise uses 15+ third-party AI APIs without security assessment | Forrester 2024 |
+
+**CISO lens:** "Prompt injection lets attackers manipulate our AI systems. Data poisoning corrupts our models. Employees leak trade secrets into AI tools. And our adversaries are using AI to attack us faster than we can respond. I need to secure a technology that the security industry barely understands yet."
+
+**Who should own unblocking:** CISO (AI security architecture + threat modeling), CTO (secure AI development practices), CIO (enterprise AI governance), CDO (data classification for AI).
+
+#### D. Process — "No frameworks, no standards, no playbook"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI security frameworks immature | NIST AI RMF, EU AI Act, ISO 42001 — all new, adoption <20% | NIST/ISO 2024 |
+| No AI incident response playbook | 85% of organizations have no specific AI incident response procedures | SANS 2024 |
+| AI risk assessment methods undefined | Traditional risk assessment doesn't account for AI-specific threats | Gartner 2024 |
+| Compliance landscape fragmented | EU AI Act, NIST AI RMF, China 生成式AI管理办法, NYC LL144 — conflicting requirements | Regulatory Analysis 2024 |
+| Third-party AI risk management absent | 72% have no process for assessing AI vendor security | Forrester 2024 |
+| Red teaming for AI systems rare | <10% of organizations conduct regular AI red team exercises | MITRE 2024 |
+
+**CISO lens:** "I've spent 20 years building security frameworks. Now I need entirely new frameworks for AI — new threat models, new risk assessments, new incident response procedures, new vendor assessments. The standards bodies are working on it, but my enterprise is deploying AI NOW."
+
+**Who should own unblocking:** CISO (AI security governance + risk framework), General Counsel (regulatory compliance), CTO (secure development lifecycle for AI), CAIO (responsible AI alignment).
+
+**Field rule for the agent:** In the Call Plan Discovery section, ask the CISO: "How are you currently handling security review for AI deployments?" and "Do you have visibility into which AI tools employees are using?" These reveal security maturity for AI — if they lack AI-specific controls, your entry point is the AI security framework.
+
+---
+
+### 5.3 Universal AI Value Levers for CISOs
+
+These are the seven ways AI creates value that CISOs care about — mapped directly to the CISO's Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+
+1. **Threat detection & SOC automation.** AI that detects threats in real-time across massive data volumes, correlates events, reduces false positives, and accelerates analyst productivity. *Agentic dimension:* SOC agents that autonomously triage alerts, investigate suspicious activity across multiple systems, determine severity, execute containment for known threat patterns, and generate investigation reports — reducing MTTR from hours to minutes.
+
+2. **AI security posture management.** Securing the enterprise's AI deployments — monitoring for prompt injection, data leakage, model manipulation, and shadow AI usage. *Agentic dimension:* AI security agents that continuously scan for unauthorized AI deployments, test AI systems for vulnerabilities, monitor data flows to AI tools, and enforce AI usage policies — providing the CISO visibility into the AI attack surface.
+
+3. **Identity & access intelligence.** AI that detects anomalous access patterns, identifies compromised credentials, and enforces zero-trust principles through behavioral analysis. *Agentic dimension:* Identity agents that continuously analyze access patterns, detect credential compromise in real-time, automatically revoke suspicious sessions, and adapt access policies based on risk scores — making zero-trust dynamic rather than static.
+
+4. **Email & phishing defense.** AI that detects sophisticated phishing (including AI-generated), business email compromise, and social engineering attacks that bypass traditional filters. *Agentic dimension:* Email security agents that analyze messages for AI-generated content indicators, verify sender identity through behavioral analysis, quarantine suspicious communications, and automatically update detection models based on new attack patterns.
+
+5. **Vulnerability management & prioritization.** AI that identifies vulnerabilities, prioritizes based on actual exploitability and business impact, and accelerates patching across complex environments. *Agentic dimension:* Vulnerability agents that continuously scan assets, correlate with threat intelligence, prioritize based on real exploitability (not just CVSS scores), and orchestrate patching workflows — closing the gap between vulnerability discovery and remediation.
+
+6. **Data protection & privacy AI.** AI that classifies sensitive data, monitors data flows, detects exfiltration attempts, and ensures compliance with privacy regulations. *Agentic dimension:* Data protection agents that continuously discover and classify data across the enterprise, monitor for unauthorized transfers (especially to AI tools), enforce DLP policies in real-time, and generate compliance evidence automatically.
+
+7. **Security operations & incident response.** AI that accelerates incident investigation, automates response playbooks, and enables faster recovery from security incidents. *Agentic dimension:* Incident response agents that autonomously execute response playbooks for known attack types, contain threats, collect forensic evidence, coordinate across security tools, and generate post-incident reports — enabling the SOC to handle 10x incidents without 10x staff.
+
+---
+
+### 5.4 Quality Bar: How CISOs Filter AI Pitches
+
+CISOs are the most skeptical buyers in the enterprise — they've seen decades of security vendor hype. The pattern across every organization is identical — CISOs only take AI seriously when it passes four security tests simultaneously:
+
+1. **Proven detection efficacy with measured false-positive rates.** Not "AI-powered detection" but "detected 94% of attacks in MITRE ATT&CK evaluation with 3% false positive rate." The CISO needs third-party validation, not vendor benchmarks.
+2. **Security of the AI itself demonstrated.** How is the AI model protected from adversarial attacks? What happens if the AI is wrong? What's the fail-safe mode? If the security tool itself can be compromised or manipulated, it's a liability, not an asset.
+3. **Integration with existing security stack proven.** Works with their SIEM, SOAR, EDR, IAM, and ticketing system. CISOs run 60-80 tools — anything that creates a new silo or requires a "swivel chair" adds operational burden.
+4. **SOC analyst feedback validates daily utility.** The CISO will ask their analysts: "Does this actually help you?" Security tools that look good in demos but annoy analysts in daily use get shelfwared within 6 months. Proof of analyst adoption at a peer org is essential.
+
+**Field rule:** If a CISO-level AI pitch cannot check all four — efficacy-measured, self-secure, stack-integrated, analyst-validated — it reads as another security vendor riding the AI hype wave. Lead with MITRE ATT&CK evaluation results or equivalent third-party testing. When generating Call Plan Section 4, ensure every AI story includes: (a) detection/prevention metrics from independent testing, (b) security of the AI system itself, (c) specific integration with their likely security stack, (d) analyst experience evidence from peer SOC.
+
+---
+
+### 5.5 Industry AI Opportunity Map
+
+> *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a CISO in a specific industry. Tier 1 = safe to lead with (proven, peer-deployed, immediate ROI). Tier 2 = lead with only if the CISO is forward-leaning or has already deployed Tier 1. Tier 3 = mention only if explicitly asked about long-term bets.*
+
+**Tiering Framework — Classification Logic**
+
+| Tier | Label | Competitive Logic | Investment Posture | Typical Horizon |
+|------|-------|------------------|-------------------|-----------------|
+| **1** | **Table Stakes** | Competitors already deploying at scale; not investing = falling behind | Fund now; scale aggressively | 0–12 months to value |
+| **2** | **Differentiator** | Creates competitive distance; requires proprietary data or capability | Invest selectively; pilot → scale | 12–36 months to value |
+| **3** | **Transformational** | Reshapes industry economics or business model | Fund as strategic option; bounded exploration | 3–7+ years to value |
+
+#### Manufacturing & Industrial
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Manufacturing | OT/ICS Security AI | **Tier 1 — Table Stakes** | Industrial control system anomaly detection, SCADA network monitoring, OT-specific threat detection | Claroty/Dragos deployments across manufacturing; CISA ICS advisories driving investment | Critical infrastructure protection |
+| All Manufacturing | Supply Chain Security Intelligence | **Tier 2 — Differentiator** | Supplier cyber risk scoring, software supply chain analysis, third-party risk monitoring | Industry-wide: supply chain attacks up 300%+ (SolarWinds → MOVEit → XZ); proactive monitoring | Supply chain resilience |
+| Automotive OEM | Connected Vehicle Security | **Tier 2 — Differentiator** | Vehicle cybersecurity (UNECE WP.29), OTA update security, V2X communication protection | BMW/Tesla: vehicle cybersecurity teams; regulatory mandate (UN R155/R156) | Regulatory compliance + safety |
+
+> **Agent field rule:** Manufacturing CISOs face unique OT/IT convergence challenges — air-gapped networks connecting to enterprise systems, legacy PLCs with no patching capability, safety-critical systems. Lead with OT security AI (Tier 1 — regulatory mandate in critical infrastructure). Never suggest solutions that require internet connectivity for OT systems without acknowledging air-gap constraints.
+
+#### Financial Services
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Banking | Fraud & Financial Crime AI | **Tier 1 — Table Stakes** | Real-time transaction fraud detection, AML pattern recognition, account takeover prevention | JPMorgan: 2,000+ ML models; HSBC: 60% false positive reduction in AML (Google partnership) | Fraud loss reduction + compliance |
+| Banking | AI-Powered Threat Detection | **Tier 1 — Table Stakes** | Insider threat detection, APT hunting, behavioral analytics across massive transaction volumes | Industry-wide: financial sector most targeted; $5.9M average breach cost in financial services | Threat detection at financial scale |
+| Insurance / Financial Ecosystem | Claims Fraud Detection AI | **Tier 1 — Table Stakes** | Fraudulent claims identification, organized fraud ring detection, anomaly detection in claims patterns | Ping An: AI fraud detection across claims processing; industry-wide deployment | Fraud loss ratio improvement |
+| FinTech | Real-Time Payment Security | **Tier 1 — Table Stakes** | Payment fraud prevention, account security, bot detection, credential stuffing defense | Stripe: ML fraud scoring every transaction; Klarna: real-time risk across 150M users | Transaction security at scale |
+
+> **Agent field rule:** Financial Services CISOs operate under extreme regulatory pressure (OCC, Fed, FCA, MAS, PCI-DSS) with the highest breach costs across industries ($5.9M average). Lead with fraud detection and threat intelligence (Tier 1 — regulatory mandate). Compliance is not optional — every security tool must support regulatory evidence generation.
+
+#### Technology & Digital Native
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Enterprise SaaS | Application Security AI | **Tier 1 — Table Stakes** | Code vulnerability detection, dependency scanning, container security, CI/CD pipeline protection | GitHub Advanced Security; Snyk; industry-wide AppSec AI adoption | Shift-left security at dev speed |
+| Enterprise SaaS | Customer Data Protection | **Tier 1 — Table Stakes** | Multi-tenant data isolation monitoring, access anomaly detection, data residency compliance | Salesforce/ServiceNow: security as competitive advantage; SOC2/ISO27001 + AI-specific controls | Customer trust + compliance |
+| Consumer Platform / Marketplace | Abuse & Fraud Prevention AI | **Tier 1 — Table Stakes** | Account takeover, fake account creation, payment fraud, platform abuse detection | Meta: AI abuse detection at billions of accounts; Airbnb: trust scoring; Uber: fraud detection | Platform integrity |
+| All Tech | Cloud Security Posture Management (AI-enhanced) | **Tier 1 — Table Stakes** | Cloud misconfiguration detection, IAM risk analysis, cross-cloud security posture | Industry-wide: Wiz, Orca, Palo Alto — AI-enhanced CSPM standard for cloud-native companies | Cloud security at multi-cloud scale |
+
+> **Agent field rule:** Tech CISOs manage purely digital attack surfaces (no OT) but at enormous scale (billions of users, millions of API calls, multi-cloud). Lead with application security and cloud security posture (Tier 1 — fundamental for SaaS companies). Customer data protection is existential — a breach destroys the business.
+
+#### Retail & Consumer
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Mass Retail / Grocery | Payment & POS Security | **Tier 1 — Table Stakes** | Card fraud detection, POS anomaly detection, payment security across thousands of locations | Walmart: security at massive scale; PCI-DSS compliance AI across retail | Payment fraud prevention |
+| E-commerce / Marketplace | Bot & Account Fraud Prevention | **Tier 1 — Table Stakes** | Bot detection, credential stuffing defense, fake review detection, promotional abuse | Amazon: automated fraud systems; industry-wide e-commerce security AI | Revenue protection + trust |
+| Consumer Packaged Goods (CPG) | Supply Chain & IP Security | **Tier 2 — Differentiator** | Counterfeit detection, supply chain integrity, trade secret protection, R&D security | P&G/Unilever: brand protection + IP security programs | Brand + IP protection |
+
+> **Agent field rule:** Retail CISOs protect massive PCI environments (thousands of POS systems), customer databases (100M+ records), and e-commerce platforms under constant attack. Lead with payment security and bot defense (Tier 1). The breach cost calculation is existential for retailers — Target 2013 still cited as cautionary tale.
+
+#### Healthcare
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Healthcare | Healthcare Threat Detection & Response | **Tier 1 — Table Stakes** | Ransomware defense, medical device security, PHI access monitoring, clinical system protection | Healthcare: #1 ransomware target; $10.9M average breach cost (IBM 2024); HHS enforcement | Patient safety + compliance |
+| All Healthcare | Medical Device Security AI | **Tier 1 — Table Stakes** | IoMT device monitoring, vulnerability management for clinical devices, network segmentation AI | Industry-wide: 30%+ of medical devices at end-of-support; FDA cybersecurity guidance mandating controls | Clinical device protection |
+| Pharma / Biopharma | Research Data & IP Protection | **Tier 2 — Differentiator** | Clinical trial data security, R&D IP protection, nation-state threat defense for pharma | Pfizer/Roche: pharmaceutical IP worth billions; nation-state targeting documented | R&D asset protection |
+
+> **Agent field rule:** Healthcare CISOs operate where security = patient safety. Ransomware that encrypts clinical systems can kill patients (documented cases). Lead with threat detection and medical device security (Tier 1 — life-safety imperative). $10.9M average breach cost is the highest of any industry.
+
+#### Energy & Utilities
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Oil & Gas (Integrated) | OT/SCADA Security for Energy | **Tier 1 — Table Stakes** | Pipeline monitoring, refinery ICS protection, drilling system security, safety system integrity | TSA Pipeline Security Directive post-Colonial Pipeline; NERC CIP requirements | Critical infrastructure + safety |
+| Renewables / Utilities | Grid Security & DER Protection | **Tier 1 — Table Stakes** | Grid SCADA security, DER device authentication, smart meter security, substation protection | NERC CIP compliance; North American utilities under constant probing (DOE threat reports) | Grid reliability + national security |
+| All Energy | Nation-State Threat Defense | **Tier 2 — Differentiator** | APT detection, threat intelligence for energy sector, geopolitical risk monitoring | Colonial Pipeline (2021), Ukraine grid attacks — energy sector under nation-state targeting | Resilience against sophisticated adversaries |
+
+> **Agent field rule:** Energy CISOs protect critical national infrastructure. A successful attack on energy systems can cause physical harm and economic damage (Colonial Pipeline $4.4M ransom + weeks of supply disruption). Lead with OT security (Tier 1 — regulatory mandate via TSA/NERC CIP). These CISOs answer to federal regulators, not just boards.
+
+#### Telecom & Media
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Telecom / Connectivity | Network Security AI | **Tier 1 — Table Stakes** | 5G security monitoring, signaling protection (SS7/Diameter), DDoS defense, subscriber fraud | AT&T: blocking ~1B robocalls/month; Deutsche Telekom: network security at massive scale | Network integrity + subscriber trust |
+| Telecom / Connectivity | Subscriber Identity Protection | **Tier 1 — Table Stakes** | SIM swap detection, account takeover prevention, identity verification AI | Industry-wide: SIM swap fraud losses $48M+ (FBI 2023); AI detection deployments | Subscriber protection |
+| Media / Entertainment | Content & IP Protection | **Tier 2 — Differentiator** | Content piracy detection, deepfake detection, pre-release content security | Disney/Netflix: content protection programs; industry-wide anti-piracy AI | Content asset protection |
+
+> **Agent field rule:** Telecom CISOs protect infrastructure that millions depend on daily. Lead with network security AI (Tier 1 — operational necessity for 5G). Telecom networks are targeted by nation-states, criminal organizations, and fraudsters simultaneously. Scale of telco security is unique — billions of network events per day.
+
+#### Transportation & Logistics
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Logistics / Express Delivery | Supply Chain Cybersecurity | **Tier 1 — Table Stakes** | Logistics platform protection, partner access management, tracking system security | FedEx/UPS: cybersecurity for logistics platforms handling millions of packages | Operational continuity |
+| Shipping / Supply Chain | Maritime Cybersecurity | **Tier 1 — Table Stakes** | Ship system security, port OT protection, satellite communication security | Maersk NotPetya ($300M loss 2017); IMO maritime cybersecurity requirements | Maritime operational resilience |
+| Airlines / Aviation | Aviation Cybersecurity | **Tier 1 — Table Stakes** | Flight operations security, passenger system protection, airport system security | Delta/United: aviation cybersecurity programs; TSA cybersecurity requirements for airports | Safety + operational integrity |
+
+> **Agent field rule:** Transport CISOs protect systems where cybersecurity = physical safety (aircraft systems, vessel navigation, train control). Lead with operational technology security (Tier 1). Maersk's $300M NotPetya loss is the industry's defining cautionary tale. These CISOs think in safety cases, not just business cases.
+
+---
+
+### 5.6 Agentic AI — The 2025-2026 Frontier
+
+> *Agent instruction: Use this subsection when a CISO asks "how should I think about autonomous AI in security?" or when the target account has mature SOC operations and is looking for the next level of automation.*
+
+**What it is:** AI systems that autonomously plan, execute multi-step tasks, use tools, and adapt based on feedback — moving beyond copilots (human-in-the-loop) to autonomous action (human-on-the-loop or human-out-of-the-loop for defined workflows).
+
+**Analyst positioning:**
+- Gartner: #1 Strategic Technology Trend 2025. Predicts 33% of enterprise software will include agentic AI by 2028 (up from <1% in 2024). 15% of day-to-day work decisions made autonomously by 2028.
+- McKinsey: Agentic AI is the "next S-curve" after copilots — expected to deliver 3–5x the value of current AI assistants by handling full workflows.
+- IDC: 40% of enterprise AI projects will use agentic frameworks by 2028.
+
+**Sequencing (what's ready when):**
+
+| Phase | Timeframe | What It Looks Like | Risk Level | Example Security Use Cases |
+|-------|-----------|-------------------|------------|---------------------------|
+| **Agent Copilots** | Deployed now | AI suggests actions, human approves; single-system tool use | Low | Alert triage suggestions, threat intel summary, investigation query generation, compliance checklist assistance |
+| **Task Agents** | 2025–2026 | Autonomous execution of defined workflows; human oversight on exceptions | Medium | Automated phishing response (quarantine + notify + block sender), vulnerability scanning + ticket creation, automated log correlation |
+| **Orchestrator Agents** | 2026–2027 | Multi-agent coordination across systems; human sets goals, agents determine path | Medium-High | Full incident investigation (correlate → contain → eradicate → document), automated penetration testing, cross-tool threat hunting campaigns |
+| **Autonomous Agents** | 2028+ | Self-directed agents managing complex security processes end-to-end | High | Self-healing security posture, autonomous threat hunting, AI-vs-AI defense (defensive agents countering offensive AI) |
+
+**CISO pitch framing:** "Your SOC analysts are drowning in 4,000+ alerts per day with 70% false positives. Task agents that autonomously handle known attack patterns — quarantine, investigate, contain, document — are production-ready now. This isn't about replacing analysts; it's about having them focus on the novel threats that actually require human judgment while agents handle the volume."
+
+**Field rule:** Position agentic AI for CISOs as the answer to the staffing crisis — 4M unfilled positions means you MUST automate or drown. But be careful: CISOs are inherently suspicious of autonomous systems making security decisions. The framing must be "agents handle known patterns autonomously, humans handle novel threats" — not "AI runs your security." The CISO needs the kill switch and the oversight dashboard.
 
 ---
 
