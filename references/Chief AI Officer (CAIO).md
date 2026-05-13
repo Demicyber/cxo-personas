@@ -53,6 +53,23 @@ Three CAIO variants exist, and they affect every dimension of how the role opera
 
 The CAIO role has been shaped by three forces since 2022: (1) **the generative AI explosion** converted AI from specialist capability to enterprise-wide strategic imperative overnight — creating the role almost single-handedly; (2) **the regulatory wave** — EU AI Act (general-purpose AI obligations live August 2025; high-risk systems phasing 2026–27), US state AI laws (Colorado, California, and growing), sector-specific AI rules (FDA AI/ML, SR 11-7 for banks, FTC enforcement patterns), OECD guidelines — formalized the governance dimension; (3) **the agentic AI shift** emerging in 2024–25 moved the conversation from "AI as tool" to "AI as autonomous actor," raising the stakes on accountability, safety, and organizational readiness.
 
+### 🇨🇳 中国CAIO原型补充
+
+| 企业类型 | CAIO角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **互联网大厂** | "AI Lab负责人/技术VP" | 大模型研发+AI产品化 | 百模大战→大模型军备竞赛 |
+| **央企/大型国企** | "AI应用负责人/数字化部" | AI规模化落地+合规 | 科技自立自强=政治任务 |
+| **大型民企** | "CAIO/AI VP" | AI战略+场景落地 | 降本增效=AI第一优先级 |
+| **外企中国区** | "China AI Lead" | Global AI本地化 | 中国数据不能出境→本地部署 |
+
+#### 中国CAIO独特环境
+- **百模大战**: 通义/文心/智谱/MiniMax/月之暗面——选型复杂
+- **数据安全法+个保法**: AI训练数据合规=巨大挑战
+- **算力受限**: 美国芯片出口管制→A100/H100受限→国产算力(昇腾/寒武纪)
+- **AI备案**: 生成式AI服务需向网信办备案(《生成式AI管理办法》)
+
+### 全球CAIO参考（Global Reference）
+
 ### CAIO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CAIO *leans*, not what industry they're in. Most real CAIOs are blends of one of the three background variants combined with one or more postures. The archetype is a posture, not a permanent label — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -154,6 +171,18 @@ The agent must diagnose the CAIO's dominant posture *before* generating the Call
 
 CAIOs today are navigating simultaneous pressure on production AI scaling, generative AI monetization, agentic AI readiness, regulatory compliance, responsible AI governance, inference cost management, and CFO-defensible ROI — inside a role that barely existed three years ago and has no established playbook. The *themes* are universal; the specifics vary by industry.
 
+### 🇨🇳 中国CAIO优先级
+
+| 排序 | 互联网CAIO | 传统企业CAIO | 外企中国区 |
+|------|----------|-----------|-----------|
+| #1 | **大模型能力建设** | **AI场景落地(ROI)** | **合规(数据不出境)** |
+| #2 | **AI产品化/商业化** | **AI人才团队建设** | **本地模型选型** |
+| #3 | **算力规划** | **数据治理(for AI)** | **Global AI战略对齐** |
+| #4 | **AI安全/对齐** | **AI合规(备案)** | **算力规划** |
+| #5 | **开源生态** | **AI普及/培训** | **POC→规模化** |
+
+### 全球CAIO参考（Global Reference）
+
 ### Universal CAIO Priorities
 
 1. **Generative AI at enterprise scale — the 2025–26 defining priority.** Moving beyond demos and pilots to production-grade GenAI: RAG architectures, fine-tuned foundation models, prompt management, evaluation infrastructure, LLMOps, enterprise AI platforms. The gap between compelling demos and production-grade systems is enormous — engineering effort, data readiness, governance review, operational maturity. The CAIO owns closing that gap.
@@ -237,6 +266,18 @@ CAIOs today are navigating simultaneous pressure on production AI scaling, gener
 ## 3. KPIs
 
 A CAIO's scorecard is the most conceptually difficult in the C-suite to establish — because the role is so new, the metrics are still evolving, the benchmarks don't yet exist in most industries, and boards are asking for measures nobody has standardized. Read the scorecard in two layers: the board/CEO-facing KPIs (below) and the private scorecard (further down) — the second layer is what actually separates a strategic CAIO from a tactical AI leader.
+
+### 🇨🇳 中国CAIO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 落地 | AI场景数/覆盖率/业务渗透率 | "有多少业务在用AI" |
+| ROI | AI降本金额/效率提升% | 老板只看ROI |
+| 合规 | AI备案完成/数据合规率 | 网信办备案=强制 |
+| 算力 | GPU利用率/推理成本 | 算力稀缺→效率关键 |
+| 人才 | AI团队规模/核心人才保留 | AI人才抢夺激烈 |
+
+### 全球CAIO参考（Global Reference）
 
 ### The Universal Scoreboard: AI Use Cases in Production + AI Business Value + Responsible AI Posture
 
@@ -345,6 +386,19 @@ Across every industry, CAIOs volunteer three headline metrics more often than an
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CAIO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **模型选型困难** | 百模大战→哪个好？通用vs垂直？开源vs商用？ | 模型评估/MLOps平台 |
+| **算力受限** | H100买不到/贵→算力排队/降规格 | 算力优化/推理加速/国产适配 |
+| **数据合规** | 训练数据版权/个人信息/数据标注外包泄露风险 | 数据治理/隐私计算/脱敏 |
+| **AI幻觉/安全** | 大模型输出不可控→业务不敢用 | AI guardrails/RAG/评估平台 |
+| **场景落地gap** | demo很好→生产环境差距大(性能/成本/准确率) | MLOps/AI工程化平台 |
+| **AI备案** | 生成式AI需备案→流程复杂/不确定性 | AI合规咨询/备案辅助 |
+
+### 全球CAIO参考（Global Reference）
+
 ### Universal CAIO Pain Points
 
 - **The pilot-to-production gap.** The dominant CAIO pain. Dozens of compelling POCs, very few reaching production. Data quality degrades, edge cases multiply, engineering effort is 5x the prototype, governance reveals issues, stakeholders lose patience. The CAIO lives in the gap between AI's promise and reality.
@@ -382,6 +436,18 @@ Across every industry, CAIOs volunteer three headline metrics more often than an
 ## 5. AI Opportunities
 
 Specific ways AI can address CAIO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CAIO meeting.
+
+### 🇨🇳 中国CAIO的AI场景(meta: AI for AI)
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **模型训练** | 预训练/微调/RLHF | 国产算力适配(昇腾/寒武纪) |
+| **模型推理** | 推理优化/量化/部署 | 私有化部署需求(数据不出境) |
+| **数据工程** | 数据清洗/标注/合成 | 中文数据质量/合规标注 |
+| **AI评估** | 模型评测/Red Team/安全检测 | 中文评测基准(C-Eval/CMMLU) |
+| **AI应用** | RAG/Agent/Copilot开发 | 中文向量模型/知识库 |
+
+### 全球CAIO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -632,6 +698,17 @@ CAIOs are the most technically sophisticated AI buyers — they understand the t
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose should map to one or more of these CAIO-grade dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a Head of ML or Responsible AI Lead meeting, not a CAIO meeting.*
 
+### 🇨🇳 中国CAIO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 私有化部署/数据不出境 | ❌ 只有SaaS/数据上传 |
+| ✅ 支持国产算力(昇腾) | ❌ 只支持NVIDIA |
+| ✅ 中文效果好 | ❌ 中文是附带的 |
+| ✅ 有合规方案(备案/审计) | ❌ 合规不确定 |
+
+### 全球CAIO参考（Global Reference）
+
 CAIOs evaluate every initiative through a short list of outcome dimensions. These are the **criteria a CAIO uses to judge whether a specific proposal deserves their time, their budget, their AI team's time, and a place on the AI roadmap.**
 
 1. **Measurable AI-driven business impact.** "I need to show the board that our AI investments are producing real returns — revenue, cost savings, quality improvements — not just interesting experiments." CFO-defensible business impact is non-negotiable post-ZIRP.
@@ -671,6 +748,17 @@ CAIOs are among the most technically sophisticated C-suite buyers — most have 
 
 They rely on their Lead ML Engineer, Applied AI Lead, Responsible AI Lead, AI Platform Engineer, and Red Team for deep technical evaluation. **Don't pitch AI features to a CAIO — demonstrate technical specificity, production depth, governance maturity, and architectural fit.** And don't pitch a point solution — CAIOs increasingly describe AI estates in platform terms (development + deployment + governance + monitoring + agentic orchestration + security), not collections of tools.
 
+### 🇨🇳 中国CAIO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **技术最强** | CAIO往往是最懂技术的C-level |
+| **论文级深度** | 问模型架构/训练细节/benchmark |
+| **开源优先** | 倾向开源(可控)+商用支持 |
+| **成本敏感** | 算力贵→极度关注推理成本 |
+
+### 全球CAIO参考（Global Reference）
+
 ### CAIO Decision Psychology by Archetype (Variant)
 
 | Variant | Decision Trigger | What Kills a Deal | How They Verify |
@@ -700,6 +788,17 @@ They rely on their Lead ML Engineer, Applied AI Lead, Responsible AI Lead, AI Pl
 ## 8. Buying Dynamics
 
 The CAIO is the primary decision maker for AI platforms, foundation model infrastructure, AI governance, responsible AI tools, agentic AI platforms, and model serving — typically in the $500K–$50M+ range per initiative. Budget authority varies dramatically by reporting line and variant — CEO-reporting CAIOs with strategic mandate may control multi-tens-of-millions; Governance CAIOs may have modest dedicated budgets but influence AI spending across CTO/CIO/BU budgets. Remember: a CAIO meeting is 30–60 minutes pulled from AI portfolio management, governance, platform strategy, or board narrative. "No one else can make this AI decision" is the only honest reason to be in the room.
+
+### 🇨🇳 中国CAIO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | AI专项预算(往往很大) |
+| **决策** | CAIO主导+CTO参与+CEO最终批(战略级) |
+| **触发** | 竞品AI动作/新模型发布/业务需求/政策要求 |
+| **选型** | 深度技术评测→POC→pilot→规模化 |
+
+### 全球CAIO参考（Global Reference）
 
 ### When the CAIO Engages Directly
 
@@ -838,6 +937,18 @@ The CAIO is the primary decision maker for AI platforms, foundation model infras
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on variant, archetype, and what you already know. Do NOT use all questions in one meeting.*
 
+### 🇨🇳 中国CAIO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "现在用什么大模型？自建还是API？" | 模型选型需求 |
+| "算力够用吗？GPU排队严重吗？" | 算力优化 |
+| "AI场景落地到什么程度了？主要卡点？" | 工程化需求 |
+| "数据合规/AI备案进展如何？" | 合规场景 |
+| "AI幻觉/安全怎么控制的？" | Guardrails需求 |
+
+### 全球CAIO参考（Global Reference）
+
 ### Universal Questions
 
 1. "How is your AI function structured — centralized team, center of excellence, or distributed across business units?"
@@ -890,6 +1001,25 @@ The CAIO is the primary decision maker for AI platforms, foundation model infras
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CAIO关系地图
+
+```
+CAIO权力结构：
+┌─────────────────────────────────────┐
+│ CEO (AI=战略级)                      │
+├─────────────────────────────────────┤
+│ CAIO                                │ ← target
+├──────────┬──────────┬───────────────┤
+│ AI研发    │ AI平台/MLOps│ 数据团队   │
+├──────────┴──────────┴───────────────┤
+│ CTO (技术架构)                       │
+│ 业务VP (AI场景需求方)                 │
+│ 法务/合规 (AI备案)                   │
+└─────────────────────────────────────┘
+```
+
+### 全球CAIO参考（Global Reference）
 
 ### Core C-Suite Dynamics
 
@@ -958,6 +1088,26 @@ The CAIO is the primary decision maker for AI platforms, foundation model infras
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CAIO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 讲技术深度(模型/架构/benchmark) | CAIO是最技术的buyer |
+| 提供开源+商用选项 | CAIO要自主可控 |
+| 证明中文效果(不只是翻译) | 中文是第一需求 |
+| 谈推理成本优化 | 算力是最大痛点 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 技术含量低/营销话术 | CAIO一眼看穿 |
+| 数据出境/SaaS only | 合规红线 |
+| 不支持国产算力 | 政策风险 |
+| benchmark造假/选择性展示 | CAIO会验证 |
+
+### 全球CAIO参考（Global Reference）
 
 ### ✅ DO
 
