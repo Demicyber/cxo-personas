@@ -380,57 +380,246 @@ Across every industry in the research, CMOs volunteer three headline metrics mor
 
 Specific ways AI can address CMO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CMO meeting.
 
-### Universal AI Value Levers for CMOs
+### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
-These are the seven ways AI creates value that CMOs care about — mapped directly to Priorities (Section 2) and the Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+> *Agent instruction: Use this subsection to calibrate your tone. CMOs are no longer excited about AI possibilities — they are overwhelmed by AI tools proliferating across marketing without clear attribution or strategic integration. Frame your pitch around measurable marketing outcomes, not more tools.*
 
-1. **Content production at brand-quality scale.** AI-powered content generation that maintains brand voice, messaging frameworks, legal and regulatory compliance, and quality standards while dramatically increasing output across blogs, campaigns, ads, emails, social, and sales enablement. *Agentic dimension:* Agents that draft, adapt, localize, and review content across channels within brand and MLR guardrails — handling the production layer while humans retain strategic and brand approval. This directly addresses the content velocity vs. quality tension that dominates every CMO's calendar.
+**The state of enterprise AI in 2025:**
 
-2. **Hyper-personalization across the buyer journey.** Moving from segment-based to individual-level personalization across email, web, advertising, mobile, and sales enablement. *Agentic dimension:* Agents that dynamically assemble personalized experiences based on real-time first-party signals, consent state, firmographic data, and engagement history — delivering relevance at a scale and speed no manual campaign team can match.
+| Milestone | % of Enterprises | Source |
+|-----------|-----------------|--------|
+| Adopted AI in ≥1 function | 72% | McKinsey State of AI 2024 |
+| Regularly using GenAI (doubled in 10 months) | 65% | McKinsey State of AI 2024 |
+| Running 5+ AI pilots simultaneously | ~50% | Forrester AI Maturity 2024 |
+| Successfully moved any pilot to production | 20–30% | BCG/Deloitte/iResearch 2024 |
+| Scaled AI for significant financial ROI | ~10% | BCG "From Potential to Profit" 2024 |
+| Achieved enterprise-wide AI transformation | <5% | Accenture AI Maturity 2024 |
 
-3. **Predictive pipeline and attribution modeling.** AI models that forecast pipeline contribution with higher confidence, identify true drivers of conversion, and provide attribution insights the CFO can audit. *Agentic dimension:* Agents that continuously reconcile attribution across channels, flag anomalies, and update forecasts — shifting the CMO from retrospective reporting to forward-looking pipeline prediction.
+**Gartner prediction (Oct 2024):** At least 30% of GenAI projects will be abandoned after proof-of-concept by end of 2025 — due to poor data quality, escalating costs, or unclear business value.
 
-4. **Intelligent campaign optimization.** Autonomous agents continuously optimizing campaign parameters — bidding, targeting, timing, creative selection, channel mix — based on real-time performance. *Agentic dimension:* Shifts marketing from weekly manual optimization to continuous autonomous improvement, with guardrails that keep spend, brand safety, and audience rules enforced.
+**China-specific data point:** Chinese enterprises show 40% higher AI pilot initiation rates than global average, but production-scale deployment rates are 8–12% lower than US counterparts (Bain/Accenture 2024). The "高热度低转化" (high heat, low conversion) pattern is pronounced — over 100,000 AI trial projects with <25% reaching production (钛媒体 2024).
 
-5. **Buyer intent detection and activation.** AI systems that aggregate and interpret intent signals across first-party, third-party, and partner sources, then automatically activate coordinated marketing and sales plays for high-intent accounts. *Agentic dimension:* Agents that detect, qualify, and orchestrate cross-channel outreach to target accounts without waiting for humans to assemble the play.
+**What CMOs are actually saying:**
+- "My team is using 15 different AI tools and I can't tell which ones are actually driving results."
+- "GenAI content is everywhere now. It's no longer a differentiator — it's table stakes. What's the next edge?"
+- "I need to prove marketing's value to the CFO with hard attribution, not vanity metrics — and AI should help with that but it hasn't yet."
+- 71% of CMOs report their teams are already using GenAI for content creation, but only 23% can attribute revenue impact (Gartner CMO Survey 2024).
+- 64% say AI tool proliferation has increased marketing tech complexity without proportional results (Forrester 2024).
 
-6. **Martech consolidation and orchestration.** AI-native platforms that replace multiple point solutions, unify data flows, and orchestrate cross-channel campaigns from a single environment. *Agentic dimension:* A platform with autonomous workflow agents reduces the integration burden on MOps teams — directly relieving the martech-sprawl pain every CMO faces.
+**Field rule:** When preparing a Call Plan for a CMO, frame AI as a revenue attribution and marketing efficiency problem — not a content generation story. Every CMO already has GenAI content tools. The CMO wants to know: How does this drive measurable revenue? How does this prove marketing's value to the board? If you pitch "generate content faster," you're offering something they already have.
 
-7. **Brand-safety and compliance protection.** AI-driven monitoring of brand mentions, competitive signals, regulatory exposure, and campaign compliance. *Agentic dimension:* Continuous-monitoring agents that detect brand-safety incidents, regulatory issues, or compliance drift faster than any human team — reducing the license-to-operate risk that can end a CMO career.
+---
 
-### Quality Bar: How CMOs Filter AI Pitches
+### 5.2 The Four Blockers — Why Enterprise AI Stalls
 
-CMOs have been burned by AI pitches that broke brand, violated compliance, or delivered demo magic that collapsed in production. The pattern is consistent — CMOs only take AI seriously when it passes five tests simultaneously:
+> *Agent instruction: Use this as a diagnostic framework. The CMO owns People blockers in marketing (team adoption, creative resistance) and shares Process blockers (attribution measurement, MarTech integration). The CMO's frustration is that marketing AI tools proliferate but attribution remains broken. Frame your discovery around measurement maturity and MarTech stack integration.*
 
-1. **In production at a named peer, not in pilot.** A comparable brand running it at scale, with measurable lift, not a demo or a proof-of-concept.
-2. **Measured in a CFO-defensible number.** A specific metric moved by a specific amount — pipeline lift, CAC improvement, content-velocity delta, conversion lift — not "improved efficiency."
-3. **Brand-safe and compliance-safe by design.** Brand voice preservation, hallucination controls, MLR / legal-review integration where needed, EU AI Act transparency where applicable.
-4. **Integrates with existing martech and first-party data.** Plugs into Salesforce, HubSpot, Marketo, Adobe Experience Cloud, the CDP, and the CRM — does not demand rip-and-replace.
-5. **Consolidates, does not proliferate.** Replaces multiple existing tools or subsumes workflows, rather than adding another logo to the stack.
+#### A. Organizational — "Marketing tech sprawl without strategy"
 
-**Field rule:** If a CMO-level AI pitch cannot check all five — deployed at a peer, measured, brand-safe, integrated, consolidating — it reads as another martech demo. Lead with the peer already in production.
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| No unified AI strategy for marketing | 58% of marketing teams adopted AI tools bottom-up without strategy | Gartner 2024 |
+| CMO vs. CIO tension on MarTech ownership | 52% of CMOs say IT slows their AI adoption; CIOs say marketing creates "shadow AI" | Forrester 2024 |
+| Agency vs. in-house AI confusion | 61% of brands unclear on whether agencies or internal teams should own AI workflows | ANA/Forrester 2024 |
+| Brand safety concerns limiting AI deployment | 45% of CMOs restrict GenAI use due to brand/legal risk | Deloitte 2024 |
+| Marketing-Sales alignment gaps | 67% report marketing-sales AI tools don't share data or insights | McKinsey 2024 |
 
-### The 2025–2026 Reality Check
+**CMO lens:** "My content team uses one AI tool, my media team another, my analytics team a third — none of them connect. I've spent more on marketing AI than ever and I still can't answer the board's basic question: 'What's the return on marketing?'"
 
-The CMO AI mindset has shifted from "excited about possibilities" to "exhausted by vendor claims." Industry data consistently shows most enterprise AI marketing pilots have not produced measurable incremental pipeline or CAC improvement. CMOs are no longer asking "should we use AI?" — they are asking "why have my four AI pilots not produced board-ready numbers?" and "which of my AI vendors do I cut?"
+**Who should own unblocking:** CMO (unified marketing AI strategy), CIO (MarTech architecture integration), CRO (marketing-sales data alignment).
 
-**Implication for the agent:** When preparing a Call Plan for a CMO, do NOT frame AI as a new exploration. Frame it as: *"Here is how to take your existing AI investment from pilot to measurable pipeline and CAC impact"* or *"Here is how to avoid the AI failure patterns your peers are quietly experiencing."* The CMO's pain is not lack of AI — it is lack of AI *results.*
+#### B. People — "Creative resistance meets skills gap"
 
-### Industry-Specific AI Use Cases with Real Impact *(supporting evidence)*
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Creative teams resist AI-generated content | 48% of creative professionals view GenAI as threat to quality/craft | Adobe Creative Survey 2024 |
+| Marketing analytics skills gap | Only 22% of marketing teams have data science capability | Gartner 2024 |
+| Prompt engineering uneven across teams | Senior marketers 3x more effective at AI prompting than juniors | HubSpot 2024 |
+| Content volume explosion without quality control | GenAI enables 10x content production but quality review bottlenecks emerge | Forrester 2024 |
+| China-specific: 小红书/抖音 AI content saturation | 80%+ of brand content on Chinese social platforms now AI-assisted; differentiation collapsing | QuestMobile 2024 |
 
-> *Examples below are illustrative of the type of deployed use case and the magnitude of impact a CMO finds credible — not current figures to cite verbatim. Agent must verify latest numbers and find comparable peer examples before including in a Call Plan.*
+**CMO lens:** "Half my creative team thinks AI will replace them and is actively resisting. The other half is using it for everything without quality standards. I need a middle path — and the skills to manage AI-augmented creative workflows that maintain our brand standard."
 
-| Industry Group (Industry) | Use Cases | Real Examples (Pattern) | Impact |
-|----------|----------|---------------|--------|
-| **Technology & Digital Native (Enterprise SaaS)** | AI-driven ABM, intent activation, content personalization | 6sense/Demandbase intent platforms; Salesforce Agentforce for marketing; HubSpot Breeze | Pipeline lift on named-account plays; MQL-to-SQL conversion improvement |
-| **Technology & Digital Native (Consumer Platform)** | Performance-marketing optimization, creative generation, churn prediction | Meta/Google smart bidding; Airbnb/Uber creative-generation pipelines | CAC reduction at scale; creative volume lift |
-| **Financial Services** | Compliance-aware content workflows, next-best-action, HCP/customer personalization | JPMorgan, Allianz AI-assisted marketing; Ping An massive AI-personalization deployment | Compliance cycle compression; cross-sell lift |
-| **Retail & Consumer (CPG)** | AI-driven creative production, shopper-personalization, retail-media optimization | Unilever GenAI creative pipeline compressing production cycles; P&G digital shelf optimization | Creative-production speed; engagement lift |
-| **Retail & Consumer (Mass Retail)** | Retail-media AI targeting, shopper personalization | Walmart Connect, Amazon Ads AI-driven targeting at scale | Retail-media revenue growth; conversion lift |
-| **Healthcare (Pharma)** | HCP personalization, MLR-aware content generation, patient-program optimization | Roche, Pfizer AI-assisted commercial operations; next-best-action for field force | HCP engagement lift; MLR cycle compression |
-| **Healthcare (Payer)** | AEP personalization, fraud-resistant marketing, member retention | UnitedHealth, Humana AI in member-acquisition marketing | AEP conversion lift; retention improvement |
-| **Telecom & Media (Telecom)** | Churn prediction, bundle recommendation, AI-driven campaign orchestration | AT&T, T-Mobile AI-driven retention and next-best-action | Churn reduction; ARPU lift via bundle |
-| **Telecom & Media (Streaming)** | Content-recommendation halo on marketing, ad-tier targeting, ARPU optimization | Netflix, Disney+, Spotify AI-driven engagement and retention | Retention lift; ad-tier conversion |
+**Who should own unblocking:** CMO (creative culture + quality standards), CHRO (marketing team reskilling), Agency Partners (AI-augmented creative workflows).
+
+#### C. Technical — "Data silos kill personalization"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Customer data fragmented across 8+ systems | Average enterprise has customer data in CRM, CDP, ESP, web analytics, social, advertising, loyalty, support | Gartner 2024 |
+| First-party data strategy incomplete | 55% of brands not ready for cookie-less advertising; first-party data gaps critical | McKinsey 2024 |
+| MarTech stack integration poor | Average enterprise runs 91 MarTech tools; 60% poorly integrated | ChiefMartec/Scott Brinker 2024 |
+| Attribution technology limitations | Multi-touch attribution models provide conflicting answers; 40% of CMOs don't trust their attribution | Forrester 2024 |
+| AI model training on fragmented data | Marketing AI tools can't personalize without unified customer view | IDC 2024 |
+
+**CMO lens:** "I have customer data in Salesforce, Adobe, Google, Meta, our CDP, our loyalty program, and three other systems. No AI can personalize at scale when it only sees a fragment of the customer. My attribution model gives me different answers depending on which vendor built it."
+
+**Who should own unblocking:** CDO (customer data unification), CIO (MarTech integration), CMO (use case prioritization + first-party data strategy).
+
+#### D. Process — "Can't measure it, can't scale it"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Attribution still fundamentally broken | Only 23% of CMOs can attribute AI-driven content to revenue | Gartner 2024 |
+| No standard process for AI content governance | Brand guidelines not adapted for AI-generated content; legal review bottlenecks | Deloitte 2024 |
+| A/B testing overwhelm — too many variants | AI enables 100x variants but testing infrastructure can't validate at that scale | Forrester 2024 |
+| Budget allocation model outdated | AI changes channel economics but budget planning still uses last-year-plus-5% | McKinsey 2024 |
+| Content velocity vs. compliance | Legal/compliance review is the bottleneck for AI-generated content at scale | Gartner 2024 |
+
+**CMO lens:** "AI can generate 100 ad variants in an hour. But who reviews them for brand compliance? Who measures which ones work? Who decides when to scale? I have a content creation problem solved and a content governance crisis created."
+
+**Who should own unblocking:** CMO (governance framework + measurement standards), General Counsel (AI content legal framework), CFO (budget model modernization).
+
+**Field rule for the agent:** In the Call Plan Discovery section, ask the CMO: "How do you currently measure marketing's contribution to revenue?" and "How many MarTech tools does your team use today?" These reveal attribution maturity and stack complexity — the two leverage points for positioning.
+
+---
+
+### 5.3 Universal AI Value Levers for CMOs
+
+These are the seven ways AI creates value that CMOs care about — mapped directly to the CMO's Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+
+1. **Hyper-personalization at scale.** AI that delivers individualized experiences across every customer touchpoint — web, email, ads, mobile, in-store — based on real-time behavioral signals. *Agentic dimension:* Personalization agents that autonomously orchestrate cross-channel journeys, adjust messaging in real-time based on engagement signals, and continuously test/optimize without human intervention.
+
+2. **Marketing attribution & mix optimization.** AI that solves the attribution problem — connecting marketing spend to revenue with causal models, not just correlation. *Agentic dimension:* Budget optimization agents that continuously reallocate spend across channels based on real-time attribution signals, diminishing returns curves, and competitive dynamics.
+
+3. **Content production & creative automation.** AI that generates, adapts, and localizes marketing content at scale while maintaining brand consistency and quality standards. *Agentic dimension:* Content orchestration agents that produce full campaign assets, adapt creative to formats/channels/audiences, route for approval, publish, and optimize based on performance — compressing campaign cycles from weeks to hours.
+
+4. **Customer acquisition & retention intelligence.** AI that identifies highest-value prospects, predicts churn risk, and triggers interventions at optimal moments. *Agentic dimension:* Growth agents that autonomously manage customer lifecycle — identifying and engaging prospects, nurturing based on intent signals, predicting and preventing churn, and optimizing customer lifetime value.
+
+5. **Brand monitoring & reputation management.** AI that tracks brand perception across channels, detects emerging risks, and enables rapid response to brand threats. *Agentic dimension:* Brand intelligence agents that continuously monitor social/media/review channels, detect sentiment shifts, alert on emerging crises, and draft initial response options for human approval.
+
+6. **Search & discovery optimization.** AI that maximizes brand visibility across evolving search interfaces — traditional SEO, social search, AI answer engines, and voice. *Agentic dimension:* Visibility agents that continuously optimize content for emerging search surfaces (AI Overviews, social search, voice), monitor ranking changes, and adapt content strategy autonomously.
+
+7. **Marketing analytics & insight generation.** AI that surfaces actionable insights from marketing data — identifying patterns, anomalies, and opportunities that human analysts miss at scale. *Agentic dimension:* Analytics agents that continuously monitor campaign performance, detect anomalies, generate hypotheses, and recommend actions — turning marketing analytics from periodic reporting to continuous intelligence.
+
+---
+
+### 5.4 Quality Bar: How CMOs Filter AI Pitches
+
+CMOs have been burned by MarTech vendors promising "AI-powered" features that delivered marginal improvements. The pattern across every industry is identical — CMOs only take AI seriously when it passes four marketing tests simultaneously:
+
+1. **Revenue attribution demonstrated, not promised.** Not "improved engagement" but "drove $4.2M incremental revenue with measurable lift vs. control group." The CMO needs numbers for their board deck and a methodology their CFO will accept.
+2. **Works with their existing MarTech stack.** Integrates with their CDP, their CRM, their advertising platforms, their analytics. If it requires "ripping and replacing" or creates another data silo, it's dead on arrival — the CMO already has 91 tools.
+3. **Brand safety and governance built in.** AI content that goes off-brand, says something legally problematic, or embarrasses the company is the CMO's nightmare. Governance, brand guidelines enforcement, and compliance review must be built-in, not bolted-on.
+4. **Peer proof from their competitive set.** The CMO wants to know what their direct competitors or admired brands are doing. A B2B SaaS case study means nothing to a CPG CMO. Same industry, similar brand positioning, similar audience complexity.
+
+**Field rule:** If a CMO-level AI pitch cannot check all four — revenue-attributed, stack-integrated, brand-safe, peer-proven — it reads as another MarTech vendor adding to the sprawl. Lead with the revenue attribution story from a peer brand. When generating Call Plan Section 4, ensure every AI story includes: (a) revenue or pipeline impact with methodology, (b) integration with their likely stack, (c) brand safety/governance features, (d) competitive brand reference.
+
+---
+
+### 5.5 Industry AI Opportunity Map
+
+> *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a CMO in a specific industry. Tier 1 = safe to lead with (proven, peer-deployed, immediate ROI). Tier 2 = lead with only if the CMO is forward-leaning or has already deployed Tier 1. Tier 3 = mention only if explicitly asked about long-term bets.*
+
+**Tiering Framework — Classification Logic**
+
+| Tier | Label | Competitive Logic | Investment Posture | Typical Horizon |
+|------|-------|------------------|-------------------|-----------------|
+| **1** | **Table Stakes** | Competitors already deploying at scale; not investing = falling behind | Fund now; scale aggressively | 0–12 months to value |
+| **2** | **Differentiator** | Creates competitive distance; requires proprietary data or capability | Invest selectively; pilot → scale | 12–36 months to value |
+| **3** | **Transformational** | Reshapes industry economics or business model | Fund as strategic option; bounded exploration | 3–7+ years to value |
+
+#### Manufacturing & Industrial
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Discrete Manufacturing / Digital Industries | Account-Based Marketing AI | **Tier 1 — Table Stakes** | Predictive account scoring, intent signal detection, personalized content for buying committees | Siemens: digital marketing transformation for industrial buyers; industry ABM adoption at scale | 20-40% pipeline velocity improvement |
+| Discrete Manufacturing / Heavy Equipment | Dealer/Channel Marketing Automation | **Tier 1 — Table Stakes** | Co-op marketing optimization, dealer content generation, local market personalization | Caterpillar: dealer network marketing coordination; John Deere digital marketing to farmer segments | Channel marketing efficiency |
+| Automotive OEM | Configurator & Purchase Journey AI | **Tier 1 — Table Stakes** | Personalized vehicle configuration, digital showroom optimization, lead scoring | BMW: personalized digital journey; Tesla direct-to-consumer AI; BYD digital marketing at scale (中国) | 15-25% conversion improvement |
+| All Manufacturing | Technical Content & Product Marketing AI | **Tier 2 — Differentiator** | Technical documentation generation, spec sheet personalization, solution marketing automation | Industry-wide: B2B content marketing AI for complex products | Marketing scale for complex products |
+
+> **Agent field rule:** Manufacturing CMOs market to technical buyers and long sales cycles (6-18 months). Lead with ABM and intent signal AI (Tier 1) — the CMO needs to identify and influence buying committees early. Don't lead with content generation — manufacturing content requires deep technical accuracy.
+
+#### Financial Services
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Banking | Personalized Next-Best-Action | **Tier 1 — Table Stakes** | Real-time product recommendations, life event detection, personalized offers at scale | JPMorgan: personalized marketing across 80M+ customers; HSBC personalization at scale | 20-30% cross-sell improvement |
+| Banking | AI-Powered Customer Acquisition | **Tier 1 — Table Stakes** | Lookalike modeling, propensity scoring, campaign optimization, LTV-based targeting | Industry-wide: digital customer acquisition AI standard in retail banking | 25-40% reduction in acquisition costs |
+| Insurance / Financial Ecosystem | Risk-Based Marketing & Pricing Integration | **Tier 2 — Differentiator** | Marketing-underwriting data sharing, risk-adjusted customer targeting, personalized quoting | Ping An: integrated marketing-risk scoring across 240M customers (中国) | Profitable growth targeting |
+| FinTech | Growth Marketing & Viral Loop AI | **Tier 1 — Table Stakes** | Referral optimization, product-led growth signals, activation funnel AI | Stripe/Klarna: product-led growth optimization; viral coefficient improvement via AI | Growth efficiency at scale |
+
+> **Agent field rule:** Financial Services CMOs operate under strict regulatory constraints (UDAAP, fair lending, TCF). Lead with personalization and next-best-action (Tier 1 — proven at bank scale). ALWAYS acknowledge compliance requirements in the pitch — any marketing AI must pass compliance review.
+
+#### Technology & Digital Native
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Enterprise SaaS | Product-Led Growth & Expansion Marketing | **Tier 1 — Table Stakes** | Usage-based expansion signals, in-product marketing, self-serve conversion optimization | Salesforce, ServiceNow, Snowflake: AI-driven expansion marketing; 130%+ net revenue retention | Expansion revenue acceleration |
+| Enterprise SaaS | Demand Generation AI | **Tier 1 — Table Stakes** | Intent signal detection, content syndication optimization, MQL/SQL prediction, funnel velocity | Industry-wide: 6sense, Demandbase, HubSpot AI driving B2B demand gen | 30-50% pipeline efficiency |
+| Consumer Platform / Marketplace | User Acquisition & LTV Optimization | **Tier 1 — Table Stakes** | Multi-channel UA optimization, LTV prediction, creative testing at scale, retention triggers | Uber: ML-powered UA; Airbnb growth marketing optimization across channels | CAC/LTV ratio optimization |
+| All Tech | Community & Developer Marketing AI | **Tier 2 — Differentiator** | Developer engagement scoring, community health monitoring, technical content personalization | Industry emerging: developer relations + AI for community-led growth | Developer ecosystem growth |
+
+> **Agent field rule:** Tech CMOs are data-sophisticated — they think in LTV/CAC, pipeline velocity, and net revenue retention. Lead with demand gen and expansion marketing AI (Tier 1). Don't oversimplify — tech CMOs expect technical depth in how the AI actually works.
+
+#### Retail & Consumer
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Mass Retail / Grocery | Personalized Offers & Loyalty AI | **Tier 1 — Table Stakes** | Individual-level offer optimization, loyalty program personalization, basket prediction | Walmart Connect ($3.4B ad revenue); Costco membership personalization; Kroger Precision Marketing | 15-25% promotion ROI improvement |
+| Mass Retail / Grocery | Retail Media Network Optimization | **Tier 1 — Table Stakes** | Ad inventory optimization, supplier marketing platform, audience targeting from first-party data | Walmart Connect; Amazon Advertising ($47B); industry-wide RMN growth 20%+ YoY | New high-margin revenue stream |
+| E-commerce / Marketplace | Search & Discovery Personalization | **Tier 1 — Table Stakes** | Personalized search ranking, visual search, recommendation engines, browse optimization | Amazon: 35% of revenue from recommendations; JD.com AI search; Shopify product discovery | Conversion rate improvement |
+| Consumer Packaged Goods (CPG) | AI Creative & Media Optimization | **Tier 1 — Table Stakes** | Creative testing at scale, media mix optimization, retail media spend management | Unilever: 30% faster creative via GenAI + doubled engagement; P&G precision marketing | 20-30% media efficiency improvement |
+
+> **Agent field rule:** Retail CMOs manage massive customer bases with thin margins — every marketing dollar must be attributable. Lead with loyalty personalization and retail media (Tier 1 — proven revenue streams). For CPG, media optimization and creative automation are table stakes given content volume requirements.
+
+#### Healthcare
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Pharma / Biopharma | HCP Engagement AI | **Tier 1 — Table Stakes** | Next-best-action for medical reps, HCP digital engagement optimization, congress planning AI | Industry-wide: Veeva AI for HCP engagement; rep-less HCP targeting growing 30%+ YoY | Rep productivity + HCP reach |
+| Pharma / Biopharma | Patient Marketing & DTC Optimization | **Tier 2 — Differentiator** | Disease awareness campaign optimization, patient identification signals, adherence marketing | J&J/Pfizer: AI-driven patient marketing; FDA-compliant personalization at scale | Patient acquisition + adherence |
+| Payer / Managed Care | Member Engagement & Retention | **Tier 1 — Table Stakes** | Member communication personalization, plan selection guidance, wellness program targeting | UnitedHealth: member engagement AI across 50M+ members; industry-wide Medicare Advantage marketing | Member retention + Star rating impact |
+| MedTech / Medical Devices | Clinical Marketing & KOL Engagement | **Tier 2 — Differentiator** | Key opinion leader identification, clinical evidence marketing, procedure volume prediction | Medtronic/Philips: clinical marketing optimization for medical devices | Market development for new therapies |
+
+> **Agent field rule:** Healthcare CMOs operate in the most regulated marketing environment (FDA OPDP rules, PhRMA code, Sunshine Act, HIPAA). Lead with HCP engagement (Tier 1 — proven and compliant). ALWAYS acknowledge regulatory constraints — any marketing AI must clear medical-legal review.
+
+#### Energy & Utilities
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Oil & Gas (Integrated) | B2B Customer Intelligence | **Tier 2 — Differentiator** | Industrial customer segmentation, contract renewal prediction, volume optimization | Shell: lubricants/chemicals B2B marketing; BP customer analytics | B2B revenue optimization |
+| Renewables / Utilities | Customer Engagement & DER Marketing | **Tier 1 — Table Stakes** | Demand response enrollment, EV program marketing, rate plan optimization, solar/storage promotion | NextEra: customer program marketing; industry-wide DER adoption marketing | Program enrollment + customer satisfaction |
+| Renewables / Utilities | Regulated Utility Communications AI | **Tier 1 — Table Stakes** | Bill explanation, outage communication, energy efficiency program marketing, rate case communications | Industry-wide: utility customer communications AI for regulated markets | Customer satisfaction + regulatory compliance |
+
+> **Agent field rule:** Energy/Utility CMOs operate in highly regulated markets where marketing = regulated customer communications. Lead with customer engagement and program marketing (Tier 1). For utilities, acknowledge that "marketing" includes mandated regulatory communications — position AI as compliance + efficiency.
+
+#### Telecom & Media
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Telecom / Connectivity | Churn Prevention & Retention Marketing | **Tier 1 — Table Stakes** | Churn propensity modeling, personalized retention offers, proactive engagement triggers | T-Mobile: $800M savings with 20% churn reduction (Q4 2024); industry-wide churn AI | Direct revenue protection |
+| Telecom / Connectivity | Personalized Plan Marketing | **Tier 1 — Table Stakes** | Usage-based upsell, family plan optimization, 5G upgrade targeting | T-Mobile/AT&T: AI-driven personalized offers across subscriber base | ARPU improvement |
+| Media / Entertainment | Audience Development & Content Marketing | **Tier 2 — Differentiator** | Audience segmentation, franchise marketing optimization, release window optimization | Disney: franchise marketing AI across streaming/theatrical; content-first marketing | Audience engagement + franchise value |
+| Streaming / Digital Media | Subscriber Acquisition & Retention | **Tier 1 — Table Stakes** | Content-based acquisition targeting, engagement prediction, win-back optimization | Spotify: personalized discovery driving engagement; Netflix retention optimization | Subscriber economics optimization |
+
+> **Agent field rule:** Telecom CMOs live and die by ARPU and churn. Lead with churn prevention and retention (Tier 1 — T-Mobile's results are industry-defining). For media/streaming CMOs, subscriber economics is the board metric.
+
+---
+
+### 5.6 Agentic AI — The 2025-2026 Frontier
+
+> *Agent instruction: Use this subsection when a CMO asks "what's next after GenAI content tools?" or when the target account has deployed AI across marketing functions and wants orchestration.*
+
+**What it is:** AI systems that autonomously plan, execute multi-step tasks, use tools, and adapt based on feedback — moving beyond copilots (human-in-the-loop) to autonomous action (human-on-the-loop or human-out-of-the-loop for defined workflows).
+
+**Analyst positioning:**
+- Gartner: #1 Strategic Technology Trend 2025. Predicts 33% of enterprise software will include agentic AI by 2028 (up from <1% in 2024). 15% of day-to-day work decisions made autonomously by 2028.
+- McKinsey: Agentic AI is the "next S-curve" after copilots — expected to deliver 3–5x the value of current AI assistants by handling full workflows.
+- IDC: 40% of enterprise AI projects will use agentic frameworks by 2028.
+
+**Sequencing (what's ready when):**
+
+| Phase | Timeframe | What It Looks Like | Risk Level | Example Marketing Use Cases |
+|-------|-----------|-------------------|------------|----------------------------|
+| **Agent Copilots** | Deployed now | AI suggests actions, human approves; single-system tool use | Low | Content drafting, A/B test suggestions, audience segment recommendations, reporting summaries |
+| **Task Agents** | 2025–2026 | Autonomous execution of defined workflows; human oversight on exceptions | Medium | Campaign setup and launch, social media scheduling/responding, email personalization execution, bid management |
+| **Orchestrator Agents** | 2026–2027 | Multi-agent coordination across systems; human sets goals, agents determine path | Medium-High | Full campaign orchestration (creative → targeting → launch → optimize → report), cross-channel journey management, budget reallocation |
+| **Autonomous Agents** | 2028+ | Self-directed agents managing complex marketing processes end-to-end | High | Self-optimizing marketing mix, autonomous brand management across channels, AI-directed growth strategy |
+
+**CMO pitch framing:** "Your team uses AI for content creation. The next wave — orchestrator agents that run entire campaigns from brief to optimization — is production-ready now for defined campaign types. Marketing organizations that master this first compress campaign cycles from weeks to hours, test 100x more variations, and reallocate budget in real-time based on performance. The talent gap between AI-native marketing orgs and traditional ones is becoming a competitive gap."
+
+**Field rule:** Position agentic AI for CMOs as the path from "AI helps my team write copy" to "AI runs the campaign playbook while my team focuses on brand strategy and creative direction." This resonates because CMOs are overwhelmed by execution complexity (more channels, more formats, more audiences) while trying to maintain strategic focus. Agentic AI promises to handle the execution complexity so the CMO can focus on what only humans can do: brand vision and creative intuition.
 
 ---
 
