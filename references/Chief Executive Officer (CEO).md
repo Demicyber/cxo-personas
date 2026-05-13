@@ -61,6 +61,32 @@ The agent must diagnose the CEO's dominant posture *before* generating the Call 
 
 **Field rule:** If you cannot determine the archetype from public sources, default to **Operator** (the safest assumption — margin and execution language works with any CEO) and use the first meeting's discovery questions to refine.
 
+### 🇨🇳 中国CEO原型补充（China CEO Archetypes）
+
+> **Agent instruction:** 中国企业CEO的原型分类需叠加"企业所有制类型"维度。同一行为模式在不同所有制下表现截然不同。以下是中国特有的CEO原型补充——不替代上面的五种通用原型，而是叠加一个"制度-治理"维度。
+
+| 🇨🇳 中国原型 | 定义特征 | 代表性例子 | 与通用原型的映射 |
+|-------------|---------|-----------|----------------|
+| **党政干部型（The Party-State Executive）** | 政治站位第一，组织纪律强，战略对齐中央政策。不冒险、不出格。 | 央企一把手（中石化、国家电网、中国移动董事长） | Steward + Operator 为主 |
+| **创始人-独裁型（The Founder-Autocrat）** | 高度集权，决策极快，组织围绕一个人运转。"一言堂"但执行力惊人。 | 王传福(BYD)、曾毓群(CATL)、任正非(华为) | Builder/Visionary 为主 |
+| **职业经理人型（The Professional Manager）** | 体系化管理，重流程，重KPI。更像西方CEO。 | 方洪波(美的)、杨元庆(联想)、张勇(前阿里CEO) | Operator + Capital Allocator |
+| **技术极客型（The Tech Founder）** | 技术驱动一切，产品至上，管理相对扁平。 | 梁汝波(字节)、黄峥(拼多多)、张一鸣(创始阶段) | Builder/Visionary |
+| **出海领航型（The Global Pioneer）** | 以全球化为核心使命，合规-本地化-品牌三位一体。 | 阳萍(Anker)、周受资(TikTok)、传音竺兆江 | Transformer + Builder |
+| **政商通型（The Gov-Connected Entrepreneur）** | 深度理解政策红利，善于在政策周期中获取资源。 | 专精特新创始人、地方产业龙头 | Operator + Steward |
+
+**诊断信号（如何判断中国CEO的主导原型）：**
+
+| 信号源 | 党政干部型 | 创始人-独裁型 | 职业经理人型 | 技术极客型 |
+|--------|-----------|-------------|-------------|-----------|
+| 公开讲话关键词 | "贯彻落实""新质生产力""高质量发展" | "ALL IN""颠覆""第一性原理" | "体系""流程""组织能力" | "技术路线""底层逻辑""产品力" |
+| 决策速度 | 慢（需层层审批） | 极快（一个人说了算） | 中等（走流程但不拖沓） | 快（技术验证后即决策） |
+| 关注会议形式 | 正式汇报+材料提前报送 | 非正式（饭局/微信/现场demo） | 结构化会议+PPT | 技术demo+数据 |
+| 否决原因 | "合规风险""政策对齐" | "不够颠覆""太慢" | "ROI不清晰""流程不匹配" | "技术不行""架构不优雅" |
+
+> **Field rule（中国）：** 判断中国CEO的原型，先看**所有制类型**（央企/民企/外企），再看**个人风格**。所有制决定了决策的"制度约束集"——央企CEO即使个人是Builder型，制度约束也会把他拉回Steward行为模式。
+
+
+
 
 ### The Three Time Horizons — Every CEO Meeting Is a Two-Horizon Conversation
 
@@ -152,6 +178,82 @@ CEOs today navigate a compressed transformation cycle. The *themes* are universa
 4. **Resilience & geopolitics as a standing agenda.** Not a risk disclosure — a standing item. Ukraine, Middle East, US-China, tariffs, export controls, FEOC, CBAM, Red Sea, sanctions, sourcing relocation. Dimon opens his letter with it. Toyota, BMW, Siemens, BASF, HSBC, CATL, BYD, ExxonMobil, Maersk, Walmart, P&G all name it as a primary operating variable. A solution designed for a stable world is designed for 2015.
 5. **Talent as a strategic constraint, not an HR problem.** CEOs treat talent like capital — allocated, concentrated, sometimes deliberately reduced to raise productivity. Ping An: massive agent-force reduction with 3x productivity per remaining agent. BYD: 100,000+ R&D engineers as a moat. Siemens competing with big tech for software engineers; Shell worrying young talent prefers "green" companies. Every credible pitch has a talent story: make scarce people more productive, reduce dependency, or compress onboarding.
 6. **Platform / ecosystem stickiness over product excellence alone.** CEOs describe their own businesses in platform language: Ping An's massive cross-sold customer base, Walmart's advertising + marketplace + membership flywheel, Uber's platform-for-AVs, Delta as "a loyalty and premium company that flies planes," BlackRock Aladdin as industry infrastructure, Salesforce Agentforce + Data Cloud + partners. Point solutions read as "another vendor." Systems that get stickier over time map onto how they already think.
+
+### 🇨🇳 中国CEO优先级（按企业类型）
+
+> **Agent instruction:** 中国CEO的优先级受"所有制+政策周期"双重驱动。以下按6类企业分列。准备Call Plan时，先确定目标客户的企业类型，再从对应列中提取优先级框架。
+
+#### 央企CEO优先级（2024-2025）
+
+**考核框架驱动一切。** 央企CEO不是为市场工作，是为国资委考核体系工作。SASAC 2024框架"一增一稳四提升"：
+
+| 考核维度 | 指标 | 权重信号 |
+|---------|------|---------|
+| 一增 | 利润总额增长 | 最硬性 |
+| 一稳 | 资产负债率稳定 | 底线要求 |
+| 四提升 | 净资产收益率(ROE) | 效率 |
+| | 研发投入强度 | 创新（2024权重上升） |
+| | 经营现金流比率 | 现金质量 |
+| | 全员劳动生产率 | 效率 |
+
+**2025新增维度：张玉卓"五个价值"** — 经济价值 + 战略价值 + 安全价值 + 创新价值 + 社会价值。**Sales implication:** "创新价值"和"安全价值"是2025新增考核项，任何能直接映射到这两个维度的方案，央企CEO有明确的上报理由。
+
+**实际优先级排序：**
+1. 政治站位与党建（一票否决项——做错了什么都白搭）
+2. 新质生产力落地（2024-2025最核心叙事，不用这个词=过不了第一关）
+3. 信创替代（核心系统2027前完成，时间紧迫）
+4. 十四五收官冲刺（2025是十四五最后一年，数字化KPI必须兑现）
+5. 国际化/一带一路项目
+6. ESG/双碳合规
+7. 风险防控（反腐高压下，CEO宁可慢也不犯错）
+
+#### 大型民企CEO优先级
+
+| 代表CEO | 2024-2025 stated priority | Source |
+|---------|--------------------------|-------|
+| 王传福(BYD) | "2024是智能化元年"，智能驾驶全系标配 | 年度发布会 |
+| 曾毓群(CATL) | 海外工厂扩张，技术代际领先 | 年报/投资者日 |
+| 方洪波(美的) | B2B转型（库卡/楼宇科技），数字化深水区 | 致股东信 |
+| 梁汝波(字节) | AI全面转型/豆包大模型，组织效率 | 内部信 |
+
+**共性优先级：**
+1. AI全面落地（从pilot到production的焦虑比任何人都强）
+2. 出海/全球化（产能出海 + 品牌出海 + 合规出海）
+3. 利润率提升（降本增效、组织瘦身——2024大厂普遍裁员）
+4. 技术壁垒构建（专利、自研、垂直整合）
+5. 人才密度（"裁冗余、留核心"是2024-2025共识）
+6. 合规风险（数据安全法、反垄断、海外GDPR/CCPA）
+
+#### 专精特新/SME CEO优先级
+
+**画像（工信部2024）：** 平均研发强度7-10%，平均专利50+件，细分市占率70%+，平均营收1-4亿元。
+
+1. 细分市场绝对领先（"一米宽、一百米深"）
+2. 技术突破/卡脖子攻关（政策支持 = 补贴 + 政府订单）
+3. IPO准备 — **2024严重受阻**（审核收紧，过会率骤降 → 现金流焦虑加剧）
+4. 大客户关系维护（营收高度集中，丢一个客户=生死问题）
+5. 现金流管理（被大客户压款6-12个月是常态）
+6. 三四线城市招技术人才（极难，是增长瓶颈）
+
+#### 外企在华CEO优先级
+
+**行业温度：** 欧洲商会68%表示经营"更难了"；美国商会调查美中紧张连续5年#1担忧。
+
+1. 中国市场收入保卫（份额被本土品牌蚕食）
+2. 信创合规（央企/国企客户要求国产替代方案——外企的生存威胁）
+3. 数据本地化（网络安全法/数据安全法/个保法三法合规）
+4. "In China, For China"创新（向总部证明中国不只是成本中心）
+5. 人才保留（本土人才被民企30-50%加薪挖角）
+6. China+1 hedging（总部同步推进降低中国依赖度）
+
+#### 出海企业CEO优先级
+
+1. 合规（数据跨境传输、GDPR、当地劳动法——一个错误=整个市场关门）
+2. 地缘政治风险（制裁、强制剥离、关税——TikTok式风险）
+3. 本地化团队（海外招聘、文化融合、本地管理层授权）
+4. 双栈技术架构（国内+海外独立运行，互不依赖）
+5. 品牌升级（从白牌/低价走向品牌溢价——Anker路线）
+6. 供应链韧性（不过度依赖单一市场或单一物流通道）
 
 ### Industry-Specific Priority Deep Dives *(supporting evidence)*
 
@@ -305,6 +407,59 @@ Across every industry in the research, CEOs volunteer **free cash flow** as the 
 - **This is NOT a universal ranking.** Which of the seven items is most acute varies by CEO, by quarter, and by situation. A CEO one year into a turnaround cares about the strategic bet and successor readiness more than through-cycle margin. A CEO at the peak of a cycle is already worrying about through-cycle margin. Diagnose before pitching.
 - **This is NOT a replacement for the board KPIs.** A pitch that addresses a private-scorecard item but cannot also be expressed in board-facing KPI language is still undeliverable, because the CEO has no way to re-tell it upward (see Objection #2 above).
 
+### 🇨🇳 中国CEO KPI体系（按企业类型）
+
+> **Agent instruction:** 中国CEO的KPI体系与西方差异极大。央企CEO的KPI由国资委外部设定（非董事会协商）；民企创始人的KPI往往是自设的"生死指标"；外企在华CEO的KPI是双轨制（全球+本地）。以下分类对于Call Plan中"connect to their scorecard"至关重要。
+
+#### 央企CEO考核（国资委体系）
+
+| 考核类别 | 具体指标 | 性质 | Sales连接点 |
+|---------|---------|------|-----------|
+| **经营业绩考核** | 利润总额、净资产收益率、营收增长率 | 年度硬指标 | "帮你提升ROE/利润率" |
+| **科技创新考核** | 研发投入强度、专利数、科技成果转化率 | 2024权重显著上升 | "帮你提升研发效率/创新产出" |
+| **风险防控考核** | 资产负债率、重大风险事件、审计发现 | 底线/一票否决 | "帮你降低运营风险/合规风险" |
+| **党建考核** | 党委前置审议执行率、巡视整改完成率 | 政治性/一票否决 | 不直接连接，但方案不能与之冲突 |
+| **ESG/社会责任** | 碳排放强度、安全生产事故、社会贡献 | 权重上升中 | "帮你完成双碳目标" |
+| **新质生产力（2024新增）** | 数字化转型进度、AI应用场景数、智能化率 | 政策热点=加分项 | **最佳切入点** |
+
+**关键差异 vs 西方：** 央企CEO的考核是**组织部/国资委**设定的，不是董事会协商的。CEO对考核指标几乎没有议价权。你的方案越能直接映射到考核指标的文字表述，越容易获批。
+
+#### 大型民企CEO自设KPI
+
+| 指标类型 | 典型KPI | 谁看 |
+|---------|---------|------|
+| **增长** | 营收增速、市场份额（细分市场排名） | 创始人自己、投资人 |
+| **效率** | 人效（人均产出）、组织臃肿度 | 创始人——2024"瘦身"是共识 |
+| **技术壁垒** | 专利数、核心技术自研率、AI落地场景数 | 创始人+CTO |
+| **全球化** | 海外收入占比、海外市场数量 | 董事会、投资人 |
+| **现金** | 自由现金流、账面现金 | CFO → 创始人 |
+| **市值/估值** | 股价、PE ratio、市值排名 | 上市公司创始人 |
+
+**创始人的"隐性KPI"：** 行业地位感知（"我们是第几？"）、竞对动态（"xx做到什么程度了？"）、技术领先度（"我们技术是不是最好的？"）。很多创始人的真正decision trigger不是ROI模型，是**竞争焦虑**。
+
+#### 外企在华CEO双轨KPI
+
+| 全球KPI（总部设定） | 本地KPI（自主设定） | 冲突点 |
+|-------------------|-------------------|--------|
+| China revenue growth vs plan | 本地market share | 总部目标可能已降低预期 |
+| Global margin standards | 本地利润率 | 中国市场价格战压低margin |
+| Global compliance (SOX, GDPR) | 本地合规（三法+信创） | 双重合规成本 |
+| Innovation pipeline contribution | 本地创新项目数 | 总部可能不认可本地创新 |
+| Talent retention | 关键人才流失率 | 民企挖角30-50%加薪 |
+
+**外企在华CEO的核心焦虑：** "我的全球考核体系不反映中国市场的特殊困难。总部用统一标准衡量一个越来越难的市场。"
+
+#### 专精特新CEO核心指标
+
+| 指标 | 为什么重要 | 典型目标 |
+|------|-----------|---------|
+| 细分市场占有率 | 小巨人认定标准 | ≥70%（细分领域） |
+| 研发强度 | 专精特新资质维持 | 7-10%（远超行业） |
+| 专利数量/质量 | 技术壁垒证明 | 50+件（含发明专利） |
+| 大客户续约率 | 生死线（营收集中） | >90%（丢一个=灾难） |
+| 现金流天数 | 生存指标 | 应收账款<180天（实际常>360天） |
+| IPO readiness | 创始人的终极目标 | 规范化治理、连续盈利 |
+
 ### Industry-Specific KPI Variations *(supporting evidence)*
 
 > *Benchmarks and examples below are from FY2024–FY2025 public disclosures. They illustrate the type and magnitude of KPIs a CEO tracks — not current figures to cite in a Call Plan. Agent must verify latest numbers before including any KPI data in customer-facing materials.*
@@ -360,6 +515,52 @@ Across every industry in the research, CEOs volunteer **free cash flow** as the 
 - **Addressing workforce concerns.** Managing employee fears about displacement while closing skills gaps.
 - **Maintaining accountability with autonomous systems.** When an AI agent decides, who is accountable? They need audit trails and escalation protocols.
 - **Defining enterprise-wide guardrails.** What can agents do autonomously vs. what requires human approval? Too loose = risk; too conservative = no ROI.
+
+### 🇨🇳 中国CEO特有痛点（按企业类型）
+
+> **Agent instruction:** 中国CEO的痛点既有与全球CEO重合的部分（AI ROI焦虑、人才短缺），也有完全独特的维度（政策不确定性、反腐压力、信创替代）。以下按企业类型列出差异化痛点——这些是全球版Pain Points中不会出现的。
+
+#### 央企CEO特有痛点
+
+| 痛点 | 具体表现 | Sales连接 |
+|------|---------|----------|
+| **政治风险 > 商业风险** | 一个决策错误可能不是亏钱，是丢官。"宁可不做，不可做错"心态普遍。 | 方案必须强调"合规""可控""有先例"——不是"创新""颠覆" |
+| **反腐高压下的决策瘫痪** | 采购超过一定金额就需要层层审批+终身追责。很多人"不敢签字"。 | 提供"合规采购路径"比提供"好产品"更重要 |
+| **创新与合规的矛盾** | 上面要求"创新"（新质生产力），下面要求"合规"（纪委审查）。CEO夹在中间。 | 方案要同时满足"看起来创新"和"合规可查"——标杆案例是最好的挡箭牌 |
+| **信创替代时间压力** | 核心系统2027前必须完成国产替代。但国产方案成熟度不够。 | 外企：必须有信创方案/混合方案；国产：强调"自主可控" |
+| **干部轮岗导致战略不连续** | 央企一把手平均任期3-5年，到任后推翻前任的项目是常态。 | 方案要设计为"无论谁来都能继续"——不绑定个人关系 |
+| **考核周期短 vs 技术周期长** | 年度考核要看结果，但数字化转型要3-5年。"短期出成果"的压力极大。 | 必须设计"90天可见效果"的阶段——即使整体项目是3年期 |
+
+#### 大型民企CEO特有痛点
+
+| 痛点 | 具体表现 | Sales连接 |
+|------|---------|----------|
+| **内卷加剧，增长见顶** | 国内市场红海化，价格战侵蚀利润。增长只能从出海或AI效率中找。 | 方案要回答"帮我在零和博弈中赢" |
+| **出海合规的巨大不确定性** | TikTok式风险随时可能降临。数据跨境、制裁名单、FEOC认定。 | 多区域合规能力是hard requirement |
+| **组织膨胀后的瘦身阵痛** | 2020-2022扩张太快，2023-2025裁员+组织优化。员工士气问题。 | "用AI提效而不是裁员"的narrative更容易被接受 |
+| **创始人交班焦虑** | 第一代创始人50-60岁，接班人问题是心病。 | 方案如果能"降低对个人英雄的依赖"，创始人会有共鸣 |
+| **融资环境恶化** | 一级市场冰封，IPO收紧，美元基金退出中国。现金为王。 | 报价灵活（按效果付费、分期、轻量起步）比大单更现实 |
+| **AI人才的极端稀缺** | 顶尖AI人才被少数大厂垄断。中型民企根本招不到。 | "不需要大量AI人才也能用"是极强卖点 |
+
+#### 外企在华CEO特有痛点
+
+| 痛点 | 具体表现 | Sales连接 |
+|------|---------|----------|
+| **市场份额被本土品牌蚕食** | 汽车、手机、云计算、ERP——几乎每个领域外企都在丢份额。 | "帮你守住份额"或"帮你找到差异化定位" |
+| **信创替代的生存威胁** | 央企/国企客户直接告知"3年后不能用你的产品了"。 | 外企需要"混合方案"或"国产合作伙伴生态" |
+| **总部不理解中国** | 中国市场下行，但总部仍用全球统一增长目标考核。夹缝中的人。 | 帮他们"向上管理"——提供总部能理解的数据和narrative |
+| **双重合规成本** | 既要满足全球合规（SOX、GDPR），又要满足中国三法。两套体系。 | 能同时满足中外合规的方案有premium价值 |
+| **本土人才被挖角** | 民企给30-50%加薪就能挖走外企培养多年的人。 | "降低对稀缺人才的依赖"是共鸣点 |
+
+#### 专精特新CEO特有痛点
+
+| 痛点 | 具体表现 | Sales连接 |
+|------|---------|----------|
+| **被大客户"绑架"** | 营收70%+来自1-3个客户。客户压价、压款、延付是常态。 | "帮你降低对单一客户的依赖"或"帮你提升对大客户的议价力" |
+| **IPO通道堵塞** | 2024 IPO审核收紧，很多准备多年的企业被迫搁置。现金流压力骤增。 | 定价要考虑现金流紧张现实。分期/按效果付费。 |
+| **三四线城市招人难** | 总部不在一线城市，招技术人才极其困难。 | "降低对高端人才的依赖"或"远程协作方案" |
+| **补贴政策波动** | 专精特新认定和补贴政策年年变。合规成本高。 | 帮他们维持认定资质（研发强度、专利等指标） |
+| **技术路线选错的致命风险** | 小企业押错一个技术方向=死亡。没有容错空间。 | "降低技术选型风险"——提供试用/POC/轻量验证 |
 
 ### Industry-Specific Pain Points *(supporting evidence)*
 
@@ -868,6 +1069,109 @@ Getting CEO sponsorship dramatically accelerates deal velocity and removes organ
 3. **Engage the CEO with a business case** — not a product pitch; a strategic recommendation backed by their own team's validation.
 4. **CEO provides air cover** — removes blockers, accelerates timelines, signals organizational priority.
 
+### 🇨🇳 中国企业采购动态（China Buying Dynamics）
+
+> **Agent instruction:** 中国企业的采购流程与西方有本质差异——不是"中国版的RFP流程"，而是一个完全不同的决策体系。以下内容对Call Plan的"Buying Process"和"Stakeholder Strategy"至关重要。
+
+#### 采购决策速度（按企业类型）
+
+| 企业类型 | 典型决策周期（IT/AI项目） | 决策节点数 | 关键瓶颈 |
+|---------|------------------------|----------|---------|
+| 央企 | 6-10个月（可达12个月） | 5-7个 | 党委前置审议、招投标流程 |
+| 地方国企 | 4-8个月 | 4-6个 | 地方政府审批、预算周期 |
+| 大型民企 | 1-3个月（创始人拍板可更快） | 2-3个 | 创始人的注意力/优先级 |
+| 专精特新 | 2-4周（创始人直接决策） | 1-2个 | 现金流、价格敏感 |
+| 外企在华 | 3-6个月 | 4-5个 | 全球/亚太审批、预算权限 |
+| 出海企业 | 1-3个月 | 2-3个 | 合规验证、多区域适配 |
+
+#### 央企/国企采购法规门槛
+
+| 类型 | 公开招标门槛 | 法规依据 |
+|------|-------------|---------|
+| 工程 | ≥400万元 | 招投标法实施条例 |
+| 货物/服务 | ≥200万元 | 招投标法实施条例 |
+| 党委前置审议 | ≥500-1000万元（各企业不同） | 三重一大制度 |
+
+**典型央企IT采购时间线：**
+```
+需求确认(1-2月) → 预算申报(1月) → 招标文件编制(1-2月) → 
+公开招标(1月) → 评标/定标(2-4周) → 党委审议(2-4周,如触发) → 
+合同签署(2-4周)
+总计：6-10个月。加速的唯一方式是"项目已在年初预算中"。
+```
+
+**Sales implication:** 如果目标是央企，9-10月pitch最优（赶明年预算编制），或2-3月pitch（两会后政策明确，当年补充预算窗口）。12月不要pitch新项目——他们在忙验收。
+
+#### 预算周期与Q4效应
+
+| 数据点 | 意义 |
+|--------|------|
+| Q4占年度IT支出35-40% | "突击花钱"是真实现象 |
+| 12月单月占年度支出15-20% | 12月是"收割月"不是"播种月" |
+| 两会(3月)后4-6个月 → 新政策采购落地 | 9-10月是政策驱动采购的高峰 |
+| 2025年=十四五最后一年 | 数字化转型KPI冲刺，预算有保障 |
+
+**"突击花钱"的底层逻辑：** 花不完预算 → 明年预算被砍。11-12月花钱不是因为有需求，是因为"保预算"。**对销售的意义：** 如果你8-9月才开始接触，Q4的"突击"预算你也赶不上——因为那些钱早在年初就被"占坑"了。
+
+#### 中国CEO采购的真实决策路径
+
+**央企路径：**
+```
+分管副总提需求 → 信息化部/数字化部牵头调研 → 
+方案汇报（至少3家比选）→ 评审委员会评分 → 
+分管副总审批 → 金额触发则党委前置审议 → 
+招投标（如超门槛）→ 定标 → 合同
+```
+**关键人物：** 信息化部/数字化部的处长/副部长是"技术守门人"——他写招标参数，他决定你能不能进入比选名单。
+
+**大型民企路径：**
+```
+创始人/CEO看到一个case → 让CTO/CDO去了解 → 
+技术评估/POC → 创始人亲自看demo → 
+创始人拍板（可能在一次饭局后）
+```
+**关键人物：** 创始人身边的"参谋"（可能是技术助理、战略部长、甚至司机）。这个人的recommendation weight极大。
+
+**外企在华路径：**
+```
+中国区IT/Digital负责人发起 → 本地评估 → 
+金额超限则提交亚太/全球审批 → 全球Procurement介入 → 
+Global vendor assessment → 本地合同签署
+```
+**关键人物：** 中国区IT Head有"发起权"但没有"审批权"。审批权在亚太CIO或Global Procurement。
+
+#### 华为铁三角方法论（中国B2B黄金标准）
+
+> **Why this matters:** 华为的LTC/铁三角是中国B2B销售的事实标准。大量企业模仿。你如果在中国做大客户销售而不了解铁三角，等于不了解游戏规则。
+
+| 角色 | 职责 | 对标西方 |
+|------|------|---------|
+| 客户经理(AR) | 客户关系、商务、合同 | Account Executive |
+| 解决方案经理(SR) | 技术方案、POC | Solution Architect |
+| 交付经理(FR) | 实施、项目管理 | Customer Success |
+
+**MCR客户关系三层经营：**
+1. **关键客户关系** — CEO/分管副总/CTO（决策层）
+2. **普遍客户关系** — 处长/项目经理（执行层，有否决权）
+3. **组织客户关系** — 战略合作框架、联合创新实验室
+
+**Sales implication:** 大多数西方vendor只做第1层（高层关系），忽略第2层。但在中国，第2层的"处长"可以通过"技术打分低"来否决你——即使CEO支持你。
+
+#### 标杆参访——中国B2B第一转化工具
+
+标杆参访（安排潜在客户去看已有客户的部署现场）的转化效果在中国远超任何其他销售手段：
+
+- 效果 > PPT汇报 > 线上demo > 白皮书
+- 核心：让"同行"（同行业/同规模/同地区最佳）现身说法
+- 参访后通常配合商务宴请深化关系
+- **CEO级参访：** 安排对方CEO去看你的标杆客户CEO → 如果两个CEO聊得来，这单基本就成了
+
+**关系建设节奏（完整路径）：**
+```
+中间人引荐 → 初次短会/行业活动见面 → 商务宴请(了解非业务面) → 
+标杆参访(建立产品信任) → 正式方案汇报 → 高层互访(战略级背书) → 签约
+```
+
 ### The Four Objections Every CEO Will Pose
 
 **What this means (TL;DR).** Triangulated across every industry in the research, the objections a CEO raises at the close of a pitch are nearly identical. Any pitch that doesn't pre-answer all four will stall — not because the CEO said "no," but because they have no narrative to carry the decision internally to their CFO, their board, and their direct reports.
@@ -994,6 +1298,75 @@ Getting CEO sponsorship dramatically accelerates deal velocity and removes organ
 
 ---
 
+### 🇨🇳 中国CEO Discovery Questions（文化适配版）
+
+> **Agent instruction:** 中国CEO meeting的Discovery与西方有根本性文化差异。西方的"Challenger Sale"在中国会适得其反。以下是经过文化适配的问法——用"请教"姿态替代"提问"姿态，用"案例铺垫"替代"直接追问"。
+
+#### 核心文化差异
+
+| 维度 | 西方CEO meeting | 中国CEO meeting |
+|------|----------------|----------------|
+| 提问姿态 | 直接提问/challenge OK | 必须用"请教""学习"姿态 |
+| 第一次见面目标 | 深入business discovery | 建立关系，轻触业务方向 |
+| 挑战/challenge | "Challenger Sale"方法有效 | 挑战 = 不给面子 = 关系终结 |
+| 引用对方数据 | 引用公开财务数据展示homework | 需谨慎（暗示"我在调查你"） |
+| 提到竞争对手 | 可以直接提竞对名字 | 含蓄（"行业内领先的同行"代替点名） |
+| 讨论问题/痛点 | 直接问"your biggest challenge?" | 绝不能暗示对方"有问题" |
+
+#### 有效的中国式Discovery问法
+
+**请教型（最安全的开场）：**
+1. "请教一下，贵司在[AI/数字化/出海]方面目前的整体规划方向是什么？"
+2. "张总您在[行业峰会]上提到的[具体方向]，目前进展到什么阶段了？"（展示homework但用尊重方式）
+
+**案例铺垫型（用同行经验打开话题）：**
+3. "我们服务过的几家[同行业/同规模]企业，普遍在[具体挑战]这个环节遇到一些瓶颈，不知贵司的情况如何？"
+4. "最近[某标杆企业]在[某方向]做了一个比较成功的尝试，不知道您怎么看这个路径？"
+
+**政策借力型（用政策叙事开口）：**
+5. "国资委今年对[新质生产力/研发强度/数字化]考核权重明显提升，贵司这块的落地思路是怎样的？"
+6. "十四五收官年，[数字化/信创/AI]这块的KPI压力应该不小，目前进度怎么样？"
+
+**竞争暗示型（含蓄刺激）：**
+7. "我们注意到行业里有几家同行在这个方向动作比较快，想了解贵司是怎么看这个竞争态势的？"
+8. "您觉得在[具体领域]，未来2-3年行业格局会怎么变化？"
+
+#### 绝对禁忌（NEVER ASK）
+
+| ❌ 绝对不能问 | 为什么 | ✅ 替代问法 |
+|-------------|--------|-----------|
+| "贵司最大的问题是什么？" | 暗示对方有问题 = 不给面子 | "行业里普遍面临XX挑战，贵司是怎么应对的？" |
+| "为什么还没有上XX系统？" | 暗示落后 | "贵司在XX方面的规划节奏是怎样的？" |
+| "您的预算是多少？" | 第一次见面太商业化 | 后续由AR（客户经理）层面沟通 |
+| "之前那个项目为什么失败了？" | 揭短 | "我们在类似项目中观察到一些常见陷阱，想分享一下" |
+| "您的竞对XX已经做到了..." | 激将法在中国对高层无效 | "行业里有些同行动作比较快..." |
+| "这个月底能定吗？" | 催促 = low-class | 由AR层面跟进节奏 |
+
+#### 企业类型特定Discovery策略
+
+**央企CEO：**
+- 开场务必对齐政策语言："在新质生产力/十四五收官的大背景下..."
+- 问考核相关问题："国资委今年的考核重点有什么变化？贵司是怎么对应的？"
+- 绝不触碰政治敏感话题
+
+**大型民企创始人：**
+- 可以更直接，但要用"请教"包装："王总，您觉得AI在[具体场景]能做到什么程度？"
+- 可以show技术硬实力："我们有个技术点想跟您探讨一下..."
+- 可以聊竞争："您怎么看[竞对]最近的动作？"
+
+**外企在华CEO：**
+- 可以用English或中英混杂
+- 关注"向上管理"痛点："全球总部对中国市场现在什么态度？"
+- 关注本地化："在信创要求下，贵司的产品战略做了哪些调整？"
+
+**专精特新创始人：**
+- 直接、高效、不要太formal
+- 关注技术："您目前核心技术的下一个突破点在哪里？"
+- 关注客户："大客户今年的需求有什么变化？"
+- 关注现金："项目投入回收周期您一般怎么考虑？"（间接问预算）
+
+---
+
 ## 10. Relationship Map
 
 ### Core C-Suite Dynamics
@@ -1058,6 +1431,109 @@ Getting CEO sponsorship dramatically accelerates deal velocity and removes organ
 
 ---
 
+### 🇨🇳 中国CEO关系地图（China-Specific Power Dynamics）
+
+> **Agent instruction:** 中国企业的权力结构与西方公司治理差异巨大。Title不等于实权，"隐性权力"（关系、圈子、历史渊源）往往比组织架构图更决定谁能拍板。以下是按企业类型的实际权力地图。
+
+#### 央企权力结构
+
+```
+┌─────────────────────────────────┐
+│ 党委书记/董事长（一把手）           │ ← 真正的最终决策者
+│ [战略方向 + 政治对齐 + 人事]       │
+├─────────────────────────────────┤
+│ 总经理/党委副书记（二把手）         │ ← 日常运营决策者
+│ [经营执行 + 年度目标]              │
+├─────────────────────────────────┤
+│ 纪委书记                          │ ← 不管业务，但人人忌惮
+│ [监督 + 审查 + 一票否决权]         │
+├─────────────────────────────────┤
+│ 副总经理（分管业务线）             │ ← 具体项目的实际推动者
+│ 总会计师 / 总工程师               │
+├─────────────────────────────────┤
+│ 部门负责人（处长/部长级）          │ ← "技术守门人"，写招标参数
+└─────────────────────────────────┘
+```
+
+**关键动态：**
+- 党委书记=董事长（通常同一人）= 终极决策权
+- 总经理管运营执行，但"三重一大"事项必须过党委会
+- 纪委书记虽不管业务，但一个举报就能冻结任何项目
+- **分管副总**是大多数IT/AI项目的实际推动者和预算持有者
+- **处长级**是"守门人"——招标参数由他写，你进不进短名单他说了算
+- **Sales implication:** 必须"上下通吃"：一把手给方向、分管副总给预算、处长给入围资格。缺任何一层都走不通。
+
+#### 大型民企权力结构
+
+```
+┌─────────────────────────────────┐
+│ 创始人/实际控制人                  │ ← 终极决策权（即使title不是CEO）
+├─────────────────────────────────┤
+│ "开封元老"圈（创业团队）          │ ← 影响力远超其formal title
+│ [非正式否决权 + 信息通道]         │
+├─────────────────────────────────┤
+│ 职业经理人高管层                  │ ← 执行权，但战略决策需创始人点头
+│ [CEO/COO/CFO/CTO]               │
+├─────────────────────────────────┤
+│ 创始人的"参谋"                    │ ← 隐性影响力极大
+│ [技术助理/战略部长/私人顾问]      │
+└─────────────────────────────────┘
+```
+
+**关键动态：**
+- 创始人的权力远超其公开title（可能title只是"董事长"但管一切）
+- "开封元老"有特殊的信任和影响力——他们的反对意见创始人会听
+- 空降职业经理人前1-2年是"试用期"，不要把赌注全押在他身上
+- 创始人身边的"参谋"（可能是VP级，也可能是特助）的recommendation weight极大
+- **Sales implication:** 找到创始人"信任圈"里的人做引荐 > 任何销售技巧。如果你的sponsor只是职业经理人而非创始人圈内人，这单的安全系数很低。
+
+#### 外企在华权力结构
+
+```
+┌─────────────────────────────────┐
+│ 全球CEO / 亚太区总裁              │ ← 重大预算审批权
+│ [战略方向 + >$500K审批]           │
+├──────────── ⬇ 虚线 ──────────────┤
+│ 中国区总裁/CEO                    │ ← 本地执行权，预算权有限
+│ [P&L责任 + $100-500K审批权]       │
+├─────────────────────────────────┤
+│ 中国区各VP / 总监                 │ ← 实际项目owner
+│ [执行 + 供应商选择建议权]          │
+├─────────────────────────────────┤
+│ Global Procurement                │ ← 流程关卡（不是决策者，但能拖死你）
+└─────────────────────────────────┘
+```
+
+**关键动态：**
+- 中国区总裁自主权因公司而异（"strong China" vs "weak China"模式）
+- 重大采购权限通常$100K-$500K，超出需亚太/全球审批
+- 2024趋势：61%欧企已将IT采购权本地化（5年前仅30%）——趋势向好
+- Global Procurement不做决策，但流程合规审查能拖延3-6个月
+- **Sales implication:** 先搞定中国区（他们有动力证明"本地创新"价值），再通过他们向上影响。但要早期就让Global Procurement知道你的存在，避免后期被卡流程。
+
+#### 政府关系角色矩阵
+
+| 企业类型 | 政府关系重要度 | 核心连接对象 | 对你的影响 |
+|----------|:---:|-------------|----------|
+| 央企 | ★★★★★ | 国资委、主管部委 | 政府关系可以帮你开门，但不能帮你赢单 |
+| 地方国企 | ★★★★★ | 地方政府、省国资委 | 地方政府的推荐有极大权重 |
+| 大型民企 | ★★★★☆ | 发改委、工信部、地方政府 | 政策补贴/牌照可以是你方案的加分项 |
+| 专精特新 | ★★★★☆ | 工信部、地方科技局 | 帮他们拿/保专精特新认定=极高价值 |
+| 外企在华 | ★★★☆☆ | 商务部、地方招商局 | 影响力有限，更多靠产品力 |
+| 出海企业 | ★★★☆☆ | 商务部、目的地使馆 | 帮他们对接政策资源有附加价值 |
+
+#### 中国特有的"隐性决策者"
+
+| 角色 | 在哪种企业 | 隐性权力来源 | 如何接触 |
+|------|-----------|-------------|---------|
+| **纪委书记** | 央企/国企 | 否决权（不是决策权） | 不要主动接触——确保你的方案"合规可查"即可 |
+| **创始人的特助/秘书** | 民企 | 信息通道+日程控制 | 尊重但不要试图"搞定"他——搞定他不等于搞定创始人 |
+| **退休老领导** | 央企/地方国企 | 人脉网络+后台影响 | 可以通过他们引荐，但不要让现任感觉被"架空" |
+| **行业协会秘书长** | 所有类型 | 行业信息枢纽+引荐网络 | 最佳的"中间人"人选之一 |
+| **咨询公司项目经理** | 央企（规划阶段） | 规划报告写入你的方案=提前锁定 | 在规划阶段就要接触做规划的咨询团队 |
+
+---
+
 ## 11. Do's & Don'ts
 
 ### ✅ DO
@@ -1101,3 +1577,54 @@ Getting CEO sponsorship dramatically accelerates deal velocity and removes organ
 | **Telecom & Media** | Connect to subscriber metrics and network quality | ARPU, churn, net adds are their language |
 | **Transportation & Logistics** | Talk about asset utilization and network efficiency | Every aircraft, truck, ship is a balance sheet item |
 | **Technology & Digital Native (Gaming — Traditional Publisher, Gaming — Platform / Cloud Gaming, Gaming — Mobile / Live Service, Gaming — UGC / Metaverse Platform)** | Understand franchise dynamics and live-service metrics | Net bookings, DAU, engagement hours are the currency |
+
+### 🇨🇳 中国CEO Do's & Don'ts（文化与制度特别版）
+
+> **Agent instruction:** 以下Do's & Don'ts是中国特有的——不是"通用版加个中国标签"，而是基于中国商业文化、制度环境、和人际关系规则的独立体系。在生成中国客户的Call Plan时，这些规则优先于通用版（有冲突时以中国版为准）。
+
+#### ✅ DO（中国通用）
+
+- **先关系，后业务。** 第一次CEO meeting的唯一目标是"让对方愿意见你第二次"。不推方案、不谈价格、不聊竞对——建立信任感。
+- **用中间人引荐。** 冷触达在中国B2B成功率接近零。找共同认识的人、行业协会、对方信任的顾问、或已有客户做引荐。一个好的中间人 = 省6个月cold outreach。
+- **准备同行标杆案例。** 中国CEO最信"同行谁在用"。案例越接近（同行业 + 同规模 + 同地区），说服力越强。"华为在用"对央企有用；"字节在用"对互联网有用——标杆要匹配。
+- **尊重层级对等。** 如果对方出席的是VP级，你方至少总监级。层级不对等 = "你们不够重视我" = 关系受损。CEO级meeting你方必须出VP/SVP以上。
+- **学会"表态"。** 在关键时刻明确表达支持对方的战略方向。模糊的中立在中国商业文化里 = 不可信任 = 不是"自己人"。
+- **配合政策叙事。** 任何给央企/国企的方案都要能对齐当前政策热词。2024-2025是"新质生产力""信创""数字化转型"。不用这些词 = 对方无法向上汇报。
+- **耐心。** 中国大客户（尤其央企）的决策周期天然比西方长2-3倍。急于求成会被视为"不懂行""小vendor思维"。
+- **饭局是战场，但不是战场的那种。** 商务宴请是关系深化的核心场景。目的是从"供应商"变成"朋友"。不谈价格、不逼单、不push——轻松聊天，展示你是个有趣的人。
+
+#### ❌ DON'T（中国通用）
+
+- **不要冷启动hard sell。** 没有关系基础直接推销 = 垃圾邮件。中国CEO收到的冷邮件直接进垃圾箱，cold call直接挂断。
+- **不要在任何公开场合让对方难堪。** 面子 > 交易。当面质疑对方的决策、指出对方的错误、或在第三人面前让对方尴尬 = 关系永久终结。
+- **不要跳级。** 绕过对方的直接下属找老板 = 得罪整条线上所有人。他的下属会把你"穿小鞋"到死。
+- **不要在饭局上谈价格/条款。** 饭局是信任建设场景。谈钱 = 破坏氛围 = "这个人只想做生意"。
+- **不要假设title = 实权。** 很多中国企业的title是"政治安排"而非权力映射。先搞清实际决策链再投入资源。
+- **不要忽视"技术守门人"。** 处长/科长虽没有审批权，但有"技术评分权"——评分低你就出局了。
+- **不要引用公开财务数据质疑对方。** "贵司今年利润下滑了..."这种话 = "我在审计你" = 极不礼貌。
+- **不要催促。** "这个月底能签吗？""领导什么时候能定？" = low-class销售行为。尤其对高层。节奏由客户掌握。
+- **不要在央企面前过度强调"颠覆""革命"。** 央企CEO不要颠覆——他们要"稳中求进"。用"升级""优化""提升"而非"颠覆""取代""革命"。
+
+#### 企业类型特定 Do's & Don'ts
+
+| 企业类型 | ✅ DO | ❌ DON'T |
+|----------|------|----------|
+| **央企** | 对齐政策叙事（新质生产力）；走正式流程（招投标）；准备信创合规证明；提供"已有同级别央企在用"的case | 试图"走关系"绕过招投标流程（反腐高压下=找死）；忽视党委审批环节；方案不提合规/安全 |
+| **地方国企** | 找地方政府关系做背书；配合地方产业政策叙事；在当地设服务团队 | 只盯总部不管区域（决策在地方）；忽视地方保护主义 |
+| **大型民企** | 找创始人信任圈引荐；展示技术硬实力（demo > PPT）；响应速度要快（24h内） | 走太慢的流程（创始人会失去兴趣）；PPT太多实操太少；"我们需要内部审批"说太多次 |
+| **专精特新** | 直接约创始人（他就是一切）；展示如何帮助技术突破；提供灵活合作（POC/按效果付费） | 用大企业流程来对接（他们没采购部门）；报价高不可攀；要求长期commitment |
+| **外企在华** | 准备英文材料+全球合规证明(SOC2/ISO)；对接本地IT Head先建立Champion；提前了解Global Procurement要求 | 忽视全球审批流程（以为搞定中国区就行）；只做中文沟通（Global需要英文） |
+| **出海企业** | 展示多国合规能力（GDPR+CCPA+当地法）；提供多区域部署方案；展示海外服务能力 | 只谈中国方案（他们需要全球视角）；不了解目标市场法规就去pitch |
+
+#### CEO宴请文化备忘录
+
+| 规则 | 说明 |
+|------|------|
+| **座位安排** | 主宾面门而坐；主人面对主宾；副主陪坐主宾右手边。搞错座位=大失礼。 |
+| **敬酒** | 晚辈/地位低方先敬。杯沿低于对方。不喝酒可以茶代酒但必须表态。 |
+| **聊什么** | 家庭、子女教育、旅行、高尔夫、行业八卦。不聊政治、不聊竞对坏话。 |
+| **不聊什么** | 合同条款、价格、竞对具体方案、对方公司内部问题。 |
+| **结束** | 主人先起身。客人不要抢着走。走时说"下次一定回请"。 |
+| **后续** | 次日发微信感谢。如果对方有提到的需求/爱好，一周内follow up一个小礼物或信息。 |
+
+
