@@ -37,6 +37,35 @@ Unlike every other C-suite role — which is measured by what is created, grown,
 
 The modern CISO role has transformed more dramatically in the past five years than in the previous twenty. Four forces have compounded onto the seat: (1) the **SEC cybersecurity disclosure rule** (effective December 2023) requires public companies to disclose material cyber incidents within four business days and annually disclose board-level cyber governance, making the CISO visible at the board and to investors in ways previously reserved for the CFO; (2) **personal liability precedents** — the SolarWinds CISO civil fraud charges (dismissed 2024 but chilling), the Uber CSO criminal conviction for breach concealment, and the settled enforcement against executives in multiple cases — have converted the CISO seat into one with personal legal exposure; (3) the **generative-AI wave** has simultaneously given adversaries unprecedented tooling (phishing at perfect grammar, deepfake social engineering, AI-generated malware variants) and given the CISO an incomplete, rapidly-changing defender stack that must be integrated under time pressure; and (4) **expanding regulatory surface** — DORA (EU financial services, Jan 2025), NIS2 (EU critical sectors, Oct 2024), EU AI Act (high-risk systems phasing 2026–27), expanding US state privacy laws, SEC incident disclosure, and evolving FTC expectations — has turned compliance from an annual audit into a continuous operational requirement.
 
+
+### 🇨🇳 中国CISO原型补充（China CISO Archetypes）
+
+> **Agent instruction:** 中国的信息安全法规环境是全球最复杂之一(三法+等保+密评+关保+算法备案)，CISO面临的合规压力远超欧美。且"安全"在中国有政治维度——数据安全=国家安全。
+
+#### 中国CISO六类画像
+
+| 企业类型 | CISO角色 | 核心职责 | 汇报 | 挑战 |
+|---------|---------|---------|------|------|
+| **央企** | "网络安全与信息化部副部长" | 等保/密评/关保+安全运营+应急响应 | 分管副总+集团安全委员会 | 政治责任重(出事=网信办约谈) |
+| **大型民企** | "CSO/安全VP" | 整体安全战略+安全团队建设+合规 | CEO/CTO | 业务快跑vs安全管控的矛盾 |
+| **互联网** | "安全部负责人" | 业务安全+数据安全+内容安全+攻防 | CTO | 安全人才抢夺+AI安全新挑战 |
+| **金融机构** | "信息科技风险管理部总经理" | 银保监合规+等保+灾备+业务连续性 | CRO/CTO | 监管检查频繁+标准最严 |
+| **外企中国区** | "China Security Lead" | 本地合规(等保/密评)+global policy执行 | Global CISO + China IT | 夹在global标准和中国法规之间 |
+| **中小企业** | 通常由IT经理兼任 | 基础安全运维+等保合规 | CTO/老板 | 预算极少+人才招不到 |
+
+#### 中国CISO的"政治属性"
+
+| 维度 | 中国特色 | 全球对比 |
+|------|---------|---------|
+| **法律责任** | 个人刑事责任(数据安全法第45/52条) | GDPR主要罚企业不罚个人 |
+| **监管频率** | 每年多次(公安/网信/行业监管/密码局) | 年度audit为主 |
+| **政治要求** | 重大事件/两会/重要会议期间"保安全" | 无此维度 |
+| **通报批评** | 出了安全事件=行业通报=领导约谈 | 主要是罚款 |
+| **攻防演练** | 每年HW行动(国家级红蓝对抗) | 可选的pentest |
+
+
+### 全球CISO参考（Global Reference）
+
 ### CISO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CISO *leans*, not what industry they are in. Most real CISOs are blends, weighted differently by moment and situation. A post-breach CISO is almost always War-Time + Transformer, regardless of industry. A CISO at a regulated bank is typically Compliance Officer + Business Enabler. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -137,6 +166,36 @@ The agent must diagnose the CISO's dominant posture *before* generating the Call
 
 CISOs today are navigating an expanding threat landscape, expanding regulatory surface, and constrained resources simultaneously. The *themes* are universal; the specifics vary by industry. Lead with the universal pattern, then adapt.
 
+
+### 🇨🇳 中国CISO优先级
+
+> **Agent instruction:** 中国CISO的#1永远是"合规不出事"，而不是"提升安全能力"。合规驱动>风险驱动>业务驱动。
+
+#### 通用优先级排序
+
+| 排序 | 优先级 | 具体内容 | 紧迫度 |
+|------|-------|---------|-------|
+| #1 | **等保合规** — 三级/四级系统定级+测评+整改 | 每年测评，不过=限期整改 | 🔴 常年优先 |
+| #2 | **数据安全** — 分级分类+数据出境评估+个人信息保护 | 数据安全法+个保法 | 🔴 极高 |
+| #3 | **HW攻防演练** — 国家级/行业级红蓝对抗不失分 | 每年夏秋季(7-10月) | 🔴 季节性极高 |
+| #4 | **密评合规** — 商用密码应用安全性评估 | 密码法要求 | 🟡 高(政务/金融) |
+| #5 | **安全运营** — SOC/威胁检测/应急响应/漏洞管理 | 日常运营 | 🟡 高 |
+| #6 | **AI安全/内容安全** — 大模型安全评估+算法备案 | 生成式AI管理办法 | 🟡 高(有AI业务的) |
+| #7 | **供应链安全** — 第三方/开源组件安全审查 | Log4j之后意识提升 | 🟡 中 |
+
+#### 按企业类型差异
+
+| 企业类型 | 额外优先级 | 独特压力 |
+|---------|-----------|---------|
+| 央企 | **关键信息基础设施保护(关保)** | CII运营者责任=CISO的命 |
+| 金融 | **银保监科技风险专项检查** | 检查频率高+罚则重 |
+| 互联网 | **内容安全/用户数据/反爬反作弊** | 日处理TB级数据安全 |
+| 外企 | **数据出境安全评估** | 向总部传数据=数据出境 |
+| 医疗 | **健康医疗数据安全** | 卫健委额外要求 |
+
+
+### 全球CISO参考（Global Reference）
+
 ### Universal CISO Priorities
 
 1. **Zero trust architecture, mid-journey.** Most CISOs are not debating zero trust — they are mid-rollout across identity, device trust, microsegmentation, application-level controls, and data-centric protection. NIST SP 800-207 is the reference model; CISA Zero Trust Maturity Model 2.0 (2023) is the US federal anchor. The question is not "zero trust yes or no" but "which pillar are we at, what's blocking the next phase, and how do we measure maturity?" Vendors aligned with least-privilege and continuous verification are aligned with direction; vendors that assume network-perimeter trust are swimming upstream.
@@ -216,6 +275,24 @@ CISOs today are navigating an expanding threat landscape, expanding regulatory s
 ## 3. KPIs
 
 The CISO's scorecard is the most asymmetric in the C-suite — most metrics measure the *absence* of bad outcomes, which creates perpetual difficulty proving value. Read the scorecard in two layers: the board-facing KPIs (below) and the private scorecard (further down) — the second layer is what actually separates a CISO from a VP Security.
+
+
+### 🇨🇳 中国CISO KPI体系
+
+| 类型 | KPI | 考核标准 |
+|------|-----|---------|
+| **合规** | 等保测评通过率 | 100%关键系统通过 |
+| **合规** | 安全事件上报及时率 | 1小时内/4小时内(按级别) |
+| **合规** | 密评通过率 | 涉密系统100% |
+| **攻防** | HW演练得分/排名 | 行业内不垫底 |
+| **运营** | MTTD(平均检测时间) | <24h(国内先进水平) |
+| **运营** | MTTR(平均响应时间) | <4h(关键系统) |
+| **运营** | 漏洞修复及时率 | 高危7天/中危30天 |
+| **数据** | 数据泄露事件数 | 0(零容忍) |
+| **人才** | 安全团队人员流失率 | <15%(行业均值30%+) |
+
+
+### 全球CISO参考（Global Reference）
 
 ### The Universal Scoreboard: MTTD + MTTR + Critical Coverage
 
@@ -325,6 +402,22 @@ Across every industry, CISOs volunteer three headline metrics more often than an
 
 ## 4. Pain Points / Challenges
 
+
+### 🇨🇳 中国CISO特有痛点
+
+| 痛点 | 具体表现 | Sales切入 |
+|------|---------|----------|
+| **合规碎片化** | 公安(等保)+网信(数据安全)+密码局(密评)+行业监管——要求重叠矛盾 | 统一合规管理平台/一站式合规方案 |
+| **HW演练压力** | 每年被打一次→暴露问题→整改→明年再打。资源全投这里 | 攻击面管理/BAS(入侵模拟)/托管安全服务 |
+| **安全人才极度短缺** | 资深安全工程师月薪5-8万仍招不满；人均管300+台设备 | AI辅助安全运营/SOAR自动化/MDR托管 |
+| **安全预算不足** | 安全不产生收入→预算被压→出事才追加 | 帮CISO建立"安全投资回报"叙事 |
+| **影子IT/影子数据** | 业务部门私自上云/用SaaS/传数据——CISO不知道 | 云安全态势管理(CSPM)/DLP/API安全 |
+| **信创安全工具替换** | 国外安全产品(Palo Alto/CrowdStrike)被要求替换为国产 | 国产安全厂商整合方案 |
+| **AI带来新威胁** | deepfake钓鱼/AI辅助攻击/员工私用ChatGPT泄密 | AI安全网关/DLP+AI/员工AI使用策略 |
+
+
+### 全球CISO参考（Global Reference）
+
 ### Universal CISO Pain Points
 
 - **Expanding attack surface with flat or shrinking budget.** More cloud services, SaaS, APIs, remote workers, third-party integrations, AI deployments, and IoT/OT every year. Shadow IT and shadow AI create blind spots the CISO does not know about until something goes wrong.
@@ -413,6 +506,20 @@ Across every industry, CISOs volunteer three headline metrics more often than an
 ## 5. AI Opportunities
 
 Specific ways AI can address CISO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CISO meeting.
+
+
+### 🇨🇳 中国CISO的AI安全视角
+
+| 场景 | CISO关注点 | 中国特殊要求 | 方案形态 |
+|------|-----------|------------|---------|
+| **AI辅助安全运营** | 告警降噪/自动化响应/威胁hunting | 私有化部署(安全数据不能出域) | 国产SOAR/XDR+大模型 |
+| **AI风险管控** | 员工使用AI泄密/AI生成有害内容 | 算法备案+内容安全 | AI使用管控平台/DLP扩展 |
+| **AI攻防** | AI辅助红队/自动化漏洞挖掘 | HW演练中已出现AI辅助攻击 | AI红蓝对抗工具 |
+| **大模型安全评估** | 模型投毒/提示注入/数据泄露 | 生成式AI安全评估规范(TC260) | 大模型安全测评平台 |
+| **数据安全智能化** | 敏感数据自动发现/分类/脱敏 | 数据安全法要求数据分级 | AI驱动的数据安全平台 |
+
+
+### 全球CISO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -667,6 +774,21 @@ CISOs are the most skeptical buyers in the enterprise — they've seen decades o
 
 ## 6. Desired Outcomes
 
+
+### 🇨🇳 中国CISO的"过关标准"
+
+| 维度 | 必须满足 | 一票否决 |
+|------|---------|---------|
+| 合规 | 有等保资质/安全认证(信创目录优先) | 产品无法满足等保/密评要求 |
+| 部署 | 支持私有化/本地部署(央企/金融) | 只有SaaS版本且数据出境 |
+| 可控 | 中国公司或中国有实体+源代码审查 | 纯外企+代码不可审计 |
+| 生态 | 跟国产安全产品可集成(华为/奇安信/深信服) | 只跟国外产品集成 |
+| 服务 | 7×24本地应急响应团队 | 只有海外support |
+| 案例 | 有同行业/同监管级别的客户 | 完全没有中国客户 |
+
+
+### 全球CISO参考（Global Reference）
+
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose should map to one or more of these CISO-grade dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a VP Security or SOC Director meeting, not a CISO meeting.*
 
 CISOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CISO uses to judge whether a specific proposal deserves their time, their budget, their political capital, and a place on their personally-owned risk register.** Specificity against these earns CISO attention.
@@ -704,6 +826,20 @@ CISOs run the most rigorous and adversarial evaluation of any C-suite buyer — 
 
 They rely on their SOC Director, Detection Engineering Lead, Security Architect, and GRC Lead for deep technical evaluation, and on Legal and Procurement for contract and third-party-risk review. **Don't pitch technology features to a CISO — pitch risk reduction, team efficiency, and defensible posture.** And don't pitch a point solution — CISOs increasingly describe their security programs in platform terms (identity, cloud security, SOC, GRC), not as collections of point tools. A solution that compounds on their existing platform spine maps onto how they already think.
 
+
+### 🇨🇳 中国CISO评估风格
+
+| 特征 | 表现 | 应对 |
+|------|------|------|
+| **合规优先** | 先看产品能不能帮他过等保/密评 | 开局就讲合规能力 |
+| **实战检验** | "HW演练能扛住吗？给我做个红队测试" | 提供免费攻防测试/POC |
+| **风险厌恶极强** | 安全产品出问题=CISO背锅 | 提供SLA+应急响应承诺 |
+| **圈子信任** | 安全圈很小，口碑>marketing | 通过安全社区/会议建立关系 |
+| **技术验证** | CISO团队会做深度技术测试 | 准备好技术对抗测试/bypass测试 |
+
+
+### 全球CISO参考（Global Reference）
+
 ### CISO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -731,6 +867,30 @@ They rely on their SOC Director, Detection Engineering Lead, Security Architect,
 ## 8. Buying Dynamics
 
 The CISO is the primary decision maker for security technology (SIEM/SOAR, EDR/XDR, vulnerability management, identity and PAM, cloud security platforms, email security, DLP, GRC, pentest and IR retainers, threat intelligence, AI security) — typically in the $250K–$10M+ range per initiative. The CISO also holds *de facto veto power* on any enterprise technology purchase with unacceptable security risk, regardless of business justification. Remember: a CISO meeting is the CISO removing 30–45 minutes from defensive operations, governance & risk, business enablement, or team leadership. "No one else in your org can make this security decision" is the only honest reason to be in the room.
+
+
+### 🇨🇳 中国CISO采购动态
+
+#### 采购节奏
+
+| 时间节点 | 采购行为 | 原因 |
+|---------|---------|------|
+| **Q1(1-3月)** | 预算规划/供应商入围 | 年度安全预算确定 |
+| **Q2(4-6月)** | HW前采购/加固项目 | 为7-10月HW做准备 |
+| **Q3(7-9月)** | HW期间暂停采购 | 全员备战/不做变更 |
+| **Q4(10-12月)** | 突击花预算/整改项目 | HW暴露问题+年底花完预算 |
+
+#### 关键影响人
+
+| 角色 | 影响方式 | leverage |
+|------|---------|---------|
+| **安全团队技术骨干** | 日常使用评估/写POC报告 | 给他们做技术培训/lab环境 |
+| **等保测评机构** | 推荐整改方案 | 进入测评机构推荐名单 |
+| **公安/网信主管** | 指导意见/推荐方案 | 参与行业安全标准制定 |
+| **安全圈KOL** | 技术评测/推荐 | 安全社区内容/赞助CTF |
+
+
+### 全球CISO参考（Global Reference）
 
 ### When the CISO Engages Directly
 
@@ -849,6 +1009,21 @@ Getting CISO sponsorship accelerates deal velocity on security tech and unlocks 
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on archetype, sales stage, and what's already known. Do NOT use all questions in one meeting — a CISO meeting is focused and technical.*
 
+
+### 🇨🇳 中国CISO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "今年等保测评什么时候做？上次测评有什么整改项？" | 找合规缺口=采购理由 |
+| "HW演练去年得分怎么样？今年有什么加强计划？" | HW=每年最大采购驱动 |
+| "安全团队现在多少人？最缺什么岗位？" | 了解人力缺口→推托管/自动化 |
+| "数据安全法落地做到哪一步了？分级分类做了吗？" | 数据安全合规项目机会 |
+| "目前用的安全产品有哪些？有没有要替换的？" | 了解竞品+信创替换机会 |
+| "有没有在考虑安全托管/MSS/MDR？" | 了解外包意愿 |
+
+
+### 全球CISO参考（Global Reference）
+
 ### Universal Questions
 
 1. "Looking at your risk register over the next 12 months, which two or three named risks are you least confident in the current controls — and why?"
@@ -895,6 +1070,29 @@ Getting CISO sponsorship accelerates deal velocity on security tech and unlocks 
 ---
 
 ## 10. Relationship Map
+
+
+### 🇨🇳 中国CISO关系地图
+
+```
+央企/金融CISO权力结构：
+┌─────────────────────────────────────┐
+│ 网络安全委员会/信息安全领导小组        │
+├─────────────────────────────────────┤
+│ 分管副总/CRO (CISO上级)              │
+├─────────────────────────────────────┤
+│ CISO/安全部负责人                    │ ← 你的target
+├──────────┬──────────┬───────────────┤
+│ 安全运营  │ 合规团队  │ 安全开发(SDL) │ ← 先搞定运营主管
+├──────────┴──────────┴───────────────┤
+│ 等保测评机构 (外部影响力)             │ ← 间接影响
+│ 公安/网信办 (监管关系)               │ ← CISO必须维护
+│ 安全厂商生态 (现有供应商)            │
+└─────────────────────────────────────┘
+```
+
+
+### 全球CISO参考（Global Reference）
 
 ### Core C-Suite Dynamics
 
@@ -960,6 +1158,32 @@ Getting CISO sponsorship accelerates deal velocity on security tech and unlocks 
 ---
 
 ## 11. Do's & Don'ts
+
+
+### 🇨🇳 中国CISO Do's & Don'ts
+
+#### Do's ✅
+
+| 规则 | 原因 |
+|------|------|
+| **先讲合规价值** | CISO的KPI #1是合规，帮他过等保/密评=刚需 |
+| **提供HW相关方案** | 每年最大采购窗口=HW前 |
+| **准备好攻防demo** | CISO信"打得过"，不信PPT |
+| **尊重安全圈规矩** | 安全圈很小+黑名单传得快 |
+| **有本地应急能力** | "出事了你多快能来人？"是CISO的核心考量 |
+
+#### Don'ts ❌
+
+| 禁忌 | 原因 |
+|------|------|
+| 轻描淡写合规 | 合规对CISO是"保命"不是"Nice to have" |
+| 夸大检测率/漏报率 | CISO团队会做对抗测试验证 |
+| 只讲国外案例 | 中国安全法规完全不同，国外案例没说服力 |
+| 不了解HW就去见CISO | 不懂HW=不懂中国安全市场 |
+| push CISO用SaaS安全方案 | 安全数据=最敏感数据，不能出域 |
+
+
+### 全球CISO参考（Global Reference）
 
 ### ✅ DO
 
