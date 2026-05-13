@@ -55,6 +55,23 @@ The modern VPS has absorbed three structural shifts in the past five years that 
 2. **Consumption and hybrid pricing have broken the old forecast.** In SaaS especially, bookings no longer equal revenue. A consumption-based customer signs a contract, then revenue depends on usage the VPS does not fully control. Forecasting has become a collaborative exercise with CS and Finance — which historically was not a VPS skill.
 3. **The buyer has more power than ever.** Gartner research shows B2B buyers now do 60–70% of their evaluation before talking to a salesperson. They arrive at discovery pre-informed, with pre-built shortlists, with procurement-led evaluation processes, and with vendor fatigue. The VPS has had to re-tool the entire sales motion around buyer enablement rather than seller-led discovery.
 
+### 🇨🇳 中国VP Sales原型补充
+
+| 企业类型 | VP Sales角色 | 核心 | 中国特色 |
+|---------|-------------|------|---------|
+| **外企中国区** | "China Sales VP/总经理" | 大客户/行业线/区域管理 | 总部quota+本地执行=夹心层 |
+| **大型民企** | "销售VP/事业部总" | 带团队打粮食 | KPI=签单数字(极度结果导向) |
+| **SaaS** | "销售VP" | ARR目标+团队build | 从0→1建团队/从1→10规模化 |
+| **央企子公司** | "市场部/经营部负责人" | 项目投标+渠道 | 招投标为主，关系+合规并重 |
+
+#### 中国VP Sales的特殊性
+- **关系型销售为主**: "搞定人">"搞定事"(尤其政企)
+- **酒桌文化**: 商务宴请仍是重要关系建设手段
+- **年底冲刺**: Q4/春节前是签单高峰(预算到期)
+- **渠道依赖**: 大量订单通过渠道商/集成商完成
+
+### 全球VP Sales参考（Global Reference）
+
 ### VPS Archetypes (Postures, Not Industries or Stages)
 
 Archetypes describe how a VPS *leans*, not what stage or industry they sit in. Most real VPSes are blends, weighted differently by the moment on their desk. A VPS who arrived 6 months ago at a company missing four quarters in a row is a Turnaround Closer + Operator. A VPS scaling a growth-stage SaaS from $50M to $150M is a Scaler + Transformer. The archetype is a posture, not a permanent label — but diagnosing the dominant posture calibrates everything about the pitch.
@@ -179,6 +196,18 @@ Only the VPS is accountable to **all four simultaneously every day.** A single d
 
 VPSes today navigate the most compressed transformation cycle in the role's history. The *themes* are universal across every industry; the specifics vary by vertical and company stage. Lead with the universal pattern, then adapt the evidence.
 
+### 🇨🇳 中国VP Sales优先级
+
+| 排序 | 外企VP Sales | 民企VP Sales | SaaS VP Sales |
+|------|-----------|-----------|-------------|
+| #1 | **完成quota(否则走人)** | **签单额=唯一标准** | **ARR增长** |
+| #2 | **大客户突破/续签** | **大客户攻坚** | **团队build/人效** |
+| #3 | **渠道partner管理** | **渠道/关系维护** | **SDR→AE→CSM流程** |
+| #4 | **团队能力提升** | **团队招聘/培养** | **续约率/NRR** |
+| #5 | **跟总部争资源** | **跨部门协调(交付)** | **产品反馈/定价** |
+
+### 全球VP Sales参考（Global Reference）
+
 ### Universal VPS Priorities
 
 1. **Hitting the number — this quarter, next quarter, the one after.** The number is always the headline. Every other priority ladders to it. A VPS can sincerely care about AI, about coaching, about rep experience — and still, if the quarter is in trouble, every one of those priorities is deprioritized in favor of top-deal closing. Vendors who don't respect this hierarchy get delegated.
@@ -260,6 +289,17 @@ VPSes today navigate the most compressed transformation cycle in the role's hist
 A VPS's scorecard is the single most-tracked numeric dashboard in the enterprise, after the CFO's. They live in it, recite it from memory, and can tell you the delta on every metric vs. plan, vs. last quarter, vs. last year.
 
 Read the scorecard in two layers: the CRO/board-facing KPIs (the table below) and the private scorecard (further down). The second layer is what actually separates a VPS from a senior director of sales or a regional VP — and is where most vendor pitches go wrong.
+
+### 🇨🇳 中国VP Sales KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 结果 | 签单额/完成率/超额 | 底线=100%完成(否则换人) |
+| 效率 | 人均产出/赢率/周期 | 团队人效是VP核心管理指标 |
+| 管道 | Pipeline倍数/新增商机 | 3-4x pipeline覆盖 |
+| 渠道 | 渠道签单额/核心partner数 | 中国B2B 40%+走渠道 |
+
+### 全球VP Sales参考（Global Reference）
 
 ### The Universal Scoreboard: Attainment + Forecast Accuracy + Coverage
 
@@ -368,6 +408,18 @@ Across every industry and stage, VPSes volunteer three headline metrics more oft
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国VP Sales特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **人才难招/留不住** | 优秀Sales永远被挖；新人需6个月才产出 | AI onboarding/Sales coaching |
+| **大客户攻坚难** | 政企决策链长/关系网复杂/竞争激烈 | Account intelligence/关系图谱 |
+| **预测不准** | 到月底/季末才知道能不能完成——forecasting难 | AI forecasting/pipeline分析 |
+| **渠道管理乱** | 渠道冲突/飞单/返点不透明 | PRM(Partner管理)平台 |
+| **跟总部沟通难(外企)** | 中国市场特殊性总部不理解——要的support给不了 | 数据/storytelling工具 |
+
+### 全球VP Sales参考（Global Reference）
+
 ### Universal VPS Pain Points
 
 - **Pipeline-coverage shortfall.** The #1 visceral fear. Coverage below 3x means the team must generate pipeline mid-quarter (too slow to close in-quarter) or close at unrealistic win rates. The gap between a confident VPS and a worried one is usually *one quarter of pipeline generation falling short*.
@@ -461,6 +513,17 @@ Across every industry and stage, VPSes volunteer three headline metrics more oft
 ## 5. AI Opportunities
 
 Specific ways AI can address VP Sales priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a VP Sales meeting.
+
+### 🇨🇳 中国VP Sales的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI coaching** | 录音分析/话术改进/1:1建议 | 中文对话理解/微信沟通分析 |
+| **AI forecasting** | 自动预测/风险预警 | 适配中国CRM数据 |
+| **AI获客** | 意向识别/智能推荐 | 工商数据+行业数据 |
+| **AI提案** | 自动生成方案/PPT/投标文件 | 中文+行业模板 |
+
+### 全球VP Sales参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -711,6 +774,17 @@ VPs of Sales are the most impatient buyers — they live in quarterly pressure. 
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these VPS-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a RevOps or frontline-manager meeting, not a VPS meeting.*
 
+### 🇨🇳 中国VP Sales"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 帮Sales多签单(直接) | ❌ 增加Sales非签单时间 |
+| ✅ 一线Sales愿意用 | ❌ 复杂难学 |
+| ✅ 移动端/微信端可用 | ❌ 只有PC端 |
+| ✅ 快速上手(1周内) | ❌ 需要长期培训 |
+
+### 全球VP Sales参考（Global Reference）
+
 VPSes evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a VPS uses to judge whether a specific proposal deserves their time, their budget, and a rep cohort to pilot it.** Specificity against these earns VPS attention.
 
 1. **Quota attainment impact within 1–2 quarters.** VPSes have zero patience for tools that promise impact "next fiscal year." The standard is: show me the pilot mechanic that produces a measurable attainment or pipeline delta on a named rep cohort within two quarters. If your proposal cannot produce an in-quarter or next-quarter indicator, it belongs in a different meeting.
@@ -751,6 +825,17 @@ Their key questions are:
 
 They rely on RevOps for integration vetting and frontline managers for adoption-risk vetting — but they want business implications in quota, forecast, and team-health terms. **Don't pitch technology features to a VPS — pitch quota impact with proof, adoption evidence, and a clean CRM integration.** And don't pitch a point solution as the 14th tool in their stack — VPSes increasingly treat their tech stack like a platform with modular agents on top of the CRM system of record. A solution that compounds (more data, more signal, more adoption, more downstream leverage per dollar) maps onto how they already think. A standalone tool reads as "another logo to rip out next year."
 
+### 🇨🇳 中国VP Sales评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **极度务实** | "能帮我多签多少？" |
+| **下属反馈** | 让一线Sales试用→听反馈 |
+| **peer口碑** | 别的VP Sales推荐最有用 |
+| **不耐烦** | 不愿花时间看demo——要快 |
+
+### 全球VP Sales参考（Global Reference）
+
 ### VPS Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -780,6 +865,17 @@ They rely on RevOps for integration vetting and frontline managers for adoption-
 ## 8. Buying Dynamics
 
 The VPS is the primary decision maker for sales-specific tools (engagement platforms, conversational intelligence, coaching, deal-execution AI, CPQ, territory planning, compensation, competitive intel) — typically in the $50K–$2M per-initiative range. They are a key champion for CRO-level purchases (CRM, revenue-intelligence platforms, GTM data) and an influencer on adjacent marketing, CS, and finance tools. Remember: a VPS meeting is the VPS removing 30–45 minutes from forecast rhythm, team management, cross-functional work, or customer-facing time — almost always the cross-functional bucket, because the other three are non-negotiable. "No one else on your revenue team can make this decision" is the only honest reason to be in the room.
+
+### 🇨🇳 中国VP Sales采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 小工具自己买；大系统走CRO/CEO |
+| **节奏** | 年初配工具/年中看效果/Q4不动 |
+| **决策** | 非常快(能试马上试) |
+| **影响圈** | VP Sales之间互推工具 |
+
+### 全球VP Sales参考（Global Reference）
 
 ### When the VPS Engages Directly
 
@@ -905,6 +1001,18 @@ Getting VPS sponsorship dramatically accelerates deal velocity and removes front
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 based on the VPS's archetype, current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a VPS meeting is 30–45 minutes, and they will notice if you over-interrogate.*
 
+### 🇨🇳 中国VP Sales Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "团队现在最大挑战是什么？" | 开放式找痛点 |
+| "新人培养要多久？有没有好办法？" | coaching场景 |
+| "forecast准吗？月底/季末有没有惊喜/惊吓？" | 预测工具 |
+| "大客户攻坚卡在哪？" | Account intelligence |
+| "渠道/partner好管理吗？" | PRM场景 |
+
+### 全球VP Sales参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "Walk me through what's keeping you up right now — is it this quarter's number, next quarter's pipeline, or something structural like team or motion?"
@@ -953,6 +1061,24 @@ Getting VPS sponsorship dramatically accelerates deal velocity and removes front
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国VP Sales关系地图
+
+```
+VP Sales权力结构：
+┌─────────────────────────────────────┐
+│ CRO / CEO                           │
+├─────────────────────────────────────┤
+│ VP Sales                            │ ← target
+├──────────┬──────────┬───────────────┤
+│ 大客户经理 │ 区域经理  │ SDR/渠道经理  │
+├──────────┴──────────┴───────────────┤
+│ SE/售前 (方案支持)                    │
+│ 交付/CSM (签后)                      │
+└─────────────────────────────────────┘
+```
+
+### 全球VP Sales参考（Global Reference）
 
 ### Core Revenue & Cross-Functional Dynamics
 
@@ -1024,6 +1150,26 @@ Getting VPS sponsorship dramatically accelerates deal velocity and removes front
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国VP Sales Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 约饭/线下见面 | VP Sales是关系型 |
+| 给他签单"弹药"(案例/数据) | 他需要对外打仗的素材 |
+| 快速响应(当天回复) | Sales节奏快 |
+| 让他的Sales先试用 | bottom-up验证 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 冲刺期(Q4)推新系统 | 冲业绩期间不换 |
+| 长篇大论发PPT | VP Sales不看PPT |
+| 只跟VP谈不接触一线 | 脱离实际 |
+| 批评他的销售方式 | VP Sales自尊心强 |
+
+### 全球VP Sales参考（Global Reference）
 
 ### ✅ DO
 
