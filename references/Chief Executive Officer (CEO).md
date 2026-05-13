@@ -257,69 +257,320 @@ CEOs today navigate a compressed transformation cycle. The *themes* are universa
 
 ### Industry-Specific Priority Deep Dives *(supporting evidence)*
 
+> **Agent instruction:** 以下每个行业先列中国市场的CEO priorities（🇨🇳标记），再列全球市场的priorities作为参考对比。准备中国客户Call Plan时，优先使用🇨🇳内容；准备跨国/全球客户时，两部分交叉参考。
+
 #### Manufacturing & Industrial
+
+##### 🇨🇳 中国制造业CEO优先级
+
+**行业龙头与stated priorities（2024-2025）：**
+
+| CEO/企业 | 类型 | 2024-2025核心优先级 | Source |
+|----------|------|-------------------|--------|
+| 王传福/比亚迪 | 大型民企 | "智能化元年"——智驾全系标配；海外建厂（匈牙利/泰国/巴西） | 年度发布会/年报 |
+| 曾毓群/宁德时代 | 大型民企 | 海外产能扩张；神行电池/麒麟电池代际领先；钠离子量产 | 投资者日/年报 |
+| 向文波/三一重工 | 大型民企 | "灯塔工厂"全面AI化；海外营收占60%+目标；电动化工程机械 | 年报/行业峰会 |
+| 中国一汽/东风 | 央企 | 新能源转型追赶（被民企甩开后的"生死之战"）；信创/自主芯片 | 十四五规划/国资委考核 |
+| 宝武钢铁 | 央企 | 碳中和路线图（CBAM直接影响出口）；智慧钢厂；兼并重组 | ESG报告/发改委政策 |
+| 美的/方洪波 | 大型民企 | B2B转型（库卡机器人+楼宇科技）；数字化深水区 | 致股东信 |
+| 隆基绿能 | 大型民企 | 产能过剩下活下来（光伏价格战惨烈）；BC电池技术押注 | 行业分析/年报 |
+
+**中国制造业CEO共性优先级：**
+1. **出海建厂（产能全球化）** — 不只是卖产品，是把工厂搬出去。规避关税+贴近市场。比亚迪/宁德/三一/美的都在做。
+2. **智能制造/AI工厂** — "灯塔工厂"是标杆竞赛。三一18座灯塔工厂。AI质检、预测性维护、数字孪生已从pilot到production。
+3. **新能源转型** — 汽车(电动化)、钢铁(氢冶金)、化工(绿色工艺)、工程机械(电动化)。政策驱动+市场驱动双重压力。
+4. **供应链自主可控** — 芯片/核心零部件/关键材料的国产替代。"卡脖子"焦虑贯穿所有制造企业。
+5. **产能过剩下的降本** — 光伏/动力电池/钢铁都在经历残酷价格战。活下来 > 增长。
+6. **碳合规与绿色制造** — EU CBAM 2026已进入definitive phase，直接影响中国制造出口。
+
+**中国制造 vs 全球制造的关键差异：**
+- 全球制造CEO担心"energy cost"（欧洲3-4x） → 中国制造CEO担心"产能过剩价格战"
+- 全球制造追求"services revenue shift" → 中国制造追求"产能出海"
+- 全球制造看"portfolio simplification" → 中国制造看"垂直整合+自主可控"
+- 共同点：AI工厂/digital twin、decarbonization、supply chain resilience
+
+##### 全球制造业CEO优先级（Global Reference）
+
 - **Digital twin and industrial metaverse adoption.** Manufacturers want to simulate before they build. AI-powered digital twins are driving the largest productivity leap in engineering in decades.
 - **Services/software revenue shift.** Siemens targets €5.5B ARR in software; Caterpillar targets 30%+ from services; Honeywell targets 50% from software/services.
 - **Portfolio simplification.** Honeywell splitting into three companies. Siemens spun off Innomotics. BASF divesting non-core chemicals.
 - **Supply chain sovereignty.** European manufacturers face energy costs 3–4x US/Middle East, driving restructuring and capacity shifts.
 - **EV and autonomous vehicle transition.** BMW's €30B+ Neue Klasse. BYD surpassed Tesla in annual revenue. Caterpillar has hundreds of autonomous haul trucks deployed.
 - **Electrical equipment manufacturing at scale.** CATL dominates global battery manufacturing at massive scale while navigating lithium price volatility and geopolitical market access.
-- **Decarbonization as cost and compliance, not just aspiration.** EU CBAM moved into its definitive phase on 1 Jan 2026 for steel, aluminum, cement, fertilizers, hydrogen and electricity — embedded-carbon cost now flows directly into landed price. Scope-3 disclosure, EU methane rules, and regional clean-industrial subsidies (US IRA, EU Net-Zero Industry Act, China dual-carbon) are reshaping plant siting and capex. Industrial CEOs are being asked by boards for a carbon P&L, not a sustainability report.
-- **Footprint reshuffling under tariffs and export controls.** Trans-Pacific tariffs, EU anti-subsidy duties on Chinese EVs/batteries, US FEOC designation and expanding export-control lists are driving multi-region manufacturing footprints (Mexico, Southeast Asia, India, Eastern Europe). For automotive, industrial automation, and electrical equipment CEOs this is a multi-year capex and supply-chain re-architecture, not a sourcing tweak.
+- **Decarbonization as cost and compliance, not just aspiration.** EU CBAM moved into its definitive phase on 1 Jan 2026 for steel, aluminum, cement, fertilizers, hydrogen and electricity — embedded-carbon cost now flows directly into landed price.
+- **Footprint reshuffling under tariffs and export controls.** Trans-Pacific tariffs, EU anti-subsidy duties on Chinese EVs/batteries, US FEOC designation driving multi-region manufacturing footprints.
+- **OT cyber and critical-infrastructure risk.** Industrial ransomware and NIS2/CISA/MIIT tightening expectations on OT security.
 
 #### Financial Services
-- **AI as existential imperative.** JPMorgan has 2,000+ AI use cases with 60,000+ employees using AI tools. Ping An has ~24,000 technology staff (developers and scientists). BlackRock's Aladdin is fundamentally an AI platform.
-- **Private markets expansion.** BlackRock made major acquisitions (GIP, Preqin, HPS) to pivot from "the ETF company" to "the whole portfolio company." Fee compression in public markets forces everyone toward higher-margin alternatives.
-- **Fortress balance sheet.** JPMorgan (record net income, industry-leading ROTCE), Allianz (strong solvency well above regulatory minimums), HSBC (CET1 well above requirements) — all emphasize capital strength.
-- **Ecosystem over point products.** Ping An cross-sells across its massive retail customer base. JPMorgan spans consumer, commercial, and investment banking.
-- **Capital-regime reset (Basel III Endgame, Solvency II review, IFRS 17).** US Basel III Endgame compliance was targeted for mid-2025 with a multi-year phase-in; European equivalents (CRR III / CRD VI) already apply. Banking CEOs are re-optimizing RWA, trading books, and business mix — pushing capital-light fee revenue, securitization, and partnership models. Insurance CEOs are absorbing IFRS 17 comparability and Solvency II recalibration at the same time.
-- **Disintermediation by private credit.** Non-bank lenders now hold over a trillion dollars in private-credit AUM; middle-market and leveraged lending has meaningfully migrated out of bank balance sheets. Large banks are responding by partnering with or launching their own private-credit platforms (JPMorgan direct-lending platform, Wells–Centerbridge, Citi–Apollo) rather than competing head-on.
 
-> *Note: FinTech CEOs (Shopify, Stripe, and similar) share more priorities with Technology & Digital Native (platform economics, developer ecosystems, margin expansion) than with traditional FSI. When preparing for a FinTech CEO meeting, cross-reference the Technology section above.*
+##### 🇨🇳 中国金融业CEO优先级
+
+**行业龙头与stated priorities：**
+
+| CEO/企业 | 类型 | 核心优先级 | Source |
+|----------|------|-----------|--------|
+| 马明哲/平安集团 | 大型民企 | "综合金融+医疗健康"双轮驱动；AI全面渗透（~24,000技术人员）；交叉销售2.3亿客户 | 年报/投资者日 |
+| 工商银行 | 央企 | 信创核心系统替代；数字人民币场景建设；普惠金融AI风控 | 年报/十四五规划 |
+| 蚂蚁集团 | 大型民企 | 监管合规重组完成后重新增长；海外(Alipay+)扩张；AI+金融 | 媒体/行业分析 |
+| 中金公司 | 央企 | 投行业务国际化；科创板服务能力；合规风控强化 | 年报 |
+| 招商银行 | 混合 | 零售银行AI化（MAU驱动）；财富管理；金融科技输出 | 年报/田惠宇时代战略延续 |
+
+**中国金融业CEO共性优先级：**
+1. **信创替代（生死线）** — 核心银行系统/交易系统必须2027前完成国产替代。工程量巨大。全行业最紧迫的IT投资驱动力。
+2. **AI风控与反欺诈** — 实时反诈（电信诈骗专项）、反洗钱AI、信用风险模型。监管驱动。
+3. **数字人民币(e-CNY)场景** — 央行推动，所有银行必须配合。从pilot到日常的转化。
+4. **监管合规（防风险）** — 金融反腐持续高压（银行高管落马频繁）；理财净值化转型；房地产风险化解。
+5. **普惠金融/服务实体经济** — 政治任务。必须做，利润率低但考核要求。
+6. **跨境金融/一带一路金融服务** — 跟随企业出海，提供跨境结算/贸易融资。
+
+**中国金融 vs 全球金融的关键差异：**
+- 全球FSI CEO担心"fee compression" → 中国CEO担心"利差收窄+资产质量"
+- 全球追求"private markets expansion" → 中国追求"信创替代+合规"
+- 全球看"capital regime reset(Basel III)" → 中国看"监管指标+政治合规"
+- 共同点：AI-as-infrastructure、ecosystem stickiness、cyber resilience
+
+##### 全球金融业CEO优先级（Global Reference）
+
+- **AI as existential imperative.** JPMorgan has 2,000+ AI use cases with 60,000+ employees using AI tools. Ping An has ~24,000 technology staff. BlackRock's Aladdin is fundamentally an AI platform.
+- **Private markets expansion.** BlackRock made major acquisitions (GIP, Preqin, HPS) to pivot toward higher-margin alternatives.
+- **Fortress balance sheet.** JPMorgan, Allianz, HSBC — all emphasize capital strength.
+- **Ecosystem over point products.** Ping An cross-sells across its massive retail customer base.
+- **Capital-regime reset (Basel III Endgame, Solvency II review, IFRS 17).** US Basel III Endgame compliance targeted for mid-2025.
+- **Disintermediation by private credit.** Non-bank lenders now hold over a trillion dollars in private-credit AUM.
+- **Financial-crime and fraud scale.** APP fraud, GenAI-enabled deepfake fraud rising across global banks.
+- **Core-system modernization debt.** Mainframe-based core banking systems at most top-50 globals.
 
 #### Technology & Digital Native
-- **Agentic AI is the bet.** ServiceNow is building to $30B on AI workflows. Meta is spending tens of billions in capex, mostly on AI infrastructure.
-- **Margin expansion alongside growth.** Salesforce, Uber, and Airbnb all delivering record margins and free cash flow.
-- **Platform dominance through developer ecosystems.** Meta open-sources Llama to commoditize the model layer. Salesforce has thousands of Agentforce partners. Snowflake positions as the data layer for all AI workloads.
-- **AI capex arms race — and the investor pushback.** Hyperscalers are running historic multi-year AI infrastructure programs (Meta, Amazon, Microsoft, and Alphabet each spending tens of billions annually) while investors interrogate payback timelines quarter by quarter. Software CEOs without hyperscale balance sheets are answering with AI-native product repositioning and partner GPU capacity. The CEO question is no longer "are we spending enough?" but "is every dollar of AI spend tied to a product surface or an ops line?"
-- **Commoditization of the model layer.** Open-weights models (Llama, Mistral, DeepSeek, Qwen) and aggressive price cuts on frontier APIs compress differentiation at the model layer. Platform CEOs are pushing value into data, distribution, workflow, and agent orchestration — the layers that compound and are harder to replicate.
-- **Regulatory surface expanding.** EU AI Act GPAI obligations took effect 2 Aug 2025, with high-risk-system obligations phasing in through 2026–27. State-level US AI laws (Colorado, California) and data-sovereignty rules (EU, India, China) are adding enterprise compliance surface — which large buyers push back to their SaaS vendors as procurement requirements.
-- **Live-service and franchise economics (Gaming).** Gaming CEOs across traditional publishers, platform/cloud, mobile, and UGC are converging on recurrent-revenue models — live-service engagement, in-game economies, and creator ecosystems over one-time sales. Franchise management (sequels, IP extensions, cross-media) and player-retention analytics are the strategic levers; content cost discipline mirrors the "fewer, better" pattern in streaming.
+
+##### 🇨🇳 中国科技业CEO优先级
+
+**行业龙头与stated priorities：**
+
+| CEO/企业 | 类型 | 核心优先级 | Source |
+|----------|------|-----------|--------|
+| 梁汝波/字节跳动 | 大型民企 | AI全面转型（豆包大模型）；组织效率提升（裁员+扁平化）；海外TikTok保卫战 | 内部信/媒体 |
+| 马化腾/腾讯 | 大型民企 | "混元"大模型落地；视频号商业化；企业服务(ToB)突破；游戏出海 | 年度大会/年报 |
+| 吴泳铭/阿里巴巴 | 大型民企 | AI驱动（通义千问）；云计算重回增长；1+6+N分拆后各子公司独立跑 | 致股东信/财报会 |
+| 任正非/华为 | 大型民企 | 鸿蒙生态（HarmonyOS NEXT纯自研）；芯片突围；企业BG(ICT)增长 | 内部讲话/年报 |
+| 雷军/小米 | 大型民企 | 造车（SU7）+ AIoT生态 + 高端化 | 年度演讲 |
+| 黄峥/拼多多 | 大型民企 | Temu全球化（100+国家）；AI选品/供应链优化；低调合规 | 财报电话会 |
+
+**中国科技CEO共性优先级：**
+1. **大模型竞赛** — 百模大战已过，存活者（字节豆包、阿里通义、腾讯混元、百度文心、华为盘古）在拼落地场景和商业化。
+2. **出海/全球化** — TikTok(字节)、Temu(拼多多)、Shein、米哈游——中国科技出海的"黄金一代"同时面临地缘风险。
+3. **降本增效（组织瘦身）** — 2024年大厂普遍优化HC。字节、阿里、腾讯都在"去肥增瘦"。人效是核心指标。
+4. **云计算格局重塑** — 阿里云、华为云、腾讯云三足鼎立 + 运营商云（移动/电信/联通）崛起抢政企市场。价格战激烈。
+5. **鸿蒙/国产生态** — 华为HarmonyOS NEXT完全去安卓化。所有APP需要适配。对整个生态链是巨大工程。
+6. **合规与反垄断** — 平台经济监管常态化。数据安全法/个保法执行趋严。
+
+**中国科技 vs 全球科技的关键差异：**
+- 全球CEO看"AI capex arms race"(数百亿美元投infra) → 中国CEO看"大模型商业化"(如何变现)
+- 全球看"model commoditization" → 中国看"百模大战洗牌后的生态站位"
+- 全球看"EU AI Act compliance" → 中国看"生成式AI管理办法+数据安全"
+- 全球看"developer ecosystem" → 中国看"鸿蒙生态构建"
+- 共同点：margin expansion、platform dominance、agentic AI是共识
+
+##### 全球科技业CEO优先级（Global Reference）
+
+- **Agentic AI is the bet.** ServiceNow building to $30B on AI workflows. Meta spending tens of billions on AI infrastructure.
+- **Margin expansion alongside growth.** Salesforce, Uber, Airbnb all delivering record margins and free cash flow.
+- **Platform dominance through developer ecosystems.** Meta open-sources Llama. Salesforce has thousands of Agentforce partners.
+- **AI capex arms race — and the investor pushback.** Hyperscalers running historic multi-year AI infrastructure programs.
+- **Commoditization of the model layer.** Open-weights models compress differentiation at the model layer.
+- **Regulatory surface expanding.** EU AI Act GPAI obligations took effect 2 Aug 2025.
+- **Live-service and franchise economics (Gaming).** Gaming CEOs converging on recurrent-revenue models.
 
 #### Retail & Consumer
-- **"Back to volume" after years of pricing.** Walmart traffic-driven comps, P&G volume recovery, Unilever positive volume — all signaling the shift back to unit growth.
-- **Alternative revenue streams.** Walmart Connect (advertising) growing rapidly. Amazon advertising massive. High-margin businesses subsidizing low-margin retail.
-- **Supply chain AI.** Walmart's AI saves billions in logistics. Amazon's custom silicon (Trainium, Inferentia) creates structural cost advantages. JD.com operates a vast network of AI-optimized warehouses with near-perfect same/next-day delivery.
-- **Retail media as a structural margin lifeline.** High-margin first-party-data advertising has become a core P&L lever for scaled retailers — Amazon Ads and Walmart Connect both growing at scale, with Target Roundel, Kroger Precision Marketing, Instacart Ads and others scaling fast. CPG CEOs now describe retail-media trade spend as a line they are forced to participate in; retailer CEOs describe it as the difference between single-digit and double-digit total-company growth.
-- **GLP-1 as a category reset, not a blip.** Independent research (Cornell, Numerator, IRI) tracks measurable reductions in calorie intake and in snack, bakery, and alcohol spending for GLP-1 users (a growing share of US adults). CPG CEOs (Nestlé, General Mills, Mondelez, PepsiCo, Unilever, Conagra) are explicitly re-formulating toward protein, fiber, and smaller pack sizes; grocers are re-planogramming. Treat this as a decade-long demand-curve shift.
+
+##### 🇨🇳 中国零售/消费业CEO优先级
+
+**行业龙头与stated priorities：**
+
+| CEO/企业 | 类型 | 核心优先级 | Source |
+|----------|------|-----------|--------|
+| 刘强东/京东 | 大型民企 | "低价战略"回归；即时零售(小时达)；AI供应链（全自动仓配） | 内部信/财报 |
+| 黄峥(陈磊执行)/拼多多 | 大型民企 | Temu全球化；极致低价供应链；AI选品和广告推荐 | 财报/行业分析 |
+| 王兴/美团 | 大型民企 | 即时零售(美团闪购)；海外(KeeTa)；AI配送调度；降本 | 财报电话会 |
+| 瑞幸咖啡 | 大型民企 | 万店目标（已超星巴克中国）；数字化运营；下沉市场 | 财报/媒体 |
+| 农夫山泉/钟睒睒 | 大型民企 | 品牌溢价维持；渠道下沉；产品创新（东方树叶现象级） | 年报 |
+| 永辉超市 | 大型民企 | 胖东来模式学习/仓储会员店转型；止血自救 | 行业报道 |
+
+**中国零售CEO共性优先级：**
+1. **极致低价/价格战** — 消费降级大背景下，"性价比"是第一关键词。拼多多倒逼京东/淘宝全面低价。
+2. **即时零售（30分钟达）** — 美团闪购、京东小时达、盒马——"万物到家"成为基础设施。
+3. **下沉市场** — 三四五线城市/县城是增量。蜜雪冰城2万店、瑞幸2万店都靠下沉。
+4. **AI供应链与智能选品** — 京东全自动仓、拼多多AI推荐、美团配送算法。数据驱动到极致。
+5. **出海/跨境电商** — Temu(拼多多)、TikTok Shop(字节)、Shein——中国供应链+海外流量的组合。
+6. **会员制/私域** — 山姆/Costco模式在中国爆发；盒马X会员店；品牌私域(企业微信)运营。
+
+**中国零售 vs 全球零售的关键差异：**
+- 全球CEO看"back to volume after pricing" → 中国CEO看"消费降级下如何活着"
+- 全球看"retail media as margin lifeline" → 中国看"即时零售+直播电商"
+- 全球看"GLP-1 category reset" → 中国看"消费降级+人口结构变化"
+- 全球看"alternative revenue streams" → 中国看"价格战中如何维持利润"
+- 共同点：AI供应链优化、下沉/penetration策略、自有品牌/private label
+
+##### 全球零售/消费业CEO优先级（Global Reference）
+
+- **"Back to volume" after years of pricing.** Walmart traffic-driven comps, P&G volume recovery — signaling shift back to unit growth.
+- **Alternative revenue streams.** Walmart Connect growing rapidly. Amazon advertising massive.
+- **Supply chain AI.** Walmart AI saves billions. Amazon custom silicon creates structural cost advantages.
+- **Retail media as a structural margin lifeline.** Amazon Ads ~$56B; Walmart Connect +27%.
+- **GLP-1 as a category reset.** CPG majors explicitly reformulating toward protein/fiber.
 
 #### Healthcare
-- **Post-patent-cliff portfolio diversification.** Pfizer pivoting post-COVID revenue cliff via Seagen acquisition. J&J preparing for major Stelara LOE. The 2024–2030 LOE wave (Humira, Stelara, Eliquis, Prevnar, and Keytruda at the end of the decade) is one of the largest in industry history, driving oncology, immunology, and rare-disease M&A across every major (Pfizer–Seagen, BMS–Karuna, AbbVie–Cerevel, J&J Ambrx and Shockwave — all multi-billion-dollar deals).
-- **Value-based care transformation.** The vision: health interactions as intuitive as banking, shopping, streaming. Optum manages 4.3M value-based patients.
-- **Regulatory navigation as core competency.** IRA drug price negotiations, FDA approval timelines, China anti-corruption campaigns, EU Joint Clinical Assessment (JCA) for high-risk devices and oncology.
-- **AI accelerating R&D.** Roche leverages Flatiron Health's real-world data with ML. J&J's AI reduced clinical trial enrollment times by 30%.
-- **GLP-1 as a category-defining force — with different implications by sub-industry.** For **Pharma**, obesity/metabolic is the largest single-product opportunity of the decade (Novo Wegovy/Ozempic, Lilly Zepbound/Mounjaro), and a strategic-pipeline imperative for every major (Pfizer, Roche, AstraZeneca, Amgen all investing in oral or follow-on GLP-1). For **Payers/Managed Care**, cost exposure from broad coverage is a multi-billion-dollar medical-cost-ratio question actively reshaping formulary design. For **MedTech**, it is a medium-term volume risk in bariatrics, cardiometabolic devices, and sleep apnea, partly offset by growth in adjacent categories. CEOs in all three sub-industries now address GLP-1 on every earnings call.
+
+##### 🇨🇳 中国医疗健康业CEO优先级
+
+**行业龙头与stated priorities：**
+
+| CEO/企业 | 类型 | 核心优先级 | Source |
+|----------|------|-----------|--------|
+| 李西廷/迈瑞医疗 | 大型民企 | 全球化（海外营收占比提升）；高端设备国产替代；AI超声/监护 | 年报/投资者交流 |
+| 张强/联影医疗 | 大型民企 | 高端医疗影像设备国产化（PET-CT/MR）；AI辅助诊断；出海 | 年报/行业峰会 |
+| 药明康德(CXO) | 大型民企 | 应对美国BIOSECURE法案（生存威胁）；客户多元化；AI药物发现 | 财报/公告 |
+| 百济神州 | 大型民企 | Biotech到BioPharma转型；泽布替尼全球商业化；管线推进 | 年报 |
+| 国药/上药 | 央企 | 医药流通整合；集采配送；数字化供应链 | 年报 |
+| 微医/京东健康 | 大型民企 | 互联网医疗商业化；AI问诊；医保接入 | 行业分析 |
+
+**中国医疗CEO共性优先级：**
+1. **集采冲击下的生存策略** — 药品/耗材集采把价格砍70-90%。CEO必须找到集采外的增长点（创新药、出海、服务）。
+2. **国产替代/高端医疗设备** — CT/MR/内窥镜/手术机器人的国产化率在快速提升。联影/迈瑞是标杆。
+3. **CXO出海危机** — BIOSECURE法案直接威胁药明康德等CXO企业在美业务。地缘政治是最大风险。
+4. **AI医疗落地** — AI辅助诊断/AI药物发现/AI医疗影像。监管(NMPA)审批路径逐渐清晰。
+5. **医疗反腐（2023-2024专项）** — 医疗行业反腐风暴让医院采购冻结数月。影响仍在持续。
+6. **创新药出海** — License-out模式(百济、信达)到自主全球商业化的跃迁。
+
+**中国医疗 vs 全球医疗的关键差异：**
+- 全球CEO看"patent cliff diversification" → 中国CEO看"集采冲击+如何活着"
+- 全球看"GLP-1 opportunity" → 中国看"集采+国产替代+出海"
+- 全球看"IRA drug price negotiation" → 中国看"医疗反腐+集采扩面"
+- 全球看"value-based care" → 中国看"医保控费+DRG/DIP改革"
+- 共同点：AI accelerating R&D、regulatory navigation、cyber/data security
+
+##### 全球医疗业CEO优先级（Global Reference）
+
+- **Post-patent-cliff portfolio diversification.** Pfizer pivoting via Seagen. J&J preparing for Stelara LOE.
+- **Value-based care transformation.** Optum manages 4.3M value-based patients.
+- **Regulatory navigation as core competency.** IRA negotiations, FDA timelines, EU JCA.
+- **AI accelerating R&D.** J&J AI reduced clinical trial enrollment by 30%.
+- **GLP-1 as category-defining force.** Largest single-product opportunity of the decade.
 
 #### Energy & Utilities
-- **Data center demand as secular tailwind.** AI-capable data centers can draw ~5–10x the power density of traditional ones; US utilities are raising multi-decade load forecasts for the first time since the 1990s. Hyperscalers are signing multi-GW PPAs (including nuclear restarts and SMR pre-orders), and utility CEOs (NextEra, Dominion, Southern, Duke) are re-underwriting rate-base plans. Schneider Electric is the #1 supplier of data-center electrical infrastructure.
-- **Interconnection queue and transmission as the binding constraint.** Over 2 TW of generation is waiting in US interconnection queues (≈1.7x the size of the existing grid), with typical wait times of 4–5 years. Permitting, transmission buildout, and heavy-equipment supply (transformers, HV cable, turbines) — not panels or modules — are now the gating items on clean-power deployment. Every renewables CEO has an interconnection, siting, and supply-chain capacity problem on the critical path.
-- **Returns-focused energy transition.** Shell exited unprofitable offshore wind, prioritizing value over volume. ExxonMobil positions CCS as a business opportunity, not philanthropy. BP rolled back 2030 oil-cut targets. Majors are converging on a "value over volume, lower-carbon at returns" stance rather than straight-line exits.
-- **Operational cost leadership.** ExxonMobil's multi-billion structural cost savings program. Shell's comparable savings program.
+
+##### 🇨🇳 中国能源行业CEO优先级
+
+**行业龙头与stated priorities：**
+
+| CEO/企业 | 类型 | 核心优先级 | Source |
+|----------|------|-----------|--------|
+| 国家电网 | 央企 | 新型电力系统建设；特高压+智能电网；新能源消纳；数字化 | 十四五规划/国资委 |
+| 中石化/中石油 | 央企 | 油气增储上产+新能源转型（氢能/地热/CCS）；数字化油田 | 年报/双碳报告 |
+| 隆基绿能 | 大型民企 | BC电池技术押注（产能过剩下的技术差异化）；海外市场；活下来 | 年报/行业分析 |
+| 宁德时代(储能) | 大型民企 | 储能系统全球化；零碳战略；技术代际领先 | 投资者日 |
+| 三峡集团 | 央企 | 海上风电领军；抽水蓄能；国际清洁能源投资 | 年报/央企考核 |
+| 协鑫科技 | 大型民企 | 颗粒硅降本；FBR技术路线；钙钛矿布局 | 年报/行业 |
+
+**中国能源CEO共性优先级：**
+1. **新型电力系统（New Power System）** — 国家电网的核心任务。分布式光伏/风电接入、储能调峰、虚拟电厂、碳交易。
+2. **产能过剩下的洗牌（光伏/储能）** — 光伏组件价格跌破成本线。储能电芯0.3元/Wh。CEO目标不是增长，是"活着等对手倒下"。
+3. **新能源出海** — 光伏/风电/储能设备出口 + 海外建厂。应对反补贴关税(EU/US)。
+4. **油气企业转型** — 中石化/中石油在保油气主业同时布局氢能/地热/CCS/充电桩。"两手都要硬"。
+5. **数字化/AI应用** — 智能电网、AI巡检(无人机+视觉)、数字化油田、设备预测性维护。
+6. **碳交易与碳资产管理** — 全国碳市场扩容（将纳入钢铁/水泥/化工）。碳数据质量是基础。
+
+**中国能源 vs 全球能源的关键差异：**
+- 全球CEO看"data center demand as tailwind" → 中国CEO看"新能源消纳/电网承载力"
+- 全球看"returns-focused transition" → 中国CEO看"产能过剩下活着"
+- 全球看"interconnection queue" → 中国看"特高压+分布式并网"
+- 全球看"policy/subsidy uncertainty" → 中国看"政策确定性高但补贴退坡"
+- 共同点：decarbonization investment、grid modernization、operational cost leadership
+
+##### 全球能源业CEO优先级（Global Reference）
+
+- **Data center demand as secular tailwind.** AI data centers draw 5-10x power density; utilities raising load forecasts.
+- **Interconnection queue and transmission as binding constraint.** Over 2 TW in US queues.
+- **Returns-focused energy transition.** Shell exited unprofitable offshore wind. BP rolled back targets.
+- **Operational cost leadership.** ExxonMobil's multi-billion structural cost savings.
+- **Policy and subsidy uncertainty.** US IRA durability in doubt; EU CBAM definitive phase.
 
 #### Telecom & Media
-- **Streaming profitability.** Disney+ achieved profitability in Q4 FY2024. Spotify delivered its first full year of profitability. Netflix has set the bar (high-20s% operating margin) every streaming CEO is measured against.
-- **Password-sharing monetization and bundling as the new growth levers.** After Netflix's paid-sharing rollout, Disney+, Max and others followed — converting a large tail of free viewers into paid or ad-supported accounts. Bundling (Disney+/Hulu/Max, Verizon with Netflix/Max, T-Mobile with Apple TV+/Netflix) is replacing standalone ARPU growth. CEOs openly describe streaming as "past the land-grab phase" — monetization, retention, and ad-tier mix over raw sub counts.
-- **Fiber and 5G convergence.** AT&T targets 30M+ fiber passings. Deutsche Telekom is building FTTH across Germany. Cable operators are losing broadband subs to fixed-wireless access (FWA) — T-Mobile, Verizon and AT&T have collectively built a large FWA subscriber base, materially reshaping the competitive map. Telecom CEOs now sell convergent mobile + home-broadband bundles, not access alone.
-- **Content optimization — "fewer, better."** Spotify shifted from expensive podcast exclusives to a platform model. Disney is applying the same discipline. Warner Bros. Discovery, Paramount and NBCUniversal are all cutting originals spend and leaning on licensed catalogs. Sports rights have moved the other way — CEOs are locking in decade-long NBA/NFL/UEFA contracts at record prices, which sets the FCF constraint for every other content bucket.
-- **Linear TV decline as a CEO portfolio decision.** US pay-TV subs have fallen from ~100M (2014) toward ~60M and declining. Comcast is spinning cable networks, Warner Bros. Discovery split linear from streaming/studios, Disney evaluated ESPN partners. "What do we do with linear?" is now a board-level portfolio question, not a programming choice.
+
+##### 🇨🇳 中国电信与媒体业CEO优先级
+
+**行业龙头与stated priorities：**
+
+| CEO/企业 | 类型 | 核心优先级 | Source |
+|----------|------|-----------|--------|
+| 中国移动 | 央企 | "算力网络"战略（从连接到算力）；政企市场收入占比提升；5G-A | 年报/战略发布 |
+| 中国电信 | 央企 | 天翼云（第一梯队目标）；量子通信；产业数字化 | 年报 |
+| 腾讯(内容) | 大型民企 | 视频号商业化；游戏出海(Sea)；长短视频融合 | 年报/电话会 |
+| 字节(内容) | 大型民企 | 抖音电商/本地生活；TikTok海外保卫；AIGC内容 | 媒体/行业分析 |
+| 芒果超媒 | 国企 | 国有内容平台差异化；AIGC短剧；AI虚拟主播 | 年报/行业 |
+| 快手 | 大型民企 | 可灵AI(视频生成)商业化；电商GMV增长；海外Kwai | 财报 |
+
+**中国电信/媒体CEO共性优先级：**
+1. **运营商→云/算力转型** — 中国移动/电信/联通都在从"管道"向"算力+云+AI"转型。算力网络是国家战略。
+2. **5G变现难题** — 巨额5G投资(数千亿)尚未找到杀手级应用。ToC端ARPU提升缓慢。ToB(行业专网)是希望。
+3. **短视频/直播电商生态** — 抖音日活7亿+，已是最大的"媒体+商业"平台。所有内容公司围绕它重构策略。
+4. **AIGC内容革命** — AI短剧/AI虚拟主播/AI配音/AI剪辑——内容生产成本骤降，商业模式待验证。
+5. **政企市场（ToB）** — 运营商政企收入增速远超消费者业务。政务云、智慧城市、行业专网是核心。
+6. **出海（内容平台）** — TikTok/Kwai/米哈游/腾讯游戏——中国内容全球化，同时面临监管压力。
+
+**中国电信/媒体 vs 全球的关键差异：**
+- 全球CEO看"streaming profitability" → 中国看"短视频/直播电商变现"
+- 全球看"fiber/5G convergence" → 中国看"算力网络/运营商云"
+- 全球看"linear TV decline" → 中国看"传统媒体AI化转型"
+- 全球看"sports rights escalation" → 中国看"AIGC内容生产革命"
+- 共同点：内容成本控制、广告/商业化变现、AI作为生产力工具
+
+##### 全球电信/媒体CEO优先级（Global Reference）
+
+- **Streaming profitability.** Disney+ achieved profitability. Netflix sets the bar at high-20s% operating margin.
+- **Fiber and 5G convergence.** AT&T targets 30M+ fiber passings. FWA reshaping competitive map.
+- **Content optimization — "fewer, better."** Disney, WBD, Paramount all cutting originals spend.
+- **Linear TV decline as CEO portfolio decision.** US pay-TV subs fallen from ~100M to ~60M.
+- **Password-sharing monetization and bundling as new growth levers.**
 
 #### Transportation & Logistics
-- **Network consolidation and simplification.** FedEx merged Express and Ground into a single network. Maersk is transforming from a shipping company to an end-to-end logistics integrator.
-- **Premium differentiation.** Delta positions itself as a loyalty and premium company that happens to fly planes — 57% of passenger revenue is premium.
-- **Structural cost-out and margin recovery.** FedEx DRIVE targeting permanent cost removal; UPS rationalizing its network; airlines absorbing multi-billion-dollar pilot and crew contract resets. The industry is in a margin-recovery cycle across all three sub-industries — logistics, shipping, and aviation.
-- **Asset utilization over asset acquisition.** OEM delivery delays (Boeing, Airbus) and shipyard backlogs force CEOs to extract more revenue from existing fleets. MRO optimization, schedule density, and yield management are higher-priority than new asset orders.
-- **Operational resilience as license-to-operate.** Major IT and operational failures (Delta CrowdStrike outage, Southwest holiday meltdown, port cyberattacks) have elevated reliability from an ops metric to a board-level, CEO-career item. Every T&L CEO now treats IROP recovery and cyber resilience as existential.
-- **Decarbonization commitments against scarce green supply.** SAF mandates with near-zero global supply; Maersk methanol vessel orders against minimal green-methanol production; last-mile fleet electrification. CEOs are managing public transition commitments against physical supply constraints — the gap is a strategic risk, not a procurement problem.
+
+##### 🇨🇳 中国交通物流业CEO优先级
+
+**行业龙头与stated priorities：**
+
+| CEO/企业 | 类型 | 核心优先级 | Source |
+|----------|------|-----------|--------|
+| 王卫/顺丰 | 大型民企 | 国际化(嘉里物流整合)；鄂州花湖机场枢纽运营；高端快递壁垒 | 年报/投资者日 |
+| 中远海运 | 央企 | 全球航运联盟重构；绿色航运(LNG/甲醇双燃料)；数字化航运 | 年报/央企考核 |
+| 国航/东航/南航 | 央企 | 国际航线恢复（后疫情）；机队更新（C919国产大飞机）；成本控制 | 年报/民航局 |
+| 菜鸟 | 大型民企 | 全球智慧物流网络；跨境电商物流(Temu/Shein服务商)；IPO准备后暂缓 | 阿里年报/行业 |
+| 京东物流 | 大型民企 | 仓配一体化全面对外开放；即时配送；技术输出 | 财报 |
+| 满帮集团 | 大型民企 | 公路货运数字化平台；无车承运人模式；AI调度 | 财报 |
+
+**中国交通物流CEO共性优先级：**
+1. **跨境物流基础设施** — 服务中国品牌出海(Temu/Shein/TikTok Shop)。顺丰/菜鸟/极兔都在建全球物流网络。
+2. **国产大飞机(C919)落地** — 央企航司被要求采购。机队国产化是政治任务+长期成本结构变革。
+3. **即时配送/同城物流** — 30分钟达已是基础设施。美团配送、达达、顺丰同城。AI调度是核心技术。
+4. **绿色物流/新能源车队** — 城配电动化率快速提升。顺丰/京东大量替换新能源货车。碳合规驱动。
+5. **数字化货运平台** — 满帮/货拉拉把公路货运搬到线上。AI匹配/定价/调度。
+6. **航运联盟重构** — 2M联盟解散，Gemini联盟成立。中远海运在全球联盟格局中的站位。
+
+**中国交通 vs 全球交通的关键差异：**
+- 全球看"network consolidation(FedEx/Maersk)" → 中国看"跨境物流建网"
+- 全球看"premium differentiation(Delta)" → 中国看"即时配送/30分钟达"
+- 全球看"OEM delivery delays(Boeing)" → 中国看"C919国产替代"
+- 全球看"freight rate volatility" → 中国看"价格战+极致成本控制"
+- 共同点：operational resilience、decarbonization、AI-driven optimization
+
+##### 全球交通物流CEO优先级（Global Reference）
+
+- **Network consolidation and simplification.** FedEx merged Express and Ground. Maersk transforming to end-to-end integrator.
+- **Premium differentiation.** Delta positions as loyalty/premium company — 57% premium revenue.
+- **Structural cost-out and margin recovery.** FedEx DRIVE; UPS network rationalization.
+- **Asset utilization over asset acquisition.** OEM delivery delays force more from existing fleets.
+- **Operational resilience as license-to-operate.** Delta CrowdStrike outage; Southwest meltdown.
+- **Decarbonization against scarce green supply.** SAF mandates with near-zero supply.
+
 
 ---
 
@@ -464,31 +715,42 @@ Across every industry in the research, CEOs volunteer **free cash flow** as the 
 
 > *Benchmarks and examples below are from FY2024–FY2025 public disclosures. They illustrate the type and magnitude of KPIs a CEO tracks — not current figures to cite in a Call Plan. Agent must verify latest numbers before including any KPI data in customer-facing materials.*
 
-| Industry Group (Industry) | Primary KPIs | Benchmarks | Examples |
-|----------|-------------|------------|----------|
-| **Manufacturing & Industrial (Discrete Manufacturing / Digital Industries, Discrete Manufacturing / Heavy Equipment)** | Industrial profit margin, Book-to-bill ratio | 15–18% margin (best-in-class), >1.0 B2B | Siemens DI 15–18%; Caterpillar ME&T 22%+ |
-| **Manufacturing & Industrial (Automotive OEM)** | BEV mix + EBIT margin | 8–10% margin | BMW 6.3% EBIT FY2024 (target 8–10%); BYD ~20–22% gross margin |
-| **Manufacturing & Industrial (Electrical Equipment Manufacturing)** | Production capacity + defect rate | 99.99%+ quality at scale | CATL 400+ GWh/year |
-| **Financial Services (Banking)** | ROTCE | 15–20% | JPMorgan 20%; HSBC mid-teens |
-| **Financial Services (Insurance / Financial Ecosystem)** | Combined ratio, Solvency II | <95% profitable, >150% strong | Allianz 93–94% CR, 206% solvency; Ping An P&C ~99% CR |
-| **Financial Services (Asset Management)** | AUM growth + organic flows | 5%+ organic fee growth | BlackRock $11.6T AUM; Aladdin $1.7B+ |
-| **Technology & Digital Native (Enterprise SaaS)** | cRPO growth, NRR | 110%+ NRR | ServiceNow cRPO +24%; Snowflake NRR 126% |
-| **Technology & Digital Native (Consumer Platform / Marketplace, Social / Consumer Internet, Gaming — UGC / Metaverse Platform)** | DAU / MAU | Varies by scale | Meta 3.35B DAP; Uber 171M MAPCs; Roblox 85M+ DAU |
-| **Retail & Consumer (Mass Retail / Grocery)** | Comp store sales (traffic vs. ticket) | Positive volume | Walmart +4.6% (traffic-driven); Costco 92.9% renewal |
-| **Retail & Consumer (Consumer Packaged Goods (CPG))** | Organic sales growth, Gross margin | 3–5% organic, 50%+ margin | P&G +3% organic, ~52.4% GM; Nestlé +2.2% |
-| **Healthcare (Pharma / Biopharma)** | Pipeline success + patent cliff gap | Varies | Pfizer non-COVID +12%; J&J Darzalex $11.7B (+21%) |
-| **Healthcare (MedTech / Medical Devices)** | Organic revenue growth | Mid-single-digit | Medtronic: 9 consecutive quarters of MSD growth |
-| **Healthcare (Payer / Managed Care)** | Medical cost ratio | <85% | UnitedHealth managing rising utilization |
-| **Energy & Utilities (Oil & Gas (Integrated))** | ROCE + shareholder distributions | 15%+ ROCE | ExxonMobil ~17% ROCE; $36B FY2024 distributions |
-| **Energy & Utilities (Renewables / Utilities)** | Rate base growth / GW deployed | 8–10% rate base | NextEra ~9 GW added; 24 GW+ backlog |
-| **Telecom & Media (Telecom / Connectivity)** | Postpaid net adds + fiber passings | Growth + ARPU | AT&T 1.7M postpaid adds; 9.1M+ fiber subs |
-| **Telecom & Media (Media / Entertainment, Streaming / Digital Media)** | DTC subscribers + streaming operating margin + ARPU | Positive streaming operating margin, high-20s% for leaders | Netflix high-20s% op margin as industry benchmark; Disney DTC at FY24 profitability inflection; Spotify first full year of profitability |
-| **Transportation & Logistics (Airlines / Aviation)** | Pre-tax margin + premium mix | 10%+ margin | Delta ~8% FY2024 (peak quarters 12–15%); 57% premium revenue |
-| **Transportation & Logistics (Logistics / Express Delivery)** | Operating margin + volume | 10%+ target | FedEx targeting 10%+ (currently 7.5–8.5%) |
-| **Transportation & Logistics (Shipping / Supply Chain)** | EBIT-per-TEU through cycle + green-fuel readiness | Through-cycle breakeven; alternative-fuel fleet share rising toward 2030 targets | Container rates whipsawed from pandemic highs to 2023 lows to Red Sea-driven 2024 highs; CEOs judged on earnings floor, not peak |
-| **Technology & Digital Native (Gaming — Traditional Publisher, Gaming — UGC / Metaverse Platform)** | Net Bookings + recurrent spending % | 70%+ recurrent | Take-Two 76% recurrent; Roblox 85M+ DAU |
+#### 🇨🇳 中国行业CEO核心KPI
 
-> **Sales rep tip:** Before any CEO meeting, know their top 3 board-facing KPIs *and* one item from their private scorecard (strategic bet, named competitor, license-to-operate record). If you can tie your solution to moving one of each, you earn the conversation.
+| 行业 | 中国CEO核心KPI | 中国特色指标 | 代表标杆 |
+|------|--------------|-------------|---------|
+| **制造业** | 海外营收占比、智能化率、产能利用率 | 灯塔工厂数量、专利授权数、信创替代进度 | 三一(海外60%+)、比亚迪(智驾覆盖率) |
+| **金融** | 不良贷款率、ROE、零售MAU | 信创系统替代率、数字人民币交易量、普惠贷款占比 | 工行(信创进度)、招行(MAU 2亿+) |
+| **科技** | DAU/MAU、ARPU、研发费用率 | 大模型调用量、鸿蒙适配数、出海收入占比 | 字节(DAU 7亿+)、华为(鸿蒙装机量) |
+| **零售** | GMV、客单价、履约成本率 | 即时零售30min达率、下沉市场渗透率、直播GMV占比 | 京东(自营履约效率)、拼多多(下沉) |
+| **医疗** | 研发管线数、集采中标价vs成本 | 国产替代率、创新药License-out数、AI辅助诊断准确率 | 迈瑞(海外占比)、百济(全球管线) |
+| **能源** | 新能源装机增速、度电成本 | 碳排放强度下降率、新能源消纳率、电力现货交易量 | 隆基(BC效率)、国网(消纳率) |
+| **电信/媒体** | ARPU、5G渗透率、算力规模 | 政企收入占比增速、算力网络节点数、AIGC内容占比 | 中国移动(算力收入)、抖音(电商GMV) |
+| **交通物流** | 件量增速、单票成本、准时率 | 跨境物流时效(天)、新能源车队占比、自动化仓数量 | 顺丰(国际化)、京东物流(自动仓) |
+
+#### 🇨🇳 央企CEO特殊考核KPI（国资委设定）
+
+| 考核类别 | 关键指标 | 2024-2025趋势 | 对IT/AI采购的影响 |
+|---------|---------|--------------|-----------------|
+| 经营业绩 | 利润总额增速、ROE | 硬性，不可谈判 | 能证明"降本增利"的方案最容易过 |
+| 科技创新 | 研发强度、科技成果转化 | 权重明显上升 | AI/数字化项目归入此类=加分 |
+| 风险管控 | 资产负债率、重大事故数 | 底线，一票否决 | 方案不能引入新风险 |
+| 社会责任 | 碳排放、安全生产、就业 | 权重上升 | ESG/绿色方案有政策加分 |
+| 新质生产力(新) | 数字化率、AI场景数、智能化覆盖 | **2024新增重点** | **最直接的预算来源** |
+
+#### 全球行业CEO KPI参考（Global Reference）
+
+| Industry Group | Primary KPIs | Benchmarks | Examples |
+|---|---|---|---|
+| Manufacturing & Industrial | Operating margin, FCF conversion, organic growth, ROIC, services revenue % | EBIT margin 10–18% (diversified); Services/software 30–50% target | Siemens (€5.5B SW ARR), Caterpillar (30%+ services), Honeywell (50% target) |
+| Financial Services | ROE/ROTCE, CET1, AUM growth, cost-income ratio, NPS | ROTCE 15–21% (top-quartile), C/I 50–60%, AUM growth 8–12% | JPMorgan (~21% ROTCE), BlackRock ($11.6T AUM), Ping An (cross-sell ratio) |
+| Technology & Digital Native | Revenue growth, operating margin, FCF, RPO/ARR, DAU/MAU | Revenue growth 10–30%, Op margin 20–40%+, FCF margin 25%+ | Salesforce ($10B+ FCF), Meta ($60B+ revenue), ServiceNow ($30B target) |
+| Retail & Consumer | Same-store comp, e-commerce growth, operating margin, inventory turns | SSS 3–6% (grocery/mass), e-commerce 15–30% growth, inventory turns 8–12x | Walmart (comp+5%), Amazon (8x turns), Costco (membership renewal 93%) |
+| Healthcare | Revenue growth, pipeline milestones, R&D as % of revenue, adjusted EPS | R&D 15–25% (pharma), Pipeline transitions 5–10/yr, Margin 25–35% | Pfizer (Seagen integration), J&J (MedTech 7%+ growth), Roche (Flatiron AI) |
+| Energy & Utilities | ROIC/ROCE, production growth, unit cost, reserve replacement, emissions intensity | ROCE 12–20% (upstream), Unit cost <$10/boe (leading), Emissions -30% by 2030 | ExxonMobil (industry-leading cost), Shell (value over volume), NextEra (renewables growth) |
+| Telecom & Media | ARPU, subscriber growth/churn, content ROI, FCF, network capex intensity | ARPU $50–$80 (wireless), Churn <1%/mo, Content ROI >1.5x | Netflix (high-20s% margin), T-Mobile (industry-low churn), AT&T (fiber passings) |
+| Transportation & Logistics | Yield/revenue per unit, operating ratio, load factor, on-time performance | OR 85–92% (LTL), load factor 80–87% (airline), parcel margin 8–12% | Delta (57% premium revenue), FedEx (DRIVE savings), Maersk (integrated logistics) |
+
 
 ---
 
@@ -564,101 +826,164 @@ Across every industry in the research, CEOs volunteer **free cash flow** as the 
 
 ### Industry-Specific Pain Points *(supporting evidence)*
 
-#### Manufacturing & Industrial
+#### 🇨🇳 中国行业CEO特有痛点
+
+##### 制造业
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **产能过剩+价格战** | 光伏组件跌破成本线；动力电池0.3元/Wh；钢铁产能利用率<75% | 帮CEO"活下来"比"增长"更urgent |
+| **出海建厂的巨大不确定性** | EU反补贴关税、US FEOC认定、东南亚政策变化——工厂建一半政策变了 | 多国合规+政策监测+供应链柔性 |
+| **供应链"卡脖子"** | 高端芯片(光刻机)、工业软件(EDA/CAD)、精密材料——国产替代未完成 | 国产替代方案/混合方案 |
+| **招工难（制造端）** | 年轻人不愿进工厂。"用工荒"倒逼自动化。 | AI/自动化不是"锦上添花"，是"没人干活了" |
+| **EU CBAM碳关税** | 2026起钢铁/铝/水泥出口欧洲需缴碳税。直接影响出口成本竞争力。 | 碳足迹核算+减碳方案 |
+
+##### 金融业
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **信创替代的工程量** | 核心银行系统(Mainframe/IBM)替换=心脏手术。风险极高、周期极长(3-5年)。 | 渐进式替代/混合架构/迁移工具 |
+| **利差持续收窄** | LPR下行→银行利差压缩→必须靠非利息收入/降本 | AI降本（智能客服/智能风控/流程自动化） |
+| **房地产风险传导** | 涉房贷款/城投债风险→资产质量压力→拨备消耗利润 | 风险预警AI/资产质量监控 |
+| **金融反腐高压** | 银行/保险高管频繁落马。采购决策更加保守+合规导向。 | 强调合规性/可追溯/有先例 |
+| **电信诈骗/反洗钱专项** | 监管对反诈/AML要求越来越高。技术投入是必须项。 | AI反诈/智能AML——合规驱动的刚性投入 |
+
+##### 科技业
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **大模型商业化难题** | 百模大战后，幸存者面临"有技术无收入"困境。烧钱换市场。 | 帮他们找到AI变现场景 |
+| **出海地缘风险** | TikTok强制剥离、Temu被审查、数据跨境合规——随时可能出事 | 合规架构/数据隔离/多区域部署 |
+| **云计算价格战** | 阿里云/华为云/腾讯云降价争政企市场。利润率被压缩。 | 价值差异化（不要拼价格） |
+| **鸿蒙适配成本** | HarmonyOS NEXT强制所有APP适配。中小科技公司负担重。 | 开发工具/跨平台方案 |
+| **人才成本与裁员后遗症** | 大厂裁员后留下的人工作量翻倍。burnout + 士气问题。 | "用AI辅助而非替代人"的narrative |
+
+##### 零售/消费
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **消费降级** | 消费者从品牌转向白牌/平替。客单价下降是全行业现象。 | 帮CEO在低客单价下维持利润 |
+| **价格战（平台间）** | 拼多多"百亿补贴"倒逼京东/淘宝全面低价。利润空间被挤压。 | 供应链效率/智能定价/成本优化 |
+| **直播电商冲击** | 传统电商被抖音/快手直播抢走流量和GMV。获客成本暴涨。 | 全渠道运营/内容AI/智能投放 |
+| **即时配送成本** | 30分钟达的履约成本极高。骑手成本+仓储前置=利润杀手。 | AI调度/仓配优化/智能排班 |
+| **食品安全/合规** | 一次食安事件=品牌毁灭（蜜雪冰城、星巴克都出过）。 | 供应链溯源/AI质检 |
+
+##### 医疗健康
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **集采压力** | 药品/耗材集采把价格砍70-90%。仿制药企利润归零。 | 帮他们转向创新药/高值服务 |
+| **医疗反腐余震** | 2023-2024反腐让医院采购冻结。设备/耗材入院难度暴增。 | 学术推广合规化/数字化营销 |
+| **BIOSECURE法案** | 药明康德/金斯瑞等CXO直接被美国立法限制。生存危机。 | 帮他们多元化客户/回流国内 |
+| **医保控费(DRG/DIP)** | 医院从"多做多赚"变为"定额包干"。过度医疗被遏制=收入下降。 | 精细化运营/AI临床路径/成本控制 |
+| **创新药研发"九死一生"** | 中国Biotech融资冰封+出海竞争激烈。大量管线被砍。 | AI drug discovery/降低研发成本 |
+
+##### 能源行业
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **新能源消纳瓶颈** | 弃风弃光率在部分地区回升。电网消纳能力跟不上装机速度。 | 智能电网/虚拟电厂/储能调度 |
+| **光伏/风电全行业亏损** | 产能严重过剩，组件价格跌破成本。很多企业在"等对手倒下"。 | 极致降本方案/AI优化生产 |
+| **碳市场数据质量** | 全国碳市场扩容在即，但碳排放数据造假问题严重。 | 碳数据核算/MRV(监测报告核查) |
+| **储能安全** | 锂电储能电站火灾事故时有发生。安全是第一红线。 | 储能BMS/AI预警/安全监控 |
+| **油气企业转型矛盾** | 上面要求"保供"(多产油气)，同时要求"转型"(发展新能源)。资源有限。 | 数字化油田(保主业效率)+新能源管理 |
+
+##### 电信/媒体
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **5G投资回报难题** | 数千亿5G投资，ToC端ARPU提升仅个位数%。杀手级应用未出现。 | 行业专网/5G+AI融合应用 |
+| **运营商云低利润** | 运营商云靠政企关系+低价抢单。利润率远低于公有云。 | 增值服务/AI能力叠加 |
+| **AIGC版权争议** | AI生成内容的版权归属不清。平台面临大量侵权诉讼风险。 | 内容溯源/版权管理AI |
+| **短视频注意力垄断** | 抖音吸走了用户所有注意力。其他内容平台获客极难。 | 差异化内容策略/垂直社区 |
+| **内容监管** | 内容审查要求严格。一次违规=APP下架。 | AI内容审核/合规系统 |
+
+##### 交通物流
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **快递价格战见底** | 件均收入持续下降。义乌快递1元/件。行业利润极薄。 | AI降本/自动化分拣/路径优化 |
+| **跨境物流基建成本** | 建全球物流网络(仓+干线+末端)投入巨大。回报周期长。 | 轻资产模式/数字化网络协同 |
+| **骑手/司机合规** | 平台经济劳动者权益保护法规趋严。社保/工伤——成本上升。 | AI调度优化人效/合规管理 |
+| **航司C919导入风险** | 国产大飞机技术成熟度/维护体系/航材供应——全新挑战。 | 航材管理/维护预测/培训系统 |
+| **中欧班列竞争** | 班列补贴退坡后，市场化运营压力大。与海运/空运竞争。 | 多式联运优化/智能调度 |
+
+#### 全球行业CEO痛点参考（Global Reference）
+
+##### Manufacturing & Industrial
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **China market softness** | Siemens: "Recovery in China is taking longer than expected." BASF: China overcapacity depressing global margins | Don't assume growth — pitch cost optimization and resilience |
-| **European energy cost crisis** | BASF: "Energy costs in Germany are 3–4x US/Middle East" | Cloud/AI as tool to reduce operational energy intensity |
-| **Cyclical downturns** | Caterpillar managing "normalization"; Honeywell warehouse automation softness | Solutions that deliver value through cycle, not just in boom |
-| **Talent war with big tech** | Siemens competing for software engineers as it becomes a "software-industrial company" | Your solution reduces dependency on scarce talent |
-| **Commodity price volatility** | CATL: lithium carbonate swung from $80K to $10K/ton | Solutions that reduce cost variability and improve forecasting |
-| **Geopolitical market access** | CATL's U.S. FEOC classification; BYD faces EU anti-subsidy tariffs | Multi-region compliance and market entry strategies |
-| **Decarbonization as landed-cost risk** | EU CBAM definitive phase from 1 Jan 2026 on steel, aluminum, cement, fertilizers, hydrogen, electricity; scope-3 disclosure rules tightening; methane regulations on O&G customers | Embedded-carbon accounting, product-footprint data, compliance automation — and operational energy reduction that shows up in the CBAM math |
-| **Tariffs and footprint re-architecture** | US–China Section 301 tariffs; EU anti-subsidy duties on Chinese EVs/batteries; Mexico, India, Southeast Asia capacity build-out; export controls on advanced semis and battery tech | Multi-region manufacturing-planning, digital-thread continuity across new plants, trade-compliance and HS-code automation |
-| **OT cyber and critical-infrastructure risk** | Industrial ransomware (Clorox, Colonial-era precedent, recurring plant outages) and NIS2 / CISA / China MIIT tightening expectations on OT security | OT-aware security and resilience, not just IT; framed as license-to-operate |
+| **China market softness** | Siemens: "Recovery in China taking longer." BASF: China overcapacity | Don't assume growth — pitch cost optimization and resilience |
+| **European energy cost crisis** | BASF: "Energy costs in Germany 3–4x US/Middle East" | Cloud/AI as tool to reduce operational energy intensity |
+| **Cyclical downturns** | Caterpillar managing "normalization" | Solutions that deliver value through cycle |
+| **Talent war with big tech** | Siemens competing for software engineers | Your solution reduces dependency on scarce talent |
+| **Decarbonization as landed-cost risk** | EU CBAM definitive phase from 1 Jan 2026 | Embedded-carbon accounting, compliance automation |
+| **Tariffs and footprint re-architecture** | US–China tariffs; EU anti-subsidy duties | Multi-region manufacturing-planning, trade-compliance |
+| **OT cyber risk** | Industrial ransomware; NIS2/CISA tightening | OT-aware security framed as license-to-operate |
 
-#### Financial Services
+##### Financial Services
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **Geopolitical turmoil** | HSBC caught between US sanctions and Chinese regulatory expectations | Resilience, multi-region infrastructure, scenario planning |
-| **Fee compression** | BlackRock's ETF fees declining despite AUM growth | AI enabling premium service at scale or new revenue models |
-| **Stickier inflation / rate risk** | Commodity price shocks risk leading to higher rates | Cost efficiency plays well in uncertain rate environments |
-| **ESG/political backlash** | BlackRock pivoted from "ESG" to "transition investing" after state fund withdrawals | Frame sustainability as business opportunity, not ideology |
-| **Capital-regime reset (Basel III Endgame, Solvency II, IFRS 17)** | US Basel III Endgame phase-in from 2025; European CRR III/CRD VI already in force; insurers absorbing IFRS 17 comparability | RWA optimization, capital-light fee models, regulatory-reporting automation |
-| **Private-credit disintermediation** | Estimated $1.5T+ in non-bank private-credit AUM; middle-market and leveraged lending migrating off bank balance sheets | Help banks with capital-light fee businesses, private-markets servicing, partnership platforms |
-| **Financial-crime and fraud scale** | APP/authorized push-payment fraud, real-time-payments abuse, GenAI-enabled deepfake fraud rising across global banks; AML fines running in the hundreds of millions annually | AI-led fraud/AML at real-time latency, explainable to regulators |
-| **Core-system modernization debt** | Mainframe-based core banking and policy-admin systems at most top-50 globals; 5–10-year modernization programs running in parallel with AI agenda | Migration, coexistence, and AI-on-legacy-data plays, not rip-and-replace |
+| **Geopolitical turmoil** | HSBC caught between US sanctions and Chinese regulatory expectations | Resilience, multi-region infrastructure |
+| **Fee compression** | BlackRock ETF fees declining despite AUM growth | AI enabling premium service at scale |
+| **Capital-regime reset** | Basel III Endgame; Solvency II; IFRS 17 | RWA optimization, regulatory-reporting automation |
+| **Private-credit disintermediation** | $1.5T+ non-bank private-credit AUM | Capital-light fee businesses, partnership platforms |
+| **Financial-crime scale** | APP fraud, GenAI deepfake fraud rising | AI-led fraud/AML at real-time latency |
 
-#### Technology & Digital Native
+##### Technology & Digital Native
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **Revenue growth deceleration** | Salesforce slowed to high single-digit; Airbnb to low-teens | AI must re-accelerate growth, not just cut costs |
-| **Massive capex with uncertain ROI** | Meta's $66–72B, Amazon's $75–80B — investors question timelines | Help them get more value per dollar of infrastructure spend |
-| **Competitive intensity in AI** | Salesforce vs. ServiceNow vs. Microsoft; AWS vs. Azure vs. GCP | Differentiation matters — be specific about unique value |
-| **Consumption optimization** | Snowflake's customers optimized existing workloads | Help customers find new high-value workloads, not just optimize existing ones |
-| **Regulatory surface expanding** | EU AI Act GPAI obligations (2 Aug 2025), high-risk systems phasing in 2026–27; US state AI laws (Colorado, California); EU DMA/DSA; India, China data-sovereignty rules | Enterprise-grade governance, auditability, and data-residency controls that large buyers can pass through procurement |
-| **Model-layer commoditization** | Open-weights (Llama, Mistral, DeepSeek, Qwen) and aggressive frontier-API price cuts; model choice increasingly interchangeable | Push value above the model: data, workflow, agent orchestration, distribution |
-| **Antitrust and platform scrutiny** | US DOJ/FTC cases on Google, Apple, Amazon, Meta; EU DMA gatekeeper obligations; app-store economics under pressure | M&A and partnership strategies that anticipate structural rulings; interoperability plays |
+| **Massive capex with uncertain ROI** | Meta $66–72B; Amazon $75–80B | Help get more value per dollar of infrastructure spend |
+| **Revenue growth deceleration** | Salesforce slowed to high single-digit | AI must re-accelerate growth |
+| **Model-layer commoditization** | Open-weights models compress differentiation | Push value above the model: data, workflow, orchestration |
+| **Regulatory surface expanding** | EU AI Act GPAI obligations; state AI laws | Enterprise governance, auditability, data-residency |
+| **Antitrust scrutiny** | DOJ/FTC cases on Google, Apple, Amazon, Meta | M&A strategies anticipating structural rulings |
 
-#### Retail & Consumer
+##### Retail & Consumer
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **Consumer spending uncertainty** | Walmart: "cautious consumer" with trade-down; Nestlé: GLP-1 drugs reducing snack demand | Solutions that drive value when consumers pull back |
-| **China weakness across CPG** | P&G: China declined mid-single-digits; Unilever deflationary; Nestlé same | Don't lead with China growth stories |
-| **Private label competition** | P&G losing share in some European categories | AI-powered brand differentiation and consumer insights |
-| **Tariff risk** | Walmart actively diversifying Chinese import exposure | Supply chain resilience and diversification |
-| **GLP-1 category reset** | Independent studies track measurable reductions in snack, bakery, and alcohol spending for GLP-1 users (a growing share of US adults); CPG majors explicitly reformulating toward protein/fiber | Assortment analytics, reformulation R&D tooling, trade-spend reallocation — framed as a decade-long curve, not a seasonal dip |
-| **Retail-media arms race** | Amazon Ads ~$56B FY2024; Walmart Connect +27% to $4.4B; Kroger, Target, Instacart scaling fast; CPGs forced to participate in multiple retailer networks | Retail-media ops, measurement, clean-room data collaboration, trade-spend analytics |
-| **Shrink, returns, and e-commerce unit economics** | Shrink (theft + error) a multi-billion-dollar P&L line at large US retailers; return rates running 20%+ on apparel/online; last-mile cost pressure | Loss-prevention AI, returns orchestration, profitability-per-order analytics |
+| **Consumer spending uncertainty** | Walmart "cautious consumer"; GLP-1 reducing snack demand | Solutions that drive value when consumers pull back |
+| **Private label competition** | P&G losing share in European categories | AI-powered brand differentiation |
+| **Retail-media arms race** | Amazon Ads ~$56B; CPGs forced to participate | Retail-media ops, measurement, trade-spend analytics |
+| **Shrink and returns** | Shrink multi-billion P&L line; returns 20%+ online | Loss-prevention AI, returns orchestration |
+| **Tariff risk** | Walmart diversifying Chinese import exposure | Supply chain resilience |
 
-#### Healthcare
+##### Healthcare
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **Patent cliffs** | Pfizer: Eliquis/Prevnar LOE 2028–2030; J&J: $10B Stelara biosimilar erosion starting 2025; industry-wide Humira, Keytruda (end-of-decade) cliffs | AI to accelerate pipeline and extend product lifecycles |
-| **Political/pricing pressure** | IRA Medicare drug price negotiations; UnitedHealth prior authorization scrutiny; EU Joint Clinical Assessment from 2025 | Compliance automation, regulatory intelligence |
-| **Integration complexity** | Pfizer absorbing Seagen; J&J digesting $30B in MedTech acquisitions | Integration is where value gets destroyed — offer accelerators |
-| **Change Healthcare-style cyber risk** | UnitedHealth ransomware caused massive ecosystem disruption | Security and resilience as non-negotiable |
-| **GLP-1 demand and cost shock** | Payer cost exposure, MedTech volume risk, pharma pipeline retool (see §2 Priorities for full cross-sub-industry framing) | Payer cost-management and formulary tools; MedTech portfolio analytics; pharma R&D/trial acceleration |
-| **Utilization and medical-cost volatility** | Post-pandemic care-deferral unwind lifting MCR at major payers; hospitals absorbing double-digit labor-cost inflation and drug-spend growth | Tools that model utilization, compress claim cycles, and expose cost drivers at the member/service level |
-| **AI governance and clinical liability** | FDA evolving guidance on AI/ML medical devices; EU AI Act classifying many healthcare uses as high-risk; hospital systems demanding audit trails before deploying clinical AI | Defensible governance, auditability, and on-prem/bounded-data deployment options |
-| **Talent shortages across clinical workforce** | Industry-wide nursing and primary-care shortages; pharma scientific-talent competition with biotech/VC; MedTech competing with Big Tech for ML engineers | Productivity plays that relieve scarce roles rather than add new tools on top |
+| **Patent cliffs** | Pfizer Eliquis LOE; J&J $10B Stelara biosimilar erosion | AI to accelerate pipeline |
+| **Political/pricing pressure** | IRA Medicare negotiations; EU JCA | Compliance automation, regulatory intelligence |
+| **GLP-1 demand and cost shock** | Payer exposure; MedTech volume risk; pharma retool | Cost-management, portfolio analytics, R&D acceleration |
+| **AI governance and clinical liability** | FDA evolving AI/ML guidance; EU AI Act high-risk | Defensible governance, auditability |
+| **Talent shortages** | Nursing/primary-care shortages; pharma competing with biotech | Productivity plays that relieve scarce roles |
 
-#### Energy & Utilities
+##### Energy & Utilities
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **Commodity price volatility** | ExxonMobil/Shell earnings swing billions on oil price moves | Reduce cost variability and improve forecasting |
-| **Supply chain constraints (renewables)** | NextEra: solar tariffs, transformer shortages, interconnection queues | AI-powered supply chain optimization and risk |
-| **Green fuel scarcity** | Maersk committed to 25 methanol vessels, but global green methanol supply is tiny | Bridge-technology for transition gaps |
-| **Interconnection queue and transmission bottleneck** | Over 2 TW of generation in US interconnection queues (≈1.7x existing grid); 4–5-year typical wait; EU grid-connection delays in Germany, UK, Iberia | Siting, permitting, and grid-data analytics are now on the critical path — sell to that |
-| **Data-center and load-growth capacity strain** | Hyperscaler multi-GW PPAs, including nuclear restarts and SMR pre-orders; utilities raising load forecasts for the first time in a generation | Grid-orchestration, DER coordination, and long-lead-time asset planning |
-| **Policy and subsidy uncertainty** | US IRA tax-credit durability in doubt; EU Net-Zero Industry Act and CBAM definitive phase changing project economics; CCS/hydrogen subsidy design still in flux | Scenario modeling, portfolio optionality, and capital-allocation tooling that survives a policy reversal |
-| **License-to-operate and safety** | Oil-and-gas methane-emissions rules tightening (EU, US); grid-reliability scrutiny after Texas, California events; nuclear restart approvals | Emissions monitoring, auditable controls, asset-integrity analytics — framed as license-to-operate |
+| **Interconnection queue** | Over 2 TW in US queues; 4-5 year waits | Siting, permitting, grid-data analytics |
+| **Data-center capacity strain** | Hyperscaler multi-GW PPAs; nuclear restarts | Grid-orchestration, DER coordination |
+| **Commodity price volatility** | ExxonMobil/Shell earnings swing billions | Reduce cost variability, improve forecasting |
+| **Policy/subsidy uncertainty** | IRA durability in doubt; CBAM economics | Scenario modeling, portfolio optionality |
+| **License-to-operate and safety** | Methane rules tightening; grid-reliability scrutiny | Emissions monitoring, asset-integrity analytics |
 
-#### Telecom & Media
+##### Telecom & Media
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **Sports rights cost escalation** | Disney: NBA deal $2.6B/year for 11 years; NFL, UEFA, F1 rights all setting records | AI to maximize ROI on content investment |
-| **Linear TV decline** | US pay-TV sub base fell from ~100M (2014) toward ~60M; Comcast spinning cable networks, Warner Bros. Discovery split announced | Streaming infrastructure and analytics; linear-carve-out tooling |
-| **Fiber capex intensity** | AT&T: $21–22B; Deutsche Telekom: $6B+ annually | Operational efficiency to fund network buildout |
-| **Streaming monetization ceiling** | ARPU growth slowing; every major streamer (Netflix, Disney+, Max, Paramount+) rolled out paid sharing and ad tiers to re-ignite ARPU | Audience analytics, ad-tech, churn prediction — not raw sub-growth narratives |
-| **FWA encroachment on cable broadband** | T-Mobile, Verizon and AT&T collectively past 11M FWA subs; US cable broadband net adds turned structurally negative | Cable/telecom CEOs need converged mobile + broadband economics, new-revenue adjacencies |
-| **Creator and talent leverage** | Podcast, YouTube, and top-tier show-creator deals reshaping media economics; Spotify shifted away from exclusive podcast deals | Rights analytics, audience monetization, creator-tooling platforms |
+| **Sports rights escalation** | Disney NBA deal $2.6B/year for 11 years | AI to maximize ROI on content investment |
+| **Linear TV decline** | US pay-TV toward ~60M subs | Streaming infrastructure and analytics |
+| **Streaming monetization ceiling** | ARPU growth slowing; paid sharing/ad tiers | Audience analytics, churn prediction |
+| **FWA encroachment** | T-Mobile/Verizon past 11M FWA subs | Converged mobile + broadband economics |
+| **Creator leverage** | Podcast/YouTube deals reshaping economics | Rights analytics, creator-tooling platforms |
 
-#### Transportation & Logistics
-*(Logistics / Express Delivery · Shipping / Supply Chain · Airlines / Aviation)*
-
+##### Transportation & Logistics
 | Pain Point | Example | Implication for Sales |
 |-----------|---------|----------------------|
-| **Freight-rate and demand volatility through the cycle** | Container rates whipsawed from pandemic highs to 2023 lows to Red Sea-driven 2024 highs; Hapag-Lloyd warned of up to $1.1B losses in early 2024 then posted $2.8B EBIT; parcel carriers running flat-to-down U.S. domestic volumes into industrial softness | Don't assume boom-era economics; solutions must earn their keep through the trough as well |
-| **Customer in-sourcing and big-shipper disintermediation** | Amazon Logistics delivered ~6B parcels and keeps absorbing share from FedEx, UPS, and USPS; UPS publicly committed to cutting Amazon volume >50% by mid-2026; Walmart/Target building captive last-mile | Defend/expand wallet share with SMB and complex shippers; monetize data and logistics services, not just moves |
-| **Geopolitics, tariffs, and chokepoint risk** | Red Sea / Bab-el-Mandeb rerouting around Cape of Good Hope added 30–40% transit time for most container lines; Panama Canal drought constraints; U.S.–China tariffs directly compressing trans-Pacific express and ocean volumes | Multi-lane resilience, dynamic rerouting, trade-compliance automation, scenario planning — not single-path optimization |
-| **Structural overcapacity vs. fixed-asset bets** | Container newbuild orderbook pushing 2025 oversupply to ~7–8% even with Red Sea avoidance; jet order books stretched 6–10 years at Boeing/Airbus even as carriers can't get deliveries; LTL and parcel networks sized for volumes that haven't returned | CEOs are structurally wary of adding fixed cost; frame tech as variable-cost leverage, not another capex line |
-| **Margin pressure forcing structural transformation** | FedEx DRIVE $4B cost-out and FedEx Freight spinoff (Jan 2025); Maersk rebuilding as an integrated logistics provider rather than a pure shipping line; UPS "network of the future" facility closures; airline consolidation (JetBlue/Spirit blocked, Alaska/Hawaiian approved) | Tools that accelerate cost-out, carve-outs, and integrations without adding vendor surface area |
-| **Network / alliance / separation execution risk** | Maersk–Hapag-Lloyd Gemini alliance replacing 2M (with MSC) mid-2025; FedEx Express + Ground consolidation into one network; airline joint-venture and codeshare reshuffles; LTL spinoffs | Prove continuity-of-service during cutovers; integration accelerators and change-management tooling |
-| **Asset-supplier fragility (OEMs and yards)** | Boeing 737 MAX/787 delivery delays forcing American, Southwest, and others to cut capacity; Airbus engine and supply-chain constraints; shipyards dominated by a handful of Asian builders with multi-year backlogs | Fleet-planning, MRO, and asset-utilization solutions that squeeze more revenue out of what they already have |
-| **Labor, contracts, and classification risk** | Pilot contracts adding billions in cumulative cost (Delta ~$7B over 4 years, similar patterns at United/American); Teamsters UPS deal resetting driver economics; gig-worker / independent-contractor classification pressure on FedEx Ground and last-mile platforms; port labor disputes (ILA/USMX) | Productivity and automation plays that don't hinge on cheap labor staying cheap; workforce-planning analytics |
-| **Decarbonization capex with scarce green inputs** | Maersk committed 25 dual-fuel methanol vessels against a near-zero global green-methanol supply; IATA CORSIA and SAF mandates with SAF <1% of jet-fuel consumption; EU ETS extension to shipping; fleet electrification for ground parcel | Bridge technologies, emissions analytics, and customer-facing carbon reporting — not distant net-zero promises |
-| **Operational / IT resilience as a license-to-operate event** | Delta's CrowdStrike outage (July 2024): ~7,000 cancellations, $500M+ impact, DOT investigation; Southwest's 2022 holiday meltdown still cited by every airline board; port cyberattacks; parcel peak-season IT failures | Lead with resilience, IROP recovery, and cyber — reliability is a CEO-career item, not an IT metric |
+| **Customer in-sourcing** | Amazon Logistics ~6B parcels; UPS cutting Amazon volume | Defend wallet share with SMB and complex shippers |
+| **Geopolitics and chokepoint risk** | Red Sea rerouting; Panama drought; tariffs | Multi-lane resilience, dynamic rerouting |
+| **Structural overcapacity** | Container newbuild oversupply; jet backlogs | Frame tech as variable-cost leverage |
+| **Labor cost resets** | Pilot contracts adding billions; Teamsters UPS deal | Productivity plays not hinged on cheap labor |
+| **Operational/IT resilience** | Delta CrowdStrike outage $500M+ impact | Lead with resilience, IROP recovery, cyber |
+
 
 ---
 
