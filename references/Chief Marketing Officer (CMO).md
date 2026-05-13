@@ -35,6 +35,24 @@ The Chief Marketing Officer is the senior executive accountable for how the comp
 
 The modern CMO role has expanded more dramatically in the past decade than any other C-suite function. What was once predominantly a creative and communications role now encompasses demand generation, pipeline ownership, marketing operations, data analytics, martech architecture, customer insight, product marketing, content strategy, digital experience, and frequently elements of customer experience and revenue operations. Three forces have compounded onto the seat since 2020: (1) the CFO-driven demand for marketing financial rigor — pipeline attribution, CAC discipline, LTV modeling — has formalized marketing as an investment function measured on the same basis as sales or R&D; (2) the privacy and cookie-deprecation wave (GDPR, CCPA, Apple ATT, Google's Privacy Sandbox, state-level US privacy laws) has destroyed the third-party-data foundation most digital marketing was built on, forcing a first-party-data re-architecture; and (3) the generative-AI wave has simultaneously offered the CMO an unprecedented productivity lever *and* created brand-integrity, compliance, and differentiation risks no other function faces at the same scale. The CMO is now simultaneously a revenue leader, a brand steward, a technology buyer, a data architect, and an organizational-change executive. That simultaneity is the defining cognitive load of the seat — and it is why a generic "marketing" pitch is almost always under-scoped.
 
+### 🇨🇳 中国CMO原型补充
+
+| 企业类型 | CMO角色 | 核心职责 | 中国特色 |
+|---------|--------|---------|---------|
+| **央企** | "品牌宣传部部长" | 企业形象+舆情管控+政治宣传 | 品牌=政治资产，不能出错 |
+| **大型民企** | "CMO/市场VP" | 品牌+增长+获客+私域 | 抖音/小红书/微信生态=主战场 |
+| **互联网** | "增长VP/市场VP" | 用户增长+品牌+内容营销 | 效果广告+私域+直播=核心 |
+| **外企中国区** | "Marketing Director China" | Global品牌本地化+数字营销 | 中国数字生态完全不同(无Google/FB) |
+| **B2B企业** | "市场总监" | 获客(MQL)+品牌+行业活动 | 微信生态+行业峰会=主要获客渠道 |
+
+#### 中国CMO的独特挑战
+- **渠道碎片化**: 抖音/快手/小红书/微信/B站/知乎——每个平台规则不同
+- **舆情风暴**: 一条微博可以毁掉一个品牌(翻车事件频发)
+- **合规红线**: 广告法极严(不能说"最"/比较广告受限/医疗广告审查)
+- **私域经济**: 微信私域(企业微信+社群+小程序)=中国独有增长引擎
+
+### 全球CMO参考（Global Reference）
+
 ### CMO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CMO *leans*, not what industry they are in. Most real CMOs are blends, weighted differently by moment and by the problem on their desk. A SaaS CMO in their first year post-IPO is often a Revenue Operator + Transformer. A CPG CMO defending a century-old brand against private label is a Brand Steward + Growth Engineer. A healthcare CMO navigating GLP-1 disruption is a Product Marketer + Transformer. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -137,6 +155,18 @@ The agent must diagnose the CMO's dominant posture *before* generating the Call 
 
 CMOs today navigate the most compressed transformation cycle in the role's history — simultaneously in technology, buyer behavior, measurement, and organizational expectation. The *themes* are universal; the specifics vary by industry. Lead with the universal pattern, then adapt the evidence.
 
+### 🇨🇳 中国CMO优先级
+
+| 排序 | B2C CMO | B2B CMO | 外企中国区CMO |
+|------|--------|--------|-------------|
+| #1 | **效果增长(ROI可追踪)** | **获客(MQL/SQL)** | **中国数字生态适配** |
+| #2 | **私域运营(微信生态)** | **品牌/thought leadership** | **品牌本地化** |
+| #3 | **内容营销(短视频/直播)** | **行业活动/峰会** | **合规(广告法)** |
+| #4 | **品牌舆情管理** | **官网/SEO/SEM** | **Global品牌一致性** |
+| #5 | **用户运营/会员** | **SDR/线索培育** | **本地MarTech搭建** |
+
+### 全球CMO参考（Global Reference）
+
 ### Universal CMO Priorities
 
 1. **Pipeline efficiency over pipeline volume.** The post-ZIRP reset has ended the "more MQLs at any CAC" era. Every CMO now leads with marketing-sourced pipeline quality, CAC discipline, and pipeline-to-revenue conversion — the CFO's language, not the MQL dashboard's language. Assume the first question behind every pitch is *"does this improve pipeline efficiency, or just pipeline volume?"*
@@ -193,6 +223,17 @@ CMOs today navigate the most compressed transformation cycle in the role's histo
 ## 3. KPIs
 
 A CMO's scorecard is the toughest to defend in the C-suite — because attribution is imperfect, influence is invisible, and CFOs want certainty where none is clean. Read the scorecard in two layers: the CEO-and-board-facing KPIs (the table below) and the private scorecard (further down) — the second layer is what actually separates a CMO from a VP Marketing.
+
+### 🇨🇳 中国CMO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 效果 | 获客成本(CAC)/ROI/ROAS | 抖音/微信广告为主 |
+| 私域 | 企微好友数/社群活跃度/小程序GMV | 中国独有KPI |
+| 品牌 | 舆情健康度/百度指数/微信指数 | 中国渠道指标 |
+| B2B | MQL数量/MQL→SQL转化率 | 微信生态获客 |
+
+### 全球CMO参考（Global Reference）
 
 ### The Universal Scoreboard: Marketing-Sourced Pipeline + CAC + Brand Health
 
@@ -310,6 +351,18 @@ Across every industry in the research, CMOs volunteer three headline metrics mor
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CMO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **渠道ROI难追踪** | 抖音/微信/线下——数据不通、归因困难 | CDP/Marketing Attribution |
+| **内容产出压力** | 每个平台要不同格式内容——团队疲于奔命 | AI内容生成/AIGC工具 |
+| **舆情危机** | 一条差评/翻车=品牌灾难 | 舆情监控/AI预警/危机公关 |
+| **私域运营瓶颈** | 微信好友沉默/社群活跃度下降/转化率低 | 私域SCRM/AI触达 |
+| **广告法合规** | 措辞踩线=罚款20-100万+下架 | AI内容合规审核 |
+
+### 全球CMO参考（Global Reference）
+
 ### Universal CMO Pain Points
 
 - **Attribution is imperfect and everyone knows it.** Multi-touch attribution models produce different answers depending on methodology; dark social, word-of-mouth, and community engagement are real demand drivers invisible to dashboards. The CMO carries a permanent credibility gap with the CFO — one that cannot be fully closed, only managed.
@@ -379,6 +432,18 @@ Across every industry in the research, CMOs volunteer three headline metrics mor
 ## 5. AI Opportunities
 
 Specific ways AI can address CMO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CMO meeting.
+
+### 🇨🇳 中国CMO的AI场景
+
+| 场景 | 应用 | 中国平台适配 |
+|------|------|-----------|
+| **AIGC内容** | AI生成文案/图片/视频 | 需适配各平台格式(抖音竖屏/小红书图文) |
+| **智能投放** | 广告自动优化/出价/创意 | 巨量引擎/磁力引擎/腾讯广告API |
+| **私域AI** | 智能客服/社群自动回复/个性化推荐 | 企业微信API+AI |
+| **舆情AI** | 实时监控/情感分析/预警 | 中文NLP+全平台抓取 |
+| **SEO/SEM** | 智能关键词/内容优化 | 百度/搜狗(非Google) |
+
+### 全球CMO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -627,6 +692,17 @@ CMOs have been burned by MarTech vendors promising "AI-powered" features that de
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these CMO-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a VP Demand Gen or VP MOps meeting, not a CMO meeting.*
 
+### 🇨🇳 中国CMO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 支持中国主流平台(抖音/微信/小红书) | ❌ 只支持Google/FB/LinkedIn |
+| ✅ 有中国客户增长案例 | ❌ 只有海外案例 |
+| ✅ 数据合规(个保法/广告法) | ❌ 数据存海外 |
+| ✅ 支持中文内容生成 | ❌ 中文质量差 |
+
+### 全球CMO参考（Global Reference）
+
 CMOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CMO uses to judge whether a specific proposal deserves their time, their budget, and their political capital.** Specificity against these earns CMO attention.
 
 1. **Pipeline predictability.** Moving from "we generated X leads and hope some convert" to "we can predict that Y investment will generate Z pipeline with N% confidence." Predictability earns trust with the CEO and CFO — and trust earns budget. If you cannot show the pipeline-predictability story, you are not in a CMO conversation.
@@ -659,6 +735,17 @@ CMOs are one of the most technology-intensive executives — and one of the most
 
 They rely on their VP MOps and VP Demand Gen for technical and operational evaluation, and on the CIO for integration and security. **Don't pitch technology features to a CMO — pitch pipeline, brand, and budget-defense outcomes.** And don't pitch a point solution — CMOs increasingly describe their marketing operating models in platform terms (a data backbone plus modular applications), not as collections of point tools. A solution that compounds value over time (more data, more agents, more integrated workflows) maps onto how they already think.
 
+### 🇨🇳 中国CMO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **效果导向** | "投入1块钱能回来几块？" |
+| **快速试错** | "先跑2周看数据" |
+| **平台优先** | "在抖音/微信上能跑通吗？" |
+| **视觉/创意** | CMO重视demo/视觉呈现 |
+
+### 全球CMO参考（Global Reference）
+
 ### CMO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -688,6 +775,17 @@ They rely on their VP MOps and VP Demand Gen for technical and operational evalu
 ## 8. Buying Dynamics
 
 The CMO typically controls one of the larger discretionary budgets in the company — in B2B SaaS, marketing spend is often 10–20% of revenue; in CPG, marketing and trade spend can be 15–25%. They have direct purchasing authority over martech, agency relationships, media spend, events, and content production. For marketing-specific tools, the CMO is the primary decision maker. For cross-functional platforms (CRM, data infrastructure, CDP), they share decisions with the CIO and/or CRO. Remember: a CMO meeting is the CMO removing 30–45 minutes from demand-gen rhythm, brand work, organizational leadership, or cross-functional alignment. "No one else in your org can make this decision" is the only honest reason to be in the room.
+
+### 🇨🇳 中国CMO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 营销预算(非IT)——CMO自己有大笔钱 |
+| **决策速度** | 快(1-2个月)——营销等不起 |
+| **评估方式** | A/B测试/试用期→看数据→决定 |
+| **生态** | 有赞/微盟(SaaS)/巨量/腾讯广告(投放)/致趣百川/Convertlab(B2B) |
+
+### 全球CMO参考（Global Reference）
 
 ### When the CMO Engages Directly
 
@@ -803,6 +901,17 @@ Getting CMO sponsorship accelerates martech deal velocity and unlocks budget —
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the CMO's archetype, current sales stage, and what you already know. Do NOT use all questions in one meeting — a CMO meeting is 30–45 minutes, not an interrogation.*
 
+### 🇨🇳 中国CMO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "现在主要通过什么渠道获客？效果怎么样？" | 了解渠道+痛点 |
+| "私域(企微/社群)做了吗？" | 私域场景 |
+| "内容产出团队多少人？压力大吗？" | AIGC需求 |
+| "投放ROI能追踪到成交吗？" | 归因需求 |
+
+### 全球CMO参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "When you report marketing's contribution to pipeline or revenue to the CEO and board, where do you feel the numbers are strongest — and where do you feel the credibility gap with your CFO?"
@@ -849,6 +958,24 @@ Getting CMO sponsorship accelerates martech deal velocity and unlocks budget —
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CMO关系地图
+
+```
+CMO权力结构：
+┌─────────────────────────────────────┐
+│ CEO (CMO上级/有时直管市场)            │
+├─────────────────────────────────────┤
+│ CMO/市场VP                          │ ← target
+├──────────┬──────────┬───────────────┤
+│ 品牌      │ 增长/投放 │ 内容/新媒体   │
+├──────────┴──────────┴───────────────┤
+│ 销售VP (leads交接)                   │
+│ 产品 (联合推广)                      │
+└─────────────────────────────────────┘
+```
+
+### 全球CMO参考（Global Reference）
 
 ### Core C-Suite Dynamics
 
@@ -901,6 +1028,26 @@ Getting CMO sponsorship accelerates martech deal velocity and unlocks budget —
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CMO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 展示中国平台(抖音/微信)的成功案例 | CMO只关心中国渠道 |
+| 提供免费试用/小规模验证 | CMO决策看数据 |
+| 懂中国数字营销生态 | 不懂生态=外行 |
+| 视觉/demo做精致 | CMO是最在意"体验"的C-level |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 讲Google/Facebook案例 | 中国用不了 |
+| 只讲技术不讲效果 | CMO不是技术人 |
+| 忽视合规(广告法/个保法) | CMO怕罚款 |
+| 产品不支持中文 | 内容生成中文不行=没用 |
+
+### 全球CMO参考（Global Reference）
 
 ### ✅ DO
 
