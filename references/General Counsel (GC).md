@@ -39,6 +39,24 @@ The scope of the role has expanded dramatically in the last decade. A GC in 2015
 
 The GC's seat in technology buying is unique and widely misunderstood. They are rarely the **primary buyer** outside legal tech itself. But they are the **reviewer of record** on almost every significant technology purchase that touches data, privacy, security, compliance, AI, or IP — which in 2025 means almost every enterprise technology purchase of any consequence. The GC can rarely *champion* a deal into existence alone. But they can *stop* one single-handedly, quietly, and without ever saying the word "no." A vendor who presents to a GC with enterprise-grade contract terms, current SOC 2 Type II and ISO 27001 attestations, a defensible AI governance package, and named peer references in the customer's industry accelerates the deal. A vendor who presents consumer-grade terms, vague AI claims, or "we'll send the DPA later" triggers weeks of extended review — often the polite form of rejection.
 
+### 🇨🇳 中国GC原型补充
+
+| 企业类型 | GC角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **央企** | "法务部部长/总法律顾问" | 合规+风控+反腐+国资监管 | 国资交易/反腐/审计=高压线 |
+| **大型民企** | "GC/法务VP" | 商业合同+IPO/融资+合规 | 数据合规+反垄断+出海法律 |
+| **互联网** | "法务VP/合规VP" | 数据隐私+内容合规+反垄断 | 互联网反垄断(2021始)+个保法 |
+| **外企中国区** | "China Legal Director" | 中国法律合规+global对接 | 中国法律变化快→法务压力大 |
+
+#### 中国GC的法规挑战
+- **法规变化快**: 每年大量新规/修订——法务持续学习压力
+- **数据三法**: 网安法+数据安全法+个保法=合规基本功
+- **反垄断**: 2021起互联网反垄断执法力度空前
+- **出海合规**: 中国企业出海→面临GDPR/各国法规
+- **刑事合规**: 企业合规不起诉制度(2021试点)
+
+### 全球GC参考（Global Reference）
+
 ### GC Archetypes (Postures, Not Industries)
 
 Archetypes describe how a GC *leans*, not what industry they are in. Most real GCs are blends, weighted differently by the moment and by the problem on their desk. A tech-company GC in the middle of an antitrust case is a Regulatory Strategist + Crisis Navigator even though tech. A pharma GC post-warning-letter is Guardian + Crisis Navigator. A scale-up GC hired out of Big Law by a PE-backed growth company is often Business Partner + Transformer. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -141,6 +159,18 @@ The agent must diagnose the GC's dominant posture *before* generating the Call P
 
 GCs today navigate the most compressed regulatory cycle in the role's history. The *themes* are universal; the specifics vary by industry. Lead with the universal pattern, then adapt the evidence.
 
+### 🇨🇳 中国GC优先级
+
+| 排序 | 央企GC | 互联网GC | 外企中国区GC |
+|------|--------|--------|-------------|
+| #1 | **合规风控(反腐/审计)** | **数据隐私合规** | **中国法规跟踪** |
+| #2 | **国资交易合规** | **反垄断合规** | **合同管理** |
+| #3 | **合同管理** | **内容合规/版权** | **劳动法合规** |
+| #4 | **诉讼/仲裁管理** | **出海法律** | **数据跨境** |
+| #5 | **知识产权** | **AI合规(备案)** | **IP保护** |
+
+### 全球GC参考（Global Reference）
+
 ### Universal GC Priorities
 
 1. **AI governance as the defining legal-risk frontier of the decade.** Not "should we govern AI?" but *"how do we classify every AI system under the EU AI Act by Aug 2026, stand up a defensible conformity-assessment process, track the US state-law patchwork (Colorado, Illinois, NYC, California), prepare for the SEC's forthcoming AI disclosures, and do all of this while business teams are deploying AI faster than we can inventory it?"* The EU AI Act penalties alone — up to €35M or 7% of global turnover for prohibited-practices violations, up to €15M or 3% for high-risk-system violations — put this in the same risk tier as GDPR. Shadow AI (tools deployed without legal review) is the GC equivalent of shadow IT and growing faster.
@@ -215,6 +245,17 @@ GCs today navigate the most compressed regulatory cycle in the role's history. T
 ## 3. KPIs
 
 A GC's scorecard has two distinct layers: the board-facing KPIs (the table below) and the **private scorecard** (further down). The second layer is what actually separates a GC from any other senior legal executive — and it is the layer vendors almost never see.
+
+### 🇨🇳 中国GC KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 风控 | 合规事件数/处罚金额/风险评估覆盖率 | 处罚力度年年增 |
+| 效率 | 合同审核周期/法律咨询响应时间 | 业务催得急 |
+| 成本 | 外部律所费用/诉讼赔偿金额 | 控制法律成本 |
+| 合规 | 合规培训覆盖率/合规检查通过率 | 监管检查频繁 |
+
+### 全球GC参考（Global Reference）
 
 ### The Universal Scoreboard: Absence of Reportable Events
 
@@ -318,6 +359,18 @@ Across every industry, the headline GC metric — volunteered first in board rep
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国GC特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **法规变化快** | 每周有新规→跟不上→怕漏了 | AI法规监控/合规更新推送 |
+| **合同量大** | 审合同排队→业务投诉慢→加人也不够 | AI合同审核/CLM |
+| **数据合规复杂** | 数据三法+行业规定→每个场景要判断 | 数据合规平台/AI评估 |
+| **出海法律** | 中国企业出海→每个国家法规不同→人力不够 | 多国合规工具 |
+| **诉讼/纠纷增多** | 劳动仲裁+商业纠纷+消费者投诉 | 法律AI/案例检索/风险预测 |
+
+### 全球GC参考（Global Reference）
+
 ### Universal GC Pain Points
 
 - **Regulatory tsunami.** The volume and velocity of new regulation outpace the legal team's capacity. New privacy laws, AI regulations, cybersecurity obligations, ESG requirements, and sanctions regimes emerge continuously across jurisdictions. The nightmare: a regulation the team didn't know about, in a jurisdiction they hadn't mapped, that they've been violating for months.
@@ -410,6 +463,18 @@ Across every industry, the headline GC metric — volunteered first in board rep
 ## 5. AI Opportunities
 
 Specific ways AI can address General Counsel priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a GC meeting.
+
+### 🇨🇳 中国GC的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI合同审核** | 风险条款识别/对比/修改建议 | 中国合同法+行业条款 |
+| **AI法规监控** | 新法规推送/影响分析/合规差距 | 中国法规库(北大法宝/威科) |
+| **AI案例检索** | 类案检索/判决预测/策略建议 | 中国裁判文书网 |
+| **AI合规评估** | 自动评估业务合规性/出具意见 | 中国法规特殊性 |
+| **AI尽调** | 企业背景调查/关联关系/风险 | 天眼查/企查查数据 |
+
+### 全球GC参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -663,6 +728,17 @@ GCs are inherently risk-averse — their job is to protect the company. The patt
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these GC-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a different meeting — not a GC one.*
 
+### 🇨🇳 中国GC"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 覆盖中国法规(实时更新) | ❌ 只有英美法系 |
+| ✅ 数据安全(律所级安全) | ❌ 合同数据不安全/外泄 |
+| ✅ 准确率高(法律不能错) | ❌ AI幻觉/错误法条 |
+| ✅ 可审计/可追溯 | ❌ 黑盒不可解释 |
+
+### 全球GC参考（Global Reference）
+
 GCs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a GC uses to judge whether a specific proposal deserves their time, their legal budget, and their signature on a DPA.** Specificity against these earns GC attention.
 
 1. **Demonstrable, board-defensible risk reduction.** Not promised risk reduction — *demonstrated* risk reduction: a named risk class closed, a specific compliance gap remediated, a documented control in place, an audit finding resolved with evidence. "Demonstrably" is the word that separates real outcomes from vendor-speak.
@@ -694,6 +770,17 @@ GCs evaluate technology through a risk-and-defensibility lens, not a capability 
 - **"Can I defend this decision three years from now?"** — The private question behind every other question. If the GC cannot see themselves explaining the purchase to a regulator or a jury, they will stall the deal.
 
 A product that creates more risk than it mitigates is a non-starter — regardless of functional value. **Don't pitch features to a GC — pitch defensibility.** And don't pitch around the legal review — the GC will discover the detour and your credibility is gone.
+
+### 🇨🇳 中国GC评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **风险厌恶** | 法务是最保守的buyer |
+| **准确性第一** | "错一条法条=事故" |
+| **安全执念** | 合同数据极度敏感 |
+| **引用要求** | 必须给出法条出处 |
+
+### 全球GC参考（Global Reference）
 
 ### GC Decision Psychology by Archetype
 
@@ -730,6 +817,17 @@ The GC operates in three distinct buying modes, and the agent must diagnose whic
 **Mode 2 — Gatekeeper and Deal Approver.** On virtually every significant enterprise technology purchase (AI platforms, data platforms, security tools, HR tech, customer platforms, anything touching PII or regulated data), the GC reviews commercial terms, data handling, security posture, liability, IP, and compliance provisions. Enterprise-ready paper accelerates the review; consumer-grade paper triggers extended negotiation that kills deal velocity. In this mode the GC is not the champion — but can stop the deal.
 
 **Mode 3 — Risk Adviser to the Board and CEO.** On the largest strategic decisions — M&A, market entry, major vendor consolidations, enterprise AI platform selection, CISO tool-selection, data-platform strategy — the GC advises the Board and CEO on legal and regulatory implications. When the GC raises a concern at this level, it becomes an organizational priority. Vendors who understand this and pre-engage get cover; those who don't face escalating friction they can't diagnose.
+
+### 🇨🇳 中国GC采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 法务预算(通常不大) |
+| **决策** | GC主导(工具类自决) |
+| **触发** | 合规事件/处罚/业务增长→合同量暴增/新法规 |
+| **生态** | 法大大(电子签)/iCourt/幂律智能/通义法睿 |
+
+### 全球GC参考（Global Reference）
 
 ### When the GC Engages Directly
 
@@ -841,6 +939,17 @@ Proactive engagement with the GC accelerates deals; reactive engagement stalls t
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the GC's archetype, current sales stage, and what you already know. GC meetings are precise and risk-focused — not interrogations.*
 
+### 🇨🇳 中国GC Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "合同审核积压严重吗？平均周期？" | CLM需求 |
+| "数据合规压力大吗？做了评估吗？" | 合规场景 |
+| "法规跟踪怎么做的？有遗漏风险吗？" | 法规监控 |
+| "诉讼/仲裁量大吗？" | 法律AI |
+
+### 全球GC参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "Which regulatory areas are creating the most complexity for your team right now — privacy, AI, cybersecurity, ESG, trade compliance? Where is the team running behind the curve?"
@@ -888,6 +997,24 @@ Proactive engagement with the GC accelerates deals; reactive engagement stalls t
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国GC关系地图
+
+```
+GC权力结构：
+┌─────────────────────────────────────┐
+│ CEO / 董事长 (GC直汇)                │
+├─────────────────────────────────────┤
+│ GC / 总法律顾问                      │ ← target
+├──────────┬──────────┬───────────────┤
+│ 公司法务  │ 合规      │ 知识产权      │
+├──────────┴──────────┴───────────────┤
+│ 各业务部门 (合规需求/合同需求)         │
+│ 外部律所 (复杂案件)                   │
+└─────────────────────────────────────┘
+```
+
+### 全球GC参考（Global Reference）
 
 ### Core C-Suite and Legal-Function Dynamics
 
@@ -938,6 +1065,26 @@ Proactive engagement with the GC accelerates deals; reactive engagement stalls t
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国GC Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 强调数据安全/保密 | GC最在意 |
+| 展示中国法规准确性 | 不能出错 |
+| 提供免费试用(让法务验证) | 法务要亲自确认准确 |
+| 引用法条要精确 | 法务核实每一条 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 合同数据存云/不安全 | 法务不接受 |
+| AI有幻觉/编法条 | 法律错误=事故 |
+| 只有英文/英美法 | 要中国法规 |
+| 激进营销 | 法务讨厌被push |
+
+### 全球GC参考（Global Reference）
 
 ### ✅ DO
 
