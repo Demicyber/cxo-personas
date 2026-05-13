@@ -409,55 +409,253 @@ Across every industry, the headline GC metric — volunteered first in board rep
 
 ## 5. AI Opportunities
 
-Specific ways AI can address GC priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a GC meeting.
+Specific ways AI can address General Counsel priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a GC meeting.
 
-### Universal AI Value Levers for General Counsel
+### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
-These are the six ways AI creates value that GCs care about — mapped directly to Priorities (Section 2) and the Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+> *Agent instruction: Use this subsection to calibrate your tone. General Counsel face a unique dual mandate: they must both ENABLE enterprise AI (remove legal blockers) and PROTECT against AI risks (liability, compliance, IP). Frame your pitch around managing legal risk while enabling AI value, not choosing between them.*
 
-1. **Regulatory monitoring and compliance automation.** AI that continuously tracks new laws, amendments, enforcement actions, and guidance across jurisdictions; maps requirements to organizational controls; and maintains continuous audit readiness. Replaces manual monitoring that cannot keep pace with regulatory volume. *Agentic dimension:* Agents that continuously scan regulatory sources, classify changes by relevance and urgency, and proactively alert the legal team with impact assessments — *before* the business is exposed.
+**The state of enterprise AI in 2025:**
 
-2. **Contract lifecycle acceleration.** AI-assisted review identifying non-standard clauses, missing provisions, and risk areas; intelligent templates; automated routing by risk level; playbook automation letting less-senior lawyers handle standard negotiations. Contracts closed faster with consistent quality. *Agentic dimension:* Agents that autonomously triage incoming contracts by risk, flag deviations from playbook, and route only genuinely complex provisions to senior counsel.
+| Milestone | % of Enterprises | Source |
+|-----------|-----------------|--------|
+| Adopted AI in ≥1 function | 72% | McKinsey State of AI 2024 |
+| Regularly using GenAI (doubled in 10 months) | 65% | McKinsey State of AI 2024 |
+| Running 5+ AI pilots simultaneously | ~50% | Forrester AI Maturity 2024 |
+| Successfully moved any pilot to production | 20–30% | BCG/Deloitte/iResearch 2024 |
+| Scaled AI for significant financial ROI | ~10% | BCG "From Potential to Profit" 2024 |
+| Achieved enterprise-wide AI transformation | <5% | Accenture AI Maturity 2024 |
 
-3. **Legal team force multiplication.** AI-powered research, document review, and summarization that lets lawyers do in hours what previously took days; self-service legal tools enabling business teams to handle routine tasks (NDAs, standard contracts, policy lookups) without legal involvement. *Agentic dimension:* Legal copilots that draft first-pass memos, summarize case law, and prepare Board-ready compliance reports — freeing lawyers for judgment-intensive work.
+**Gartner prediction (Oct 2024):** At least 30% of GenAI projects will be abandoned after proof-of-concept by end of 2025 — due to poor data quality, escalating costs, or unclear business value.
 
-4. **Privacy operations at scale.** Automated data-subject-request processing, consent management, data mapping, and privacy impact assessments. Scales privacy compliance without proportional headcount. *Agentic dimension:* Agents that process DSARs end-to-end, maintain real-time data inventories, and generate PIAs for new processing activities automatically.
+**China-specific data point:** Chinese enterprises show 40% higher AI pilot initiation rates than global average, but production-scale deployment rates are 8–12% lower than US counterparts (Bain/Accenture 2024). The "高热度低转化" (high heat, low conversion) pattern is pronounced — over 100,000 AI trial projects with <25% reaching production (钛媒体 2024).
 
-5. **Litigation and e-discovery efficiency.** AI-powered document review, early case assessment, and pattern recognition across litigation portfolios. Reduces cost and timeline of discovery — the most expensive phase of litigation. *Agentic dimension:* Agents that learn continuously from reviewer decisions, progressively handle more routine classification autonomously, and surface the documents most likely to be material.
+**What General Counsels are actually saying:**
+- "My CEO is deploying AI faster than my team can assess the legal risks. I'm always behind."
+- "The regulatory landscape changes weekly. EU AI Act, state AI laws, SEC AI disclosure requirements, China 生成式AI管理办法 — I can't keep up."
+- "I'm simultaneously told to 'enable innovation' and 'protect the company.' AI makes that tension 10x worse."
+- 78% of GCs say AI creates legal risks they haven't fully assessed; 62% say they can't review AI deployments fast enough (ACC Chief Legal Officers Survey 2024).
+- 85% report the AI regulatory landscape is evolving faster than their legal team's capacity to track it (Gartner Legal & Compliance 2024).
 
-6. **Vendor risk triage.** AI-driven vendor assessment that classifies vendors by risk, pre-populates due-diligence questionnaires, and monitors vendor compliance continuously. Proportionate diligence without becoming the bottleneck. *Agentic dimension:* Agents that continuously monitor vendor risk signals (financial health, security incidents, regulatory changes) and escalate only when risk thresholds are breached.
+**Field rule:** When preparing a Call Plan for a GC, frame AI as a legal risk management AND legal department productivity story. The GC simultaneously needs to: (1) manage legal risk from enterprise AI deployment, AND (2) use AI to run the legal function more efficiently. If you only pitch #2 without addressing #1, the GC will see you as tone-deaf to their primary concern.
 
-### Quality Bar: How GCs Filter AI Pitches
+---
 
-GCs evaluate AI through a risk lens, not a capability lens. The pattern across every industry is identical — GCs only take AI seriously when it passes **four** tests simultaneously:
+### 5.2 The Four Blockers — Why Enterprise AI Stalls
 
-1. **Demonstrable risk reduction, not capability claims.** Specific legal risks mitigated by specific amounts — not "improves compliance" but "reduced contract-review cycle from three weeks to four days while catching more non-standard clauses than manual review, at [named peer], sustained 12 months."
-2. **Clean contract terms and data handling.** Enterprise-ready DPA, clear data-processing roles, no customer data used for model training, transparent sub-processor lists, and reasonable liability provisions. Consumer-grade terms are a non-starter.
-3. **Regulatory defensibility.** The GC must be able to explain and defend the AI to regulators and, if necessary, to a court. Model cards, bias-testing methodology, explainability approach, EU AI Act classification, and audit trails are table stakes.
-4. **Peer validation in regulated environments.** "N enterprise legal teams have completed this review" carries more weight than any feature demo. Named references from comparable regulated industries are the gold standard.
+> *Agent instruction: Use this as a diagnostic framework. The GC doesn't typically "own" AI deployment blockers — but they are often BLAMED as the blocker ("legal won't approve it"). The GC's frustration is being positioned as the obstacle to innovation when they're actually trying to protect the company from legitimate risks. Frame your discovery around enabling the GC to say "yes" faster with better risk frameworks.*
 
-**Field rule:** If a GC-level AI pitch cannot check all four — risk-reducing, clean-termed, defensible, peer-validated — it reads as another vendor *creating* risk. Lead with the contract terms and compliance documentation, not the features. When generating Call Plan Section 4 (Information to Deliver), ensure every AI story you include passes this four-part test.
+#### A. Organizational — "Legal is always the bottleneck"
 
-### The 2025–2026 Reality Check
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Legal review delays AI deployment | Average legal review for AI deployment: 4-12 weeks | ACC 2024 |
+| GC excluded from early AI planning | 58% of AI projects reach legal review only at deployment stage | Gartner 2024 |
+| Legal team lacks AI literacy | 72% of legal departments have no AI-specific expertise | ACC 2024 |
+| AI governance role unclear | Who owns AI governance — legal, compliance, CAIO, ethics committee? | Deloitte 2024 |
+| Business units bypass legal for speed | 45% of GenAI deployments proceed without full legal review | Gartner 2024 |
 
-The GC AI mindset has shifted from "how do we regulate AI across the enterprise?" to "how do we govern an AI footprint that is already larger than we can inventory?" Shadow AI is the central anxiety. The EU AI Act's Aug 2026 high-risk obligations are the forcing function — every GC is running an enterprise AI-inventory exercise, and most are finding that the inventory is incomplete and growing. Vendors who walk in assuming the GC is "exploring AI" miss the posture entirely; the GC is *containing* an AI sprawl they did not authorize.
+**GC lens:** "They come to me at the last minute with a fully built AI system and ask for 'legal sign-off.' If I say no, I'm the innovation blocker. If I say yes without proper review, I've accepted risk I don't understand. I need to be involved earlier — and I need frameworks that let me say 'yes with conditions' instead of just 'no' or 'wait.'"
 
-**Implication for the agent:** Do NOT frame AI as a new exploration. Frame it as: *"Here is how to bring your existing AI footprint under a defensible governance program before the Aug 2026 gate"* or *"Here is how to give your Audit Committee a completeness statement on AI inventory that survives regulator inspection."* The GC's pain is not absence of AI — it is *uncontrolled presence* of AI.
+**Who should own unblocking:** GC (legal framework for AI + early involvement process), CEO (mandate legal involvement at design stage), CAIO (collaborative risk assessment).
 
-### Industry-Specific AI Use Cases with Real Legal ROI *(supporting evidence)*
+#### B. People — "My team wasn't trained for this"
 
-> *Examples below are from FY2024–FY2025 disclosures and legal-industry publications. They illustrate the type of deployed use case and the magnitude of impact a GC finds credible — not current figures to cite verbatim. Agent must verify latest numbers before including in a Call Plan.*
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI-literate lawyers scarce | <5% of corporate lawyers have AI/technology law specialization | ACC 2024 |
+| Regulatory expertise fragmented | EU AI Act, US state laws, China AI regulations — need multi-jurisdictional expertise | Littler 2024 |
+| Legal operations understaffed | Average legal department headcount hasn't grown vs. AI workload explosion | ACC CLO Survey 2024 |
+| Outside counsel AI guidance inconsistent | Law firms offering contradictory AI guidance based on incomplete understanding | Gartner 2024 |
+| China-specific: 数据安全法/个保法 compliance complexity | Cross-border data + AI adds enormous compliance burden for MNC legal teams | 中国法律科技协会 2024 |
 
-| Industry Group (Industry) | Use Cases | Example Impact | Legal Outcome |
-|----------|----------|---------------|--------|
-| **Manufacturing & Industrial** | Trade-compliance automation; supplier-contract CLM; product-liability evidence preservation | Global CLM covering thousands of supplier agreements; HS-code and sanctioned-party screening at operational speed | Audit-ready trade-compliance program; reduced tail-risk on supplier exposure |
-| **Financial Services** | Regulatory-change monitoring; AML alert disposition; bias-testing evidence; SEC disclosure workflows | Material reduction in outside-counsel spend on regulatory monitoring; faster AML alert disposition with documented rationale | Defensible DORA ICT register; examination-ready AML file; SEC materiality-decision documentation |
-| **Technology & Digital Native** | Enterprise AI inventory and classification; IP-risk triage on AI-generated content; DMA/DSA compliance reporting | Complete AI-system inventory mapped to EU AI Act risk tiers; faster IP review on generative outputs | Conformity-assessment readiness by Aug 2026; DSA systemic-risk-report pipeline |
-| **Retail & Consumer** | Privacy-ops automation across state laws; advertising-compliance monitoring; vendor-contract triage | DSARs processed at state-law granularity; advertising claims continuously monitored | Defensible multi-state privacy program; reduced FTC enforcement exposure |
-| **Healthcare** | Clinical-AI governance documentation; HIPAA automation; conformity-assessment workflow | Model cards and bias testing evidence for every clinical AI; automated DSAR-equivalent for HIPAA | FDA-ready documentation; Aug 2026 high-risk conformity readiness |
-| **Energy & Utilities** | ESG/CSRD reporting automation; environmental-compliance monitoring; permitting workflow | Double-materiality assessments produced on schedule; assurance-ready records | CSRD compliance by phased deadlines; EPA-findings avoidance |
-| **Telecom & Media** | Rights-management CLM at scale; content-moderation evidence; DSA risk-assessment tooling | Multi-territory rights inventories current; moderation decisions logged and defensible | DSA annual-report pipeline; reduced copyright-exposure tail |
-| **Transportation & Logistics** | Safety-compliance documentation; sanctions-screening automation; labor-classification framework | Safety-decision rationales preserved; sanctioned-party screening at operational speed | Regulator-ready safety program; reduced class-action exposure on classification |
+**GC lens:** "My team is trained in contracts, IP, employment, and corporate law. AI creates novel legal questions that span all these areas simultaneously. I need lawyers who understand technology, regulators who give clear guidance, and law firms that aren't just selling fear."
+
+**Who should own unblocking:** GC (legal team AI training + specialization), CHRO (legal talent hiring), Outside Counsel (AI-specific legal expertise).
+
+#### C. Technical — "I can't assess what I can't understand"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI system opacity for legal review | Can't perform legal risk assessment on black-box systems | Gartner 2024 |
+| Data provenance unclear for IP analysis | Training data sources unknown; can't assess IP infringement risk | ACC 2024 |
+| AI output attribution impossible | Can't determine if AI output infringes third-party IP or contains hallucinations | Littler 2024 |
+| Audit trail insufficient for compliance | AI decisions lack explainability required by regulations (EU AI Act Article 14) | EU AI Act 2024 |
+| Contract terms for AI vendors non-standard | No standard contract frameworks for AI services; vendors resist liability | ACC 2024 |
+
+**GC lens:** "You're asking me to assess legal risk for a system where I can't see the training data, can't explain the outputs, can't audit the decisions, and can't assign liability when it goes wrong. My legal training says: don't approve what you can't control. AI asks me to do exactly that."
+
+**Who should own unblocking:** GC (legal risk framework for AI), CTO (AI transparency and explainability), CAIO (responsible AI practices), CDO (data provenance).
+
+#### D. Process — "No legal playbook for AI exists"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI legal risk frameworks immature | No standard legal risk assessment methodology for AI | ACC 2024 |
+| Contract templates for AI non-existent | Standard vendor contracts don't address AI-specific risks (training data IP, hallucination liability) | Gartner 2024 |
+| Regulatory compliance process unclear | EU AI Act compliance process being developed in real-time; no established practice | EU AI Office 2024 |
+| AI incident response legal protocol absent | No legal playbook for AI-caused harm (who's liable, how to respond) | Littler 2024 |
+| IP strategy for AI unclear | AI-generated works: who owns them? Company, employee, AI vendor? Jurisdictions differ | WIPO 2024 |
+
+**GC lens:** "I've spent 20 years building legal playbooks for every situation. For AI, there's no playbook. The law is being written in real-time. Case law barely exists. Regulatory guidance is provisional. I'm advising on risk levels I can't quantify using frameworks that don't exist yet."
+
+**Who should own unblocking:** GC (legal framework development), Outside Counsel (specialized AI legal guidance), CAIO (responsible AI alignment with legal), Industry Associations (collective legal standard development).
+
+**Field rule for the agent:** In the Call Plan Discovery section, ask the GC: "What's your current process for legal review of AI deployments?" and "How are you staying ahead of the AI regulatory landscape?" These reveal legal maturity — if they have no AI-specific process, your first value proposition is helping them build a framework.
+
+---
+
+### 5.3 Universal AI Value Levers for General Counsel
+
+These are the seven ways AI creates value that GCs care about — mapped directly to the GC's Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+
+1. **Contract analysis & management.** AI that reviews, analyzes, and manages contracts at scale — extracting key terms, identifying risks, tracking obligations, and enabling faster deal cycles. *Agentic dimension:* Contract agents that autonomously review incoming contracts against company standards, flag deviations, suggest redlines, track obligation deadlines, and manage the entire contract lifecycle — giving the legal team capacity to handle 10x volume.
+
+2. **Legal research & brief generation.** AI that researches legal questions, finds relevant precedents, analyzes regulatory requirements, and drafts preliminary legal analyses. *Agentic dimension:* Research agents that autonomously investigate legal questions across jurisdictions, compile relevant cases and regulations, draft preliminary analyses, and identify novel legal issues requiring human judgment — accelerating legal research from days to hours.
+
+3. **AI governance & risk framework.** Legal frameworks that assess AI deployment risk, ensure regulatory compliance, and enable the business to deploy AI with appropriate safeguards. *Agentic dimension:* Compliance monitoring agents that continuously scan AI deployments for regulatory risk, track regulatory changes across jurisdictions, flag compliance gaps, and generate audit-ready documentation — enabling proactive rather than reactive compliance.
+
+4. **Regulatory intelligence & horizon scanning.** AI that monitors regulatory developments, predicts enforcement trends, and ensures the legal team is ahead of compliance requirements. *Agentic dimension:* Regulatory intelligence agents that continuously monitor legislative developments, regulatory guidance, enforcement actions, and case law across jurisdictions — giving the GC early warning of risks and obligations.
+
+5. **Litigation prediction & management.** AI that predicts litigation outcomes, optimizes case strategy, identifies settlement opportunities, and manages legal matter portfolios efficiently. *Agentic dimension:* Litigation management agents that analyze case data, predict outcomes based on historical patterns, recommend strategies, track deadlines, and optimize outside counsel management — making litigation management proactive.
+
+6. **IP management & protection.** AI that manages intellectual property portfolios, identifies infringement risks, evaluates patentability, and protects AI-generated IP assets. *Agentic dimension:* IP intelligence agents that continuously monitor for infringement, track patent landscapes, assess competitor IP activity, and manage portfolio maintenance — providing real-time IP awareness.
+
+7. **Legal operations efficiency.** AI that streamlines legal department operations — matter management, budget tracking, vendor management, and reporting to business stakeholders. *Agentic dimension:* Legal operations agents that manage workflows, allocate work, track budgets, coordinate with outside counsel, and generate board-ready reports — enabling the GC's team to operate at scale without proportional headcount growth.
+
+---
+
+### 5.4 Quality Bar: How General Counsel Filter AI Pitches
+
+GCs are inherently risk-averse — their job is to protect the company. The pattern across every legal department is identical — GCs only take AI seriously when it passes four legal tests simultaneously:
+
+1. **Accuracy verifiable and liability addressed.** Not "AI does it for you" but "AI drafts, human verifies, liability is clear." The GC will never accept AI that makes binding decisions without human review. Show the human-in-the-loop and the liability framework.
+2. **Attorney-client privilege protected.** Any AI that touches legal work must maintain privilege. If data goes to a third-party cloud for training or if outputs could be discoverable, it's dead on arrival. Show how privilege is maintained.
+3. **Security and confidentiality enterprise-grade.** Legal documents are the most sensitive in the enterprise (M&A, litigation, investigations). Show SOC2 Type II, encryption at rest/transit, no data training, and deployment options that maintain confidentiality.
+4. **Validated by legal professionals, not just technologists.** The GC trusts peer evidence — other GCs at similar companies who've deployed and validated. Technology vendor claims without legal professional validation are insufficient.
+
+**Field rule:** If a GC-level AI pitch cannot check all four — accuracy-verifiable, privilege-protected, security-enterprise-grade, legally-validated — it reads as a technology tool that doesn't understand legal professional requirements. Lead with how privilege and confidentiality are maintained. When generating Call Plan Section 4, ensure every AI story includes: (a) human-in-the-loop and liability framework, (b) privilege protection evidence, (c) security certification and deployment model, (d) peer GC validation and adoption.
+
+---
+
+### 5.5 Industry AI Opportunity Map
+
+> *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a GC in a specific industry. The GC's map focuses on legal-specific AI opportunities AND AI governance requirements by industry — the GC needs to know both how AI helps their function and how to govern AI for the enterprise.*
+
+**Tiering Framework — Classification Logic**
+
+| Tier | Label | Competitive Logic | Investment Posture | Typical Horizon |
+|------|-------|------------------|-------------------|-----------------|
+| **1** | **Table Stakes** | Competitors already deploying at scale; not investing = falling behind | Fund now; scale aggressively | 0–12 months to value |
+| **2** | **Differentiator** | Creates competitive distance; requires proprietary data or capability | Invest selectively; pilot → scale | 12–36 months to value |
+| **3** | **Transformational** | Reshapes industry economics or business model | Fund as strategic option; bounded exploration | 3–7+ years to value |
+
+#### Manufacturing & Industrial
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Manufacturing | Product Liability & Safety Compliance AI | **Tier 1 — Table Stakes** | Product safety monitoring, regulatory compliance tracking, recall management | Industry-wide: product liability AI for proactive compliance; ISO/safety regulation tracking | Risk mitigation |
+| All Manufacturing | Supply Chain Contract Management | **Tier 1 — Table Stakes** | Supplier contract analysis, force majeure tracking, terms compliance monitoring | Industry-wide: supply chain legal complexity driving contract AI adoption | Contract efficiency |
+| Automotive OEM | Autonomous Vehicle Liability Framework | **Tier 2 — Differentiator** | AV liability mapping, regulatory compliance across jurisdictions, incident response legal | Tesla/BMW: dedicated AV legal frameworks; regulatory uncertainty requiring proactive positioning | AV liability preparedness |
+
+> **Agent field rule:** Manufacturing GCs manage product liability (their nightmare is a recall) and complex supply chain contracts (thousands of suppliers). Lead with product liability monitoring and contract management (Tier 1). The GC's unique challenge: AI in products creates new liability questions (who's liable when AI-powered equipment fails?).
+
+#### Financial Services
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Banking | Regulatory Compliance AI | **Tier 1 — Table Stakes** | Regulatory change management, compliance monitoring, exam preparation AI | JPMorgan: $15B compliance spend driving AI adoption; industry-wide RegTech | Compliance efficiency + risk reduction |
+| Banking | Fair Lending & AI Bias Monitoring | **Tier 1 — Table Stakes** | Disparate impact analysis for AI models, fair lending compliance, UDAAP AI review | Industry-wide: CFPB/OCC scrutiny of AI in lending decisions; mandatory bias testing | Regulatory risk mitigation |
+| Insurance | Claims & Underwriting Legal AI | **Tier 1 — Table Stakes** | Claims litigation prediction, bad faith avoidance, underwriting compliance | Ping An: legal AI for claims disputes; industry-wide insurance legal tech | Legal cost + exposure management |
+| All Financial Services | AI Governance & Model Risk Legal Framework | **Tier 1 — Table Stakes** | SR 11-7 compliance for AI models, EU AI Act Article 14 documentation, model explainability | Industry-wide: regulatory mandate for AI governance in financial services | Regulatory mandate compliance |
+
+> **Agent field rule:** Financial Services GCs operate in the most regulated AI environment. Lead with regulatory compliance and AI governance (Tier 1 — non-negotiable). The GC's unique challenge: financial services regulations REQUIRE AI explainability and fairness testing — it's not optional.
+
+#### Technology & Digital Native
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Enterprise SaaS | IP & Data Rights in AI Products | **Tier 1 — Table Stakes** | Customer data usage in AI, IP ownership for AI outputs, AI feature liability | Salesforce/Microsoft: AI product legal frameworks; customer agreement evolution | Product legal framework |
+| Enterprise SaaS | AI Product Liability & Indemnification | **Tier 1 — Table Stakes** | Product liability for AI errors, indemnification clauses, service level commitments | Industry-wide: AI product liability frameworks being developed | Customer trust + risk management |
+| Consumer Platform | Content Moderation & Platform Liability | **Tier 1 — Table Stakes** | Section 230 + AI content, AI-generated content liability, platform responsibility | Meta/Airbnb: platform legal frameworks; regulatory uncertainty driving legal innovation | Platform legal positioning |
+
+> **Agent field rule:** Tech GCs face novel legal questions unique to AI products — who owns AI outputs, who's liable for AI errors, how does Section 230 apply to AI-generated content? Lead with AI product liability frameworks (Tier 1). The GC's challenge: no precedent exists for most AI legal questions.
+
+#### Retail & Consumer
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Retail | Consumer Data Privacy & AI Compliance | **Tier 1 — Table Stakes** | CCPA/GDPR compliance for AI personalization, cookie-less advertising legal, data minimization | Industry-wide: retail privacy compliance for AI-powered personalization | Privacy compliance at scale |
+| E-commerce | AI Pricing & Competition Law | **Tier 2 — Differentiator** | Algorithmic pricing legal review, competition/antitrust AI compliance, dynamic pricing transparency | Emerging legal area: regulators examining algorithmic pricing (FTC scrutiny) | Antitrust risk mitigation |
+| All Retail | Employment & Labor AI Compliance | **Tier 1 — Table Stakes** | AI scheduling compliance, hiring algorithm fairness, worker surveillance legal | Industry-wide: NYC Local Law 144, EEOC AI guidance, labor law evolution | Employment law compliance |
+
+> **Agent field rule:** Retail GCs manage massive consumer data privacy obligations and labor/employment compliance across thousands of locations. Lead with privacy compliance and employment AI legal (Tier 1 — regulatory mandate). The GC's unique challenge: retail operates across many jurisdictions with varying AI regulations.
+
+#### Healthcare
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Healthcare | Clinical AI Liability & Patient Safety Legal | **Tier 1 — Table Stakes** | Medical malpractice + AI liability, FDA compliance documentation, clinical AI governance | Industry-wide: healthcare AI liability frameworks being developed; FDA guidance | Patient safety legal framework |
+| Pharma | Clinical Trial Legal & Regulatory AI | **Tier 1 — Table Stakes** | Clinical trial compliance, regulatory submission, pharmacovigilance AI, data integrity | Industry-wide: FDA/EMA regulatory submissions + AI; ICH guidelines compliance | Regulatory submission efficiency |
+| All Healthcare | HIPAA & Health Data AI Compliance | **Tier 1 — Table Stakes** | HIPAA compliance for AI training data, de-identification verification, BAA management for AI vendors | Industry-wide: HIPAA + AI creating new compliance requirements | Health data compliance |
+
+> **Agent field rule:** Healthcare GCs face life-safety liability for clinical AI decisions. Lead with clinical AI liability and regulatory compliance (Tier 1 — patient safety imperative). The GC's nightmare: an AI system makes a clinical recommendation that harms a patient. Liability framework is essential.
+
+#### Energy & Utilities
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Oil & Gas | Environmental & Safety Compliance AI | **Tier 1 — Table Stakes** | Environmental regulation tracking, safety compliance monitoring, permit management | Industry-wide: environmental compliance AI for complex regulatory landscape | Compliance efficiency |
+| Renewables / Utilities | Energy Regulation & Rate Case AI | **Tier 1 — Table Stakes** | Regulatory filing preparation, rate case support, compliance monitoring across jurisdictions | Industry-wide: utility regulatory compliance across 50+ jurisdictions (US) | Regulatory efficiency |
+| All Energy | ESG Reporting & Climate Legal AI | **Tier 2 — Differentiator** | ESG disclosure compliance, climate litigation defense, Scope 3 reporting | Emerging: SEC climate disclosure; EU sustainability reporting; climate litigation | ESG legal compliance |
+
+> **Agent field rule:** Energy GCs manage complex environmental regulations, safety mandates, and utility rate cases. Lead with environmental and regulatory compliance AI (Tier 1). The GC's emerging challenge: climate litigation and ESG disclosure requirements are accelerating.
+
+#### Telecom & Media
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Telecom | Regulatory Compliance & Spectrum Legal AI | **Tier 1 — Table Stakes** | FCC/telecom regulation tracking, spectrum license management, consumer protection compliance | Industry-wide: telecom regulatory complexity driving legal AI adoption | Regulatory efficiency |
+| Media | Content Rights & AI IP Legal | **Tier 1 — Table Stakes** | Copyright compliance for AI-generated content, licensing management, creator rights | Disney/Netflix: content rights management at scale; AI copyright law evolution | IP protection + licensing |
+| Media | AI & Creative Rights (SAG-AFTRA/WGA) | **Tier 2 — Differentiator** | Labor agreement compliance for AI use, performer consent, writer/creator AI rights | Industry-defining: SAG-AFTRA/WGA 2023 agreements set AI boundaries | Labor relations compliance |
+
+> **Agent field rule:** Telecom/Media GCs manage IP/content rights (media's core asset) and regulatory compliance (telecom's operating environment). Lead with content rights and regulatory compliance (Tier 1). For media, AI creative rights is the defining legal challenge of the moment.
+
+#### Transportation & Logistics
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| All Transport | Safety Compliance & Incident Response AI | **Tier 1 — Table Stakes** | Transportation safety regulation, DOT/FAA/IMO compliance, incident investigation | Industry-wide: transportation safety compliance at federal/international level | Safety legal compliance |
+| Airlines | Aviation Regulation & Passenger Rights AI | **Tier 1 — Table Stakes** | DOT compliance, EC 261 passenger compensation, safety regulatory compliance | Industry-wide: aviation regulatory complexity driving legal technology adoption | Regulatory efficiency |
+| Logistics | Cross-Border Trade & Customs Legal AI | **Tier 1 — Table Stakes** | Customs compliance, trade sanction screening, cross-border regulatory management | FedEx/UPS/Maersk: cross-border compliance at millions of shipments/day | Trade compliance at scale |
+
+> **Agent field rule:** Transport GCs manage safety regulation (life-safety critical) and cross-border compliance (thousands of jurisdictions). Lead with safety compliance and trade law (Tier 1). The GC's unique challenge: transportation safety is criminal-liability territory (not just civil).
+
+---
+
+### 5.6 Agentic AI — The 2025-2026 Frontier
+
+> *Agent instruction: Use this subsection when a GC asks "how should I think about autonomous AI from a legal perspective?" or when the target organization is deploying AI that makes decisions with legal implications.*
+
+**What it is:** AI systems that autonomously plan, execute multi-step tasks, use tools, and adapt based on feedback — moving beyond copilots (human-in-the-loop) to autonomous action (human-on-the-loop or human-out-of-the-loop for defined workflows).
+
+**Analyst positioning:**
+- Gartner: #1 Strategic Technology Trend 2025. Predicts 33% of enterprise software will include agentic AI by 2028 (up from <1% in 2024). 15% of day-to-day work decisions made autonomously by 2028.
+- McKinsey: Agentic AI is the "next S-curve" after copilots — expected to deliver 3–5x the value of current AI assistants by handling full workflows.
+- IDC: 40% of enterprise AI projects will use agentic frameworks by 2028.
+
+**Sequencing (what's ready when):**
+
+| Phase | Timeframe | What It Looks Like | Risk Level | Example Legal Use Cases |
+|-------|-----------|-------------------|------------|------------------------|
+| **Agent Copilots** | Deployed now | AI suggests actions, human approves; single-system tool use | Low | Contract clause suggestions, legal research assistance, compliance checklist generation, document review |
+| **Task Agents** | 2025–2026 | Autonomous execution of defined workflows; human oversight on exceptions | Medium | Automated NDA processing, routine contract review and redlining, compliance monitoring and alerting, regulatory change tracking |
+| **Orchestrator Agents** | 2026–2027 | Multi-agent coordination across systems; human sets goals, agents determine path | Medium-High | Full deal documentation (draft → review → negotiate → execute), multi-jurisdictional compliance management, automated litigation support workflows |
+| **Autonomous Agents** | 2028+ | Self-directed agents managing complex legal processes end-to-end | High | Autonomous contract negotiation (within parameters), real-time compliance management, self-updating governance frameworks |
+
+**GC pitch framing:** "Your legal team reviews thousands of contracts, tracks hundreds of regulatory changes, and manages compliance across dozens of jurisdictions — with headcount that hasn't grown in 5 years. Task agents that handle routine contract review, compliance monitoring, and regulatory tracking are production-ready now. This isn't replacing lawyers — it's giving your team capacity to focus on judgment-intensive work while agents handle volume."
+
+**Field rule:** Position agentic AI for GCs very carefully — lawyers are trained to be skeptical of autonomous decision-making. The framing must be: "Agents handle high-volume, rules-based legal work (contract review, compliance monitoring, regulatory tracking) while lawyers focus on the judgment calls that require legal expertise." Never suggest AI makes legal decisions autonomously. The GC needs: (1) clear human oversight at every stage, (2) auditability, (3) the ability to override, and (4) no autonomous binding commitments.
 
 ---
 
