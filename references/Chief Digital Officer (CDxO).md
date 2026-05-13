@@ -44,6 +44,23 @@ The role emerged in the early-to-mid 2010s when traditional enterprises — bank
 
 What makes selling to the CDxO uniquely challenging is that their scope is extraordinarily broad but their authority is often contested. Their transformation agenda touches every function — marketing, sales, operations, customer service, product, HR, finance — yet they rarely have direct authority over all of them. They must lead through influence, coalition-building, and executive sponsorship. Vendors who can help the CDxO demonstrate value across organizational boundaries without triggering territorial resistance have a significant advantage. Vendors who do not understand this dynamic — who pitch the CDxO as if they owned the budget, the team, and the decision — will fail.
 
+### 🇨🇳 中国CDxO原型补充
+
+| 企业类型 | CDxO角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **央企** | "数字化转型办/科技部" | 数字化战略+中台建设 | 国资委"数字化转型"考核指标 |
+| **大型民企** | "CDO/数字化VP" | 业务数字化+组织变革 | "数字化转型"=CEO一号工程 |
+| **制造业** | "智能制造/工业互联网VP" | OT+IT融合/工业互联网 | 工信部"两化融合"政策驱动 |
+| **外企中国区** | "Digital Lead China" | Global数字化方案本地化 | 中国数字生态领先→反向输出 |
+
+#### 中国CDxO的政策环境
+- **十四五规划**: 数字经济占GDP比重目标→企业数字化=政治正确
+- **国资委考核**: 央企数字化转型有量化考核指标
+- **两化融合**: 工信部要求制造业IT+OT融合
+- **数字中国**: 2035远景=全面数字化
+
+### 全球CDxO参考（Global Reference）
+
 ### CDxO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CDxO *leans*, not what industry they're in. Most real CDxOs are blends, weighted differently by moment and by the transformation stage. A bank CDxO in year 2 of the mandate is typically Experience Modernizer + Coalition Builder. A manufacturing CDxO building connected-product platforms is Platform Builder + Digital Business Model Creator. The archetype is a posture, not a permanent label — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -144,6 +161,18 @@ The agent must diagnose the CDxO's dominant posture *before* generating the Call
 
 CDxOs today are navigating simultaneous pressure on transformation velocity, CFO-defensible ROI, AI operationalization, and organizational change — within a time-bounded mandate and contested authority. The *themes* are universal; the specifics vary by industry.
 
+### 🇨🇳 中国CDxO优先级
+
+| 排序 | 央企CDxO | 制造业CDxO | 零售/服务CDxO |
+|------|--------|----------|-------------|
+| #1 | **数字化考核达标** | **智能制造/工业互联网** | **全渠道数字化** |
+| #2 | **中台建设** | **OT+IT融合** | **私域+数字化会员** |
+| #3 | **数据治理** | **数字孪生** | **供应链数字化** |
+| #4 | **AI规模落地** | **MES/ERP升级** | **AI+数字化运营** |
+| #5 | **组织变革** | **能碳管理数字化** | **门店数字化** |
+
+### 全球CDxO参考（Global Reference）
+
 ### Universal CDxO Priorities
 
 1. **Customer experience transformation at journey scale.** Reimagining end-to-end customer journeys across all channels (web, mobile, in-store/branch, call center, social, email, emerging channels) to create seamless, personalized, frictionless experiences. Thinking in journeys, not channels. Measuring in customer effort scores, NPS for digital interactions, digital adoption rates, conversion lifts, and digital revenue as a percentage of total. Post-COVID, the baseline has risen permanently — customers compare every digital experience to Amazon, Netflix, and their best banking app.
@@ -216,6 +245,17 @@ CDxOs today are navigating simultaneous pressure on transformation velocity, CFO
 ## 3. KPIs
 
 A CDxO's scorecard is measured in a blend of transformation progress, customer outcomes, and business impact — and the CDxO-career reality is that all three must move in the same period, or the mandate is in question.
+
+### 🇨🇳 中国CDxO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 渗透 | 核心业务数字化率/在线化率 | 国资委指标 |
+| 效率 | 流程自动化率/人工减少 | 降本增效 |
+| 平台 | 中台能力复用率/API调用量 | 中台是中国概念 |
+| AI | AI场景数/业务渗透率 | AI=数字化3.0 |
+
+### 全球CDxO参考（Global Reference）
 
 ### The Universal Scoreboard: Digital Revenue % + NPS + Time-to-Market
 
@@ -323,6 +363,18 @@ Across every industry, CDxOs volunteer three headline metrics more often than an
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CDxO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **中台投入大回报慢** | 建中台花了2-3年/几亿→业务没感觉 | 轻量化中台/低代码/API优先 |
+| **组织抵触** | 业务部门不配合数字化→"又来折腾" | 变革管理/quick win方案 |
+| **供应商碎片** | 50+供应商→集成噩梦→CDxO变项目经理 | iPaaS/集成平台/一体化方案 |
+| **政策考核压力** | 国资委/工信部有考核指标→CDxO要"交差" | 帮写考核报告/对标分析 |
+| **遗留系统** | 十几年老系统→不敢动→数字化断层 | 渐进式替代/API wrapper/微服务 |
+
+### 全球CDxO参考（Global Reference）
+
 ### Universal CDxO Pain Points
 
 - **Contested authority.** Broad transformation mandate but often limited direct control. Must lead through influence, coalition-building, and executive sponsorship. Every initiative requires building the coalition before starting.
@@ -361,6 +413,17 @@ Across every industry, CDxOs volunteer three headline metrics more often than an
 ## 5. AI Opportunities
 
 Specific ways AI can address CDxO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CDxO meeting.
+
+### 🇨🇳 中国CDxO的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **流程AI** | RPA+AI=智能流程自动化 | 中国流程(审批/报销/合同) |
+| **知识AI** | 企业知识库/智能问答/文档AI | 中文文档理解 |
+| **决策AI** | 经营分析/预测/异常预警 | 中国业务逻辑 |
+| **数字员工** | AI Agent/数字人/智能客服 | 中文对话/行业知识 |
+
+### 全球CDxO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -609,6 +672,17 @@ CDxOs are transformation leaders who think in architectures, roadmaps, and organ
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose should map to one or more of these CDxO-grade dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a VP Digital or Chief Experience Officer meeting, not a CDxO meeting.*
 
+### 🇨🇳 中国CDxO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 有行业数字化落地案例 | ❌ 只有demo |
+| ✅ 快速见效(3-6月) | ❌ 周期>2年 |
+| ✅ 支持国产化/信创 | ❌ 全是海外技术栈 |
+| ✅ 能对标行业水平(考核用) | ❌ 无法量化成效 |
+
+### 全球CDxO参考（Global Reference）
+
 CDxOs evaluate every initiative through a short list of outcome dimensions. These are the **criteria a CDxO uses to judge whether a specific proposal deserves their time, their budget, their political capital, and a place on the transformation roadmap.** Specificity against these earns CDxO attention.
 
 1. **Accelerated transformation velocity.** "How fast can this move us from where we are to where we need to be?" CDxOs don't have patience for 12-month implementations before first value. The mandate clock is ticking. Every outcome must specify how it accelerates a named transformation milestone.
@@ -641,6 +715,17 @@ CDxOs evaluate technology through a platform and transformation lens, not a feat
 
 They strongly prefer composable, cloud-native architectures over monolithic suites. They run structured evaluations but move faster than traditional IT procurement — 3–6 months for significant decisions, with pilots moving faster. They heavily value vendor expertise in organizational change management, not just technology. **Don't pitch features — pitch transformation acceleration with a composable architectural fit.**
 
+### 🇨🇳 中国CDxO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **战略视角** | 看全局/看roadmap |
+| **ROI驱动** | "数字化投了多少→回了多少" |
+| **生态思维** | 不只买单品——看平台/生态 |
+| **政策对标** | "同行做到什么水平了？" |
+
+### 全球CDxO参考（Global Reference）
+
 ### CDxO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -668,6 +753,17 @@ They strongly prefer composable, cloud-native architectures over monolithic suit
 The CDxO is an active, engaged buyer who builds a technology portfolio rather than making a single large platform bet. They strongly prefer pilot-first, "land and expand" models aligned with their phased transformation roadmap. Budget authority varies significantly — CDxOs with dedicated transformation budgets (common at CEO-sponsored transformations) have material signing authority up to several million dollars; CDxOs without dedicated budget must secure business-unit or IT funding for every initiative.
 
 Remember: a CDxO meeting is 45–60 minutes pulled from transformation program management, coalition building, CX delivery, or culture work. "No one else can champion this cross-functional transformation" is the only honest reason to be in the room.
+
+### 🇨🇳 中国CDxO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 数字化专项预算(往往很大) |
+| **决策** | CDxO主导+CEO背书(战略级) |
+| **触发** | 政策考核/竞品动作/CEO要求/新技术 |
+| **生态** | 用友/金蝶/明源/致远/泛微+云厂(阿里云/华为云) |
+
+### 全球CDxO参考（Global Reference）
 
 ### When the CDxO Engages Directly
 
@@ -796,6 +892,17 @@ The CDxO's buying process involves cross-functional stakeholder alignment — by
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on archetype, transformation stage, and what you already know. Do NOT use all questions in one meeting.*
 
+### 🇨🇳 中国CDxO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "数字化转型进展到哪个阶段了？" | 定位需求 |
+| "中台建了吗？效果怎么样？" | 中台优化/替代 |
+| "组织配合度怎么样？" | 变革管理需求 |
+| "考核指标完成情况如何？" | 帮他"交差" |
+
+### 全球CDxO参考（Global Reference）
+
 ### Universal Questions
 
 1. "What are the highest-priority customer journeys you're redesigning right now, and where are you in that transformation?"
@@ -842,6 +949,24 @@ The CDxO's buying process involves cross-functional stakeholder alignment — by
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CDxO关系地图
+
+```
+CDxO权力结构：
+┌─────────────────────────────────────┐
+│ CEO (数字化=一号工程)                 │
+├─────────────────────────────────────┤
+│ CDxO                                │ ← target
+├──────────┬──────────┬───────────────┤
+│ 数字化团队│ 中台/平台 │ 业务数字化    │
+├──────────┴──────────┴───────────────┤
+│ CIO/CTO (技术支撑)                   │
+│ 各业务VP (数字化需求方)               │
+└─────────────────────────────────────┘
+```
+
+### 全球CDxO参考（Global Reference）
 
 ### Core C-Suite Dynamics
 
@@ -900,6 +1025,24 @@ The CDxO's buying process involves cross-functional stakeholder alignment — by
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CDxO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 展示行业数字化成熟度对标 | CDxO需要benchmark |
+| 提供quick win+长期roadmap | 既要交差又要长期 |
+| 帮CDxO做内部汇报材料 | CDxO要跟CEO汇报 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 只卖单点工具 | CDxO看全局 |
+| 周期太长/ROI不清 | CDxO有考核压力 |
+| 不懂行业 | 数字化=行业+技术 |
+
+### 全球CDxO参考（Global Reference）
 
 ### ✅ DO
 
