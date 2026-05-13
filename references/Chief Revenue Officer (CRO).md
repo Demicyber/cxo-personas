@@ -518,60 +518,253 @@ The universal KPIs above apply everywhere, but each industry adds domain-specifi
 
 Specific ways AI can address CRO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CRO meeting.
 
-### Universal AI Value Levers for CROs
+### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
-These are the seven ways AI creates value that CROs care about — mapped directly to Priorities (Section 2) and the Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+> *Agent instruction: Use this subsection to calibrate your tone. CROs are under intense pressure to grow revenue while also improving sales efficiency. They're practical, metrics-driven buyers who've seen many "AI for sales" tools underdeliver. Frame your pitch around pipeline impact and quota attainment, not AI innovation.*
 
-1. **Forecast accuracy and deal-health intelligence at scale.** AI that analyzes engagement signals, buyer behavior, email sentiment, meeting frequency, stakeholder breadth, and competitor mentions to score deal health *independently of rep-entered stage* — giving the CRO a forecast grounded in behavioral data rather than rep judgment alone. *Agentic dimension:* Autonomous agents that continuously monitor every deal in the pipeline, flag risks (single-threaded, going dark, competitor displacement), and push alerts to the CRO and front-line managers *before* the deal is lost — without waiting for a rep to update CRM. This connects directly to the CRO's #1 private-scorecard anxiety: forecast accuracy.
+**The state of enterprise AI in 2025:**
 
-2. **Top-performer pattern replication across the middle 60%.** AI that captures, encodes, and systematically delivers the behaviors, talk tracks, objection handling, and engagement patterns of top performers to the rest of the team — through call coaching, guided playbooks, real-time meeting assistance, and AI-generated next-best-action recommendations. *Agentic dimension:* Always-on coaching agents that listen to calls, review emails, and compare rep behavior to the top-performer benchmark — then deliver specific, timely, actionable feedback *in the rep's workflow*, not in a separate coaching tool. This attacks the single largest revenue-leverage point: moving the middle.
+| Milestone | % of Enterprises | Source |
+|-----------|-----------------|--------|
+| Adopted AI in ≥1 function | 72% | McKinsey State of AI 2024 |
+| Regularly using GenAI (doubled in 10 months) | 65% | McKinsey State of AI 2024 |
+| Running 5+ AI pilots simultaneously | ~50% | Forrester AI Maturity 2024 |
+| Successfully moved any pilot to production | 20–30% | BCG/Deloitte/iResearch 2024 |
+| Scaled AI for significant financial ROI | ~10% | BCG "From Potential to Profit" 2024 |
+| Achieved enterprise-wide AI transformation | <5% | Accenture AI Maturity 2024 |
 
-3. **Pipeline generation and qualification intelligence.** AI that identifies high-propensity accounts, scores inbound leads based on behavioral and firmographic signals, automates outbound personalization at scale, and — critically — *disqualifies* low-quality pipeline early so reps spend time on deals that convert. *Agentic dimension:* Agents that autonomously research accounts, draft personalized outreach, enrich CRM records from public sources, and route qualified leads to the right rep at the right time — eliminating the SDR-level manual research and outreach that consumes the top of the funnel.
+**Gartner prediction (Oct 2024):** At least 30% of GenAI projects will be abandoned after proof-of-concept by end of 2025 — due to poor data quality, escalating costs, or unclear business value.
 
-4. **Deal execution and buyer-committee intelligence.** AI that maps buying committees from email signatures, LinkedIn, meeting attendees, and engagement data — identifying who is engaged, who is missing, who is the blocker, and who is the champion. *Agentic dimension:* Agents that automatically detect when a deal goes single-threaded (only one contact engaging), alert the rep, and suggest specific multi-threading tactics with pre-drafted outreach to the missing stakeholders. This directly addresses the #1 deal-loss pattern in enterprise sales: single-threading.
+**China-specific data point:** Chinese enterprises show 40% higher AI pilot initiation rates than global average, but production-scale deployment rates are 8–12% lower than US counterparts (Bain/Accenture 2024). The "高热度低转化" (high heat, low conversion) pattern is pronounced — over 100,000 AI trial projects with <25% reaching production (钛媒体 2024).
 
-5. **Revenue-operations automation and CRM hygiene.** AI that eliminates the administrative burden reps hate — auto-logging activities, auto-creating contacts, auto-updating deal stages based on behavioral signals, auto-generating call summaries, auto-populating fields — while simultaneously improving the data quality that the CRO's forecast depends on. *Agentic dimension:* "Zero-touch CRM" agents that keep the system of record accurate and current *without any rep data entry*, resolving the fundamental tension between "reps won't enter data" and "the CRO needs clean data to forecast." This is the single most adoption-friendly AI use case because it *removes* work from reps rather than adding it.
+**What CROs are actually saying:**
+- "I've deployed three AI sales tools this year. Adoption is 30%. My top reps ignore them because they're slower than their existing workflow."
+- "Don't tell me AI will 'transform selling.' Tell me how it helps my team hit quota THIS quarter."
+- "My forecast accuracy hasn't improved despite $2M in AI investment. The AI is only as good as the data my reps put in CRM — which is garbage."
+- 83% of B2B sales organizations have invested in AI tools, but only 28% report measurable revenue impact (Gartner Sales Practice 2024).
+- 61% of sellers say AI tools add to their administrative burden rather than reducing it (Salesforce State of Sales 2024).
 
-6. **Customer retention and expansion intelligence.** AI that monitors customer-health signals (usage patterns, support tickets, NPS, engagement frequency, executive-sponsor changes, competitive activity) and identifies expansion opportunities (upsell, cross-sell) based on product-usage patterns, peer comparisons, and lifecycle stage. *Agentic dimension:* Agents that detect churn risk early, trigger intervention workflows (CS escalation, executive engagement, save-offer), and surface expansion opportunities with pre-built business cases — turning the installed base from a passive asset into an active revenue engine. This directly drives the NRR metric that SaaS CROs are increasingly accountable for.
+**Field rule:** When preparing a Call Plan for a CRO, frame AI as a revenue acceleration and rep productivity problem. The CRO measures everything in pipeline, win rates, and quota attainment. If your pitch takes more than 30 seconds to connect to a revenue metric, you've lost the CRO. They don't care about AI — they care about making number.
 
-7. **Sales-enablement and competitive-intelligence automation.** AI that automatically curates and delivers the right content (case studies, battle cards, ROI calculators, pricing guidance) to the right rep at the right stage of the right deal — and keeps competitive intelligence current by monitoring competitor announcements, pricing changes, and customer signals. *Agentic dimension:* Agents that autonomously update battle cards when a competitor announces a new feature or price change, generate deal-specific competitive positioning, and deliver it to the rep *in the moment of need* (before a competitive-evaluation call, not in a quarterly enablement session). This compresses the time from competitive signal to rep action from weeks to hours.
+---
 
-### Quality Bar: How CROs Filter AI Pitches
+### 5.2 The Four Blockers — Why Enterprise AI Stalls
 
-CROs have been burned by AI vendors who promised "10x pipeline" and delivered a chatbot. The pattern across every industry is identical — CROs only take revenue AI seriously when it passes **five** tests simultaneously:
+> *Agent instruction: Use this as a diagnostic framework. The CRO owns revenue process and rep productivity. Their unique blocker is adoption — AI tools only create value if reps actually use them. The CRO's frustration is that AI tools exist but sellers won't use them because they add friction. Frame your discovery around adoption, workflow integration, and time-to-value for sellers.*
 
-1. **In production, not in pilot.** Deployed across a named sales org, running on live pipeline, with real reps using it daily. Pilots and "selected user groups" do not count.
-2. **Measured in a CRO-board-ready number.** A specific revenue metric moved by a specific amount — not "improved productivity" but "increased qualified pipeline 18% and win rate 3.2 points across 200 enterprise reps, sustained 6 months."
-3. **Rep-adopted, not manager-imposed.** If reps don't use it voluntarily, it failed. Usage data — DAU, actions per rep per day, voluntary vs. mandated — is the adoption metric CROs trust. A tool with 90% "login" but 15% daily active use is dead.
-4. **Integrated into the existing workflow (CRM, email, calendar).** Does not require reps to open another app, learn another interface, or add another step. Lives where reps already work.
-5. **Peer-proven, ideally with a named CRO reference.** "Here is what the CRO at [named company] saw after 6 months in production" outperforms any analyst report. CRO-to-CRO reference calls close deals. Sub-industry specificity matters.
+#### A. Organizational — "Too many tools, no integration"
 
-**Field rule:** If a CRO-level AI pitch cannot check all five — deployed, measured, rep-adopted, integrated, peer-proven — it reads as another demo. Lead with the peer already in production, with rep-adoption data, on a comparable CRM/tech stack.
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Sales tech stack bloat | Average enterprise has 12+ sales tools; reps use 4-5 actively | Gartner 2024 |
+| Marketing-sales alignment still broken | 67% of marketing-sales handoffs lose context or quality | McKinsey 2024 |
+| RevOps function immature | Only 30% of organizations have mature RevOps connecting marketing, sales, CS | Forrester 2024 |
+| CRO vs. CMO vs. CTO tension on AI | Multiple functions deploying customer-facing AI without coordination | Gartner 2024 |
+| Sales compensation doesn't reward AI adoption | Reps optimized for commission, not tool adoption; AI seen as "management surveillance" | Salesforce 2024 |
 
-### The 2025–2026 Reality Check
+**CRO lens:** "I have 12 tools my reps are supposed to use. They actually use email, phone, and LinkedIn. Every new AI tool is another thing they won't adopt. I need fewer tools that do more, not more tools that do less."
 
-The CRO AI mindset has shifted from "excited about the possibilities" to "frustrated by the promises." Revenue-AI vendors have been the most aggressive promisers and, in many cases, the least rigorous provers. CROs have lived through: conversational-intelligence tools that produced interesting call transcripts but didn't move win rates; lead-scoring models that were no better than the SDR's gut; forecasting AI that was less accurate than the front-line manager's spreadsheet; and email-writing assistants that produced generic content reps wouldn't send. The result is a deep trust deficit.
+**Who should own unblocking:** CRO (sales process + tool consolidation), CMO (marketing-sales alignment), CIO (tech stack integration), RevOps (cross-functional data flow).
 
-**Implication for the agent:** When preparing a Call Plan for a CRO, do NOT frame AI as a new opportunity to explore. Frame it as: "Here is how to get measurable revenue impact from AI within 90 days" or "Here is how to avoid the failure patterns that have burned your peers." The CRO's pain is not lack of AI — it is lack of AI *that reps actually use and that measurably moves the number.*
+#### B. People — "My top reps don't need AI; my bottom reps can't use it"
 
-### Industry-Specific AI Use Cases with Real ROI *(supporting evidence)*
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Rep adoption of AI tools low | Only 28% of sales reps regularly use AI tools provided to them | Salesforce State of Sales 2024 |
+| Top performers resist AI | A-players view AI as threat to their relationship-based approach | Gartner 2024 |
+| Skills gap in AI-assisted selling | Most reps lack skills to effectively use AI insights in conversations | McKinsey 2024 |
+| Manager coaching gap | Sales managers not trained to coach AI-augmented selling behaviors | Forrester 2024 |
+| China-specific: relationship-first selling | Chinese B2B sales heavily guanxi-based; AI seen as inappropriate for relationship selling (中国关系型销售) | 哈佛商业评论中文版 2024 |
 
-> *Examples below are from FY2024–FY2025 public disclosures and industry analyst data. They illustrate the type of deployed use case and the magnitude of impact a CRO finds credible — not current figures to cite verbatim. Agent must verify latest numbers and find comparable peer examples before including in a Call Plan.*
+**CRO lens:** "My top 20% of reps make 60% of revenue. They've built relationships over decades and view AI as a toy. My bottom 40% need help but lack the judgment to act on AI insights. I need AI that makes the middle 40% perform like the top 20% — that's where the revenue leverage is."
 
-| Industry Group | Use Cases | Real Examples | Impact |
-|----------|----------|---------------|--------|
-| **Technology & SaaS** | Conversational intelligence, deal scoring, AI-guided selling, automated outreach | Salesforce Agentforce deployed at $2/conversation; ServiceNow NowAssist for seller productivity; Gong/Clari AI deployed across top-20 SaaS revenue orgs | Rep productivity lift; forecast accuracy improvement; pipeline quality improvement |
-| **Manufacturing & Industrial** | Account-intelligence AI, proposal automation, channel-partner analytics, CPQ optimization | Siemens digital-sales transformation; Honeywell connected-selling program; Caterpillar dealer-intelligence platform | Cycle-time compression; cross-sell attachment; quote-to-close acceleration |
-| **Financial Services** | RFP-response automation, relationship intelligence, compliance-cleared communications, AML-aware client onboarding | JPMorgan AI-assisted sales coverage across commercial banking; BlackRock Aladdin-powered client intelligence; major insurers deploying AI underwriting-to-sales feedback loops | Wallet-share growth; RFP win rate; compliance-approved personalization at scale |
-| **Healthcare & Life Sciences** | HCP engagement optimization, clinical-evidence matching, formulary-intelligence, field-force optimization | J&J AI-driven HCP engagement; Medtronic AI territory optimization; major pharma deploying next-best-action for field reps | Call-plan optimization; evidence-to-deal attachment; formulary-win acceleration |
-| **Retail & Consumer / CPG** | Trade-promotion optimization, buyer-engagement scoring, new-product sell-in prediction, retail-media ROI | P&G AI-powered trade-spend optimization; Walmart supplier-intelligence tools; major CPGs deploying AI-driven category management | Trade-spend ROI improvement; sell-in velocity; buyer-meeting effectiveness |
-| **Professional & Business Services** | Proposal intelligence, utilization-aware pipeline management, relationship-strength scoring, partner-matching | Big Four firms deploying AI for proposal generation and pricing optimization; major consultancies using AI for resource-to-deal matching | Proposal win rate; utilization-aware pipeline; bill-rate optimization |
-| **Telecom & Media** | Churn-prediction-driven save offers, ARPU-optimization, subscriber-propensity scoring, ad-yield prediction | T-Mobile AI-driven retention; Netflix ML-powered subscriber economics; major carriers deploying AI for converged-bundle selling | Churn reduction; ARPU lift; ad-revenue yield improvement |
+**Who should own unblocking:** CRO (adoption mandate + coaching), Sales Enablement (training + change management), RevOps (tool integration into workflow).
 
-| Energy & Utilities | Commercial-margin optimization, PPA pipeline intelligence, energy-services cross-sell, regulatory-compliant pricing | Major utilities deploying AI for C&I customer retention and energy-services upsell; trading desks using ML for margin optimization | Margin improvement; services-revenue acceleration; customer-retention lift |
-| Transportation & Logistics | Yield-management AI, contract-logistics pricing, shipper-wallet-share intelligence, capacity-aware pipeline management | Airlines using ML for fare optimization; logistics companies deploying AI for contract-pricing and RFP response; shipping lines using predictive demand for capacity allocation | Yield improvement; RFP win rate; contract-renewal rate; capacity utilization |
+#### C. Technical — "CRM data is garbage"
 
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| CRM data quality poor | 70% of CRM data is incomplete, outdated, or inaccurate | Salesforce/Gartner 2024 |
+| Contact and account data decay | B2B contact data decays 30% annually (job changes, company changes) | ZoomInfo 2024 |
+| Sales activity data incomplete | Reps log <50% of actual customer interactions in CRM | Gong/Chorus 2024 |
+| Multiple systems of record | Customer data split across CRM, marketing automation, CS platform, billing | Forrester 2024 |
+| Real-time buying signal data missing | Intent data, engagement data, and usage data not accessible to sales AI | McKinsey 2024 |
 
+**CRO lens:** "My AI forecasting tool says we'll miss number by 15%. My gut and my managers say we'll hit it. I trust my managers because the AI is trained on garbage data. My reps don't update CRM because it takes time away from selling — and I can't blame them."
+
+**Who should own unblocking:** CRO (CRM data discipline), RevOps (data hygiene + automation), CIO (system integration), CDO (customer data quality).
+
+#### D. Process — "AI doesn't fit how we sell"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI tools add friction to sales workflow | 61% of sellers say AI adds admin burden | Salesforce 2024 |
+| Sales process not standardized enough for AI | AI works best on repeatable processes; complex B2B sales are highly variable | Gartner 2024 |
+| Forecasting methodology not AI-ready | Most forecasting still relies on rep judgment + manager override; AI forecast ignored | McKinsey 2024 |
+| Deal inspection process unchanged | AI deal scoring exists but sales managers still use gut-feel in pipeline reviews | Forrester 2024 |
+| Lead/opportunity routing not optimized | AI can score leads but routing rules are static and political | Gartner 2024 |
+
+**CRO lens:** "My sales process has 200 variations because every deal is different. AI tools want a repeatable process to optimize — but my best reps succeed BECAUSE they adapt to each situation. I need AI that handles the admin so reps can focus on the human relationship part."
+
+**Who should own unblocking:** CRO (process standardization where appropriate), RevOps (AI-ready process design), Sales Enablement (coaching on AI-augmented selling).
+
+**Field rule for the agent:** In the Call Plan Discovery section, ask the CRO: "What's your current rep adoption rate for sales AI tools?" and "Where do your reps spend time that doesn't directly move deals forward?" These reveal adoption reality and efficiency opportunity — the two entry points for AI value.
+
+---
+
+### 5.3 Universal AI Value Levers for CROs
+
+These are the seven ways AI creates value that CROs care about — mapped directly to the CRO's Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+
+1. **Pipeline generation & prospecting.** AI that identifies ideal prospects, enriches account intelligence, generates personalized outreach, and books meetings without adding to rep workload. *Agentic dimension:* Prospecting agents that autonomously research target accounts, identify buying triggers, craft personalized multi-touch sequences, manage responses, and book qualified meetings — effectively giving every rep an AI SDR.
+
+2. **Deal intelligence & coaching.** AI that analyzes deal health, predicts outcomes, identifies risk signals, and provides real-time coaching to improve win rates. *Agentic dimension:* Deal intelligence agents that monitor all deal signals (email sentiment, call tone, engagement patterns, stakeholder activity), proactively alert on deal risk, suggest next-best-actions, and coach reps in real-time during customer interactions.
+
+3. **Revenue forecasting & planning.** AI that produces accurate forecasts by analyzing deal signals, historical patterns, and pipeline health — beyond rep self-reporting. *Agentic dimension:* Forecasting agents that continuously update predictions based on real-time signals, model scenario impacts, identify forecast risk, and generate recommended actions to close gaps — making forecasting continuous rather than weekly.
+
+4. **Sales productivity & admin elimination.** AI that eliminates non-selling activities — CRM updates, call logging, email drafting, research, meeting prep, and follow-up generation. *Agentic dimension:* Seller productivity agents that handle all administrative tasks autonomously: auto-update CRM from calls/emails, generate meeting summaries, prepare account briefs, draft follow-ups, and manage task lists — giving reps 30%+ more selling time.
+
+5. **Customer expansion & retention.** AI that identifies expansion opportunities in existing accounts, predicts churn risk, and generates cross-sell/upsell recommendations. *Agentic dimension:* Account expansion agents that monitor customer usage, identify expansion triggers, generate business cases for upsell, and coordinate with customer success — turning reactive account management into proactive revenue growth.
+
+6. **Pricing & deal structuring intelligence.** AI that recommends optimal pricing, identifies discount sensitivity, and suggests deal structures that maximize both win probability and deal value. *Agentic dimension:* Pricing agents that analyze competitive positioning, customer willingness-to-pay, and deal dynamics to recommend real-time pricing/packaging adjustments — maximizing both win rate and deal size simultaneously.
+
+7. **Sales enablement & knowledge.** AI that surfaces relevant content, competitive intelligence, and customer insights at the moment of need — in the rep's workflow, not in a separate tool. *Agentic dimension:* Knowledge agents that proactively surface relevant battle cards, case studies, technical answers, and competitive positioning during live customer conversations — making every rep as knowledgeable as the best rep.
+
+---
+
+### 5.4 Quality Bar: How CROs Filter AI Pitches
+
+CROs are the most metrics-driven buyers in the C-suite — everything connects to revenue. The pattern across every sales organization is identical — CROs only take AI seriously when it passes four revenue tests simultaneously:
+
+1. **Revenue impact quantified and attributable.** Not "improves productivity" but "$3.2M incremental pipeline generated per quarter from 50 reps using the tool." The CRO's board slide needs a number. If you can't give them one from a peer deployment, you're not ready for this conversation.
+2. **Rep adoption demonstrated, not just deployed.** Not "rolled out to 500 reps" but "78% weekly active usage after 6 months with measurable behavior change." The CRO has seen dozens of tools deployed-but-ignored. Adoption evidence is non-negotiable.
+3. **Time-to-value under 90 days.** The CRO lives in quarterly cycles. If the tool takes 6 months to show results, it won't survive the next pipeline review. Demonstrate value within one sales cycle or the CRO will cancel.
+4. **Fits existing sales workflow with zero friction.** Adds zero clicks, zero tabs, zero admin. Works inside the tools reps already use (CRM, email, calendar). If reps have to change their workflow to use it, they won't.
+
+**Field rule:** If a CRO-level AI pitch cannot check all four — revenue-quantified, adoption-proven, fast-to-value, zero-friction — it reads as another sales tool that will join the graveyard of unused tech. Lead with the revenue impact number from a peer deployment. When generating Call Plan Section 4, ensure every AI story includes: (a) revenue/pipeline impact in dollars, (b) rep adoption rate at a peer org, (c) time from deployment to measurable impact, (d) how it integrates into existing sales workflow.
+
+---
+
+### 5.5 Industry AI Opportunity Map
+
+> *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a CRO in a specific industry. Tier 1 = safe to lead with (proven, peer-deployed, immediate ROI). Tier 2 = lead with only if the CRO is forward-leaning or has already deployed Tier 1. Tier 3 = mention only if explicitly asked about long-term bets.*
+
+**Tiering Framework — Classification Logic**
+
+| Tier | Label | Competitive Logic | Investment Posture | Typical Horizon |
+|------|-------|------------------|-------------------|-----------------|
+| **1** | **Table Stakes** | Competitors already deploying at scale; not investing = falling behind | Fund now; scale aggressively | 0–12 months to value |
+| **2** | **Differentiator** | Creates competitive distance; requires proprietary data or capability | Invest selectively; pilot → scale | 12–36 months to value |
+| **3** | **Transformational** | Reshapes industry economics or business model | Fund as strategic option; bounded exploration | 3–7+ years to value |
+
+#### Manufacturing & Industrial
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Discrete Manufacturing / Digital Industries | Technical Sales Intelligence | **Tier 1 — Table Stakes** | Account mapping for complex buying committees, solution configuration AI, technical proposal generation | Siemens: digital sales tools for industrial buyers; industry-wide ABM + AI for manufacturing sales | Pipeline velocity for complex sales |
+| Discrete Manufacturing / Heavy Equipment | Dealer Channel Revenue AI | **Tier 1 — Table Stakes** | Dealer performance prediction, inventory-demand matching, financing propensity scoring | Caterpillar: dealer intelligence; John Deere digital sales tools; channel revenue optimization | Channel revenue optimization |
+| Automotive OEM | Fleet & Commercial Sales AI | **Tier 2 — Differentiator** | Fleet customer scoring, total-cost-of-ownership modeling, service contract optimization | BMW/Mercedes fleet sales AI; BYD commercial fleet targeting (中国) | Commercial customer acquisition |
+| All Manufacturing | Aftermarket & Service Revenue AI | **Tier 1 — Table Stakes** | Service contract renewal prediction, spare parts demand, installed-base monetization | Industry-wide: installed-base revenue is 30-50% higher margin than equipment sales | Recurring revenue growth |
+
+> **Agent field rule:** Manufacturing CROs manage long sales cycles (6-18 months), complex buying committees (5-12 stakeholders), and dealer/channel complexity. Lead with technical sales intelligence and aftermarket revenue (Tier 1). The CRO's unique challenge: solution selling requires deep technical knowledge AI can provide at scale.
+
+#### Financial Services
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Banking | Relationship Manager Productivity | **Tier 1 — Table Stakes** | Client intelligence, next-best-action for RMs, meeting prep AI, client portfolio insights | JPMorgan: AI tools for client advisors; Morgan Stanley: GPT-4 for 16K advisors (98% adoption) | RM revenue per client |
+| Banking | Commercial Banking Sales AI | **Tier 1 — Table Stakes** | Credit opportunity identification, cross-sell scoring, treasury management lead generation | Industry-wide: commercial banking AI for product cross-sell across business clients | Product penetration per client |
+| Insurance / Financial Ecosystem | Distribution Channel Optimization | **Tier 1 — Table Stakes** | Agent performance scoring, lead routing optimization, product recommendation for agents | Ping An: AI-powered agent productivity tools; Allianz distribution optimization | Agent revenue productivity |
+| FinTech | Product-Led Sales & Expansion | **Tier 1 — Table Stakes** | Usage-to-paid conversion signals, expansion triggers, self-serve revenue optimization | Stripe: usage-based expansion; industry-wide PLG + AI for conversion optimization | Self-serve revenue growth |
+
+> **Agent field rule:** Financial Services CROs manage relationship-based revenue models. Lead with RM productivity and client intelligence (Tier 1 — Morgan Stanley's 98% advisor adoption is the proof point). The CRO's unique challenge: regulated selling processes (suitability, KYC) that AI must respect.
+
+#### Technology & Digital Native
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Enterprise SaaS | Pipeline Generation AI | **Tier 1 — Table Stakes** | Intent-based prospecting, AI SDR, personalized outreach at scale, meeting booking automation | Industry-wide: 6sense, Outreach, Apollo — AI prospecting standard in SaaS sales | Pipeline generation efficiency |
+| Enterprise SaaS | Deal Intelligence & Forecasting | **Tier 1 — Table Stakes** | Deal health scoring, forecast AI, risk signals, conversation intelligence | Gong: conversation intelligence across 4,000+ companies; Clari: AI forecasting | Win rate + forecast accuracy |
+| Enterprise SaaS | Expansion & Net Revenue Retention | **Tier 1 — Table Stakes** | Usage-based expansion signals, churn prediction, health scoring, expansion playbooks | Industry-wide: NRR optimization is top CRO metric for SaaS (130%+ target) | Net revenue retention |
+| Consumer Platform / Marketplace | Sales & Partnerships Revenue | **Tier 2 — Differentiator** | Advertiser revenue optimization, partner scoring, marketplace monetization | Uber/Airbnb: advertising/partnership revenue AI; platform monetization | Platform revenue diversification |
+
+> **Agent field rule:** Tech CROs (especially SaaS) are the most AI-mature sales leaders. Lead with pipeline generation and deal intelligence (Tier 1 — standard in SaaS). The CRO's unique metric: net revenue retention (NRR). If you can show NRR improvement, you have the CRO's attention immediately.
+
+#### Retail & Consumer
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Mass Retail / Grocery | Vendor/Supplier Revenue Optimization | **Tier 1 — Table Stakes** | Vendor negotiation intelligence, co-marketing optimization, retail media sales | Walmart Connect ($3.4B): AI-optimized retail media sales; industry-wide RMN revenue | High-margin revenue stream |
+| E-commerce / Marketplace | Seller Acquisition & Revenue Growth | **Tier 1 — Table Stakes** | Seller targeting, onboarding optimization, seller success scoring | Amazon/Shopify: seller revenue growth AI; marketplace GMV optimization | Platform GMV growth |
+| Consumer Packaged Goods (CPG) | Trade Spend & Revenue Growth Management | **Tier 1 — Table Stakes** | Trade promotion optimization, retailer negotiation intelligence, price-pack-channel optimization | P&G/Unilever: revenue growth management platforms; 3-5% revenue uplift from optimization | Trade spend ROI + revenue growth |
+
+> **Agent field rule:** Retail CROs manage vendor relationships (retail) or B2B2C revenue (CPG). Lead with retail media/trade optimization (Tier 1 — proven revenue). The unique challenge: retail media is the fastest-growing, highest-margin revenue stream for retailers — the CRO who owns this owns growth.
+
+#### Healthcare
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Pharma / Biopharma | Sales Force Effectiveness AI | **Tier 1 — Table Stakes** | HCP targeting, call planning AI, territory optimization, next-best-action for reps | Veeva: AI CRM for pharma; industry-wide AI adoption for HCP engagement | Rep productivity + market share |
+| Pharma / Biopharma | Key Account Management AI | **Tier 2 — Differentiator** | IDN/health system account intelligence, formulary access strategy, stakeholder mapping | Industry-wide: key account management AI for health system selling | Strategic account revenue |
+| MedTech / Medical Devices | Procedure Volume & Territory AI | **Tier 1 — Table Stakes** | Procedure volume prediction, surgeon targeting, capital equipment pipeline management | Medtronic/J&J MedTech: territory intelligence; procedure-based revenue forecasting | Territory revenue optimization |
+| Payer / Managed Care | Enterprise Sales & Renewal AI | **Tier 2 — Differentiator** | Employer account renewal prediction, benefit plan recommendation, broker channel AI | UnitedHealth: enterprise sales optimization; industry-wide broker channel AI | Retention + new business |
+
+> **Agent field rule:** Pharma/MedTech CROs manage unique sales models (rep-to-HCP, device-to-surgeon, enterprise-to-health-system). Lead with sales force effectiveness (Tier 1 — Veeva dominance proves the market). The unique constraint: PhRMA code, Sunshine Act, and compliance requirements that ALL sales AI must respect.
+
+#### Energy & Utilities
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Oil & Gas (Integrated) | B2B Commercial Sales AI | **Tier 2 — Differentiator** | Industrial customer intelligence, contract renewal prediction, volume optimization | Shell: B2B lubricants/chemicals sales AI; industry emerging | Commercial revenue optimization |
+| Renewables / Utilities | C&I Customer Acquisition | **Tier 1 — Table Stakes** | Commercial/industrial customer targeting, DER solution selling, energy-as-a-service sales | NextEra: C&I renewable energy sales; industry-wide clean energy B2B growth | Clean energy revenue growth |
+
+> **Agent field rule:** Energy CROs are emerging roles (utilities historically didn't have revenue growth mandates). Lead with C&I acquisition for renewables (Tier 1 — growth area). For O&G, commercial sales optimization is the relevant conversation.
+
+#### Telecom & Media
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Telecom / Connectivity | Enterprise Sales Intelligence | **Tier 1 — Table Stakes** | Enterprise account scoring, solution configuration AI, contract renewal prediction | T-Mobile/AT&T: enterprise sales AI; complex multi-product selling optimization | Enterprise revenue growth |
+| Telecom / Connectivity | Retail & Consumer Sales AI | **Tier 1 — Table Stakes** | Propensity-to-buy scoring, plan upgrade targeting, device upgrade timing | Industry-wide: subscriber revenue optimization AI in all major telcos | ARPU improvement |
+| Media / Entertainment | Advertising Revenue AI | **Tier 1 — Table Stakes** | Ad yield optimization, advertiser targeting, dynamic pricing for ad inventory | Disney/Spotify: programmatic ad revenue AI; inventory optimization | Advertising revenue growth |
+
+> **Agent field rule:** Telecom CROs manage dual revenue streams (consumer ARPU + enterprise contracts). Lead with enterprise sales intelligence and consumer propensity scoring (Tier 1 — revenue on both sides). The CRO's challenge: commodity pricing pressure requiring AI to find value-based selling opportunities.
+
+#### Transportation & Logistics
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Logistics / Express Delivery | Enterprise Logistics Sales | **Tier 1 — Table Stakes** | Shipper acquisition, volume prediction, contract optimization, customer wallet-share growth | FedEx/UPS: enterprise sales AI for logistics contracts; customer intelligence | Enterprise logistics revenue |
+| Shipping / Supply Chain | Commercial & Contract Sales AI | **Tier 2 — Differentiator** | Rate optimization, spot vs. contract revenue management, customer profitability scoring | Maersk: commercial sales optimization; container shipping revenue management | Revenue per TEU optimization |
+| Airlines / Aviation | Revenue Management & Sales | **Tier 1 — Table Stakes** | Dynamic pricing optimization, corporate account management, ancillary revenue generation | Delta: revenue management excellence; $1B+ in ancillary revenue optimization | Revenue per available seat mile |
+
+> **Agent field rule:** Transport CROs manage yield/revenue management that is among the most AI-mature in any industry (airlines pioneered dynamic pricing). Lead with enterprise sales and yield management (Tier 1 — decades of precedent). The CRO's unique challenge: balancing spot vs. contract revenue across volatile markets.
+
+---
+
+### 5.6 Agentic AI — The 2025-2026 Frontier
+
+> *Agent instruction: Use this subsection when a CRO asks "what's next after the point tools we've deployed?" or when the target account has deployed sales AI and wants orchestration across the revenue cycle.*
+
+**What it is:** AI systems that autonomously plan, execute multi-step tasks, use tools, and adapt based on feedback — moving beyond copilots (human-in-the-loop) to autonomous action (human-on-the-loop or human-out-of-the-loop for defined workflows).
+
+**Analyst positioning:**
+- Gartner: #1 Strategic Technology Trend 2025. Predicts 33% of enterprise software will include agentic AI by 2028 (up from <1% in 2024). 15% of day-to-day work decisions made autonomously by 2028.
+- McKinsey: Agentic AI is the "next S-curve" after copilots — expected to deliver 3–5x the value of current AI assistants by handling full workflows.
+- Salesforce Agentforce: Leading vendor positioning autonomous sales agents as the next CRM paradigm.
+
+**Sequencing (what's ready when):**
+
+| Phase | Timeframe | What It Looks Like | Risk Level | Example Sales Use Cases |
+|-------|-----------|-------------------|------------|------------------------|
+| **Agent Copilots** | Deployed now | AI suggests actions, human approves; single-system tool use | Low | Email drafting, call prep, CRM data suggestions, competitive intelligence lookup |
+| **Task Agents** | 2025–2026 | Autonomous execution of defined workflows; human oversight on exceptions | Medium | AI SDR (prospect → qualify → book meeting), automated proposal generation, CRM auto-update from calls, meeting follow-up |
+| **Orchestrator Agents** | 2026–2027 | Multi-agent coordination across systems; human sets goals, agents determine path | Medium-High | Full deal management (research → outreach → qualify → propose → negotiate → close), cross-system revenue orchestration, autonomous account expansion |
+| **Autonomous Agents** | 2028+ | Self-directed agents managing revenue processes end-to-end | High | AI-run revenue operations, autonomous customer lifecycle management, self-optimizing revenue engine |
+
+**CRO pitch framing:** "Your reps spend 64% of their time on non-selling activities. Task agents that handle prospecting-to-meeting-booking and post-call admin are production-ready now. This isn't replacing your sellers — it's giving each of them an AI teammate that handles everything except the human conversation. The CROs who deploy this first get 30%+ more selling time per rep without hiring."
+
+**Field rule:** Position agentic AI for CROs as "giving every rep an AI teammate." This resonates because the CRO can't hire fast enough and can't afford to waste expensive rep time on admin. The framing must be: "AI handles non-selling activities so reps can focus 100% on customers." Never frame it as replacing sellers — frame it as giving each seller a support team they couldn't otherwise afford.
 
 ---
 
