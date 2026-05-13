@@ -35,6 +35,23 @@ The modern CHRO is a strategic business partner who sits at the executive table,
 
 What makes selling to the CHRO unique: they are simultaneously the most empathetic and the most data-hungry buyer in the C-suite. Empathetic because their identity is built on understanding human motivation and organizational dynamics. Data-hungry because every program must be justified with quantifiable impact — engagement scores, turnover rates, cost-per-hire, revenue-per-employee. Vendors who appeal only to emotion without analytics get a warm reception and no PO. Vendors who lead only with metrics without understanding the human dimension feel transactional. You need both.
 
+### 🇨🇳 中国CHRO原型补充
+
+| 企业类型 | CHRO角色 | 核心挑战 | 中国特色 |
+|---------|--------|---------|---------|
+| **央企** | "人力资源部部长/组织部干部" | 组织管控+干部管理+编制控制 | 党管干部=干部选拔有政治标准 |
+| **大型民企** | "CHO/HRVP" | 组织效能+人才密度+激励体系 | 996/内卷争议+劳动仲裁增多 |
+| **互联网** | "People VP/HRBP负责人" | 裁员沟通+组织架构调整+文化 | 大规模裁员后的留人+士气 |
+| **外企中国区** | "HR Director China" | 本地合规+global政策执行 | 中国劳动法保护强→裁员难/成本高 |
+| **制造业** | "HR总监" | 招工+培训+安全培训 | 工人招不到+"新生代"管理 |
+
+#### 中国CHRO的法律环境
+- **劳动合同法**: 无固定期限合同/N+1赔偿/末位淘汰违法
+- **社保合规**: 五险一金全额缴纳(金税四期比对)
+- **劳动仲裁**: 员工维权意识强+仲裁对员工友好(90%胜率)
+
+### 全球CHRO参考（Global Reference）
+
 ### CHRO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CHRO *leans*, not what industry they're in. Most real CHROs are blends, weighted differently by moment and by the problem on their desk. A tech CHRO under activist pressure is an Optimizer even though technology. A manufacturing CHRO during a major acquisition is a Builder + Transformer. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -118,6 +135,18 @@ Only the CHRO is personally accountable to **all four simultaneously in every de
 
 CHROs today navigate the most significant workforce transformation since the Industrial Revolution. The *themes* are universal; the specifics vary by industry. Lead with the universal pattern, then adapt the evidence.
 
+### 🇨🇳 中国CHRO优先级
+
+| 排序 | 央企CHRO | 大型民企CHRO | 外企中国区CHRO |
+|------|---------|-----------|-------------|
+| #1 | **编制管控+干部管理** | **降本增效(人效提升)** | **劳动合规(裁员/社保)** |
+| #2 | **组织架构调整** | **核心人才保留** | **薪酬竞争力** |
+| #3 | **薪酬体系(限薪令)** | **组织效能/扁平化** | **Global政策本地化** |
+| #4 | **党建+干部考核** | **AI赋能HR** | **文化建设** |
+| #5 | **培训/技能提升** | **雇主品牌** | **人才发展** |
+
+### 全球CHRO参考（Global Reference）
+
 ### Universal CHRO Priorities
 
 1. **AI workforce transformation over traditional automation.** Not "should we use AI?" but "how fast can we operationalize AI across the workforce while managing displacement anxiety?" Determining which roles will be augmented, displaced, or newly created by AI. Reskilling employees, redesigning jobs, and managing organizational anxiety about displacement — while the CEO demands AI benefits immediately. This is the defining people challenge of the decade.
@@ -175,6 +204,17 @@ CHROs today navigate the most significant workforce transformation since the Ind
 ## 3. KPIs
 
 The CHRO's metrics span the entire employee lifecycle and increasingly link to business outcomes. Read it in two layers: the board-facing KPIs and the private scorecard — the second layer is what separates a CHRO from an HR director.
+
+### 🇨🇳 中国CHRO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 效能 | 人均营收/人均利润 | "毕业"潮后极度关注 |
+| 合规 | 劳动仲裁案件数/赔偿金额 | 仲裁量年增15%+ |
+| 成本 | 人力成本占收入比/社保合规率 | 金税四期倒逼全额缴纳 |
+| 保留 | 核心人才离职率 | 竞业协议使用率高 |
+
+### 全球CHRO参考（Global Reference）
 
 ### The Universal Scoreboard: Employee Engagement + Voluntary Turnover + Time-to-Fill
 
@@ -268,6 +308,18 @@ Across every industry in the research, CHROs volunteer three headline metrics mo
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CHRO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **裁员难/成本高** | N+1底线，实际2N-3N；仲裁90%判员工赢 | 合规裁员方案/灵活用工 |
+| **社保合规压力** | 金税四期比对社保/个税/工资 | 薪酬合规平台 |
+| **核心人才流失** | 大厂裁员后人才市场活跃→互挖 | 保留方案/薪酬benchmarking |
+| **灵活用工风险** | 外包/众包——劳动关系认定风险 | 合规灵活用工平台 |
+| **AI替代焦虑** | 员工焦虑+工会压力 | AI人才转型方案 |
+
+### 全球CHRO参考（Global Reference）
+
 ### Universal CHRO Pain Points
 
 - **Talent competition for specialized skills.** Acute competition for software engineering, data science, AI/ML, cybersecurity, and product roles. These professionals have abundant options and high leverage. Even the best EVP may not compete with companies that simply outbid on compensation.
@@ -345,6 +397,18 @@ Across every industry in the research, CHROs volunteer three headline metrics mo
 ## 5. AI Opportunities
 
 Specific ways AI can address CHRO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CHRO meeting.
+
+### 🇨🇳 中国CHRO的AI场景
+
+| 场景 | 应用 | 中国特殊性 |
+|------|------|-----------|
+| **AI招聘** | 简历筛选/AI面试/人才画像 | 需注意就业歧视法规 |
+| **AI培训** | 个性化学习/AI教练/知识库 | 党建/合规培训=刚需 |
+| **AI薪酬** | 竞争力分析/调薪建议 | 适配中国薪酬结构(基本+绩效+社保) |
+| **AI合规** | 合同预警/工时检测/仲裁预测 | 中国劳动法复杂→AI合规价值高 |
+| **People Analytics** | 离职预测/效能分析 | 个保法限制数据采集 |
+
+### 全球CHRO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -609,6 +673,17 @@ CHROs have been burned by HR technology vendors promising "transformation" that 
 
 These are the outcomes CHROs are willing to invest in — the "what does success look like" that justifies budget, change management effort, and executive attention. Each outcome is stated in the language a CHRO uses when presenting to their CEO and board.
 
+### 🇨🇳 中国CHRO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 符合中国劳动法/个保法 | ❌ 员工数据出境 |
+| ✅ 适配中国薪酬/社保结构 | ❌ 只有英文界面 |
+| ✅ 跟钉钉/飞书/企微集成 | ❌ 只跟Slack/Teams集成 |
+| ✅ 支持中国假期/工时 | ❌ 不支持五险一金计算 |
+
+### 全球CHRO参考（Global Reference）
+
 ### 1. Reduced regrettable attrition in critical roles
 
 - **What it means in practice.** Each high performer retained avoids $200–400K+ in replacement costs (recruiting, onboarding, ramp time, lost productivity, institutional knowledge) and preserves team stability. A drop from 18% to 14% voluntary turnover on 1,000 employees = ~$10M in avoided costs annually. This is a CFO-ready business case.
@@ -651,6 +726,17 @@ These are the outcomes CHROs are willing to invest in — the "what does success
 
 The CHRO evaluates technology through a unique lens that combines employee experience, data capability, change cost, and compliance. Understanding this lens is critical — the CHRO's evaluation criteria are fundamentally different from the CIO's (architecture-first) or the CFO's (cost-first).
 
+### 🇨🇳 中国CHRO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **业务视角** | "能提升多少人效？减少多少HC？" |
+| **合规优先** | "数据泄露谁负责？" |
+| **员工体验** | "员工愿意用吗？" |
+| **本地化** | "支持中国社保/公积金吗？" |
+
+### 全球CHRO参考（Global Reference）
+
 ### The Five CHRO Evaluation Lenses
 
 1. **"Does this improve the employee experience — or is it one more system employees hate?"** They've seen too many tools that serve admin needs while frustrating end users. They often request employee beta testing before purchase. The employee-facing experience is evaluated before the admin dashboard.
@@ -688,6 +774,17 @@ CHROs process information differently depending on their archetype. Calibrate yo
 ## 8. Buying Dynamics
 
 The CHRO is the primary buyer for all HR technology and a critical influencer on any enterprise technology that affects employees. Understanding the CHRO's buying authority, delegation patterns, and multi-stakeholder dynamics is essential.
+
+### 🇨🇳 中国CHRO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | HR部门预算(非IT) |
+| **决策** | CHRO主导，CFO审批 |
+| **触发** | 裁员/合规问题/政策变化 |
+| **生态** | 北森/Moka/薪人薪事/盖雅/飞书People |
+
+### 全球CHRO参考（Global Reference）
 
 ### Budget and Authority
 
@@ -801,6 +898,18 @@ Every CHRO, regardless of industry or archetype, will raise five consistent obje
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the CHRO's archetype, the current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a CHRO meeting is 30–45 minutes, not an interrogation.*
 
+### 🇨🇳 中国CHRO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "人效提升压力大吗？" | 降本需求 |
+| "劳动仲裁案件多吗？" | 合规场景 |
+| "核心人才流失头疼吗？" | 留人方案 |
+| "HR系统满意吗？" | 替换机会 |
+| "灵活用工合规有没有担心？" | 灵活用工 |
+
+### 全球CHRO参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "What are your top three workforce challenges right now — the ones the CEO is asking you to solve?"
@@ -850,6 +959,24 @@ Every CHRO, regardless of industry or archetype, will raise five consistent obje
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CHRO关系地图
+
+```
+CHRO权力结构：
+┌─────────────────────────────────────┐
+│ CEO/总裁                            │
+├─────────────────────────────────────┤
+│ CHRO/HRD                            │ ← target
+├──────────┬──────────┬───────────────┤
+│ 招聘      │ HRBP     │ C&B/SSC      │
+├──────────┴──────────┴───────────────┤
+│ 业务VP (HC需求方)                    │
+│ CFO (成本审批)  │ 法务 (劳动法合规)  │
+└─────────────────────────────────────┘
+```
+
+### 全球CHRO参考（Global Reference）
 
 ### Core CHRO Dynamics
 
@@ -916,6 +1043,26 @@ Every CHRO, regardless of industry or archetype, will raise five consistent obje
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CHRO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 了解中国劳动法 | CHRO核心焦虑 |
+| 说"人效"不说裁员 | 政治正确 |
+| 提供中国客户案例 | HR本地化要求高 |
+| 跟HRBP建立关系 | 日常使用者+推荐者 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 说"AI替代HR" | 威胁他的部门 |
+| 用美国产品硬套 | 劳动法/社保完全不同 |
+| 忽视数据隐私 | 员工数据=个保法管辖 |
+| 不懂社保谈薪酬 | 五险一金是核心 |
+
+### 全球CHRO参考（Global Reference）
 
 ### ✅ DO
 
