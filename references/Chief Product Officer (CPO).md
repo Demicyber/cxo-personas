@@ -53,6 +53,23 @@ The CPO role varies dramatically by company type and maturity, and **diagnosing 
 
 What distinguishes the CPO from every other buyer is that they evaluate **through the lens of adoption and strategic fit first, capability second.** A brilliant tool their PMs won't adopt is worthless. A mediocre tool their PMs already use is entrenched. The CPO evaluates vendors not just on the product itself but on how the tool fits the team's existing operating rhythm — their planning cycles, their research cadence, their analytics workflow, their collaboration patterns. A vendor pitching a CPO without understanding their actual day-to-day product development operating model gets categorized as "doesn't get it" in the first 15 minutes.
 
+### 🇨🇳 中国CPO原型补充
+
+| 企业类型 | CPO角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **互联网** | "CPO/产品VP" | 产品战略+用户增长+商业化 | 产品经理"内卷"最严重的行业 |
+| **SaaS** | "产品VP" | 产品-市场匹配+客户需求 | 中国SaaS客户要定制→标准化难 |
+| **外企中国区** | "China Product Lead" | Global产品本地化 | 中国需求vs总部roadmap冲突 |
+| **传统企业数字化** | "数字化产品负责人" | 内部产品/中台 | 中台概念(阿里发起)→建中台vs拆中台 |
+
+#### 中国CPO独特挑战
+- **抄袭速度快**: 功能上线→竞品2周抄完→差异化难
+- **客户要定制**: 尤其B2B——每个大客户要定制=产品标准化的敌人
+- **数据合规**: 个保法+数据安全法→产品设计必须考虑合规
+- **出海**: 产品出海(东南亚/中东/拉美)=新增长点
+
+### 全球CPO参考（Global Reference）
+
 ### CPO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CPO *leans*, not what industry they are in. Most real CPOs are blends, weighted differently by the company's stage and the CPO's personal background. A Series B SaaS CPO is usually Visionary. A public-company SaaS CPO is usually Operator + Growth. A post-acquisition CPO is usually Transformer. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -167,6 +184,18 @@ The CPO is the only C-suite role that takes **roadmap input from four internal f
 
 CPOs today navigate the most compressed product-strategy cycle in the role's history. The AI platform shift is simultaneously (a) redefining what products *should* do, (b) resetting customer expectations for every product, and (c) reshaping every product team's operating model — all at the same time, with the category they built their product for potentially shifting under their feet. The *themes* are universal; the specifics vary by sub-industry.
 
+### 🇨🇳 中国CPO优先级
+
+| 排序 | 互联网CPO | SaaS CPO | 外企中国区 |
+|------|---------|---------|-----------|
+| #1 | **用户增长/留存** | **客户续约/NPS** | **本地化roadmap** |
+| #2 | **商业化变现** | **标准化vs定制平衡** | **中国合规适配** |
+| #3 | **AI产品化** | **AI能力嵌入** | **跟总部争优先级** |
+| #4 | **竞品差异化** | **产品-Sales对齐** | **竞品对标(本地)** |
+| #5 | **出海** | **平台化/开放** | **创新孵化** |
+
+### 全球CPO参考（Global Reference）
+
 ### Universal CPO Priorities
 
 1. **AI-native product strategy, not AI-sprinkled product strategy.** The defining question: which workflows does the product *fundamentally* change under AI, and which are simply enhanced? Visionary CPOs are redesigning from first principles ("what would this product look like if designed AI-native in 2025?"). Operator CPOs are surgically identifying 2-4 workflows where AI creates measurable value and investing there. The anti-pattern everyone wants to avoid: shipping shallow AI features to match competitor marketing while the underlying product doesn't change. The CPO is being asked by the board "what's your AI strategy" and needs an answer with both current-quarter shipping commitments and multi-year architectural direction.
@@ -219,6 +248,17 @@ CPOs today navigate the most compressed product-strategy cycle in the role's his
 ## 3. KPIs
 
 A CPO's scorecard has two distinct layers: the board- and CEO-facing KPIs (the tables below) and the **private scorecard** (further down) — what the CPO actually grades themselves on. The second layer is what separates a CPO from a VP of Product — and it's the layer vendors almost never see.
+
+### 🇨🇳 中国CPO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 增长 | DAU/MAU/新增/留存 | 增长见顶→存量运营 |
+| 商业 | ARPU/付费转化/LTV | 中国用户付费意愿低 |
+| 效率 | 需求交付周期/迭代频率 | 中国互联网迭代极快(周更) |
+| 质量 | NPS/Bug率/崩溃率 | App Store评分影响获客 |
+
+### 全球CPO参考（Global Reference）
 
 ### The Universal Scoreboard: Activation + NRR + Velocity
 
@@ -325,6 +365,18 @@ Across every sub-industry in the research, CPOs volunteer three headline areas m
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CPO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **AI产品化难** | 知道要做AI但不知道从哪切入/怎么落地 | AI开发平台/模型API |
+| **数据合规** | 个保法/等保/数据安全法→产品改造大 | 隐私计算/合规工具 |
+| **定制vs标准** | 大客户要定制→产品碎片化→维护成本高 | 低代码/PaaS/配置化 |
+| **竞品抄袭** | 新功能2周被抄→要持续创新 | AI差异化能力 |
+| **出海适配** | 产品出海需要多语言/多币种/多合规 | 国际化工具/平台 |
+
+### 全球CPO参考（Global Reference）
+
 ### Universal CPO Pain Points
 
 - **Roadmap overload and stakeholder pressure.** The four-way pull in its daily form. Sales, CS, CEO, board, and engineering collectively represent 3-5x more work than the team can deliver. The CPO must be the "chief no officer" while maintaining relationships. Stakeholders often don't internalize: adding Feature X means *not* building Feature Y. Every no creates a small cost; the accumulation is the defining exhaustion of the role.
@@ -402,6 +454,17 @@ Across every sub-industry in the research, CPOs volunteer three headline areas m
 ## 5. AI Opportunities
 
 Specific ways AI can address CPO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CPO meeting.
+
+### 🇨🇳 中国CPO的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI功能嵌入** | 产品中加AI能力(搜索/推荐/生成) | 国产大模型API(通义/文心/智谱) |
+| **AI辅助设计** | 需求分析/PRD生成/原型 | 中文需求理解 |
+| **用户行为AI** | 行为分析/个性化/A/B测试 | 中国用户行为数据(神策/GrowingIO) |
+| **AI质量** | 自动化测试/Bug预测 | 适配中国DevOps工具 |
+
+### 全球CPO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -661,6 +724,17 @@ CPOs are overwhelmed with AI feature requests and vendor pitches. The pattern ac
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these CPO-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a VP Product or PM-level meeting, not a CPO one.*
 
+### 🇨🇳 中国CPO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 提升产品迭代速度 | ❌ 增加产品复杂度 |
+| ✅ 有API/SDK好集成 | ❌ 黑盒不可控 |
+| ✅ 数据合规(个保法) | ❌ 数据出境 |
+| ✅ 中文效果好 | ❌ 中文是二等公民 |
+
+### 全球CPO参考（Global Reference）
+
 CPOs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CPO uses to judge whether a specific proposal deserves their time, their budget, and a slot in the quarterly planning cycle.** Specificity against these earns CPO attention.
 
 1. **Faster time-to-market without quality compromise.** Compress the cycle from identifying a need to delivering a solution. Specific: *"reduces research-to-decision cycle from 14 days to 4 days"* or *"enables 3x more experiments per quarter."* Single-axis speed claims (faster shipping) get discounted if they come without a quality story.
@@ -698,6 +772,17 @@ The CPO evaluates vendors like they evaluate product features: through the lens 
 - **"Does this fit our operating model?"** Every product org has a particular rhythm — quarterly planning, monthly business reviews, weekly release cadence, daily standups. A tool that fits the rhythm gets adopted; a tool that fights the rhythm gets abandoned regardless of features.
 
 A product the CPO's PMs won't use is worthless, no matter how compelling the demo. **Don't pitch features to a CPO — pitch outcomes, adoption, and fit with their operating model.** And don't pitch around the PMs to reach the CPO — the CPO will ask the PMs' opinion before deciding, and the PMs will know.
+
+### 🇨🇳 中国CPO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **产品思维** | 看你的产品体验(UX/交互) |
+| **数据驱动** | "数据呢？效果提升多少？" |
+| **竞品对标** | "竞品用了什么？我们差在哪？" |
+| **开发者视角** | 关心API文档/SDK质量 |
+
+### 全球CPO参考（Global Reference）
 
 ### CPO Decision Psychology by Archetype
 
@@ -738,6 +823,17 @@ The CPO's buying authority spans the entire product-development toolchain, plus 
 **Mode 4 — Powerful Influencer.** CRM platforms (product-usage data integration), customer-support tools (ticket data for product decisions), marketing automation (in-product messaging and lifecycle campaigns), and data infrastructure (event pipelines feeding product analytics). Influence is proportional to how much the tool affects the product team's ability to build, measure, and iterate.
 
 **Mode 5 — Gatekeeper for Product-Embedded Vendors.** Any vendor whose product is *embedded* in the company's product — analytics SDKs, in-app messaging, payment processors, AI APIs, search engines, authentication services — must pass the CPO's evaluation on product criteria: performance impact, UX quality, reliability, data ownership, graceful-degradation behavior. A third-party SDK that degrades performance reflects on the CPO's product, not the vendor's. This is often the most rigorous gate.
+
+### 🇨🇳 中国CPO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 产品/研发预算 |
+| **决策** | CPO+CTO联合(涉及技术选型) |
+| **触发** | 竞品动作/用户反馈/战略方向调整 |
+| **生态** | 国产大模型/低代码(钉钉宜搭/微搭)/数据平台(神策/GIO) |
+
+### 全球CPO参考（Global Reference）
 
 ### Timing: Quarterly Planning Cycles Matter
 
@@ -850,6 +946,17 @@ Skipping early gates — or going direct to the CPO — usually means being rout
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the CPO's archetype, current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a CPO meeting is 45–60 minutes, not an interrogation.*
 
+### 🇨🇳 中国CPO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "产品现在最大的迭代瓶颈？" | 效率场景 |
+| "AI方面有什么规划？落地情况？" | AI需求 |
+| "大客户定制多吗？怎么平衡？" | 平台化需求 |
+| "竞品最近有什么动作让你紧张？" | 差异化需求 |
+
+### 全球CPO参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "What's your product strategy for the next 12-18 months — and where does this capability fit within your roadmap priorities?"
@@ -898,6 +1005,24 @@ Skipping early gates — or going direct to the CPO — usually means being rout
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CPO关系地图
+
+```
+CPO权力结构：
+┌─────────────────────────────────────┐
+│ CEO                                 │
+├─────────────────────────────────────┤
+│ CPO                                 │ ← target
+├──────────┬──────────┬───────────────┤
+│ 产品总监  │ 设计      │ 数据/增长     │
+├──────────┴──────────┴───────────────┤
+│ CTO/VP Eng (技术实现)                │
+│ CRO/Sales (客户需求)                 │
+└─────────────────────────────────────┘
+```
+
+### 全球CPO参考（Global Reference）
 
 ### Core C-Suite and Product-Function Dynamics
 
@@ -955,6 +1080,25 @@ Skipping early gates — or going direct to the CPO — usually means being rout
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CPO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 展示产品/demo(好的UX) | CPO看体验 |
+| 说"帮用户/帮产品"的语言 | CPO用户视角 |
+| 提供竞品对标分析 | CPO关注竞品 |
+| API/SDK文档完善 | CPO关心集成体验 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 产品体验差就demo | 反效果 |
+| 不懂产品术语(PRD/MVP/PMF) | CPO是最挑的buyer |
+| 忽视数据隐私 | CPO对合规敏感 |
+
+### 全球CPO参考（Global Reference）
 
 ### ✅ DO
 
