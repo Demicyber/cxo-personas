@@ -48,6 +48,19 @@ The role has compounded significantly in the past five years. Pre-2022, the CRO 
 >
 > **Field rule:** Before any CRO meeting, verify the scope. A Sales-led CRO and a Revenue-led CRO need fundamentally different pitches. Ask: "Do you own CS and renewals, or is that a separate org?" The answer determines whether you pitch new-bookings efficiency or full-lifecycle revenue optimization.
 
+### 🇨🇳 中国CRO原型补充
+
+| 企业类型 | CRO角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **大型民企/SaaS** | "CRO/收入VP" | 全漏斗收入 | SaaS续约率低 |
+| **互联网** | "商业化VP" | 广告+增值+会员 | 广告法合规 |
+| **外企中国区** | "China Rev VP" | 中国区收入目标 | Global定价vs中国市场价格差 |
+| **传统B2B** | "销售总经理" | 大客户+渠道 | 关系型销售+政企大单 |
+
+注意：央企几乎没有"CRO"——收入不是央企核心考核维度
+
+### 全球CRO参考（Global Reference）
+
 ### CRO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CRO *leans*, not what industry they're in. Most real CROs are blends, weighted differently by moment and by the problem on their desk. A CRO at a PLG-to-enterprise SaaS company building a new enterprise motion is an Architect even though they have a large velocity team underneath. A CRO at a company that just missed two consecutive quarters is a Turnaround regardless of their long-term ambitions. The archetype is a posture, not a birth sign — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -157,6 +170,20 @@ Only the CRO is accountable to **all four simultaneously in a single quarter.** 
 
 The CRO's mandate is deceptively simple — hit the number — but the mechanics are extraordinarily complex. The *themes* are universal; the specifics vary by industry and selling motion. Lead with the universal pattern, then adapt to the CRO's context.
 
+### 🇨🇳 中国CRO优先级
+
+| 排序 | SaaS CRO | 互联网商业化 | 外企中国区 |
+|------|---------|-----------|-----------|
+| #1 | **ARR增长+续约** | **广告收入** | **China quota** |
+| #2 | **大客户突破** | **ARPU提升** | **新客获取** |
+| #3 | **渠道建设** | **直播/内容变现** | **渠道partner** |
+| #4 | **销售人效** | **合规** | **定价本地化** |
+| #5 | **NRR/客户成功** | **出海变现** | **客户留存** |
+
+中国独特：SaaS付费意愿低→政企大单依赖关系→渠道返点灰色地带
+
+### 全球CRO参考（Global Reference）
+
 ### Universal CRO Priorities
 
 1. **Revenue efficiency over headcount growth.** The era of "hire more reps to grow more revenue" is over. Boards demand efficient growth measured by magic number, CAC payback, and revenue per employee. Every rep must be more productive, every deal larger or faster, every tool must demonstrably reduce waste. Assume the first question behind every pitch is *"does this improve revenue per rep, or does it just add cost?"*
@@ -231,6 +258,17 @@ The CRO's mandate is deceptively simple — hit the number — but the mechanics
 ## 3. KPIs
 
 A CRO's metrics are the most unambiguous in the C-suite — no interpretive flexibility. But read the scoreboard in two layers: the board-facing KPIs (the table below) and the private scorecard (further down) — the second layer is what actually separates a CRO from a VP Sales.
+
+### 🇨🇳 中国CRO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 收入 | ARR/大单签约额 | Q4政企集中签约 |
+| 效率 | 人均签单/周期/赢率 | 央企12-18月拉长均值 |
+| 留存 | 续约率/NRR | 中国SaaS续约<80% |
+| 渠道 | 渠道收入占比 | 中国B2B渠道占40%+ |
+
+### 全球CRO参考（Global Reference）
 
 ### The Universal Scoreboard: Bookings + Forecast Accuracy
 
@@ -409,6 +447,18 @@ The universal KPIs above apply everywhere, but each industry adds domain-specifi
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CRO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **销售周期长** | 政企12-18月+可能换领导/预算 | CRM+AI预测 |
+| **SaaS续约难** | 客户不续(champion离职) | 客户成功AI/流失预警 |
+| **Sales管理** | 优秀Sales被挖/新人慢/老人疲 | AI Sales coaching |
+| **获客成本高** | B2B获客渠道有限 | ABM/意向数据/AI SDR |
+| **定价困难** | 中国客户砍价凶 | 定价分析/竞品情报 |
+
+### 全球CRO参考（Global Reference）
+
 ### Universal CRO Pain Points
 
 - **Forecast accuracy as a career-defining exposure.** The CRO's forecast goes to the CFO and the board. A miss — especially a miss in a quarter where the CRO called "commit" — is a career-limiting event. The structural problem: the forecast is assembled from hundreds of individual rep-level judgments, each biased by optimism, fear, or sandbagging. The CRO's real pain is not the forecast tool — it is the *judgment quality of the data that feeds the tool.* CRMs are full of stage-inflated, stale, or subjectively scored opportunities. Every CRO has a "forecast scrub" ritual the week before board close, manually overriding the system with gut and tribal knowledge. That ritual is both the symptom and the failure.
@@ -517,6 +567,17 @@ The universal KPIs above apply everywhere, but each industry adds domain-specifi
 ## 5. AI Opportunities
 
 Specific ways AI can address CRO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CRO meeting.
+
+### 🇨🇳 中国CRO的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI SDR** | 智能线索培育 | 微信/企微触达(非email) |
+| **AI销售助手** | 会议纪要/follow-up | 中文NLP/飞书集成 |
+| **Revenue Intelligence** | 管道预测/deal评分 | 适配纷享销客/销售易 |
+| **客户成功AI** | 流失预警/扩展信号 | 中国SaaS使用行为 |
+
+### 全球CRO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -772,6 +833,17 @@ CROs are the most metrics-driven buyers in the C-suite — everything connects t
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose for "Our Perspective" should map to one or more of these CRO-grade outcome dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a Sales Ops or Enablement director meeting, not a CRO meeting.*
 
+### 🇨🇳 中国CRO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 提升win rate或缩短周期 | ❌ 增加Sales行政负担 |
+| ✅ 跟中国CRM集成(纷享/销售易) | ❌ 只跟Salesforce |
+| ✅ 支持微信生态 | ❌ 依赖email |
+| ✅ 有收入增长案例 | ❌ 只有海外案例 |
+
+### 全球CRO参考（Global Reference）
+
 CROs evaluate every initiative through a short list of outcome dimensions. These are not priorities (Section 2) or AI opportunities (Section 5) — they are the **criteria a CRO uses to judge whether a specific proposal deserves their time, their budget, and a deployment across their revenue org.** Specificity against these earns CRO attention.
 
 1. **Measurable revenue impact within one quarter.** "How fast does this show up in my number?" CROs have zero patience for 12-month transformation programs with no visible revenue impact. The standard is now: deploy to one team or segment, prove the revenue lift, then scale. If your proposal cannot produce a measurable delta on pipeline, win rate, deal velocity, or ARR within 90 days, the CRO will delegate the decision to Sales Ops.
@@ -804,6 +876,17 @@ CROs evaluate technology on a single axis: **does this help my team close more, 
 
 They rely on Sales Ops, RevOps, and Enablement to vet technical integrations and data architecture — but they want results framed in revenue language. **Don't pitch technology features to a CRO — pitch revenue outcomes with a rep-adoption model and a named peer.** And don't pitch a point solution — CROs increasingly describe their tech stacks as platforms (CRM + engagement + intelligence + automation on a unified data layer), not collections of point tools. A solution that compounds on their CRM data spine (more signals, more actions, more automation per rep per day) maps onto how they already think. A standalone tool reads as "another login."
 
+### 🇨🇳 中国CRO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **结果导向** | "能帮多签多少？" |
+| **Sales直觉** | CRO是资深Sales |
+| **快速决策** | 试了不行就扔 |
+| **peer推荐** | 同行CRO推荐>marketing |
+
+### 全球CRO参考（Global Reference）
+
 ### CRO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -833,6 +916,17 @@ They rely on Sales Ops, RevOps, and Enablement to vet technical integrations and
 ## 8. Buying Dynamics
 
 The CRO is the ultimate decision-maker for revenue-technology investments that touch pipeline, forecast, seller productivity, or go-to-market architecture. Remember: a CRO meeting is the CRO pulling 45 minutes out of one of three calendar buckets — **deal reviews**, **forecast/pipeline management**, or **GTM strategy**. "No one else in your org can approve this deployment across the revenue org" is the only honest reason to be in the room.
+
+### 🇨🇳 中国CRO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | Sales部门预算 |
+| **节奏** | Q1规划/Q4不换工具 |
+| **决策** | CRO快速决定(1-2月) |
+| **生态** | 纷享销客/销售易/探迹/飞书CRM |
+
+### 全球CRO参考（Global Reference）
 
 ### When the CRO Engages Directly
 
@@ -956,6 +1050,18 @@ Getting CRO sponsorship dramatically accelerates deal velocity and removes organ
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on the CRO's archetype, the current sales stage, and what you already know from the Engagement Plan. Do NOT use all questions in one meeting — a CRO meeting is 30–45 minutes, not an interrogation.*
 
+### 🇨🇳 中国CRO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "CRM用什么？满意吗？" | 替换机会 |
+| "最大获客渠道？成本？" | 获客场景 |
+| "续约率？流失原因？" | 客户成功 |
+| "新人ramp up多久？" | Enablement |
+| "大单最大卡点？" | 效率工具 |
+
+### 全球CRO参考（Global Reference）
+
 ### Universal Questions (work with any archetype)
 
 1. "When you look at your revenue plan for the next 12–18 months, where do you see the biggest gap between where you need to be and where your current pipeline and team can take you?"
@@ -1005,6 +1111,23 @@ Getting CRO sponsorship dramatically accelerates deal velocity and removes organ
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CRO关系地图
+
+```
+CRO权力结构：
+┌─────────────────────────────────────┐
+│ CEO                                 │
+├─────────────────────────────────────┤
+│ CRO                                 │ ← target
+├──────────┬──────────┬───────────────┤
+│ 销售VP    │ 客户成功  │ BD/渠道       │
+├──────────┴──────────┴───────────────┤
+│ CMO (leads) │ 产品 (方案)           │
+└─────────────────────────────────────┘
+```
+
+### 全球CRO参考（Global Reference）
 
 ### Core Revenue-Org Dynamics
 
@@ -1075,6 +1198,24 @@ Getting CRO sponsorship dramatically accelerates deal velocity and removes organ
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CRO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 用收入语言(ARR/win rate) | CRO只关心数字 |
+| 快速POC出数据 | CRO不等 |
+| 搞定一线Sales manager | CRO的信息源 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| Q4推新工具 | 冲刺期不换 |
+| 不支持微信/企微 | 中国Sales用微信 |
+| 增加数据录入 | Sales抵制 |
+
+### 全球CRO参考（Global Reference）
 
 ### ✅ DO
 
