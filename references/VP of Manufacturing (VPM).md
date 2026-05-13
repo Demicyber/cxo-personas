@@ -416,57 +416,246 @@ Across every sub-industry in the research, VPMs volunteer three headline metrics
 
 ## 5. AI Opportunities
 
-Specific ways AI can address VPM priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a VPM meeting.
+Specific ways AI can address VP Manufacturing priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a VP Manufacturing meeting.
 
-### Universal AI Value Levers for VPMs
+### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
-These are the seven ways AI creates value that VPMs care about — mapped directly to Priorities (Section 2) and the Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+> *Agent instruction: Use this subsection to calibrate your tone. VPs of Manufacturing are operational leaders who live on the factory floor. They're practical, results-oriented, and skeptical of anything that hasn't been proven in a real production environment. Frame your pitch around OEE improvement, defect reduction, and throughput — not AI innovation.*
 
-1. **Plant-floor productivity at unprecedented scale.** Vision inspection, AI-driven scheduling, anomaly detection, predictive maintenance, energy optimization — all translating directly into OEE, PPM, and conversion cost. *Agentic dimension:* Rather than dashboards for humans, autonomous agents that actually *take action* — re-sequencing the schedule, triggering a maintenance work order, adjusting a setpoint, routing a non-conforming part — within auditable guardrails. This connects directly to OEE and conversion-cost metrics the board understands.
+**The state of enterprise AI in 2025:**
 
-2. **Quality escape prevention with customer-grade traceability.** AI vision and acoustic inspection catching defects before they ship; generative tools creating PPAP-ready documentation automatically; agents reconstructing lot genealogy on demand. *Agentic dimension:* Agents that not only detect defects but orchestrate the containment — holding lots, notifying customers, opening 8Ds, and producing audit-ready narratives without waiting for humans to assemble evidence.
+| Milestone | % of Enterprises | Source |
+|-----------|-----------------|--------|
+| Adopted AI in ≥1 function | 72% | McKinsey State of AI 2024 |
+| Regularly using GenAI (doubled in 10 months) | 65% | McKinsey State of AI 2024 |
+| Running 5+ AI pilots simultaneously | ~50% | Forrester AI Maturity 2024 |
+| Successfully moved any pilot to production | 20–30% | BCG/Deloitte/iResearch 2024 |
+| Scaled AI for significant financial ROI | ~10% | BCG "From Potential to Profit" 2024 |
+| Achieved enterprise-wide AI transformation | <5% | Accenture AI Maturity 2024 |
 
-3. **Scarce-talent leverage.** Operator copilots that give new hires the guidance of a 20-year veteran; maintenance copilots that walk a first-year tech through a complex fault; engineering copilots that reduce CAD/controls-programming time. *Agentic dimension:* Always-on copilots that learn from expert actions and close the gap between new hires and veterans, directly attacking the skilled-labor rate-limiter.
+**Gartner prediction (Oct 2024):** At least 30% of GenAI projects will be abandoned after proof-of-concept by end of 2025 — due to poor data quality, escalating costs, or unclear business value.
 
-4. **Predictive + prescriptive maintenance at scale.** Vibration, thermal, acoustic, and current-signature models on critical assets. *Agentic dimension:* Agents that move beyond prediction to prescription and execution — auto-generating work orders with the right parts reserved, scheduled into the right maintenance window, with the right technician skill level — and feeding reliability data back to design.
+**China-specific data point:** Chinese manufacturing leads globally in AI adoption — smart factory investment reached ¥1.2 trillion ($168B) in 2024 (中国智能制造发展指数 2024). However, only 20% of Chinese manufacturers have achieved meaningful AI production-system integration (工信部智能制造调研 2024). The gap is between pilot "示范线" (demonstration lines) and factory-wide deployment.
 
-5. **Process optimization and digital twin in production.** Real-time optimization of process setpoints against yield, energy, and throughput. *Agentic dimension:* Digital twins connected to live plant data, with agents recommending (and, under guardrails, executing) setpoint adjustments that optimize across multiple KPIs simultaneously — yield, energy, emissions, quality.
+**What VPs of Manufacturing are actually saying:**
+- "I don't care about AI. I care about OEE, yield, throughput, and on-time delivery. If AI improves those numbers, great. If not, I don't have time for it."
+- "We did a predictive maintenance pilot on one line. It worked. Now they want me to scale it to 200 machines across 12 plants. Nobody budgeted for that."
+- "My operators have 30 years of experience. They can hear when a machine is about to fail. I need AI that captures THEIR expertise, not replaces it."
+- 65% of manufacturers have AI pilots in production environments; only 15% have scaled beyond a single line/plant (McKinsey Manufacturing 2024).
+- Predictive maintenance and quality inspection are the #1 and #2 AI use cases in manufacturing, with proven ROI (WEF Lighthouse Network 2024).
 
-6. **OT-cyber and license-to-operate protection.** AI-driven OT asset discovery, anomaly detection on ICS traffic, insider-threat detection, and drift detection on controller configurations. *Agentic dimension:* OT-aware detection-and-response agents operating continuously at a latency and coverage no human OT team can match — with hard guardrails to never disrupt production without human confirmation.
+**Field rule:** When preparing a Call Plan for a VP Manufacturing, speak in manufacturing language: OEE, MTBF, MTTR, yield, first-pass quality, takt time, changeover time. Never lead with "AI" — lead with the manufacturing KPI you'll improve. If you can't express AI value in standard manufacturing metrics, you're not ready for this conversation.
 
-7. **Carbon P&L automation.** Per-unit, per-SKU, per-line emissions accounting fed directly from MES and historian, reconciled to invoice-grade carbon data for CBAM, scope-3 customer reporting, and internal optimization. *Agentic dimension:* Agents that not only report emissions but identify and propose reduction opportunities ranked by payback, integrated with capex planning.
+---
 
-### Quality Bar: How VPMs Filter AI Pitches
+### 5.2 The Four Blockers — Why Enterprise AI Stalls
 
-VPMs have been burned by demos that never reached production. The pattern across every sub-industry is identical — VPMs only take shop-floor AI seriously when it passes **five** tests simultaneously (one more than the CEO's four):
+> *Agent instruction: Use this as a diagnostic framework. The VP Manufacturing operates at the intersection of OT (operational technology) and IT (information technology). Their unique blocker is the OT-IT convergence challenge — factory systems were never designed for data extraction, and production can't stop for technology upgrades. Frame your discovery around what data is accessible from their production systems and what constraints exist on deploying AI in the production environment.*
 
-1. **In production, not in pilot.** Deployed at scale, running on live lots, with real operators. Pilots do not count.
-2. **Measured in a VPM-board-ready number.** A specific KPI moved by a specific amount — not "improved efficiency" but "cut vision-inspection escape rate from 400 PPM to 85 PPM on line 3, sustained 6 months."
-3. **Safe to production — OT-aware, never disruptive.** Deployment must be passive where possible, staged where not, with a rollback path the VPM's controls team pre-approves. Any vendor whose first deployment risks unplanned downtime is disqualified.
-4. **Integrates with existing OT/MES stack.** Plugs into Rockwell FactoryTalk, Siemens Opcenter, SAP DMC, AVEVA PI, OSIsoft, existing historian/PLC landscape — rather than demanding rip-and-replace.
-5. **Peer-proven, ideally in the same sub-industry.** "Here is what another tier-1 auto supplier deployed last year; here is the number it moved" outperforms any cross-industry analogy. Sub-industry specificity matters more than scale.
+#### A. Organizational — "Production can't stop for IT projects"
 
-**Field rule:** If a VPM-level AI pitch cannot check all five — deployed, measured, safe, integrated, peer-proven — it reads as another demo. Lead with the peer already in production, in the same sub-industry, on a comparable MES/OT stack.
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| OT-IT organizational divide | Manufacturing IT and corporate IT operate as separate organizations in 70% of companies | Gartner 2024 |
+| AI projects compete with production priorities | Any factory-floor deployment requires production downtime that VP Mfg resists | McKinsey 2024 |
+| Plant-level autonomy blocks standardization | Each plant manager runs "their way"; standardized AI deployment resisted | BCG 2024 |
+| Skills gap at plant level | Factory personnel lack AI/data skills; corporate AI team lacks manufacturing knowledge | Deloitte 2024 |
+| Union/workforce concerns about AI | Manufacturing unions negotiate AI deployment terms; resistance to perceived automation | IndustryWeek 2024 |
 
-### The 2025–2026 Reality Check
+**VP Manufacturing lens:** "My #1 job is to make product and ship it on time. Every technology project that requires production downtime is a risk to my delivery commitments. If you want me to deploy AI, it has to install without stopping the line, prove value quickly, and not create new failure modes."
 
-The VPM AI mindset has shifted from "interested in the use cases" to "tired of pilots." Analyst data consistently shows the majority of industrial AI pilots have not produced measurable network-wide ROI; many have been quietly discontinued. VPMs are no longer asking "what AI use cases are there?" — they are asking "why are my 47 active AI pilots not in production?" and "which pilot do I kill to fund a scaled deployment?"
+**Who should own unblocking:** VP Manufacturing (OT access + production scheduling for AI deployment), CTO/CIO (IT-OT integration strategy), Plant Managers (local deployment support).
 
-**Implication for the agent:** When preparing a Call Plan for a VPM, do NOT frame AI as a new exploration. Frame it as: *"Here is how to take your existing AI investment from pilot to network-wide production"* or *"Here is how to avoid the failure patterns your peers are publicly disclosing."* The VPM's pain is not lack of AI — it is lack of AI *results at network scale.*
+#### B. People — "My operators are the AI"
 
-### Industry-Specific AI Use Cases with Real ROI *(supporting evidence)*
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| Tribal knowledge not captured | 40% of critical manufacturing knowledge exists only in veteran operators' heads | McKinsey 2024 |
+| Aging workforce creating urgency | Average manufacturing worker age 44; 25% retiring within 5 years; knowledge loss accelerating | Deloitte/NAM 2024 |
+| AI tools too complex for floor use | Factory workers need touchscreen-simple interfaces, not dashboards designed for analysts | Gartner 2024 |
+| Maintenance technician shortage | 89% of manufacturers can't fill skilled maintenance positions | Deloitte Skills Gap 2024 |
+| China-specific: 用工荒 labor shortage | Chinese manufacturing facing severe skilled labor shortage; AI automation critical for competitiveness (制造业用工调研 2024) | 中国制造业协会 2024 |
 
-> *Examples below are from FY2024–FY2025 public disclosures. They illustrate the type of deployed use case and the magnitude of impact a VPM finds credible — not current figures to cite verbatim. Agent must verify latest numbers and find comparable peer examples before including in a Call Plan.*
+**VP Manufacturing lens:** "My best operators have 30 years of experience. They know by sound, smell, and vibration when something's wrong. In 5 years, half of them retire and that knowledge walks out the door. I need AI that captures their expertise and transfers it to new operators — not AI that requires a PhD to operate."
 
-| Industry Group (Industry) | Use Cases | Real Examples | Impact |
-|----------|----------|---------------|--------|
-| **Manufacturing & Industrial (Discrete Manufacturing / Digital Industries)** | Industrial copilots, digital twin, generative engineering | Siemens Industrial Copilot embedded in TIA Portal; Amberg reference plant | Engineering productivity lift; copilot adoption across customer base |
-| **Manufacturing & Industrial (Discrete Manufacturing / Heavy Equipment)** | Autonomous iron, connected fleet, predictive maintenance at scale | Caterpillar 600+ autonomous haul trucks; billions of tonnes hauled | Autonomous 24/7 operation at customer mines |
-| **Manufacturing & Industrial (Process Manufacturing / Chemicals)** | Formulation AI, energy optimization, process anomaly detection, predictive reliability | Dow AI-driven formulation compressing cycles from months to weeks; BASF 300+ AI use cases across manufacturing | Energy reduction per ton; batch-failure reduction |
-| **Manufacturing & Industrial (Industrial Automation)** | Digital plant, predictive maintenance, operator copilots | Honeywell Forge; industrial AI embedded in DCS | Services-attach lift; through-cycle margin protection |
-| **Manufacturing & Industrial (Industrial Automation / Energy Management)** | AVEVA + AI integration, power-infrastructure optimization | Schneider EcoStruxure; AVEVA Industrial Intelligence | Multi-site operational visibility; lead-time compression |
-| **Manufacturing & Industrial (Electrical Equipment Manufacturing)** | AI vision at cell/module, ramp-acceleration analytics, closed-loop materials | CATL Lighthouse Factory: 99.99%+ vision-based defect detection at massive throughput | Quality at 400+ GWh/year scale |
-| **Manufacturing & Industrial (Automotive OEM)** | Quality AI on shared BEV/ICE lines, ramp optimization, ADAS manufacturing | BMW iFactory with 100+ AI use cases; Toyota iMes data integration; BYD God's Eye ADAS integration in-plant | Quality uplift on shared lines; ramp compression on Neue Klasse-class programs |
+**Who should own unblocking:** VP Manufacturing (knowledge capture priority), CHRO (workforce transition + training), Plant Managers (operator AI enablement).
+
+#### C. Technical — "Factory floor ≠ data center"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| OT systems not data-ready | 60% of manufacturing equipment lacks modern connectivity; legacy PLCs, proprietary protocols | Gartner 2024 |
+| Real-time requirements extreme | Production AI must respond in milliseconds; cloud latency unacceptable for process control | McKinsey 2024 |
+| Data volume overwhelming | Single manufacturing line can generate 1TB/day; no infrastructure to store/process | IDC Manufacturing 2024 |
+| Cybersecurity risk for connected OT | Connecting manufacturing systems to networks creates attack surface | Fortinet OT Security 2024 |
+| Edge computing infrastructure immature | AI at the edge (on factory floor) requires hardware, networking, and management capabilities | Gartner Edge Computing 2024 |
+
+**VP Manufacturing lens:** "My oldest machine is from 1985. It has no Ethernet port, no data output, and no API. It makes perfect product every day. You want me to connect it to the cloud? What happens when the network goes down and my line stops? I'll take the 1985 machine that works over the AI system that might fail."
+
+**Who should own unblocking:** VP Manufacturing (OT modernization priorities + risk assessment), CTO (edge computing + OT connectivity strategy), CISO (OT cybersecurity framework).
+
+#### D. Process — "Pilot success ≠ factory-wide deployment"
+
+| Signal | Data Point | Source |
+|--------|-----------|--------|
+| AI pilot on one line, can't scale | Scaling from 1 line to full factory requires 10x effort in integration, training, and change management | McKinsey 2024 |
+| No standard deployment process for factory AI | Each deployment is custom; no repeatable playbook for manufacturing AI rollout | BCG 2024 |
+| Validation requirements for manufacturing AI | Production AI needs extensive validation before touching actual product (especially in regulated industries) | Gartner 2024 |
+| Change management underestimated | Operators don't trust AI recommendations without months of "shadow mode" proving accuracy | Deloitte 2024 |
+| Maintenance process integration missing | AI detects failure but maintenance scheduling/parts ordering process remains manual | Forrester 2024 |
+
+**VP Manufacturing lens:** "We piloted predictive maintenance on Line 3. It caught 2 failures before they happened — saved us $200K. Now leadership wants it on all 200 machines by Q3. But Line 3 had perfect sensor data. Lines 1, 2, 4-15 have different equipment, different sensors, different data quality. Scaling isn't copy-paste."
+
+**Who should own unblocking:** VP Manufacturing (factory-wide deployment planning + resource allocation), CTO (scalable AI platform for manufacturing), Plant Managers (local deployment execution).
+
+**Field rule for the agent:** In the Call Plan Discovery section, ask the VP Manufacturing: "What's your current OEE and what's your target?" and "How connected are your production systems — what data can you access today?" These reveal operational priorities and technical readiness — the two gates for manufacturing AI value.
+
+---
+
+### 5.3 Universal AI Value Levers for VP Manufacturing
+
+These are the seven ways AI creates value that VPs of Manufacturing care about — mapped directly to Manufacturing Priorities (Section 2) and Private Scorecard (Section 3). For each lever, the agentic AI dimension shows how autonomous agents elevate the opportunity beyond traditional AI.
+
+1. **Predictive maintenance & asset reliability.** AI that predicts equipment failures before they happen, optimizes maintenance schedules, and maximizes asset availability. *Agentic dimension:* Maintenance agents that continuously monitor all equipment health signals, predict failures with increasing accuracy, automatically generate work orders, coordinate spare parts, and schedule maintenance in production gaps — achieving near-zero unplanned downtime.
+
+2. **Quality prediction & defect prevention.** AI that predicts quality issues before they occur by monitoring process parameters, environmental conditions, and material properties — preventing defects rather than detecting them. *Agentic dimension:* Quality agents that continuously analyze hundreds of process variables, detect drift patterns invisible to operators, automatically adjust parameters within bounds, and alert when intervention needed — approaching zero-defect manufacturing.
+
+3. **Production optimization & scheduling.** AI that optimizes production schedules, balances lines, minimizes changeover time, and maximizes throughput given constraints (demand, material availability, workforce, machine capacity). *Agentic dimension:* Production orchestration agents that continuously re-optimize schedules based on real-time conditions (machine status, material arrivals, order changes, workforce availability), automatically adjust across lines, and handle exceptions — making production planning continuous rather than static.
+
+4. **Process optimization & yield improvement.** AI that optimizes process parameters (temperature, pressure, speed, feed rates) to maximize yield, minimize waste, and improve energy efficiency. *Agentic dimension:* Process control agents that continuously adjust parameters within validated bounds based on real-time feedback, material batch properties, and environmental conditions — achieving optimal operation 24/7 regardless of operator experience level.
+
+5. **Supply chain & inventory coordination.** AI that coordinates upstream supply chain with production requirements — predicting material needs, managing safety stock, and preventing production stoppages from material shortages. *Agentic dimension:* Supply coordination agents that monitor production consumption rates, predict material needs, coordinate with procurement for just-in-time delivery, and manage buffer stock — connecting production reality to supply chain planning in real-time.
+
+6. **Energy management & sustainability.** AI that optimizes energy consumption in manufacturing — reducing costs and carbon footprint while maintaining production output. *Agentic dimension:* Energy management agents that continuously optimize energy usage across production equipment, lighting, HVAC, and compressed air based on production schedules, energy prices, and sustainability targets — achieving optimal energy efficiency without manual intervention.
+
+7. **Workforce augmentation & knowledge capture.** AI that augments operator capabilities, captures expert knowledge, provides real-time guidance to less experienced workers, and enables effective knowledge transfer as veterans retire. *Agentic dimension:* Operator assistance agents that provide real-time guidance to workers based on current conditions, captured expert knowledge, and best practices — effectively giving every operator access to the collective experience of the best veterans.
+
+---
+
+### 5.4 Quality Bar: How VPs of Manufacturing Filter AI Pitches
+
+VPs of Manufacturing are the most operationally-grounded buyers in the enterprise — they measure everything and trust only proven results. The pattern across every manufacturing organization is identical — VPs only take AI seriously when it passes four production tests simultaneously:
+
+1. **Proven on a real production line, not a lab.** Not "our AI achieves 99% accuracy in testing" but "deployed on [Company X]'s production line for 12 months, caught 47 failures, zero false positives that stopped production." The VP Manufacturing trusts peer evidence from similar production environments, not vendor benchmarks.
+2. **Deploys without stopping production.** Any solution requiring production downtime for installation faces an immediate scheduling constraint. Show how the AI system installs alongside existing equipment without disrupting production schedules.
+3. **Works with their existing equipment and systems.** Connects to their PLCs, SCADA, MES, and historians — not just modern equipment. If it only works with new machines, it only addresses 20% of their fleet. Legacy equipment compatibility is critical.
+4. **Measurable impact within 90 days.** The VP runs monthly operations reviews. If AI can't show measurable KPI improvement within 3 months, it gets cut. Demonstrate value within one production quarter.
+
+**Field rule:** If a manufacturing-level AI pitch cannot check all four — production-proven, zero-downtime-install, legacy-compatible, 90-day-value — it reads as another technology that will work in the demo room but fail on the factory floor. Lead with the production deployment story from a peer manufacturer. When generating Call Plan Section 4, ensure every AI story includes: (a) real production line deployment evidence, (b) installation approach without downtime, (c) compatibility with existing equipment/systems, (d) measured KPI improvement within 90 days.
+
+---
+
+### 5.5 Industry AI Opportunity Map
+
+> *Agent instruction: Use this map to determine WHAT to lead with when preparing a Call Plan for a VP Manufacturing in a specific industry. The VP Manufacturing's map focuses on production-floor AI opportunities — the intersection of equipment, process, and output optimization.*
+
+**Tiering Framework — Classification Logic**
+
+| Tier | Label | Competitive Logic | Investment Posture | Typical Horizon |
+|------|-------|------------------|-------------------|-----------------|
+| **1** | **Table Stakes** | Competitors already deploying at scale; not investing = falling behind | Fund now; scale aggressively | 0–12 months to value |
+| **2** | **Differentiator** | Creates competitive distance; requires proprietary data or capability | Invest selectively; pilot → scale | 12–36 months to value |
+| **3** | **Transformational** | Reshapes industry economics or business model | Fund as strategic option; bounded exploration | 3–7+ years to value |
+
+#### Manufacturing & Industrial
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Discrete Manufacturing | Predictive Maintenance at Scale | **Tier 1 — Table Stakes** | Vibration analysis AI, thermal imaging AI, acoustic monitoring, motor current analysis | WEF Lighthouse factories: proven 25-40% unplanned downtime reduction; industry-wide | Asset availability + cost |
+| Discrete Manufacturing | AI Visual Quality Inspection | **Tier 1 — Table Stakes** | Automated optical inspection, surface defect detection, dimensional verification | Industry-wide: visual inspection AI deployed at scale in electronics, automotive, metal fab | First-pass yield improvement |
+| Process Manufacturing | Process Optimization AI | **Tier 1 — Table Stakes** | Multi-variable process control, recipe optimization, batch quality prediction | BASF/Dow: process AI for chemical production; 2-5% yield improvement at scale | Yield + energy efficiency |
+| Automotive | Assembly Line Intelligence | **Tier 1 — Table Stakes** | Torque verification, weld quality AI, paint defect detection, assembly sequence optimization | BMW/Toyota: assembly AI across production lines; near-zero defect targets | Assembly quality + speed |
+| Electronics | Semiconductor & PCB Manufacturing AI | **Tier 1 — Table Stakes** | Fab process optimization, wafer defect classification, PCB inspection, yield prediction | TSMC/Intel: AI in semiconductor fab (most AI-mature manufacturing); yield optimization | Sub-nanometer precision |
+| Food & Beverage | Food Safety & Quality AI | **Tier 1 — Table Stakes** | Contamination detection, batch consistency prediction, line changeover optimization | Nestlé/PepsiCo: food quality AI; regulatory compliance + brand protection | Food safety + consistency |
+| Pharma Manufacturing | GMP Compliance & Batch Release AI | **Tier 1 — Table Stakes** | Batch record review AI, deviation prediction, environmental monitoring, PAT optimization | Industry-wide: pharma manufacturing AI for compliance; FDA Process Validation guidance | Compliance + batch release speed |
+| Heavy Industry | Asset Health & Safety AI | **Tier 1 — Table Stakes** | Heavy equipment health monitoring, structural integrity AI, safety hazard detection | Mining/steel: asset health AI for critical equipment; safety incident prediction | Safety + asset lifecycle |
+
+> **Agent field rule:** VP Manufacturing conversations should be industry-specific and KPI-specific. Lead with predictive maintenance and quality inspection (Tier 1 — proven everywhere). Then go deeper into industry-specific production challenges. ALWAYS ask about their OEE components (availability, performance, quality) to identify which AI addresses their specific gap.
+
+#### Financial Services
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| *N/A — Financial Services does not have VP Manufacturing roles* | — | — | — | — | — |
+
+#### Technology & Digital Native
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Hardware / Consumer Electronics | Hardware Manufacturing AI | **Tier 1 — Table Stakes** | SMT quality inspection, environmental stress testing optimization, hardware test AI | Apple/Samsung: manufacturing AI across consumer electronics production | Product quality + yield |
+| Cloud / Data Center | Data Center Construction & Operations | **Tier 2 — Differentiator** | Data center construction quality, cooling optimization, hardware lifecycle management | Hyperscalers: AI for data center physical operations; construction quality | Infrastructure reliability |
+
+> **Agent field rule:** Tech VPs of Manufacturing exist in hardware/electronics companies. Lead with quality inspection and test optimization (Tier 1). For software/cloud companies, the equivalent role is VP of Infrastructure/Operations (different persona).
+
+#### Retail & Consumer
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| CPG Manufacturing | Consumer Goods Production AI | **Tier 1 — Table Stakes** | High-speed packaging quality, fill level optimization, changeover scheduling AI | P&G/Unilever: production AI across 100+ factories; high-speed line optimization | Line efficiency + quality |
+| Private Label Manufacturing | Multi-Product Line Flexibility AI | **Tier 1 — Table Stakes** | Rapid changeover optimization, multi-SKU scheduling, quality across product variants | Industry-wide: flexible manufacturing AI for SKU proliferation management | Changeover efficiency |
+
+> **Agent field rule:** CPG/Consumer goods VPs of Manufacturing manage high-speed, high-volume production lines with frequent changeovers. Lead with changeover optimization and packaging quality (Tier 1 — directly impacts OEE). The unique challenge: thousands of SKUs requiring frequent line changes.
+
+#### Healthcare
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Pharma Manufacturing | Continuous Manufacturing AI | **Tier 2 — Differentiator** | Continuous process monitoring, real-time release testing, integrated process control | Industry transition: batch → continuous manufacturing; FDA encouraging | Manufacturing efficiency revolution |
+| MedTech / Medical Devices | Precision Manufacturing AI | **Tier 1 — Table Stakes** | Micro-precision inspection, biocompatibility process control, cleanroom environmental AI | Medtronic/J&J: medical device manufacturing AI for precision + compliance | Product quality + FDA compliance |
+
+> **Agent field rule:** Pharma/MedTech manufacturing VPs operate in the most regulated production environment (FDA cGMP, ISO 13485). Lead with compliance-related AI (Tier 1 — regulatory mandate). EVERY production AI system needs GMP qualification/validation. Never position AI as replacing GMP processes.
+
+#### Energy & Utilities
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Oil & Gas (Refining) | Refinery Optimization AI | **Tier 1 — Table Stakes** | Crude unit optimization, blend optimization, catalyst management AI, emissions control | Industry-wide: refinery AI (advanced process control + AI); 2-5% throughput improvement | Throughput + margin |
+| Renewables Manufacturing | Solar/Wind/Battery Manufacturing AI | **Tier 1 — Table Stakes** | Cell efficiency optimization, blade quality inspection, battery production AI | CATL/Tesla Gigafactory: battery manufacturing AI; industry scaling rapidly | Production scaling |
+
+> **Agent field rule:** Energy/refining VPs manage continuous processes with extreme safety requirements. Lead with process optimization (Tier 1 — proven ROI). Critical constraint: any AI in refining/petrochemical must be certified for hazardous environments (ATEX/IECEx).
+
+#### Telecom & Media
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Telecom Equipment Manufacturing | Network Equipment Manufacturing AI | **Tier 1 — Table Stakes** | PCB manufacturing quality, RF testing AI, assembly optimization for telecom equipment | Ericsson/Nokia: manufacturing AI for network equipment production | Product quality + speed |
+
+> **Agent field rule:** Telecom manufacturing VPs manage high-precision electronics production. Lead with quality inspection and test optimization (Tier 1). Similar to electronics manufacturing but with stringent reliability requirements for network equipment.
+
+#### Transportation & Logistics
+
+| Industry | AI Opportunity | Priority | Use Cases | Peer Proof (deployed, verified) | Impact |
+|----------|---------------|----------|-----------|-------------------------------|--------|
+| Automotive Manufacturing | Vehicle Assembly & Body Shop AI | **Tier 1 — Table Stakes** | Weld quality AI, paint inspection, assembly torque verification, dimensional analysis | BMW/Toyota/Tesla: assembly AI across production; WEF Lighthouse recognition | Vehicle quality + throughput |
+| Aerospace Manufacturing | Aerospace Production AI | **Tier 1 — Table Stakes** | Composite layup inspection, NDT AI, precision machining monitoring, final assembly AI | Boeing/Airbus: aerospace manufacturing AI for safety-critical production | Safety + production rate |
+
+> **Agent field rule:** Automotive/aerospace manufacturing VPs manage the most complex assembly operations. Lead with assembly quality AI (Tier 1 — directly prevents recalls/safety issues). Aerospace constraint: AS9100 quality management + NADCAP special process requirements.
+
+---
+
+### 5.6 Agentic AI — The 2025-2026 Frontier
+
+> *Agent instruction: Use this subsection when a VP Manufacturing asks "what's beyond predictive maintenance and quality inspection?" or when the target factory has already deployed basic manufacturing AI and is looking at the next level.*
+
+**What it is:** AI systems that autonomously plan, execute multi-step tasks, use tools, and adapt based on feedback — moving beyond copilots (human-in-the-loop) to autonomous action (human-on-the-loop or human-out-of-the-loop for defined workflows).
+
+**Analyst positioning:**
+- Gartner: #1 Strategic Technology Trend 2025. Predicts 33% of enterprise software will include agentic AI by 2028 (up from <1% in 2024). 15% of day-to-day work decisions made autonomously by 2028.
+- McKinsey Manufacturing: Autonomous manufacturing operations expected to achieve 30-50% productivity gains vs. current AI-assisted operations.
+- WEF Lighthouse Network: Most advanced factories demonstrate 2-3x performance improvement through AI-driven autonomous operations.
+
+**Sequencing (what's ready when):**
+
+| Phase | Timeframe | What It Looks Like | Risk Level | Example Manufacturing Use Cases |
+|-------|-----------|-------------------|------------|--------------------------------|
+| **Agent Copilots** | Deployed now | AI suggests actions, human approves; single-system monitoring | Low | Predictive maintenance alerts, quality deviation notifications, parameter adjustment suggestions, scheduling recommendations |
+| **Task Agents** | 2025–2026 | Autonomous execution of defined production tasks; human oversight on exceptions | Medium | Autonomous quality inspection with pass/fail decisions, self-adjusting process parameters within validated bounds, automated maintenance scheduling + work order generation |
+| **Orchestrator Agents** | 2026–2027 | Multi-agent coordination across production systems; human sets goals, agents optimize | Medium-High | Full production line orchestration (quality + maintenance + scheduling + energy coordinated), autonomous changeover management, cross-line load balancing |
+| **Autonomous Agents** | 2028+ | Self-directed manufacturing systems managing production end-to-end | High | Lights-out manufacturing cells, self-optimizing production lines, autonomous factory operations for defined product families |
+
+**VP Manufacturing pitch framing:** "You've deployed predictive maintenance — it alerts your team before failures. The next step: maintenance agents that don't just predict, but autonomously schedule the repair, order the parts, coordinate with production planning for downtime, and verify the fix. Same for quality: from 'alert the operator' to 'adjust the process automatically within your validated bounds.' The goal isn't replacing your operators — it's handling the 80% of routine decisions at machine speed so your people focus on complex problem-solving."
+
+**Field rule:** Position agentic AI for VP Manufacturing very carefully — factory-floor autonomous AI raises safety concerns. The framing must be: "Autonomous within validated bounds" (GMP/quality system approved), "Human oversight for exceptions," and "Operators become supervisors of AI systems, not replaced by them." For regulated manufacturing (pharma, medical devices, aerospace), autonomous AI requires regulatory qualification before deployment — always acknowledge this timeline.
 
 ---
 
