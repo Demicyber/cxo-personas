@@ -45,6 +45,23 @@ The CDO role is one of the newest and most poorly understood in the C-suite. Man
 
 The AI revolution has fundamentally elevated the CDO's importance. Every AI initiative depends on high-quality, well-governed, accessible data. Organizations are discovering that their AI ambitions are blocked not by model sophistication or compute capacity, but by **data readiness**: fragmented, inconsistently defined, poorly documented, inadequately governed data. The CDO is the person who fixes this — or explains why it can't be fixed quickly. This shift is why many CDO roles that were being absorbed or eliminated in 2021–22 have been re-elevated in 2024–25: organizations rediscover they need a CDO the moment their AI program stalls on data quality.
 
+### 🇨🇳 中国CDO原型补充
+
+| 企业类型 | CDO角色 | 核心 | 中国特色 |
+|---------|--------|------|---------|
+| **央企** | "数据管理部/数字化部" | 数据资产化+数据安全+合规 | 国资委要求"数据入表"(会计准则) |
+| **大型民企** | "CDO/数据VP" | 数据驱动增长+AI数据底座 | 数据是AI的"燃料"——CDO重要性↑ |
+| **金融** | "数据总监/首席数据官" | 数据治理+监管报送+风控 | 银保监/央行数据报送要求多 |
+| **外企中国区** | "China Data Lead" | 中国数据合规+本地化 | 数据不能出境=核心挑战 |
+
+#### 中国CDO的法规环境
+- **数据安全法(2021)**: 数据分类分级+重要数据出境评估
+- **个保法(2021)**: 个人信息保护+合规使用+出境限制
+- **数据出境评估办法**: 超100万人数据出境需安全评估
+- **数据资产入表(2024)**: 企业会计准则要求数据确认为资产→CDO新KPI
+
+### 全球CDO参考（Global Reference）
+
 ### CDO Archetypes (Postures, Not Industries)
 
 Archetypes describe how a CDO *leans*, not what industry they're in. Most real CDOs are blends, weighted differently by moment and by the organization's data maturity. A CDO at a post-GDPR bank is typically Governance Guardian + Business Enabler. A CDO at a SaaS platform is typically Platform Builder + AI Data Architect. The archetype is a posture, not a permanent label — but knowing which posture dominates the current meeting calibrates the pitch.
@@ -145,6 +162,18 @@ The agent must diagnose the CDO's dominant posture *before* generating the Call 
 
 CDOs today are navigating simultaneous pressure on AI data readiness, governance compliance, business-unit velocity, and cross-functional coalition — with organizational authority that is almost always insufficient for the mandate. The *themes* are universal; the specifics vary by industry.
 
+### 🇨🇳 中国CDO优先级
+
+| 排序 | 央企CDO | 互联网CDO | 外企中国区 |
+|------|--------|---------|-----------|
+| #1 | **数据资产入表** | **数据驱动增长** | **数据出境合规** |
+| #2 | **数据安全/合规** | **AI数据底座** | **本地数据治理** |
+| #3 | **数据治理体系** | **数据平台降本** | **Global报告对齐** |
+| #4 | **数据共享开放** | **数据安全** | **数据安全** |
+| #5 | **数字化转型支撑** | **数据变现** | **本地平台选型** |
+
+### 全球CDO参考（Global Reference）
+
 ### Universal CDO Priorities
 
 1. **AI data readiness — the defining 2025–26 priority.** Every AI initiative depends on clean, well-structured, documented, accessible data. The CDO builds the "data foundation for AI": curated training datasets, feature stores, vector databases, real-time data pipelines, ML-grade data-quality processes, metadata and lineage. The CDO who delivers AI-ready data becomes indispensable; the one who can't becomes the bottleneck everyone blames. This is the single item most likely to determine CDO tenure in 2025–26.
@@ -222,6 +251,17 @@ CDOs today are navigating simultaneous pressure on AI data readiness, governance
 ## 3. KPIs
 
 A CDO's scorecard is the most conceptually difficult in the C-suite to communicate — because most data outcomes are leading indicators of business outcomes, not business outcomes themselves. Read it in two layers: the board/CEO-facing KPIs (below) and the private scorecard (further down) — the second layer is what actually separates a strategic CDO from a tactical data leader.
+
+### 🇨🇳 中国CDO KPI
+
+| 类型 | KPI | 中国特色 |
+|------|-----|---------|
+| 资产 | 数据资产入表金额/数据目录覆盖率 | 2024新规驱动 |
+| 合规 | 数据安全事件数/合规审计通过率 | 处罚力度大(营收5%) |
+| 质量 | 数据质量评分/完整性/及时性 | AI对数据质量要求高 |
+| 效率 | 数据需求交付周期/自助分析率 | 业务自助=CDO解放 |
+
+### 全球CDO参考（Global Reference）
 
 ### The Universal Scoreboard: Data Quality + Governance Coverage + Time-to-Insight
 
@@ -329,6 +369,18 @@ Across every industry, CDOs volunteer three headline metrics more often than any
 
 ## 4. Pain Points / Challenges
 
+### 🇨🇳 中国CDO特有痛点
+
+| 痛点 | 表现 | Sales切入 |
+|------|------|----------|
+| **数据合规压力** | 数据安全法+个保法→每天如履薄冰 | 数据分类分级/合规平台 |
+| **数据资产入表** | 新会计准则要求→不知道怎么估值/怎么操作 | 数据资产管理平台 |
+| **数据孤岛** | 各业务系统数据不通→CDO协调困难 | 数据集成/数据中台 |
+| **AI数据准备** | AI需要高质量数据→清洗/标注/治理工作巨大 | 数据治理+AI数据准备平台 |
+| **数据出境** | 外企/跨国企业数据出境评估复杂耗时 | 数据出境合规方案/隐私计算 |
+
+### 全球CDO参考（Global Reference）
+
 ### Universal CDO Pain Points
 
 - **Data silos and fragmentation.** Critical data scattered across hundreds of systems (CRM, ERP, marketing platforms, spreadsheets, shadow data stores), each with its own model and version of "truth." Every new SaaS tool creates another silo faster than the CDO can consolidate.
@@ -368,6 +420,17 @@ Across every industry, CDOs volunteer three headline metrics more often than any
 ## 5. AI Opportunities
 
 Specific ways AI can address CDO priorities and create value. This section tells the agent *what to propose* when preparing a Call Plan for a CDO meeting.
+
+### 🇨🇳 中国CDO的AI场景
+
+| 场景 | 应用 | 中国适配 |
+|------|------|---------|
+| **AI数据治理** | 自动分类分级/敏感数据发现 | 适配中国法规分类标准 |
+| **数据质量AI** | 异常检测/自动清洗/数据验证 | 中文数据特殊性 |
+| **智能数据目录** | 自动打标/血缘分析/知识图谱 | 中文元数据 |
+| **隐私计算** | 联邦学习/可信计算/多方安全计算 | 中国政策驱动需求大 |
+
+### 全球CDO参考（Global Reference）
 
 ### 5.1 The AI Production Gap — Where Enterprises Actually Are
 
@@ -621,6 +684,17 @@ CDOs are technically sophisticated and understand data deeply — they can't be 
 
 > *Agent instruction: Use this section when drafting Call Plan Section 2 (Target Meeting Outcomes). Every outcome you propose should map to one or more of these CDO-grade dimensions. If a proposed outcome doesn't connect to at least one, it belongs in a VP Data or CAO meeting, not a CDO meeting.*
 
+### 🇨🇳 中国CDO"过关标准"
+
+| 必须 | 不能 |
+|------|------|
+| ✅ 符合数据安全法/个保法 | ❌ 数据出境/跨境传输 |
+| ✅ 支持数据分类分级(中国标准) | ❌ 只支持GDPR |
+| ✅ 本地化部署 | ❌ 数据上传到海外 |
+| ✅ 支持数据资产入表 | ❌ 不了解中国会计准则 |
+
+### 全球CDO参考（Global Reference）
+
 CDOs evaluate every initiative through a short list of outcome dimensions. These are the **criteria a CDO uses to judge whether a specific proposal deserves their time, their budget, and their political capital.**
 
 1. **Trusted, accessible data that drives decisions.** An organization where leaders make decisions based on accurate, timely, contextualized data rather than gut feeling or parallel spreadsheets. Measured through data-consumption metrics, executive alignment on the numbers, and business adoption of data-driven processes.
@@ -654,6 +728,17 @@ CDOs evaluate technology through the lens of data trust, architectural fit, and 
 
 They rely on their VP Data Engineering, VP Governance, Chief Data Architect, and Chief Data Scientist for deep technical evaluation. **Don't pitch features to a CDO — demonstrate how you fit the data architecture, improve data trust, and scale governance.** And don't pitch a point solution — CDOs increasingly describe their data estates in platform terms (lakehouse + catalog + governance + observability + mesh), not as collections of point tools. A solution that fits the platform spine compounds; a standalone tool becomes the next consolidation target.
 
+### 🇨🇳 中国CDO评估风格
+
+| 特征 | 表现 |
+|------|------|
+| **合规优先** | 第一个问题："数据存哪里？出不出境？" |
+| **架构视角** | 看数据架构/集成方式/性能 |
+| **标准对齐** | 对标国标(GB)/行标 |
+| **长期主义** | 数据治理=长期工程，不急于求成 |
+
+### 全球CDO参考（Global Reference）
+
 ### CDO Decision Psychology by Archetype
 
 | Archetype | Decision Trigger | What Kills a Deal | How They Verify |
@@ -681,6 +766,17 @@ They rely on their VP Data Engineering, VP Governance, Chief Data Architect, and
 ## 8. Buying Dynamics
 
 The CDO is the primary decision maker for data-specific technology (catalogs, governance platforms, quality tools, observability platforms, metadata management, MDM, lineage tools, data-literacy platforms) — typically in the $250K–$5M+ range per initiative. The CDO may own or co-own budget for data infrastructure (warehouses, lakes, integration/ETL, BI) — typically shared with the CIO. Budget authority varies significantly: some CDOs control multi-million-dollar budgets; others have modest budgets and must co-fund with the CIO. Remember: a CDO meeting is 45–60 minutes pulled from data-platform management, governance, AI enablement, or coalition-building. "No one else can make this data decision" is the only honest reason to be in the room.
+
+### 🇨🇳 中国CDO采购动态
+
+| 特征 | 说明 |
+|------|------|
+| **预算** | 数据/IT预算(跟CIO共享或独立) |
+| **决策** | CDO+CIO联合；合规类CEO/法务参与 |
+| **触发** | 法规出台/数据安全事件/AI战略启动/审计 |
+| **生态** | 星环/亿信华辰/数据宝/DataVisor/华为数据治理 |
+
+### 全球CDO参考（Global Reference）
 
 ### When the CDO Engages Directly
 
@@ -813,6 +909,18 @@ The CDO's purchasing process is inherently cross-functional. Budget may be fully
 
 > *Agent instruction: Use these questions when generating Call Plan Section 4 (Information to Gather). Select 3–5 questions based on archetype, reporting line, and what you already know. Do NOT use all questions in one meeting.*
 
+### 🇨🇳 中国CDO Discovery Questions
+
+| 问题 | 目的 |
+|------|------|
+| "数据分类分级做了吗？覆盖率？" | 治理需求 |
+| "数据出境有没有压力？" | 合规场景 |
+| "数据资产入表进展如何？" | 新规需求 |
+| "AI团队对数据质量满意吗？" | AI数据准备 |
+| "数据需求响应周期多久？" | 效率场景 |
+
+### 全球CDO参考（Global Reference）
+
 ### Universal Questions
 
 1. "What does your data architecture look like today — where does your most critical data live, and what are the biggest gaps in accessibility or quality?"
@@ -859,6 +967,25 @@ The CDO's purchasing process is inherently cross-functional. Budget may be fully
 ---
 
 ## 10. Relationship Map
+
+### 🇨🇳 中国CDO关系地图
+
+```
+CDO权力结构：
+┌─────────────────────────────────────┐
+│ CEO / CIO (CDO上级)                  │
+├─────────────────────────────────────┤
+│ CDO                                 │ ← target
+├──────────┬──────────┬───────────────┤
+│ 数据治理  │ 数据平台  │ 数据分析     │
+├──────────┴──────────┴───────────────┤
+│ 法务/合规 (数据合规)                  │
+│ CAIO (AI数据需求)                    │
+│ 业务部门 (数据消费方)                 │
+└─────────────────────────────────────┘
+```
+
+### 全球CDO参考（Global Reference）
 
 ### Core C-Suite Dynamics
 
@@ -925,6 +1052,26 @@ The CDO's purchasing process is inherently cross-functional. Budget may be fully
 ---
 
 ## 11. Do's & Don'ts
+
+### 🇨🇳 中国CDO Do's & Don'ts
+
+#### Do's ✅
+| 规则 | 原因 |
+|------|------|
+| 了解中国数据法规 | CDO核心焦虑 |
+| 说"数据资产化"语言 | CDO的KPI |
+| 提供合规方案/白皮书 | 降低CDO风险 |
+| 展示数据治理落地案例 | CDO看同行怎么做 |
+
+#### Don'ts ❌
+| 禁忌 | 原因 |
+|------|------|
+| 数据出境/SaaS模式 | 合规红线 |
+| 不懂中国数据法规 | 基本功 |
+| 只讲技术不讲合规 | CDO合规>技术 |
+| 短期ROI压CDO | 数据治理是长期的 |
+
+### 全球CDO参考（Global Reference）
 
 ### ✅ DO
 
