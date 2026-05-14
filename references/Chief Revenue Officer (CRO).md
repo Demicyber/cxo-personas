@@ -1362,3 +1362,4 @@ CRO权力结构：
 
 ---
 
+*Part of the CXO Personas library — see [INDEX.md](INDEX.md) for the full collection.*

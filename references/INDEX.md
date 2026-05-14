@@ -290,4 +290,4 @@ When a conversation centers on a specific topic, use these personas for coaching
 
 ---
 
-*6 categories · 19 personas · Last updated: 2026-04-29*
+*6 categories · 19 personas · Last updated: 2026-05-13*

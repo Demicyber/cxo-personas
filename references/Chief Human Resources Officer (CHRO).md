@@ -1180,3 +1180,5 @@ CHRO权力结构：
 > No other C-suite executive faces the CHRO's engagement-survey burden. Every quarter (or more frequently with pulse surveys), they must present engagement results to the CEO, board, and business leaders — results that reflect every management decision, every organizational change, and every employee experience across the entire company. A 2-point drop in engagement triggers CEO concern; a 5-point drop triggers board intervention. Any tool that makes engagement measurement more accurate, more actionable, and more predictive is solving one of the CHRO's highest-anxiety problems. **Timing:** CHROs are most receptive to new investments immediately after engagement survey results (when pain is acute) and during annual planning cycles (when budgets are being set). They are least receptive during active restructuring or crisis management.
 
 ---
+
+*Part of the CXO Personas library — see [INDEX.md](INDEX.md) for the full collection.*

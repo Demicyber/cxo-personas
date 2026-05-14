@@ -2098,3 +2098,7 @@ Global vendor assessment → 本地合同签署
 | **后续** | 次日发微信感谢。如果对方有提到的需求/爱好，一周内follow up一个小礼物或信息。 |
 
 
+
+---
+
+*Part of the CXO Personas library — see [INDEX.md](INDEX.md) for the full collection.*

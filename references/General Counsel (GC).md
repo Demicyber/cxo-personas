@@ -1184,6 +1184,5 @@ GC权力结构：
 ---
 
 *Part of the CXO Personas library. Last updated: 2026. Cross-industry persona.*
-```
 
 ---
